@@ -1,0 +1,114 @@
+{
+  "checked_at_utc": "2026-10-02T01:44:18.424848+00:00",
+  "scope": "Fresh real WordPress staged source parity and rendered responses; prior47functionalchecks apply to unchanged source. Preview token omitted. Not deployment.",
+  "assets": [
+    {
+      "file": "assets/enquiry.js",
+      "status": 200,
+      "actual_sha256": "5752aa46b493e1b027258077103e2f113d0bf2a9c8b984887dc8a5dbab2c7ba4",
+      "matches_reviewed_source": true
+    },
+    {
+      "file": "assets/flagship-entry.js",
+      "status": 200,
+      "actual_sha256": "f4f5560ba0f3b3d46050079c6820d5cdaf2d1c349044ce6913bbe15f3fcce708",
+      "matches_reviewed_source": true
+    },
+    {
+      "file": "assets/fleet-data.js",
+      "status": 200,
+      "actual_sha256": "3367c88569bc6a8a9a1df1f6acd340bbc042837acb6b8e51ccc13bca5b4d6c1a",
+      "matches_reviewed_source": true
+    },
+    {
+      "file": "assets/fleet.js",
+      "status": 200,
+      "actual_sha256": "75a62f979ad01005b7b71505ab598adbb5ce989ee0cd51bbfb5e3fc5e430b602",
+      "matches_reviewed_source": true
+    },
+    {
+      "file": "assets/guides.css",
+      "status": 200,
+      "actual_sha256": "d73407325d9e6c8be333412f18e5222a2a3b9e900f1a1113614ae290ac936454",
+      "matches_reviewed_source": true
+    },
+    {
+      "file": "assets/measurement.js",
+      "status": 200,
+      "actual_sha256": "aa87fb5e852f37548fec800931b9ade7a9faeb0d06911ab4450c08c12cf8cbbc",
+      "matches_reviewed_source": true
+    },
+    {
+      "file": "assets/proof.css",
+      "status": 200,
+      "actual_sha256": "52951ae250408754ecf73d516fc44620e1ae6554709a34a16f8b86930c06ff1d",
+      "matches_reviewed_source": true
+    },
+    {
+      "file": "assets/systems.js",
+      "status": 200,
+      "actual_sha256": "809e086e4cb3652debecfafdd1a843c88c2b5df613463ac793d50d2eb3c77399",
+      "matches_reviewed_source": true
+    },
+    {
+      "file": "assets/navigation.js",
+      "status": 200,
+      "actual_sha256": "6cd411e208d12add1ba986348726797acee1e85d3f98806dbcfe2a0d618b8bc7",
+      "matches_reviewed_source": true
+    },
+    {
+      "file": "pages.json",
+      "status": 200,
+      "actual_sha256": "0e9c129f3cb4b1ccc5af995050e9720a7a48465a4616b6e256ef8c74aa125832",
+      "matches_reviewed_source": true
+    }
+  ],
+  "preview": [
+    {
+      "path": "/",
+      "status": 200,
+      "h1_count": 1,
+      "body_uses_isolated_draft": true,
+      "existing_systems_opening": true,
+      "title": "AI automation around your existing systems | Works Better"
+    },
+    {
+      "path": "/inside-an-ai-agent-fleet/",
+      "status": 200,
+      "h1_count": 1,
+      "body_uses_isolated_draft": true,
+      "existing_systems_opening": false,
+      "title": "Decisions and safeguards in connected workflows | Works Better"
+    },
+    {
+      "path": "/guides/",
+      "status": 200,
+      "h1_count": 1,
+      "body_uses_isolated_draft": true,
+      "existing_systems_opening": false,
+      "title": "Guides - Works Better"
+    },
+    {
+      "path": "/why-are-we-entering-this-twice/",
+      "status": 200,
+      "h1_count": 1,
+      "body_uses_isolated_draft": true,
+      "existing_systems_opening": false,
+      "title": "Why are we entering this twice? | Works Better"
+    }
+  ],
+  "templates": [
+    {
+      "file": "page.php",
+      "authenticated_draft_read": true,
+      "matches_reviewed_lines_ignoring_terminal_blank_lines": true,
+      "local_sha256": "593489cd655e6060596fb1f70a6cfc7217006f965c738b55ec68f8500f7418ed"
+    },
+    {
+      "file": "single.php",
+      "authenticated_draft_read": true,
+      "matches_reviewed_lines_ignoring_terminal_blank_lines": true,
+      "local_sha256": "8d2a9d0aaed44acc2c5cd2e21785a74833ace80e888c83560cf0b4a605ae4304"
+    }
+  ]
+}

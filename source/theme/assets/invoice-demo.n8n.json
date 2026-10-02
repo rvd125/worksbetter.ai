@@ -1,0 +1,133 @@
+{
+  "name": "Works Better — invoice preparation starter (simulation)",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "manual-start",
+      "name": "Try the example",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "return [{json:{hours:12,rate:150,materials:600,variation:180,approved:false}}];"
+      },
+      "id": "sample-input",
+      "name": "Sample job input",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        230,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const data = $input.first().json;\nfunction value(key, min, max) {\n  const n = Number(data[key]);\n  if (data[key] === '' || !Number.isFinite(n) || n < min || n > max) throw new Error('Invalid ' + key);\n  return n;\n}\nreturn [{json: {\n  hours: value('hours', 0, 1000),\n  rate: value('rate', 0, 10000),\n  materials: value('materials', 0, 1000000),\n  variation: value('variation', 0, 1000000),\n  approved: data.approved === true\n}}];"
+      },
+      "id": "validate-input",
+      "name": "Validate job details",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        460,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $input.first().json;\nconst lines = [\n  {description:'Labour', quantity:input.hours, rate:input.rate, amount:Math.round(input.hours * input.rate * 100)/100},\n  {description:'Materials', quantity:1, rate:input.materials, amount:input.materials}\n];\nif (input.approved && input.variation > 0) lines.push({description:'Approved extra work',quantity:1,rate:input.variation,amount:input.variation});\nreturn [{json:{\n  kind:'invoice', mode:'simulation', job:'WB-1042', lines,\n  subtotal:Math.round(lines.reduce((sum,line)=>sum+line.amount,0)*100)/100,\n  needsDecision:input.variation > 0 && !input.approved,\n  excluded:input.approved ? 0 : input.variation,\n  approved:input.approved, externalAction:false\n}}];"
+      },
+      "id": "calculate-draft",
+      "name": "Prepare draft — no external write",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        690,
+        0
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "inspect-output",
+      "name": "Inspect the result",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        920,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## Works Better · starter, not a production integration\nRun manually. Edit Sample job input and compare the result.\n\nThe browser demo uses the same calculations. No AI, Xero, Simpro or email connection is included. approved:true is a sample input, not a real approval mechanism.\n\nNext: replace sample inputs with an authenticated trigger and authorised job/rate sources. Add a validated AI extraction step and a separate server-side human approval checkpoint before enabling any external write. Keep OpenRouter credentials on the server and use free models only.",
+        "height": 300,
+        "width": 1080
+      },
+      "id": "context-note",
+      "name": "Read before connecting",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -30,
+        220
+      ]
+    }
+  ],
+  "connections": {
+    "Try the example": {
+      "main": [
+        [
+          {
+            "node": "Sample job input",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Sample job input": {
+      "main": [
+        [
+          {
+            "node": "Validate job details",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Validate job details": {
+      "main": [
+        [
+          {
+            "node": "Prepare draft — no external write",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare draft — no external write": {
+      "main": [
+        [
+          {
+            "node": "Inspect the result",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "active": false,
+  "pinData": {},
+  "tags": []
+}

@@ -1,0 +1,440 @@
+{
+  "as_of_utc": "2026-10-02",
+  "source": "Authenticated Windsor.ai Search Console",
+  "requested_property": "sc-domain:worksbetter.ai",
+  "other_properties_combined": false,
+  "options": {
+    "include_fresh_data": false
+  },
+  "latest_returned_final_date": "2026-09-29",
+  "calendar_day_lag": 3,
+  "data_fetched_at": [
+    "2026-10-02T01:34:36"
+  ],
+  "comparison_windows": {
+    "rolling7": {
+      "from": "2026-09-23",
+      "to": "2026-09-29",
+      "returned_totals": [
+        {
+          "account_id": "worksbetter.ai",
+          "clicks": 0,
+          "impressions": 15,
+          "ctr": 0,
+          "position": 30
+        }
+      ],
+      "no_rows_means_unknown": true
+    },
+    "previous7": {
+      "from": "2026-09-16",
+      "to": "2026-09-22",
+      "returned_totals": [
+        {
+          "account_id": "worksbetter.ai",
+          "clicks": 0,
+          "impressions": 32,
+          "ctr": 0,
+          "position": 45.5312
+        }
+      ],
+      "no_rows_means_unknown": true
+    },
+    "rolling21": {
+      "from": "2026-09-09",
+      "to": "2026-09-29",
+      "returned_totals": [
+        {
+          "account_id": "worksbetter.ai",
+          "clicks": 0,
+          "impressions": 76,
+          "ctr": 0,
+          "position": 45.4211
+        }
+      ],
+      "no_rows_means_unknown": true
+    },
+    "rolling28": {
+      "from": "2026-09-02",
+      "to": "2026-09-29",
+      "returned_totals": [
+        {
+          "account_id": "worksbetter.ai",
+          "clicks": 0,
+          "impressions": 76,
+          "ctr": 0,
+          "position": 45.4211
+        }
+      ],
+      "no_rows_means_unknown": true
+    },
+    "previous28": {
+      "from": "2026-08-05",
+      "to": "2026-09-01",
+      "returned_totals": [],
+      "no_rows_means_unknown": true
+    }
+  },
+  "daily_rows": [
+    {
+      "account_id": "worksbetter.ai",
+      "date": "2026-09-10",
+      "clicks": 0,
+      "impressions": 0,
+      "position": 0,
+      "data_fetched_at": "2026-10-02T01:34:36"
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "date": "2026-09-11",
+      "clicks": 0,
+      "impressions": 0,
+      "position": 0,
+      "data_fetched_at": "2026-10-02T01:34:36"
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "date": "2026-09-12",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 40.75,
+      "data_fetched_at": "2026-10-02T01:34:36"
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "date": "2026-09-13",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 47.6667,
+      "data_fetched_at": "2026-10-02T01:34:36"
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "date": "2026-09-14",
+      "clicks": 0,
+      "impressions": 10,
+      "position": 54.8,
+      "data_fetched_at": "2026-10-02T01:34:36"
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "date": "2026-09-15",
+      "clicks": 0,
+      "impressions": 12,
+      "position": 57.5833,
+      "data_fetched_at": "2026-10-02T01:34:36"
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "date": "2026-09-16",
+      "clicks": 0,
+      "impressions": 6,
+      "position": 33.5,
+      "data_fetched_at": "2026-10-02T01:34:36"
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "date": "2026-09-17",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 46.6667,
+      "data_fetched_at": "2026-10-02T01:34:36"
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "date": "2026-09-18",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 36.75,
+      "data_fetched_at": "2026-10-02T01:34:36"
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "date": "2026-09-19",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 60.25,
+      "data_fetched_at": "2026-10-02T01:34:36"
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "date": "2026-09-20",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 79,
+      "data_fetched_at": "2026-10-02T01:34:36"
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "date": "2026-09-21",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 54.3333,
+      "data_fetched_at": "2026-10-02T01:34:36"
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "date": "2026-09-22",
+      "clicks": 0,
+      "impressions": 9,
+      "position": 36.4444,
+      "data_fetched_at": "2026-10-02T01:34:36"
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "date": "2026-09-23",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 27.3333,
+      "data_fetched_at": "2026-10-02T01:34:36"
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "date": "2026-09-24",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 62.6667,
+      "data_fetched_at": "2026-10-02T01:34:36"
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "date": "2026-09-25",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 3,
+      "data_fetched_at": "2026-10-02T01:34:36"
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "date": "2026-09-26",
+      "clicks": 0,
+      "impressions": 0,
+      "position": 0,
+      "data_fetched_at": "2026-10-02T01:34:36"
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "date": "2026-09-27",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 29,
+      "data_fetched_at": "2026-10-02T01:34:36"
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "date": "2026-09-28",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 7.5,
+      "data_fetched_at": "2026-10-02T01:34:36"
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "date": "2026-09-29",
+      "clicks": 0,
+      "impressions": 5,
+      "position": 26.6,
+      "data_fetched_at": "2026-10-02T01:34:36"
+    }
+  ],
+  "missing_days_are_zero": false,
+  "countries": [
+    {
+      "account_id": "worksbetter.ai",
+      "country": "Australia",
+      "clicks": 0,
+      "impressions": 9,
+      "position": 16.6667
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "country": "Finland",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 7
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "country": "United Kingdom",
+      "clicks": 0,
+      "impressions": 9,
+      "position": 56.8889
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "country": "India",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 10
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "country": "South Korea",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 3
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "country": "Morocco",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 4
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "country": "Nepal",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 47
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "country": "New Zealand",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 6.3333
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "country": "Philippines",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 41
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "country": "Singapore",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 50.5
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "country": "United States",
+      "clicks": 0,
+      "impressions": 46,
+      "position": 54.7174
+    }
+  ],
+  "au_nz": {
+    "clicks": 0,
+    "impressions": 12
+  },
+  "pages": [
+    {
+      "account_id": "worksbetter.ai",
+      "page": "https://worksbetter.ai/",
+      "clicks": 0,
+      "impressions": 11,
+      "position": 13.0909
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "page": "https://worksbetter.ai/ai-customer-enquiry-automation/",
+      "clicks": 0,
+      "impressions": 6,
+      "position": 48
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "page": "https://worksbetter.ai/employee-onboarding-automation/",
+      "clicks": 0,
+      "impressions": 2,
+      "position": 5
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "page": "https://worksbetter.ai/enquiry-privacy/",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 5
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "page": "https://worksbetter.ai/guides/",
+      "clicks": 0,
+      "impressions": 1,
+      "position": 2
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "page": "https://worksbetter.ai/inside-an-ai-agent-fleet/",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 10
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "page": "https://worksbetter.ai/job-profitability-reporting/",
+      "clicks": 0,
+      "impressions": 43,
+      "position": 59.2558
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "page": "https://worksbetter.ai/lead-routing-automation/",
+      "clicks": 0,
+      "impressions": 3,
+      "position": 8
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "page": "https://worksbetter.ai/multi-source-report-automation/",
+      "clicks": 0,
+      "impressions": 4,
+      "position": 7.5
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "page": "https://worksbetter.ai/simpro-xero-invoice-automation/",
+      "clicks": 0,
+      "impressions": 19,
+      "position": 25.3684
+    }
+  ],
+  "page_impressions_sum": 93,
+  "aggregation_note": "Page rows and site totals aggregate differently; page counts are not added to domain total.",
+  "query_subset": {
+    "rows": 12,
+    "impressions": 50,
+    "clicks": 0,
+    "raw_queries_committed": false,
+    "note": "Privacy-thresholded subset, not keyword volume or full query demand."
+  },
+  "sitemaps": [
+    {
+      "account_id": "worksbetter.ai",
+      "path": null,
+      "submitted": 0,
+      "errors": 0,
+      "warnings": 0,
+      "is_sitemaps_index": null,
+      "last_downloaded": null
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "path": "https://worksbetter.ai/sitemap_index.xml",
+      "submitted": 12,
+      "errors": 0,
+      "warnings": 0,
+      "is_sitemaps_index": "True",
+      "last_downloaded": "2026-09-25T06:43:57.161Z"
+    },
+    {
+      "account_id": "worksbetter.ai",
+      "path": "https://worksbetter.ai/wp-sitemap.xml",
+      "submitted": 12,
+      "errors": 0,
+      "warnings": 0,
+      "is_sitemaps_index": "True",
+      "last_downloaded": "2026-09-29T23:22:01.148Z"
+    }
+  ],
+  "sitemap_note": "Ignore null-path row. Two indices describe overlapping submitted URLs; not24indexedpages. Submitted counts do not prove coverage.",
+  "page_views": null,
+  "page_views_note": "GSC measures search impressions/clicks, not site page views. Windsor currently exposes Search Console only; GA4/site views not refreshed in this pass.",
+  "qualified_leads": null,
+  "qualified_lead_note": "Aggregate saved records and search clicks cannot prove private business qualification.",
+  "interpretation": "Zero recorded GoogleSearchclicks in the returned21daywindow;76impressionsinclude12AU/NZ. Weak relevant visibility; no verified conversion lift."
+}

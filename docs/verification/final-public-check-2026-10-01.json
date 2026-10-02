@@ -1,0 +1,78 @@
+{
+  "timestamp_utc": "2026-10-01T08:29:44.715314+00:00",
+  "state": "NO_DEPLOYMENT_PERFORMED; checks are existing public content only",
+  "checks": [
+    {
+      "url": "https://worksbetter.ai/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/",
+      "sha256": "35d6cc4ff6c585323ce89918a851a74885690db5bfe1642b7f249168c6c27e28",
+      "prepared_safeguards_visible": false,
+      "internal_catalogue_markers": true
+    },
+    {
+      "url": "https://worksbetter.ai/inside-an-ai-agent-fleet/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/inside-an-ai-agent-fleet/",
+      "sha256": "8b357133a151fd8fe7e4ef13f7ae9ea18595cb641b394115f8f8b5683e018f0d",
+      "prepared_safeguards_visible": false,
+      "internal_catalogue_markers": true
+    },
+    {
+      "url": "https://worksbetter.ai/home/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/",
+      "sha256": "35d6cc4ff6c585323ce89918a851a74885690db5bfe1642b7f249168c6c27e28",
+      "prepared_safeguards_visible": false,
+      "internal_catalogue_markers": true
+    },
+    {
+      "url": "https://worksbetter.ai/index.php/ai-customer-enquiry-automation/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/ai-customer-enquiry-automation/",
+      "sha256": "99e5243b4187016fff675ff5a79819cfe3275b212ce9850b845a89be16679b51",
+      "prepared_safeguards_visible": false,
+      "internal_catalogue_markers": true
+    },
+    {
+      "url": "https://worksbetter.ai/wb-unknown-20261001/",
+      "status": 404
+    },
+    {
+      "url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/fleet-data.js",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/fleet-data.js",
+      "sha256": "8552f1722b8789ec70233639ae4fd45b8ee7fddfc99b0f8127dc058af033512e",
+      "prepared_safeguards_visible": false,
+      "matches_original_internal_catalogue_sha256": true
+    },
+    {
+      "url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-backup/assets/fleet-data.js",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-backup/assets/fleet-data.js",
+      "sha256": "8552f1722b8789ec70233639ae4fd45b8ee7fddfc99b0f8127dc058af033512e",
+      "prepared_safeguards_visible": false,
+      "matches_original_internal_catalogue_sha256": true
+    },
+    {
+      "url": "https://worksbetter.ai/wp-content/themes/worksbetter/assets/fleet-data.js",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter/assets/fleet-data.js",
+      "sha256": "8552f1722b8789ec70233639ae4fd45b8ee7fddfc99b0f8127dc058af033512e",
+      "prepared_safeguards_visible": false,
+      "matches_original_internal_catalogue_sha256": true
+    }
+  ],
+  "redirects": [
+    {
+      "from": "https://worksbetter.ai/home/",
+      "to": "https://worksbetter.ai/",
+      "status": 301
+    },
+    {
+      "from": "https://worksbetter.ai/index.php/ai-customer-enquiry-automation/",
+      "to": "https://worksbetter.ai/ai-customer-enquiry-automation/",
+      "status": 301
+    }
+  ]
+}

@@ -1,0 +1,584 @@
+{
+  "checked_at_utc": "2026-10-02T01:41:06.729324+00:00",
+  "scope": "Fresh anonymous public HTTPS read-only audit. Raw content held private. No enquiry POST/notifications. Not deployment.",
+  "checks": [
+    {
+      "path": "/",
+      "url": "https://worksbetter.ai/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/",
+      "x_robots_tag": null,
+      "content_type": "text/html; charset=UTF-8",
+      "redirects": [],
+      "sha256": "35d6cc4ff6c585323ce89918a851a74885690db5bfe1642b7f249168c6c27e28",
+      "h1_count": 1,
+      "title_present": true,
+      "description_present": true,
+      "canonical": [
+        "https://worksbetter.ai/"
+      ],
+      "meta_robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0,
+      "internal_links": [
+        "/",
+        "/ai-customer-enquiry-automation/",
+        "/employee-onboarding-automation/",
+        "/enquiry-privacy/",
+        "/inside-an-ai-agent-fleet/",
+        "/job-profitability-reporting/",
+        "/lead-routing-automation/",
+        "/multi-source-report-automation/",
+        "/simpro-xero-invoice-automation/"
+      ],
+      "prepared_existing_systems_opening_live": false
+    },
+    {
+      "path": "/ai-customer-enquiry-automation/",
+      "url": "https://worksbetter.ai/ai-customer-enquiry-automation/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/ai-customer-enquiry-automation/",
+      "x_robots_tag": null,
+      "content_type": "text/html; charset=UTF-8",
+      "redirects": [],
+      "sha256": "99e5243b4187016fff675ff5a79819cfe3275b212ce9850b845a89be16679b51",
+      "h1_count": 1,
+      "title_present": true,
+      "description_present": true,
+      "canonical": [
+        "https://worksbetter.ai/ai-customer-enquiry-automation/"
+      ],
+      "meta_robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0,
+      "internal_links": [
+        "/",
+        "/ai-customer-enquiry-automation/",
+        "/employee-onboarding-automation/",
+        "/enquiry-privacy/",
+        "/inside-an-ai-agent-fleet/",
+        "/job-profitability-reporting/",
+        "/lead-routing-automation/",
+        "/multi-source-report-automation/",
+        "/simpro-xero-invoice-automation/"
+      ],
+      "prepared_existing_systems_opening_live": false
+    },
+    {
+      "path": "/employee-onboarding-automation/",
+      "url": "https://worksbetter.ai/employee-onboarding-automation/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/employee-onboarding-automation/",
+      "x_robots_tag": null,
+      "content_type": "text/html; charset=UTF-8",
+      "redirects": [],
+      "sha256": "cd16badba4004a45d724491e4a04fdc027e8256915c908907641aac3997d0515",
+      "h1_count": 1,
+      "title_present": true,
+      "description_present": true,
+      "canonical": [
+        "https://worksbetter.ai/employee-onboarding-automation/"
+      ],
+      "meta_robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0,
+      "internal_links": [
+        "/",
+        "/ai-customer-enquiry-automation/",
+        "/employee-onboarding-automation/",
+        "/enquiry-privacy/",
+        "/inside-an-ai-agent-fleet/",
+        "/job-profitability-reporting/",
+        "/lead-routing-automation/",
+        "/multi-source-report-automation/",
+        "/simpro-xero-invoice-automation/"
+      ],
+      "prepared_existing_systems_opening_live": false
+    },
+    {
+      "path": "/job-profitability-reporting/",
+      "url": "https://worksbetter.ai/job-profitability-reporting/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/job-profitability-reporting/",
+      "x_robots_tag": null,
+      "content_type": "text/html; charset=UTF-8",
+      "redirects": [],
+      "sha256": "8c26510734d31d70b82efb34717a0b287db989c94689e70117b3af5725f3b84b",
+      "h1_count": 1,
+      "title_present": true,
+      "description_present": true,
+      "canonical": [
+        "https://worksbetter.ai/job-profitability-reporting/"
+      ],
+      "meta_robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0,
+      "internal_links": [
+        "/",
+        "/ai-customer-enquiry-automation/",
+        "/employee-onboarding-automation/",
+        "/enquiry-privacy/",
+        "/inside-an-ai-agent-fleet/",
+        "/job-profitability-reporting/",
+        "/lead-routing-automation/",
+        "/multi-source-report-automation/",
+        "/simpro-xero-invoice-automation/"
+      ],
+      "prepared_existing_systems_opening_live": false
+    },
+    {
+      "path": "/lead-routing-automation/",
+      "url": "https://worksbetter.ai/lead-routing-automation/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/lead-routing-automation/",
+      "x_robots_tag": null,
+      "content_type": "text/html; charset=UTF-8",
+      "redirects": [],
+      "sha256": "c8388722a60db0b7ebe1715327a21648c053ab198848ce0a166775483c25d7d8",
+      "h1_count": 1,
+      "title_present": true,
+      "description_present": true,
+      "canonical": [
+        "https://worksbetter.ai/lead-routing-automation/"
+      ],
+      "meta_robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0,
+      "internal_links": [
+        "/",
+        "/ai-customer-enquiry-automation/",
+        "/employee-onboarding-automation/",
+        "/enquiry-privacy/",
+        "/inside-an-ai-agent-fleet/",
+        "/job-profitability-reporting/",
+        "/lead-routing-automation/",
+        "/multi-source-report-automation/",
+        "/simpro-xero-invoice-automation/"
+      ],
+      "prepared_existing_systems_opening_live": false
+    },
+    {
+      "path": "/multi-source-report-automation/",
+      "url": "https://worksbetter.ai/multi-source-report-automation/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/multi-source-report-automation/",
+      "x_robots_tag": null,
+      "content_type": "text/html; charset=UTF-8",
+      "redirects": [],
+      "sha256": "f2d0fc55b75ad72f68a8dccb4580c71195ceffef808dc7aa9368478bbe7b19bb",
+      "h1_count": 1,
+      "title_present": true,
+      "description_present": true,
+      "canonical": [
+        "https://worksbetter.ai/multi-source-report-automation/"
+      ],
+      "meta_robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0,
+      "internal_links": [
+        "/",
+        "/ai-customer-enquiry-automation/",
+        "/employee-onboarding-automation/",
+        "/enquiry-privacy/",
+        "/inside-an-ai-agent-fleet/",
+        "/job-profitability-reporting/",
+        "/lead-routing-automation/",
+        "/multi-source-report-automation/",
+        "/simpro-xero-invoice-automation/"
+      ],
+      "prepared_existing_systems_opening_live": false
+    },
+    {
+      "path": "/simpro-xero-invoice-automation/",
+      "url": "https://worksbetter.ai/simpro-xero-invoice-automation/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/simpro-xero-invoice-automation/",
+      "x_robots_tag": null,
+      "content_type": "text/html; charset=UTF-8",
+      "redirects": [],
+      "sha256": "65cca1d788a9089a66597ed806716be3132c6399bf35c540d32206839406b12d",
+      "h1_count": 1,
+      "title_present": true,
+      "description_present": true,
+      "canonical": [
+        "https://worksbetter.ai/simpro-xero-invoice-automation/"
+      ],
+      "meta_robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0,
+      "internal_links": [
+        "/",
+        "/ai-customer-enquiry-automation/",
+        "/employee-onboarding-automation/",
+        "/enquiry-privacy/",
+        "/inside-an-ai-agent-fleet/",
+        "/job-profitability-reporting/",
+        "/lead-routing-automation/",
+        "/multi-source-report-automation/",
+        "/simpro-xero-invoice-automation/"
+      ],
+      "prepared_existing_systems_opening_live": false
+    },
+    {
+      "path": "/inside-an-ai-agent-fleet/",
+      "url": "https://worksbetter.ai/inside-an-ai-agent-fleet/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/inside-an-ai-agent-fleet/",
+      "x_robots_tag": null,
+      "content_type": "text/html; charset=UTF-8",
+      "redirects": [],
+      "sha256": "8b357133a151fd8fe7e4ef13f7ae9ea18595cb641b394115f8f8b5683e018f0d",
+      "h1_count": 1,
+      "title_present": true,
+      "description_present": true,
+      "canonical": [
+        "https://worksbetter.ai/inside-an-ai-agent-fleet/"
+      ],
+      "meta_robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0,
+      "internal_links": [
+        "/",
+        "/ai-customer-enquiry-automation/",
+        "/employee-onboarding-automation/",
+        "/enquiry-privacy/",
+        "/inside-an-ai-agent-fleet/",
+        "/job-profitability-reporting/",
+        "/lead-routing-automation/",
+        "/multi-source-report-automation/",
+        "/simpro-xero-invoice-automation/"
+      ],
+      "prepared_existing_systems_opening_live": false
+    },
+    {
+      "path": "/guides/",
+      "url": "https://worksbetter.ai/guides/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/guides/",
+      "x_robots_tag": null,
+      "content_type": "text/html; charset=UTF-8",
+      "redirects": [],
+      "sha256": "4c464118406a6a8f2513456c9f44831380c6ce99fc04ef0f35e39d3308711562",
+      "h1_count": 1,
+      "title_present": true,
+      "description_present": true,
+      "canonical": [
+        "https://worksbetter.ai/guides/"
+      ],
+      "meta_robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0,
+      "internal_links": [
+        "/",
+        "/guides/",
+        "/why-are-we-entering-this-twice/"
+      ],
+      "prepared_existing_systems_opening_live": false
+    },
+    {
+      "path": "/why-are-we-entering-this-twice/",
+      "url": "https://worksbetter.ai/why-are-we-entering-this-twice/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/why-are-we-entering-this-twice/",
+      "x_robots_tag": null,
+      "content_type": "text/html; charset=UTF-8",
+      "redirects": [],
+      "sha256": "c74d4929f2fba844291d2b13725ff72fc7968290346987ddb6b9118607d6f879",
+      "h1_count": 1,
+      "title_present": true,
+      "description_present": true,
+      "canonical": [
+        "https://worksbetter.ai/why-are-we-entering-this-twice/"
+      ],
+      "meta_robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0,
+      "internal_links": [
+        "/",
+        "/guides/",
+        "/simpro-xero-invoice-automation/"
+      ],
+      "prepared_existing_systems_opening_live": false
+    },
+    {
+      "path": "/enquiry-privacy/",
+      "url": "https://worksbetter.ai/enquiry-privacy/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/enquiry-privacy/",
+      "x_robots_tag": null,
+      "content_type": "text/html; charset=UTF-8",
+      "redirects": [],
+      "sha256": "f6d9fa7ea69d4d258b451c1aa058e07bd5f6c805fa3ba585a0c47b2831d85ac7",
+      "h1_count": 1,
+      "title_present": true,
+      "description_present": true,
+      "canonical": [
+        "https://worksbetter.ai/enquiry-privacy/"
+      ],
+      "meta_robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0,
+      "internal_links": [
+        "/",
+        "/ai-customer-enquiry-automation/",
+        "/employee-onboarding-automation/",
+        "/enquiry-privacy/",
+        "/inside-an-ai-agent-fleet/",
+        "/job-profitability-reporting/",
+        "/lead-routing-automation/",
+        "/multi-source-report-automation/",
+        "/simpro-xero-invoice-automation/"
+      ],
+      "prepared_existing_systems_opening_live": false
+    },
+    {
+      "path": "/robots.txt",
+      "url": "https://worksbetter.ai/robots.txt",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/robots.txt",
+      "x_robots_tag": null,
+      "content_type": "text/plain; charset=utf-8",
+      "redirects": [],
+      "sha256": "36242b0f5f876b8c1402908a3ba50bc19954283066f36c9fce0ea955a7ddf499",
+      "robots_text": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://worksbetter.ai/sitemap_index.xml\n",
+      "global_disallow": false
+    },
+    {
+      "path": "/sitemap_index.xml",
+      "url": "https://worksbetter.ai/sitemap_index.xml",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/sitemap_index.xml",
+      "x_robots_tag": "noindex",
+      "content_type": "text/xml; charset=UTF-8",
+      "redirects": [],
+      "sha256": "1869ba7baea4e2fad0729738289a416c4fd69f92951e3be0961234e8f819f5de",
+      "xml_root": "sitemapindex",
+      "sitemap_urls": [
+        "https://worksbetter.ai/post-sitemap.xml",
+        "https://worksbetter.ai/page-sitemap.xml",
+        "https://worksbetter.ai/category-sitemap.xml"
+      ]
+    },
+    {
+      "path": "/wp-sitemap.xml",
+      "url": "https://worksbetter.ai/wp-sitemap.xml",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/sitemap_index.xml",
+      "x_robots_tag": "noindex",
+      "content_type": "text/xml; charset=UTF-8",
+      "redirects": [
+        {
+          "status": 301,
+          "from": "https://worksbetter.ai/wp-sitemap.xml",
+          "to": "https://worksbetter.ai/sitemap_index.xml"
+        }
+      ],
+      "sha256": "1869ba7baea4e2fad0729738289a416c4fd69f92951e3be0961234e8f819f5de",
+      "xml_root": "sitemapindex",
+      "sitemap_urls": [
+        "https://worksbetter.ai/post-sitemap.xml",
+        "https://worksbetter.ai/page-sitemap.xml",
+        "https://worksbetter.ai/category-sitemap.xml"
+      ]
+    },
+    {
+      "path": "/wb-final-pass-missing-20261002/",
+      "url": "https://worksbetter.ai/wb-final-pass-missing-20261002/",
+      "status": 404,
+      "final_url": "https://worksbetter.ai/wb-final-pass-missing-20261002/",
+      "x_robots_tag": null,
+      "content_type": "text/html; charset=UTF-8",
+      "redirects": [],
+      "sha256": "4143bf026f6e104595b5a63bb2ff7e031c774421e0ea96cf70ce535d5c328910"
+    },
+    {
+      "path": "/home/",
+      "url": "https://worksbetter.ai/home/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/",
+      "x_robots_tag": null,
+      "content_type": "text/html; charset=UTF-8",
+      "redirects": [
+        {
+          "status": 301,
+          "from": "https://worksbetter.ai/home/",
+          "to": "https://worksbetter.ai/"
+        }
+      ],
+      "sha256": "35d6cc4ff6c585323ce89918a851a74885690db5bfe1642b7f249168c6c27e28",
+      "h1_count": 1,
+      "title_present": true,
+      "description_present": true,
+      "canonical": [
+        "https://worksbetter.ai/"
+      ],
+      "meta_robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0,
+      "internal_links": [
+        "/",
+        "/ai-customer-enquiry-automation/",
+        "/employee-onboarding-automation/",
+        "/enquiry-privacy/",
+        "/home/",
+        "/inside-an-ai-agent-fleet/",
+        "/job-profitability-reporting/",
+        "/lead-routing-automation/",
+        "/multi-source-report-automation/",
+        "/simpro-xero-invoice-automation/"
+      ],
+      "prepared_existing_systems_opening_live": false
+    },
+    {
+      "path": "/index.php/ai-customer-enquiry-automation/",
+      "url": "https://worksbetter.ai/index.php/ai-customer-enquiry-automation/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/ai-customer-enquiry-automation/",
+      "x_robots_tag": null,
+      "content_type": "text/html; charset=UTF-8",
+      "redirects": [
+        {
+          "status": 301,
+          "from": "https://worksbetter.ai/index.php/ai-customer-enquiry-automation/",
+          "to": "https://worksbetter.ai/ai-customer-enquiry-automation/"
+        }
+      ],
+      "sha256": "99e5243b4187016fff675ff5a79819cfe3275b212ce9850b845a89be16679b51",
+      "h1_count": 1,
+      "title_present": true,
+      "description_present": true,
+      "canonical": [
+        "https://worksbetter.ai/ai-customer-enquiry-automation/"
+      ],
+      "meta_robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0,
+      "internal_links": [
+        "/",
+        "/ai-customer-enquiry-automation/",
+        "/employee-onboarding-automation/",
+        "/enquiry-privacy/",
+        "/index.php/ai-customer-enquiry-automation/",
+        "/inside-an-ai-agent-fleet/",
+        "/job-profitability-reporting/",
+        "/lead-routing-automation/",
+        "/multi-source-report-automation/",
+        "/simpro-xero-invoice-automation/"
+      ],
+      "prepared_existing_systems_opening_live": false
+    },
+    {
+      "path": "/wp-content/themes/worksbetter/pages.json",
+      "url": "https://worksbetter.ai/wp-content/themes/worksbetter/pages.json",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter/pages.json",
+      "x_robots_tag": null,
+      "content_type": "application/json",
+      "redirects": [],
+      "sha256": "48fb16a15451fa63d9dddfa7431fa588eb94cad31161028ec74f405ca9ab374b",
+      "known_export_retired": false
+    },
+    {
+      "path": "/wp-content/themes/worksbetter/assets/fleet-data.js",
+      "url": "https://worksbetter.ai/wp-content/themes/worksbetter/assets/fleet-data.js",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter/assets/fleet-data.js",
+      "x_robots_tag": null,
+      "content_type": "text/javascript",
+      "redirects": [],
+      "sha256": "8552f1722b8789ec70233639ae4fd45b8ee7fddfc99b0f8127dc058af033512e",
+      "known_export_retired": false
+    },
+    {
+      "path": "/wp-content/themes/worksbetter/assets/fleet.js",
+      "url": "https://worksbetter.ai/wp-content/themes/worksbetter/assets/fleet.js",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter/assets/fleet.js",
+      "x_robots_tag": null,
+      "content_type": "text/javascript",
+      "redirects": [],
+      "sha256": "54e5ca45189b3347ef93bac187bde4664852077d538f6f32311620ae921d2465",
+      "known_export_retired": false
+    },
+    {
+      "path": "/wp-content/themes/worksbetter-wpvibe-backup/pages.json",
+      "url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-backup/pages.json",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-backup/pages.json",
+      "x_robots_tag": null,
+      "content_type": "application/json",
+      "redirects": [],
+      "sha256": "48fb16a15451fa63d9dddfa7431fa588eb94cad31161028ec74f405ca9ab374b",
+      "known_export_retired": false
+    },
+    {
+      "path": "/wp-content/themes/worksbetter-wpvibe-backup/assets/fleet-data.js",
+      "url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-backup/assets/fleet-data.js",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-backup/assets/fleet-data.js",
+      "x_robots_tag": null,
+      "content_type": "text/javascript",
+      "redirects": [],
+      "sha256": "8552f1722b8789ec70233639ae4fd45b8ee7fddfc99b0f8127dc058af033512e",
+      "known_export_retired": false
+    },
+    {
+      "path": "/wp-content/themes/worksbetter-wpvibe-backup/assets/fleet.js",
+      "url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-backup/assets/fleet.js",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-backup/assets/fleet.js",
+      "x_robots_tag": null,
+      "content_type": "text/javascript",
+      "redirects": [],
+      "sha256": "54e5ca45189b3347ef93bac187bde4664852077d538f6f32311620ae921d2465",
+      "known_export_retired": false
+    },
+    {
+      "path": "/wp-content/themes/worksbetter-wpvibe-draft/pages.json",
+      "url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/pages.json",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/pages.json",
+      "x_robots_tag": null,
+      "content_type": "application/json",
+      "redirects": [],
+      "sha256": "48fb16a15451fa63d9dddfa7431fa588eb94cad31161028ec74f405ca9ab374b",
+      "known_export_retired": false
+    },
+    {
+      "path": "/wp-content/themes/worksbetter-wpvibe-draft/assets/fleet-data.js",
+      "url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/fleet-data.js",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/fleet-data.js",
+      "x_robots_tag": null,
+      "content_type": "text/javascript",
+      "redirects": [],
+      "sha256": "8552f1722b8789ec70233639ae4fd45b8ee7fddfc99b0f8127dc058af033512e",
+      "known_export_retired": false
+    },
+    {
+      "path": "/wp-content/themes/worksbetter-wpvibe-draft/assets/fleet.js",
+      "url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/fleet.js",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/fleet.js",
+      "x_robots_tag": null,
+      "content_type": "text/javascript",
+      "redirects": [],
+      "sha256": "54e5ca45189b3347ef93bac187bde4664852077d538f6f32311620ae921d2465",
+      "known_export_retired": false
+    }
+  ],
+  "additional_internal_destinations": []
+}

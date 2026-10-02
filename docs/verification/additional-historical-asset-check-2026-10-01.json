@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://worksbetter.ai/wp-content/themes/worksbetter/assets/fleet.js",
+    "status": 200,
+    "contains_snapshot_derived_register_logic": true
+  },
+  {
+    "url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-backup/assets/fleet.js",
+    "status": 200,
+    "contains_snapshot_derived_register_logic": true
+  },
+  {
+    "url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/fleet.js",
+    "status": 200,
+    "contains_snapshot_derived_register_logic": true
+  }
+]

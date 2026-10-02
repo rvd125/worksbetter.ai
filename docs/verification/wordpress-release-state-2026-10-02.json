@@ -1,0 +1,90 @@
+{
+  "as_of_utc": "2026-10-02",
+  "source": "Authenticated WPVibe read-only WP-CLI",
+  "deployment": false,
+  "checks": {
+    "theme_and_visibility": {
+      "table_prefix": "wpyx_",
+      "rows_returned": 5,
+      "results": [
+        {
+          "option_name": "blog_public",
+          "option_value": "1"
+        },
+        {
+          "option_name": "stylesheet",
+          "option_value": "worksbetter-wpvibe-draft"
+        },
+        {
+          "option_name": "template",
+          "option_value": "worksbetter-wpvibe-draft"
+        },
+        {
+          "option_name": "wpvibe_draft_source",
+          "option_value": "worksbetter-wpvibe-draft"
+        },
+        {
+          "option_name": "wpvibe_draft_theme",
+          "option_value": "worksbetter-wpvibe-draft-wpvibe-draft"
+        }
+      ]
+    },
+    "cleanup_snippet": {
+      "ID": 69,
+      "post_status": "draft",
+      "post_type": "wpcode"
+    },
+    "editorial_status": [
+      {
+        "ID": 52,
+        "post_status": "future",
+        "post_date": "2026-12-25 09:00:00"
+      },
+      {
+        "ID": 51,
+        "post_status": "future",
+        "post_date": "2026-12-11 09:00:00"
+      },
+      {
+        "ID": 50,
+        "post_status": "future",
+        "post_date": "2026-11-27 09:00:00"
+      },
+      {
+        "ID": 49,
+        "post_status": "future",
+        "post_date": "2026-11-13 09:00:00"
+      },
+      {
+        "ID": 48,
+        "post_status": "future",
+        "post_date": "2026-10-30 09:00:00"
+      },
+      {
+        "ID": 47,
+        "post_status": "future",
+        "post_date": "2026-10-16 09:00:00"
+      },
+      {
+        "ID": 46,
+        "post_status": "draft",
+        "post_date": "2026-10-02 10:00:00"
+      },
+      {
+        "ID": 45,
+        "post_status": "publish",
+        "post_date": "2026-09-18 10:00:00"
+      },
+      {
+        "ID": 1,
+        "post_status": "draft",
+        "post_date": "2026-09-09 10:22:07"
+      }
+    ],
+    "operation_state": {
+      "operation_state_present": false,
+      "exit_code": 1,
+      "note": "Reviewed private backup operation option not found."
+    }
+  }
+}

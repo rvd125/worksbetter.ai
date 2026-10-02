@@ -1,0 +1,72 @@
+{
+  "source": "Anonymous HTTPS checks after user-enabled reviewed operation",
+  "private_backup_state": "complete",
+  "private_backup_file_count": 281,
+  "private_snapshot_sha256": "e70038af9103100b675fc1e6f5fd1cd0601e5c75687f26d09c55e6fd2601c963",
+  "private_path_excluded": true,
+  "checks": [
+    {
+      "theme": "worksbetter",
+      "file": "pages.json",
+      "status": 200,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "matches_expected_sanitised_bytes": true
+    },
+    {
+      "theme": "worksbetter",
+      "file": "assets/fleet-data.js",
+      "status": 200,
+      "sha256": "c1c8ddf9a327cf9324b15a34c3d6d89799f6907703fd377e7502ca1b8817132d",
+      "matches_expected_sanitised_bytes": true
+    },
+    {
+      "theme": "worksbetter",
+      "file": "assets/fleet.js",
+      "status": 200,
+      "sha256": "3338a0d0e7d800e24ad576f793717a8926761f61709f228c71e93cf9483c8f24",
+      "matches_expected_sanitised_bytes": true
+    },
+    {
+      "theme": "worksbetter-wpvibe-backup",
+      "file": "pages.json",
+      "status": 200,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "matches_expected_sanitised_bytes": true
+    },
+    {
+      "theme": "worksbetter-wpvibe-backup",
+      "file": "assets/fleet-data.js",
+      "status": 200,
+      "sha256": "c1c8ddf9a327cf9324b15a34c3d6d89799f6907703fd377e7502ca1b8817132d",
+      "matches_expected_sanitised_bytes": true
+    },
+    {
+      "theme": "worksbetter-wpvibe-backup",
+      "file": "assets/fleet.js",
+      "status": 200,
+      "sha256": "3338a0d0e7d800e24ad576f793717a8926761f61709f228c71e93cf9483c8f24",
+      "matches_expected_sanitised_bytes": true
+    },
+    {
+      "theme": "worksbetter-wpvibe-draft",
+      "file": "pages.json",
+      "status": 200,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "matches_expected_sanitised_bytes": true
+    },
+    {
+      "theme": "worksbetter-wpvibe-draft",
+      "file": "assets/fleet-data.js",
+      "status": 200,
+      "sha256": "c1c8ddf9a327cf9324b15a34c3d6d89799f6907703fd377e7502ca1b8817132d",
+      "matches_expected_sanitised_bytes": true
+    },
+    {
+      "theme": "worksbetter-wpvibe-draft",
+      "file": "assets/fleet.js",
+      "status": 200,
+      "sha256": "3338a0d0e7d800e24ad576f793717a8926761f61709f228c71e93cf9483c8f24",
+      "matches_expected_sanitised_bytes": true
+    }
+  ]
+}

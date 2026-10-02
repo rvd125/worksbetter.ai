@@ -1,0 +1,165 @@
+{
+  "as_of_utc": "2026-10-01",
+  "site": "https://worksbetter.ai/",
+  "sources": {
+    "main_site_commit": "efbee6a5a7bae55b8921a2e4d8571b11da276171",
+    "search_console_property": "sc-domain:worksbetter.ai",
+    "ga4_property": "553877050",
+    "ga4_stream": "15762913100",
+    "measurement_id": "G-SZ0YNX9CXG",
+    "latest_returned_complete_search_date": "2026-09-28",
+    "lag": "3 calendar days from UTC review date; 29\u201330 September complete dates absent from finalized response"
+  },
+  "search_console": {
+    "rolling_7": {
+      "from": "2026-09-22",
+      "to": "2026-09-28",
+      "clicks": 0,
+      "impressions": 19,
+      "daily_rows": 7
+    },
+    "previous_7": {
+      "from": "2026-09-15",
+      "to": "2026-09-21",
+      "clicks": 0,
+      "impressions": 35,
+      "daily_rows": 7
+    },
+    "rolling_28": {
+      "from": "2026-09-01",
+      "to": "2026-09-28",
+      "clicks": 0,
+      "impressions": 71,
+      "returned_daily_rows": 19,
+      "missing_rows_are_zero": false
+    },
+    "previous_28": {
+      "from": "2026-08-04",
+      "to": "2026-08-31",
+      "clicks": null,
+      "impressions": null,
+      "note": "No rows returned; unavailable rather than verified zero."
+    },
+    "countries": [
+      {
+        "country": "United Kingdom",
+        "clicks": 0,
+        "impressions": 8
+      },
+      {
+        "country": "United States",
+        "clicks": 0,
+        "impressions": 45
+      },
+      {
+        "country": "Australia",
+        "clicks": 0,
+        "impressions": 7
+      },
+      {
+        "country": "New Zealand",
+        "clicks": 0,
+        "impressions": 3
+      },
+      {
+        "country": "Nepal",
+        "clicks": 0,
+        "impressions": 1
+      },
+      {
+        "country": "Singapore",
+        "clicks": 0,
+        "impressions": 2
+      },
+      {
+        "country": "Finland",
+        "clicks": 0,
+        "impressions": 1
+      },
+      {
+        "country": "Philippines",
+        "clicks": 0,
+        "impressions": 1
+      },
+      {
+        "country": "Morocco",
+        "clicks": 0,
+        "impressions": 1
+      },
+      {
+        "country": "South Korea",
+        "clicks": 0,
+        "impressions": 1
+      },
+      {
+        "country": "India",
+        "clicks": 0,
+        "impressions": 1
+      }
+    ],
+    "au_nz": {
+      "clicks": 0,
+      "impressions": 10
+    },
+    "page_report_note": "Page-level impression rows sum to 79; page and site aggregation differ. Do not add them to the domain total.",
+    "query_subset": {
+      "impressions": 46,
+      "au_visible_query_impressions": 2,
+      "note": "Privacy-thresholded query/page/country subset. No raw query rows committed."
+    }
+  },
+  "analytics": {
+    "from": "2026-09-01",
+    "to": "2026-09-28",
+    "total_users": 28,
+    "sessions": 35,
+    "channels": [
+      {
+        "name": "Direct",
+        "users": 27,
+        "sessions": 34
+      },
+      {
+        "name": "Organic Social",
+        "users": 1,
+        "sessions": 1
+      }
+    ],
+    "organic_landing_visits": null,
+    "organic_note": "Organic Search did not return a row in this channel report; do not label an independent landing-page report as verified zero.",
+    "events": {
+      "page_view": 104,
+      "form_submit": 57,
+      "form_start": 3,
+      "workflow_view": 23,
+      "workflow_step_open": 2,
+      "before_after_toggle": 1,
+      "generate_lead": 1
+    },
+    "note": "Generic form_submit includes tool use. The one generate_lead event cannot establish a genuine or qualified opportunity. No live receiver test completed this session."
+  },
+  "enquiries": {
+    "storage": "Verified custom worksbetter_enquiries table with brief, company, created_at, email, id, name, payload_hash and source columns.",
+    "stored_count": 4,
+    "genuine": null,
+    "qualified": null,
+    "pending": null,
+    "meetings": null,
+    "proposals": null,
+    "wins": null,
+    "notification_delivery": "Unknown; current privacy notice names a different notification address from the public contact address; owner answer pending.",
+    "qualification_source": "Private stored content plus owner disposition; payload IDs do not deduplicate separate submissions about the same opportunity.",
+    "synthetic_success_tests_sent_this_session": 0,
+    "invalid_submission": {
+      "status": 400,
+      "stored": false,
+      "note": "Empty request rejected; no successful notification test."
+    },
+    "stored_count_note": "Authenticated aggregate SQL after access restoration: four total saved rows, 10\u201321 September. Genuine/test/spam status and opportunity qualification remain unknown."
+  },
+  "target": {
+    "qualified_leads_per_week": 1,
+    "status": "Unassessable. No qualified-lead count verified.",
+    "forecast": false
+  }
+}

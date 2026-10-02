@@ -1,0 +1,36 @@
+{
+  "attempted_at_utc": "2026-10-01T23:32:17.619047+00:00",
+  "scope": "Public Google Trends requested comparative term research. No authenticated volume source.",
+  "checks": [
+    {
+      "geo": "AU",
+      "terms": [
+        "AI automation",
+        "workflow automation",
+        "business automation",
+        "AI consultant",
+        "AI agents"
+      ],
+      "time": "2025-10-01 2026-09-30",
+      "search_type": "Web Search",
+      "category": "All categories",
+      "url": "https://trends.google.com/trends/explore?date=2025-10-01+2026-09-30&geo=AU&q=AI+automation%2Cworkflow+automation%2Cbusiness+automation%2CAI+consultant%2CAI+agents",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "geo": "NZ",
+      "terms": [
+        "AI automation",
+        "workflow automation",
+        "business automation",
+        "AI consultant",
+        "AI agents"
+      ],
+      "time": "2025-10-01 2026-09-30",
+      "search_type": "Web Search",
+      "category": "All categories",
+      "url": "https://trends.google.com/trends/explore?date=2025-10-01+2026-09-30&geo=NZ&q=AI+automation%2Cworkflow+automation%2Cbusiness+automation%2CAI+consultant%2CAI+agents",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ]
+}

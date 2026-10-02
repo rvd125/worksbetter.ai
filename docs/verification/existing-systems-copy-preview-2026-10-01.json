@@ -1,0 +1,74 @@
+{
+  "scope": "Actual isolated WordPress HTTPS home render after owner existing-systems clarification; desktop/mobile; no enquiry POST or live deployment. TLS verification enabled.",
+  "checks": [
+    {
+      "name": "home 1440: actual TLS response200",
+      "pass": true
+    },
+    {
+      "name": "home 1440: one heading",
+      "pass": true
+    },
+    {
+      "name": "home 1440: three delivery modes",
+      "pass": true
+    },
+    {
+      "name": "home 1440: isolated draft assets",
+      "pass": true
+    },
+    {
+      "name": "home 1440: no overflow",
+      "pass": true
+    },
+    {
+      "name": "home 1440: one Guides destination",
+      "pass": true
+    },
+    {
+      "name": "home 390: actual TLS response200",
+      "pass": true
+    },
+    {
+      "name": "home 390: one heading",
+      "pass": true
+    },
+    {
+      "name": "home 390: three delivery modes",
+      "pass": true
+    },
+    {
+      "name": "home 390: isolated draft assets",
+      "pass": true
+    },
+    {
+      "name": "home 390: no overflow",
+      "pass": true
+    },
+    {
+      "name": "home 390: one Guides destination",
+      "pass": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "observations": [
+    {
+      "width": 1440,
+      "title": "AI automation around your existing systems | Works Better",
+      "heading": "What if work\nworked better?",
+      "description": "AI workflows and tools built around the apps your team already uses. Renzo Demartini designs and builds solutions for Australia and New Zealand.",
+      "opening": "Still doing invoices at night or on weekends? Chasing enquiries or piecing together reports?\nWorks Better adds AI workflows and tools around the apps and systems your team already knows. Renzo Demartini personally designs and builds around your current setup, so work can run automatically, include approval steps, or use a tool your team operates. For businesses across Australia and New Zealand."
+    },
+    {
+      "width": 390,
+      "title": "AI automation around your existing systems | Works Better",
+      "heading": "What if work\nworked better?",
+      "description": "AI workflows and tools built around the apps your team already uses. Renzo Demartini designs and builds solutions for Australia and New Zealand.",
+      "opening": "Still doing invoices at night or on weekends? Chasing enquiries or piecing together reports?\nWorks Better adds AI workflows and tools around the apps and systems your team already knows. Renzo Demartini personally designs and builds around your current setup, so work can run automatically, include approval steps, or use a tool your team operates. For businesses across Australia and New Zealand."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "scope": "Actual WordPress PHP preview responses. Token intentionally excluded from committed evidence. Not deployment.",
+  "checks": [
+    {
+      "page": "/",
+      "status": 200,
+      "sha256": "3bcc01659631543133069e4f2000b1437306adb6468f4e9669219e18475981a4",
+      "h1": [
+        "What if work worked better?"
+      ],
+      "modes": 3,
+      "preference_fields": 1,
+      "private_count_markers": false,
+      "title": "AI workflows & tools for AU/NZ businesses | Works Better",
+      "active_asset_roots": [
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft-wpvibe-draft"
+      ]
+    },
+    {
+      "page": "/inside-an-ai-agent-fleet/",
+      "status": 200,
+      "sha256": "0e6276d4656e233715f970c7f0cd35f8e3cd151bfca7532881d1867a7211af8e",
+      "h1": [
+        "A useful workflow shows when to stop."
+      ],
+      "modes": 0,
+      "preference_fields": 1,
+      "private_count_markers": false,
+      "title": "Decisions and safeguards in connected workflows | Works Better",
+      "active_asset_roots": [
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft-wpvibe-draft"
+      ]
+    },
+    {
+      "page": "/guides/",
+      "status": 200,
+      "sha256": "74fe924fbf8802ddfac1331f3060f4babebbf01cb278335c275b0cfaefbb2941",
+      "h1": [
+        "Guides"
+      ],
+      "modes": 0,
+      "preference_fields": 0,
+      "private_count_markers": false,
+      "title": "Guides - Works Better",
+      "active_asset_roots": []
+    },
+    {
+      "page": "/why-are-we-entering-this-twice/",
+      "status": 200,
+      "sha256": "12086442e6d918ac2b194d963ff1365af586fb7f4eb580ccdd5dd69ea41b4773",
+      "h1": [
+        "Why are we entering this twice?"
+      ],
+      "modes": 0,
+      "preference_fields": 0,
+      "private_count_markers": false,
+      "title": "Why are we entering this twice? | Works Better",
+      "active_asset_roots": []
+    }
+  ]
+}

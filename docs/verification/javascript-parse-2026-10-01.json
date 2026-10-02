@@ -1,0 +1,25 @@
+{
+  "scope": "Parsed current candidate source only; not runtime behavior",
+  "files": [
+    "backstage.js",
+    "enquiry.js",
+    "flagship-entry.js",
+    "fleet-data.js",
+    "fleet.js",
+    "flow-model.js",
+    "measurement.js",
+    "navigation.js",
+    "play-area.js",
+    "possibility-model.js",
+    "project-data.js",
+    "prompt-examples.js",
+    "providers.js",
+    "stack-rotation.js",
+    "systems-data.js",
+    "systems-engine.js",
+    "systems.js",
+    "workflow-questions.js",
+    "workflow-routes.js"
+  ],
+  "passed": 19
+}

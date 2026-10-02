@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://worksbetter.ai/wp-content/themes/worksbetter/pages.json",
+    "status": 200,
+    "contains_internal_catalogue": true
+  },
+  {
+    "url": "https://worksbetter.ai/wp-content/themes/worksbetter/assets/fleet-data.js",
+    "status": 200,
+    "contains_internal_catalogue": true
+  },
+  {
+    "url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-backup/pages.json",
+    "status": 200,
+    "contains_internal_catalogue": true
+  },
+  {
+    "url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-backup/assets/fleet-data.js",
+    "status": 200,
+    "contains_internal_catalogue": true
+  }
+]

@@ -1,0 +1,289 @@
+{
+  "as_of": "2026-10-02",
+  "state": "ASTRA_ACCEPTED_RELEASE_SOURCE_NOT_YET_DEPLOYED",
+  "active_theme": "worksbetter-wpvibe-draft",
+  "draft_is_active": false,
+  "source_type": "partial inspected WordPress/public snapshot plus reviewed patches; not authoritative repository clone",
+  "astra": "Actual Astra2October accepts final controlled release includingpage10/contactalignment;65realWordPressdesktop/mobilechecks pass; production proof pending.",
+  "apply_policy": "Explicit per-file/per-record patch only. Never wholesale import JSON statuses or upload this complete snapshot.",
+  "changed_files": [
+    {
+      "path": "source/theme/assets/enquiry.js",
+      "destination": "wp-content/themes/worksbetter-wpvibe-draft/assets/enquiry.js",
+      "sha256": "da75164e753263375de3f62b9b7ae58f8a54a2bf678596e3d8d3e35b1101fdd2",
+      "original_sha256": "cae010a2e63ccba4a325efc7ea2fa57fcd0d7b88618d370e160b4263b872d5c9"
+    },
+    {
+      "path": "source/theme/assets/flagship-entry.js",
+      "destination": "wp-content/themes/worksbetter-wpvibe-draft/assets/flagship-entry.js",
+      "sha256": "f4f5560ba0f3b3d46050079c6820d5cdaf2d1c349044ce6913bbe15f3fcce708",
+      "original_sha256": "184ef4a99a899cf6f2ca0fff4fc3b5565b0093559302455afaf4e8d480129c98"
+    },
+    {
+      "path": "source/theme/assets/fleet-data.js",
+      "destination": "wp-content/themes/worksbetter-wpvibe-draft/assets/fleet-data.js",
+      "sha256": "3367c88569bc6a8a9a1df1f6acd340bbc042837acb6b8e51ccc13bca5b4d6c1a",
+      "original_sha256": "8552f1722b8789ec70233639ae4fd45b8ee7fddfc99b0f8127dc058af033512e"
+    },
+    {
+      "path": "source/theme/assets/fleet.js",
+      "destination": "wp-content/themes/worksbetter-wpvibe-draft/assets/fleet.js",
+      "sha256": "75a62f979ad01005b7b71505ab598adbb5ce989ee0cd51bbfb5e3fc5e430b602",
+      "original_sha256": "54e5ca45189b3347ef93bac187bde4664852077d538f6f32311620ae921d2465"
+    },
+    {
+      "path": "source/theme/assets/guides.css",
+      "destination": "wp-content/themes/worksbetter-wpvibe-draft/assets/guides.css",
+      "sha256": "d73407325d9e6c8be333412f18e5222a2a3b9e900f1a1113614ae290ac936454",
+      "original_sha256": "81c7d1b72456e2d9e422cdb2176e053c7ac552975e8382c2505b5c992a127650"
+    },
+    {
+      "path": "source/theme/assets/measurement.js",
+      "destination": "wp-content/themes/worksbetter-wpvibe-draft/assets/measurement.js",
+      "sha256": "aa87fb5e852f37548fec800931b9ade7a9faeb0d06911ab4450c08c12cf8cbbc",
+      "original_sha256": "fdcf5b8355f6d0b231908996f59fee47f8164957960eb9642d9970b8058ccacf"
+    },
+    {
+      "path": "source/theme/assets/proof.css",
+      "destination": "wp-content/themes/worksbetter-wpvibe-draft/assets/proof.css",
+      "sha256": "52951ae250408754ecf73d516fc44620e1ae6554709a34a16f8b86930c06ff1d",
+      "original_sha256": "1899ec98fcf2f6d145b00e6bc7cf6d40bfd4a51dd5c9bcc82bd668ac3b54a49f"
+    },
+    {
+      "path": "source/theme/assets/systems.js",
+      "destination": "wp-content/themes/worksbetter-wpvibe-draft/assets/systems.js",
+      "sha256": "408e5355523d2df65103b32fc18f7504814cb77241ee03c8fb2d21b38e2ddc94",
+      "original_sha256": "be4fb0b0cb4d8418dd3cef0a44b6a92fb17d9532eccd8da0bfeb77ffbbc5bd70"
+    },
+    {
+      "path": "source/theme/page.php",
+      "sha256": "593489cd655e6060596fb1f70a6cfc7217006f965c738b55ec68f8500f7418ed",
+      "apply_note": "page.php small guide navigation/footer diff requires PHP host check"
+    },
+    {
+      "path": "source/theme/pages.json",
+      "sha256": "db9875c7676d6e805690f1ef77c920541a380f501932120791f89a6c0ed16139",
+      "apply_note": "sanitised public export, privacy entry omitted; never bulk import"
+    },
+    {
+      "path": "source/theme/single.php",
+      "sha256": "8d2a9d0aaed44acc2c5cd2e21785a74833ace80e888c83560cf0b4a605ae4304",
+      "apply_note": "Fresh actual template; contact anchors and privacy footer only. Server PHP syntax check and tokenized preview successful."
+    },
+    {
+      "path": "source/theme/assets/navigation.js",
+      "destination": "wp-content/themes/worksbetter-wpvibe-draft/assets/navigation.js",
+      "original_sha256": "5be07caa3215119a218f52094d249a5dbc46d9dbd7c1c17dce2babab3ca2eeb1",
+      "sha256": "6cd411e208d12add1ba986348726797acee1e85d3f98806dbcfe2a0d618b8bc7",
+      "apply_note": "Recognise existing Guides destination by same-origin pathname; prevent duplicate link for absolute/preview-token URLs."
+    }
+  ],
+  "pages": [
+    {
+      "id": 16,
+      "slug": "simpro-xero-invoice-automation",
+      "operation": "replace content only; preserve verified native metadata; align specified title/description where changed"
+    },
+    {
+      "id": 15,
+      "slug": "multi-source-report-automation",
+      "operation": "replace content only; preserve verified native metadata; align specified title/description where changed"
+    },
+    {
+      "id": 14,
+      "slug": "lead-routing-automation",
+      "operation": "replace content only; preserve verified native metadata; align specified title/description where changed"
+    },
+    {
+      "id": 13,
+      "slug": "job-profitability-reporting",
+      "operation": "replace content only; preserve verified native metadata; align specified title/description where changed"
+    },
+    {
+      "id": 12,
+      "slug": "inside-an-ai-agent-fleet",
+      "operation": "replace content only; preserve verified native metadata; align specified title/description where changed"
+    },
+    {
+      "id": 11,
+      "slug": "home",
+      "operation": "replace content only; preserve verified native metadata; align specified title/description where changed"
+    },
+    {
+      "id": 9,
+      "slug": "employee-onboarding-automation",
+      "operation": "replace content only; preserve verified native metadata; align specified title/description where changed"
+    },
+    {
+      "id": 8,
+      "slug": "ai-customer-enquiry-automation",
+      "operation": "replace content only; preserve verified native metadata; align specified title/description where changed"
+    },
+    {
+      "id": 10,
+      "slug": "enquiry-privacy",
+      "operation": "Replace truthful privacy candidate only after final Astra acceptance; preserve native styles/scripts/attrs, title and canonical"
+    }
+  ],
+  "page_metadata_alignment": [
+    {
+      "id": 12,
+      "title": "Decisions and safeguards in connected workflows | Works Better",
+      "description": "Explore Renzo\u2019s confirmed enquiry, supplier invoice and daily reporting decisions using fictional records, human approval and visible exceptions."
+    },
+    {
+      "id": 11,
+      "title": "AI automation around your existing systems | Works Better",
+      "description": "AI workflows and tools built around the apps your team already uses. Renzo Demartini designs and builds solutions for Australia and New Zealand."
+    },
+    {
+      "id": 10,
+      "title": "How enquiries are handled | Works Better",
+      "description": "How Works Better saves enquiries, sends email notifications and handles optional AI proposals and site measurement."
+    }
+  ],
+  "post_operations": [
+    {
+      "id": 45,
+      "operation": "revise published content only; preserve published status/date/slug"
+    },
+    {
+      "id": 46,
+      "operation": "Native draft hold verified1Oct; corrected distinct checklist candidate remains draft; no scheduling/publication.",
+      "existing_observed_date": "2026-10-02T10:00:00"
+    },
+    {
+      "ids": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "operation": "unpublished editorial candidates only; no status/date/automatic publication changes authorised by export; current live statuses require recheck"
+    }
+  ],
+  "excluded": [
+    {
+      "path": "source/theme/functions.php",
+      "reason": "reference snapshot only, no reviewed change; do not overwrite"
+    },
+    {
+      "path": "release/assets/",
+      "reason": "duplicate reference convenience; deploy listed source/theme/assets counterparts only"
+    },
+    {
+      "path": "wb-preview-content.json",
+      "reason": "Temporary stage-only native-content shadow; delete and restore fresh original functions.php before publish."
+    },
+    {
+      "path": "release/backup-and-confidentiality-bootstrap.php",
+      "reason": "Separate reviewed one-time WPCode operation, not part of public theme."
+    }
+  ],
+  "historical_confidentiality_controls": {
+    "state": "Nine known exports verified as expected harmless replacements2October; native page release remains separate",
+    "urls": [
+      {
+        "url": "https://worksbetter.ai/wp-content/themes/worksbetter/pages.json",
+        "status": 200,
+        "contains_internal_catalogue": true
+      },
+      {
+        "url": "https://worksbetter.ai/wp-content/themes/worksbetter/assets/fleet-data.js",
+        "status": 200,
+        "contains_internal_catalogue": true
+      },
+      {
+        "url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-backup/pages.json",
+        "status": 200,
+        "contains_internal_catalogue": true
+      },
+      {
+        "url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-backup/assets/fleet-data.js",
+        "status": 200,
+        "contains_internal_catalogue": true
+      }
+    ],
+    "action": "host quarantine/deny public files and further discovered copies; retain original private rollback outside webroot; verify public contents unavailable",
+    "additional_fleet_urls": [
+      {
+        "url": "https://worksbetter.ai/wp-content/themes/worksbetter/assets/fleet.js",
+        "status": 200,
+        "contains_snapshot_derived_register_logic": true
+      },
+      {
+        "url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-backup/assets/fleet.js",
+        "status": 200,
+        "contains_snapshot_derived_register_logic": true
+      },
+      {
+        "url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/fleet.js",
+        "status": 200,
+        "contains_snapshot_derived_register_logic": true
+      }
+    ]
+  },
+  "required_before_release": [
+    "Restore original functions.php and delete preview content sidecar",
+    "Commit accepted source in Works Better repository",
+    "Apply explicit native revisions then publish; fullbackup2October confirmed"
+  ],
+  "required_after_release": [
+    "public content and asset-hash checks",
+    "genuine 404 and redirect chain checks",
+    "desktop/mobile real browser interactions",
+    "one labelled synthetic successful enquiry only as needed",
+    "independent saved/delivered/acknowledgement and single GA4 receipt checks",
+    "private qualification/deduplication and dated aggregate scorecard",
+    "Use safely isolated session-CA browser with TLS verification enabled; no persistent host trust changes"
+  ],
+  "reference_only_unchanged_pages": [
+    62
+  ],
+  "draft_theme": "worksbetter-wpvibe-draft-wpvibe-draft",
+  "draft_source": "worksbetter-wpvibe-draft",
+  "backup_operation": {
+    "snippet_id": 69,
+    "state": "EXECUTED_COMPLETE",
+    "code_sha256": "ec8a87c6c2b035a28136739c8f90b0d8cf1a55ec0446efe3cc37923a2b06578c",
+    "scope": "Four affected theme directories plus specified native content/meta; not full database",
+    "known_exports_to_retire": 9,
+    "executed": true,
+    "php_syntax_guard": "Passed server-side; lint-only file removed",
+    "private_copied_files": 281,
+    "snapshot_sha256": "e70038af9103100b675fc1e6f5fd1cd0601e5c75687f26d09c55e6fd2601c963"
+  },
+  "verification": {
+    "offline_core": 89,
+    "offline_additional": 37,
+    "offline_approximate_guides": 13,
+    "offline_delivery_modes": 67,
+    "actual_wordpress_https_preview": 47,
+    "uncaught_browser_errors": 0,
+    "actual_preview_astra": "Accepted",
+    "synthetic_notifications_sent": 0,
+    "deployment_verified": false,
+    "actual_home_copy_focus": 13,
+    "last_change_scope": "Four home paragraphs/title/description plus one-line URL-aware Guides navigation detection;89core/47actualHTTPSrerunspassed"
+  },
+  "github_repository": "https://github.com/rvd125/worksbetter.ai",
+  "github_visibility": "public; only sanitised source/aggregate records are published",
+  "full_backup_verified": {
+    "date": "2026-10-02",
+    "parts": [
+      "db",
+      "themes",
+      "plugins",
+      "uploads",
+      "others"
+    ],
+    "provider": "UpdraftPlus",
+    "hash_records_present": true
+  },
+  "contact_owner_confirmed": {
+    "email": "hello@worksbetter.ai",
+    "owner": "Renzo Demartini"
+  }
+}

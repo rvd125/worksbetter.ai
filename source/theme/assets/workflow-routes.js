@@ -1,0 +1,1 @@
+window.WBRoutes = {"invoice": "/simpro-xero-invoice-automation/", "enquiry": "/ai-customer-enquiry-automation/", "finance": "/job-profitability-reporting/", "onboarding": "/employee-onboarding-automation/", "routing": "/lead-routing-automation/", "reporting": "/multi-source-report-automation/"};
