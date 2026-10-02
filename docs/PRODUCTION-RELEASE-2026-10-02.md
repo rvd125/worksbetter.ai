@@ -72,3 +72,5 @@ Remaining gaps: outstanding scheduled47–52 editorial revisions before their ex
 ## Later commercial/design refinement
 
 The same-day [commercial/design release](COMMERCIAL-DESIGN-RELEASE-2026-10-02.md) supersedes the material source checkpoint with96598f2 and239 public browser checks. It improves the opening, paid enquiry path and early visible workflow decisions. Prior single synthetic delivery and separate measurement evidence remain valid; they are not duplicated or counted as genuine leads.
+
+The subsequent accessibility source4a24667 and326 public checks are recorded in that release supplement. Post49’s erroneous payment wording is corrected and its future13November schedule preserved; only47,48,50,51,52 remain unapplied editorial candidates. Earlier49 outstanding statements are historical.

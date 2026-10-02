@@ -4,7 +4,7 @@
   "active_theme": "worksbetter-wpvibe-draft",
   "draft_is_active": false,
   "source_type": "Sanitized reviewed explicit WordPress patch with authenticated native/public production readback; not a complete site/database clone",
-  "astra": "Actual Astra granted scoped pre-release and production acceptance for96598f2;239 public browser checks, native parity and10 assets verified. Commercial outcomes and processed GA receipt remain unestablished.",
+  "astra": "Actual Astra accepted commercial96598f2 and accessibility4a24667 before and after release;326 public browser checks, native parity and10 assets verified. Exact49 future correction separately accepted/read back; no commercial outcome or whole-site WCAG claim.",
   "apply_policy": "Explicit per-file/per-record patch only. Never wholesale import JSON statuses or upload this complete snapshot.",
   "changed_files": [
     {
@@ -156,12 +156,16 @@
       "ids": [
         47,
         48,
-        49,
         50,
         51,
         52
       ],
       "operation": "unpublished editorial candidates only; no status/date/automatic publication changes authorised by export; current live statuses require recheck"
+    },
+    {
+      "id": 49,
+      "operation": "Exact reviewed last heading/paragraph and contextual enquiry bridge applied; native body/source parity verified. Existing future status/date/title/slug/excerpt/meta preserved. Anonymous URL404. No early publication.",
+      "existing_observed_date": "2026-11-13T09:00:00"
     }
   ],
   "excluded": [
@@ -271,9 +275,10 @@
     "owner_inbox_delivery_verified": true,
     "processed_ga4_receipt_verified": false,
     "actual_wordpress_production_tools": 61,
-    "actual_wordpress_production_total": 239,
-    "actual_production_astra": "Accepted within checked scope",
-    "actual_commercial_design_production": 113
+    "actual_wordpress_production_total": 326,
+    "actual_production_astra": "Accepted within checked commercial/accessibility scopes",
+    "actual_commercial_design_production": 113,
+    "actual_accessible_control_production": 87
   },
   "github_repository": "https://github.com/rvd125/worksbetter.ai",
   "github_visibility": "public; only sanitised source/aggregate records are published",
@@ -305,20 +310,19 @@
     "processed_ga4_receipt": "Pending, current-day report returns no rows",
     "private_qualification": "Unknown, not inferable from saved counts"
   },
-  "github_release_commit": "96598f293e35b903227691a20570860aaff83ab6",
+  "github_release_commit": "4a246671706dfd4e3fb3c4ce1a53485acf5fe424",
   "production_theme_backup": "worksbetter-wpvibe-draft-wpvibe-backup",
   "production_evidence": "docs/PRODUCTION-RELEASE-2026-10-02.md",
   "outstanding_editorial_revisions": {
     "ids": [
       47,
       48,
-      49,
       50,
       51,
       52
     ],
     "state": "Existing future status/date preserved; corrected local editorial candidates NOT applied",
-    "priority": "Review before scheduled publication; post49 must correct known accounts-payable/payment misdescription. Confirmed invoice flow never pays."
+    "priority": "Review remaining candidates before existing publication dates. Post49 false payment description corrected separately2October, future schedule preserved."
   },
   "commercial_design_refinement": {
     "source_commit": "96598f293e35b903227691a20570860aaff83ab6",
@@ -349,7 +353,7 @@
     "production_astra": "Accepted within checked scope"
   },
   "accessibility_followup": {
-    "state": "ASTRA_ACCEPTED_ISOLATED_PREVIEW_PENDING_PUBLIC_VERIFICATION",
+    "state": "DEPLOYED_PUBLICLY_VERIFIED_ASTRA_ACCEPTED",
     "scope": "visible/accessibility label alignment and workflow-number opacity only",
     "preview_controls_passed": 87,
     "targeted_axe_rules": "no identified violations at1440/390; gradient cases incomplete",
@@ -359,6 +363,10 @@
       "best_practices": 100,
       "seo": 100,
       "field_data": "none"
-    }
+    },
+    "source_commit": "4a246671706dfd4e3fb3c4ce1a53485acf5fe424",
+    "public_control_checks": 87,
+    "public_targeted_axe": "no identified violations at1440/390; incomplete gradient cases remain unknown",
+    "isolated_browser": "disposed, private token input removed"
   }
 }

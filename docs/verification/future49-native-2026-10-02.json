@@ -1,0 +1,21 @@
+{
+  "id": 49,
+  "date": "2026-11-13T09:00:00",
+  "date_gmt": "2026-11-13T09:00:00",
+  "status": "future",
+  "slug": "human-approval-is-a-feature",
+  "title": "Human approval is a feature, not a failure",
+  "content_exact_match": true,
+  "unchanged_fields": [
+    "date",
+    "date_gmt",
+    "status",
+    "slug",
+    "title",
+    "excerpt",
+    "meta"
+  ],
+  "scope": "Single reviewed ending correction and contextual enquiry bridge. No new scheduling or publication; thirteen local actual-template checks are not native/live article checks.",
+  "anonymous_public_status": 404,
+  "synthetic_tests_sent": 0
+}

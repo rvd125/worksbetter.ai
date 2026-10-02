@@ -12,6 +12,8 @@ Reviewed source96598f293e35b903227691a20570860aaff83ab6 is now deployed. Exact o
 
 For this revision, restore the affected assets from parentce3221f632bd6958542ca90556e5c52c7de61a7a and the preceding native page revisions (or the private scoped before snapshot), or use WPVibe’s latest theme backup. Keep the theme and native content coherent; never overwrite new legitimate enquiries or undo confidentiality repairs. The full09:03 backup and revisions remain available; selective restoration is preferred over a full database rewind. Recheck affected public journeys after any restoration. See the commercial/design release record.
 
+The later accessibility source4a24667 is also deployed and verified;326 public checks pass. Latest WPVibe theme backup now precedes the accessibility correction. For a targeted accessibility rollback, use prior source96598f2 and corresponding native revisions; keep commercial copy and privacy repairs. Article49’s ending correction uses its own native revision, preserving its future schedule. Never restore the inaccurate payment claim. Check exact changed behavior after restoration; no full-database rewind over new enquiries.
+
 The following sections are retained historical staging instructions. Their pending/excluded-page10 statements describe pre-release checkpoints and are superseded by the production record and current manifest.
 
 

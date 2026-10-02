@@ -1,0 +1,22 @@
+{
+  "scope": "Anonymous/public or isolated preview exact contrast and label audit; no sends, only local axe code and site GET",
+  "source_commit": "4a246671706dfd4e3fb3c4ce1a53485acf5fe424",
+  "method": "axe-core4.10.3, two targeted rules only",
+  "results": [
+    {
+      "width": 1440,
+      "violations": [],
+      "incomplete_rule_counts": {
+        "color-contrast": 413
+      }
+    },
+    {
+      "width": 390,
+      "violations": [],
+      "incomplete_rule_counts": {
+        "color-contrast": 263
+      }
+    }
+  ],
+  "limits": "Incomplete gradient cases remain unknown; this is not whole-site WCAG conformance or an updated Lighthouse score."
+}

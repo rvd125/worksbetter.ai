@@ -1,0 +1,58 @@
+{
+  "scope": "Prepared future article49 body placed locally into the actual public single-article template in an isolated browser; not a native future preview/publication; only site GET/no sends",
+  "checks": [
+    {
+      "name": "1440: one H1",
+      "pass": true
+    },
+    {
+      "name": "1440: no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "1440: correct fictional draft, no payment",
+      "pass": true
+    },
+    {
+      "name": "1440: correct example route",
+      "pass": true
+    },
+    {
+      "name": "1440: paid consulting context",
+      "pass": true
+    },
+    {
+      "name": "1440: contextual enquiry opens",
+      "pass": true
+    },
+    {
+      "name": "390: one H1",
+      "pass": true
+    },
+    {
+      "name": "390: no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "390: correct fictional draft, no payment",
+      "pass": true
+    },
+    {
+      "name": "390: correct example route",
+      "pass": true
+    },
+    {
+      "name": "390: paid consulting context",
+      "pass": true
+    },
+    {
+      "name": "390: contextual enquiry opens",
+      "pass": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

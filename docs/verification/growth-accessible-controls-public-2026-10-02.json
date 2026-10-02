@@ -1,0 +1,354 @@
+{
+  "scope": "Actual desktop/mobile accessible names, inspector/expanded canvas, pause/continue, step-number contrast correction; only site GET, no sends",
+  "checks": [
+    {
+      "name": "1440: brand uses visible name",
+      "pass": true
+    },
+    {
+      "name": "1440 invoice: visible node name retained",
+      "pass": true
+    },
+    {
+      "name": "1440 invoice: step opens",
+      "pass": true
+    },
+    {
+      "name": "1440 invoice: named Explore opens canvas",
+      "pass": true
+    },
+    {
+      "name": "1440 invoice: pause icon decorative",
+      "pass": true
+    },
+    {
+      "name": "1440 invoice: pause exposes Continue",
+      "pass": true
+    },
+    {
+      "name": "1440 invoice: continue exposes Pause",
+      "pass": true
+    },
+    {
+      "name": "1440 invoice: progress numbers opaque",
+      "pass": true
+    },
+    {
+      "name": "1440 enquiry: visible node name retained",
+      "pass": true
+    },
+    {
+      "name": "1440 enquiry: step opens",
+      "pass": true
+    },
+    {
+      "name": "1440 enquiry: named Explore opens canvas",
+      "pass": true
+    },
+    {
+      "name": "1440 enquiry: pause icon decorative",
+      "pass": true
+    },
+    {
+      "name": "1440 enquiry: pause exposes Continue",
+      "pass": true
+    },
+    {
+      "name": "1440 enquiry: continue exposes Pause",
+      "pass": true
+    },
+    {
+      "name": "1440 enquiry: progress numbers opaque",
+      "pass": true
+    },
+    {
+      "name": "1440 finance: visible node name retained",
+      "pass": true
+    },
+    {
+      "name": "1440 finance: step opens",
+      "pass": true
+    },
+    {
+      "name": "1440 finance: named Explore opens canvas",
+      "pass": true
+    },
+    {
+      "name": "1440 finance: pause icon decorative",
+      "pass": true
+    },
+    {
+      "name": "1440 finance: pause exposes Continue",
+      "pass": true
+    },
+    {
+      "name": "1440 finance: continue exposes Pause",
+      "pass": true
+    },
+    {
+      "name": "1440 finance: progress numbers opaque",
+      "pass": true
+    },
+    {
+      "name": "1440 onboarding: visible node name retained",
+      "pass": true
+    },
+    {
+      "name": "1440 onboarding: step opens",
+      "pass": true
+    },
+    {
+      "name": "1440 onboarding: named Explore opens canvas",
+      "pass": true
+    },
+    {
+      "name": "1440 onboarding: pause icon decorative",
+      "pass": true
+    },
+    {
+      "name": "1440 onboarding: pause exposes Continue",
+      "pass": true
+    },
+    {
+      "name": "1440 onboarding: continue exposes Pause",
+      "pass": true
+    },
+    {
+      "name": "1440 onboarding: progress numbers opaque",
+      "pass": true
+    },
+    {
+      "name": "1440 routing: visible node name retained",
+      "pass": true
+    },
+    {
+      "name": "1440 routing: step opens",
+      "pass": true
+    },
+    {
+      "name": "1440 routing: named Explore opens canvas",
+      "pass": true
+    },
+    {
+      "name": "1440 routing: pause icon decorative",
+      "pass": true
+    },
+    {
+      "name": "1440 routing: pause exposes Continue",
+      "pass": true
+    },
+    {
+      "name": "1440 routing: continue exposes Pause",
+      "pass": true
+    },
+    {
+      "name": "1440 routing: progress numbers opaque",
+      "pass": true
+    },
+    {
+      "name": "1440 reporting: visible node name retained",
+      "pass": true
+    },
+    {
+      "name": "1440 reporting: step opens",
+      "pass": true
+    },
+    {
+      "name": "1440 reporting: named Explore opens canvas",
+      "pass": true
+    },
+    {
+      "name": "1440 reporting: pause icon decorative",
+      "pass": true
+    },
+    {
+      "name": "1440 reporting: pause exposes Continue",
+      "pass": true
+    },
+    {
+      "name": "1440 reporting: continue exposes Pause",
+      "pass": true
+    },
+    {
+      "name": "1440 reporting: progress numbers opaque",
+      "pass": true
+    },
+    {
+      "name": "390: brand uses visible name",
+      "pass": true
+    },
+    {
+      "name": "390 invoice: visible node name retained",
+      "pass": true
+    },
+    {
+      "name": "390 invoice: step opens",
+      "pass": true
+    },
+    {
+      "name": "390 invoice: named Explore opens canvas",
+      "pass": true
+    },
+    {
+      "name": "390 invoice: pause icon decorative",
+      "pass": true
+    },
+    {
+      "name": "390 invoice: pause exposes Continue",
+      "pass": true
+    },
+    {
+      "name": "390 invoice: continue exposes Pause",
+      "pass": true
+    },
+    {
+      "name": "390 invoice: progress numbers opaque",
+      "pass": true
+    },
+    {
+      "name": "390 enquiry: visible node name retained",
+      "pass": true
+    },
+    {
+      "name": "390 enquiry: step opens",
+      "pass": true
+    },
+    {
+      "name": "390 enquiry: named Explore opens canvas",
+      "pass": true
+    },
+    {
+      "name": "390 enquiry: pause icon decorative",
+      "pass": true
+    },
+    {
+      "name": "390 enquiry: pause exposes Continue",
+      "pass": true
+    },
+    {
+      "name": "390 enquiry: continue exposes Pause",
+      "pass": true
+    },
+    {
+      "name": "390 enquiry: progress numbers opaque",
+      "pass": true
+    },
+    {
+      "name": "390 finance: visible node name retained",
+      "pass": true
+    },
+    {
+      "name": "390 finance: step opens",
+      "pass": true
+    },
+    {
+      "name": "390 finance: named Explore opens canvas",
+      "pass": true
+    },
+    {
+      "name": "390 finance: pause icon decorative",
+      "pass": true
+    },
+    {
+      "name": "390 finance: pause exposes Continue",
+      "pass": true
+    },
+    {
+      "name": "390 finance: continue exposes Pause",
+      "pass": true
+    },
+    {
+      "name": "390 finance: progress numbers opaque",
+      "pass": true
+    },
+    {
+      "name": "390 onboarding: visible node name retained",
+      "pass": true
+    },
+    {
+      "name": "390 onboarding: step opens",
+      "pass": true
+    },
+    {
+      "name": "390 onboarding: named Explore opens canvas",
+      "pass": true
+    },
+    {
+      "name": "390 onboarding: pause icon decorative",
+      "pass": true
+    },
+    {
+      "name": "390 onboarding: pause exposes Continue",
+      "pass": true
+    },
+    {
+      "name": "390 onboarding: continue exposes Pause",
+      "pass": true
+    },
+    {
+      "name": "390 onboarding: progress numbers opaque",
+      "pass": true
+    },
+    {
+      "name": "390 routing: visible node name retained",
+      "pass": true
+    },
+    {
+      "name": "390 routing: step opens",
+      "pass": true
+    },
+    {
+      "name": "390 routing: named Explore opens canvas",
+      "pass": true
+    },
+    {
+      "name": "390 routing: pause icon decorative",
+      "pass": true
+    },
+    {
+      "name": "390 routing: pause exposes Continue",
+      "pass": true
+    },
+    {
+      "name": "390 routing: continue exposes Pause",
+      "pass": true
+    },
+    {
+      "name": "390 routing: progress numbers opaque",
+      "pass": true
+    },
+    {
+      "name": "390 reporting: visible node name retained",
+      "pass": true
+    },
+    {
+      "name": "390 reporting: step opens",
+      "pass": true
+    },
+    {
+      "name": "390 reporting: named Explore opens canvas",
+      "pass": true
+    },
+    {
+      "name": "390 reporting: pause icon decorative",
+      "pass": true
+    },
+    {
+      "name": "390 reporting: pause exposes Continue",
+      "pass": true
+    },
+    {
+      "name": "390 reporting: continue exposes Pause",
+      "pass": true
+    },
+    {
+      "name": "390 reporting: progress numbers opaque",
+      "pass": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

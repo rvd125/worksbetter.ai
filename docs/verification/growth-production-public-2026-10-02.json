@@ -1,5 +1,5 @@
 {
-  "verified_at_utc": "2026-10-02T11:15:45.666839+00:00",
+  "verified_at_utc": "2026-10-02T11:35:06.559986+00:00",
   "scope": "Anonymous HTTPS after commercial refinement; no token, POST, enquiry notification or external analytics",
   "checks": {
     "all_reviewed_routes200": true,
@@ -14,7 +14,7 @@
       "path": "/",
       "status": 200,
       "final_url": "https://worksbetter.ai/",
-      "sha256": "e0414657a07135eef655f831c1f0d5ba11a55398833bf8244f5b1f80460095a9",
+      "sha256": "e5e1d9c1cf283d66ca940e4a65cd1720650e86cc4daee84603e45a927c8cb29f",
       "h1_count": 1,
       "title": "AI automation around your existing systems | Works Better",
       "canonical": [
@@ -32,7 +32,7 @@
       "path": "/ai-customer-enquiry-automation/",
       "status": 200,
       "final_url": "https://worksbetter.ai/ai-customer-enquiry-automation/",
-      "sha256": "6be8bd704e5c5585e8f94d77e3428a4db7828801a94f31e39e9279dd290eb5c6",
+      "sha256": "7aaafff5ec77988e2d1d7ebb9d8c8d14b3c101544b143309b3fe55854557ef02",
       "h1_count": 1,
       "title": "AI customer enquiry automation | Works Better",
       "canonical": [
@@ -50,7 +50,7 @@
       "path": "/employee-onboarding-automation/",
       "status": 200,
       "final_url": "https://worksbetter.ai/employee-onboarding-automation/",
-      "sha256": "f2331e2b83241b664f20e8df5d0eaa5b9a1a284df7823f0c4524452a9bb54527",
+      "sha256": "ead7b850028ac635581153e9a217a10c6634da230c74ec4c8bd470a9f8a452e2",
       "h1_count": 1,
       "title": "Employee onboarding automation | Works Better",
       "canonical": [
@@ -68,7 +68,7 @@
       "path": "/enquiry-privacy/",
       "status": 200,
       "final_url": "https://worksbetter.ai/enquiry-privacy/",
-      "sha256": "2aac0affe7669156e5b81c019352e6227717635544cd7339b43f807a94c7ae33",
+      "sha256": "f3d87cafa3d65140199d07c4b265fa809563c0b1d9d330c0ec931e4c2242c37e",
       "h1_count": 1,
       "title": "How enquiries are handled | Works Better",
       "canonical": [
@@ -86,7 +86,7 @@
       "path": "/inside-an-ai-agent-fleet/",
       "status": 200,
       "final_url": "https://worksbetter.ai/inside-an-ai-agent-fleet/",
-      "sha256": "459935320d40a252292691967a4bb2a1b722423ed1a0334f6a6029922a088c81",
+      "sha256": "906a5dc42eaf6eadcfde5f85db03cfbc81badbaca8520f617d54931bcd09a836",
       "h1_count": 1,
       "title": "Decisions and safeguards in connected workflows | Works Better",
       "canonical": [
@@ -104,7 +104,7 @@
       "path": "/job-profitability-reporting/",
       "status": 200,
       "final_url": "https://worksbetter.ai/job-profitability-reporting/",
-      "sha256": "3fc5b533c4e1d4b4f2399a743c5fe20bfd8b099b89cc644f897195a9e940aa60",
+      "sha256": "88b01613a90ab340042140c8b70f1d4fb12ff4ad0d984861dbed15b857ecdd28",
       "h1_count": 1,
       "title": "Job profitability reporting with AI | Works Better",
       "canonical": [
@@ -122,7 +122,7 @@
       "path": "/lead-routing-automation/",
       "status": 200,
       "final_url": "https://worksbetter.ai/lead-routing-automation/",
-      "sha256": "9088e34e51e44c8e73c55b50b8f9b839c28b5884c42b0052f97281310e26cd66",
+      "sha256": "39e32840d55bda4d7f5e03c9b66abbf8eb7b77f2feafa399ee14d7251952f60e",
       "h1_count": 1,
       "title": "Lead routing automation for business | Works Better",
       "canonical": [
@@ -140,7 +140,7 @@
       "path": "/multi-source-report-automation/",
       "status": 200,
       "final_url": "https://worksbetter.ai/multi-source-report-automation/",
-      "sha256": "add3615c4a0967817b3c4fabb990a26b2a7caef0f7e51d01456f6ccd119fa0bc",
+      "sha256": "77e95617f0e649b4d9dbf49e7b4d4bd7e6f9fd22f8582c5263130e50857fa8d8",
       "h1_count": 1,
       "title": "Multi-source report automation | Works Better",
       "canonical": [
@@ -158,7 +158,7 @@
       "path": "/simpro-xero-invoice-automation/",
       "status": 200,
       "final_url": "https://worksbetter.ai/simpro-xero-invoice-automation/",
-      "sha256": "9b36e56c7cfacfabe4351fc9d9e3425d54b4877ed6ff13a08ef10459cc8baf7e",
+      "sha256": "17c90c09d44711285b76dff094658ef239f477a6af8778fc83d9a3e3e52fd392",
       "h1_count": 1,
       "title": "Simpro\u2013Xero invoice automation | Works Better",
       "canonical": [
@@ -176,7 +176,7 @@
       "path": "/guides/",
       "status": 200,
       "final_url": "https://worksbetter.ai/guides/",
-      "sha256": "8fce6842b53ff7586aa4e413588227e72a18f470b21bf679fba5884dba3be045",
+      "sha256": "68d2fd42f540574eab9407cdcc68380847d69afd77340eb3458dd8a05a9340c9",
       "h1_count": 1,
       "title": "Guides - Works Better",
       "canonical": [
@@ -194,7 +194,7 @@
       "path": "/why-are-we-entering-this-twice/",
       "status": 200,
       "final_url": "https://worksbetter.ai/why-are-we-entering-this-twice/",
-      "sha256": "6aeb0f0dd2b5308975cf553bd9774e1ebc1a87474098a1fdf000c08ed720cd00",
+      "sha256": "bde0def2f6ba3e37d490a3090eb621055b4eb66ec30a184feda22c9cbd20c232",
       "h1_count": 1,
       "title": "Why are we entering this twice? | Works Better",
       "canonical": [
@@ -218,19 +218,19 @@
       "path": "/sitemap_index.xml",
       "status": 200,
       "final_url": "https://worksbetter.ai/sitemap_index.xml",
-      "sha256": "82d23dd863bcf3f9bb62259ec96f3bc35bf8c211ec67a90dfff0a62b15166cd9"
+      "sha256": "39b205926cc899089ccf1a2d96c407e1f4b9f149aaf81dbbe174038b9d095784"
     },
     {
       "path": "/wp-sitemap.xml",
       "status": 200,
       "final_url": "https://worksbetter.ai/sitemap_index.xml",
-      "sha256": "82d23dd863bcf3f9bb62259ec96f3bc35bf8c211ec67a90dfff0a62b15166cd9"
+      "sha256": "39b205926cc899089ccf1a2d96c407e1f4b9f149aaf81dbbe174038b9d095784"
     },
     {
       "path": "/home/",
       "status": 200,
       "final_url": "https://worksbetter.ai/",
-      "sha256": "e0414657a07135eef655f831c1f0d5ba11a55398833bf8244f5b1f80460095a9",
+      "sha256": "e5e1d9c1cf283d66ca940e4a65cd1720650e86cc4daee84603e45a927c8cb29f",
       "h1_count": 1,
       "title": "AI automation around your existing systems | Works Better",
       "canonical": [
@@ -248,7 +248,7 @@
       "path": "/index.php/ai-customer-enquiry-automation/",
       "status": 200,
       "final_url": "https://worksbetter.ai/ai-customer-enquiry-automation/",
-      "sha256": "6be8bd704e5c5585e8f94d77e3428a4db7828801a94f31e39e9279dd290eb5c6",
+      "sha256": "7aaafff5ec77988e2d1d7ebb9d8c8d14b3c101544b143309b3fe55854557ef02",
       "h1_count": 1,
       "title": "AI customer enquiry automation | Works Better",
       "canonical": [
@@ -266,19 +266,19 @@
       "path": "/wb-production-missing-20261002/",
       "status": 404,
       "final_url": "https://worksbetter.ai/wb-production-missing-20261002/",
-      "sha256": "eb0ef27d8fa417cf957372a0ccfdaecf97dbdf564cfdac4d2e310473d0755baf"
+      "sha256": "ffa41e10bfb9ff26805aea277ca65254e991d968bc9028d062f61a55d5e9d89b"
     },
     {
       "path": "/wp-content/themes/worksbetter-wpvibe-draft/wb-growth-content.json",
       "status": 404,
       "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/wb-growth-content.json",
-      "sha256": "f0e4dc02fe082e857d0ff51dcfcc39d521e8c077b45e211e381ce4c73f1710ed"
+      "sha256": "7294797bca766e8ebcd1b12369f557675a8a43ffd9261bd1da9904de504362ed"
     },
     {
       "path": "/wp-content/themes/worksbetter-wpvibe-draft/wb-preview-content.json",
       "status": 404,
       "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/wb-preview-content.json",
-      "sha256": "f0e4dc02fe082e857d0ff51dcfcc39d521e8c077b45e211e381ce4c73f1710ed"
+      "sha256": "7294797bca766e8ebcd1b12369f557675a8a43ffd9261bd1da9904de504362ed"
     }
   ],
   "assets": [
@@ -314,7 +314,7 @@
       "path": "/wp-content/themes/worksbetter-wpvibe-draft/assets/guides.css",
       "status": 200,
       "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/guides.css",
-      "sha256": "35a2cdcdc15ea98aae904b0607445e0a9a3b31d10dbfc76f5feb88f097784049",
+      "sha256": "65970f9c7a22b1f0e7026189b5c9d3ad27fd25146302abe09d76083e43812179",
       "matches_source_hash": true
     },
     {
@@ -335,14 +335,14 @@
       "path": "/wp-content/themes/worksbetter-wpvibe-draft/assets/systems.js",
       "status": 200,
       "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/systems.js",
-      "sha256": "408e5355523d2df65103b32fc18f7504814cb77241ee03c8fb2d21b38e2ddc94",
+      "sha256": "ca63b135ea22268103f9da2e8cd6465870c8649999163e055d06f6b58dc14c9a",
       "matches_source_hash": true
     },
     {
       "path": "/wp-content/themes/worksbetter-wpvibe-draft/pages.json",
       "status": 200,
       "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/pages.json",
-      "sha256": "b41c1f23d9d7634e45900e3cccd3c3590ce6f754986c0c45c8f0997aef42d514",
+      "sha256": "ad4f1036d42a1cfae1c41d03d346e45903e2d701efef5123101c48a8b5488538",
       "matches_source_hash": true
     },
     {
@@ -358,79 +358,79 @@
       "path": "/",
       "status": 200,
       "final_url": "https://worksbetter.ai/",
-      "sha256": "e0414657a07135eef655f831c1f0d5ba11a55398833bf8244f5b1f80460095a9"
+      "sha256": "e5e1d9c1cf283d66ca940e4a65cd1720650e86cc4daee84603e45a927c8cb29f"
     },
     {
       "path": "/ai-customer-enquiry-automation/",
       "status": 200,
       "final_url": "https://worksbetter.ai/ai-customer-enquiry-automation/",
-      "sha256": "6be8bd704e5c5585e8f94d77e3428a4db7828801a94f31e39e9279dd290eb5c6"
+      "sha256": "7aaafff5ec77988e2d1d7ebb9d8c8d14b3c101544b143309b3fe55854557ef02"
     },
     {
       "path": "/employee-onboarding-automation/",
       "status": 200,
       "final_url": "https://worksbetter.ai/employee-onboarding-automation/",
-      "sha256": "f2331e2b83241b664f20e8df5d0eaa5b9a1a284df7823f0c4524452a9bb54527"
+      "sha256": "ead7b850028ac635581153e9a217a10c6634da230c74ec4c8bd470a9f8a452e2"
     },
     {
       "path": "/enquiry-privacy/",
       "status": 200,
       "final_url": "https://worksbetter.ai/enquiry-privacy/",
-      "sha256": "2aac0affe7669156e5b81c019352e6227717635544cd7339b43f807a94c7ae33"
+      "sha256": "f3d87cafa3d65140199d07c4b265fa809563c0b1d9d330c0ec931e4c2242c37e"
     },
     {
       "path": "/guides/",
       "status": 200,
       "final_url": "https://worksbetter.ai/guides/",
-      "sha256": "8fce6842b53ff7586aa4e413588227e72a18f470b21bf679fba5884dba3be045"
+      "sha256": "68d2fd42f540574eab9407cdcc68380847d69afd77340eb3458dd8a05a9340c9"
     },
     {
       "path": "/home/",
       "status": 200,
       "final_url": "https://worksbetter.ai/",
-      "sha256": "e0414657a07135eef655f831c1f0d5ba11a55398833bf8244f5b1f80460095a9"
+      "sha256": "e5e1d9c1cf283d66ca940e4a65cd1720650e86cc4daee84603e45a927c8cb29f"
     },
     {
       "path": "/index.php/ai-customer-enquiry-automation/",
       "status": 200,
       "final_url": "https://worksbetter.ai/ai-customer-enquiry-automation/",
-      "sha256": "6be8bd704e5c5585e8f94d77e3428a4db7828801a94f31e39e9279dd290eb5c6"
+      "sha256": "7aaafff5ec77988e2d1d7ebb9d8c8d14b3c101544b143309b3fe55854557ef02"
     },
     {
       "path": "/inside-an-ai-agent-fleet/",
       "status": 200,
       "final_url": "https://worksbetter.ai/inside-an-ai-agent-fleet/",
-      "sha256": "459935320d40a252292691967a4bb2a1b722423ed1a0334f6a6029922a088c81"
+      "sha256": "906a5dc42eaf6eadcfde5f85db03cfbc81badbaca8520f617d54931bcd09a836"
     },
     {
       "path": "/job-profitability-reporting/",
       "status": 200,
       "final_url": "https://worksbetter.ai/job-profitability-reporting/",
-      "sha256": "3fc5b533c4e1d4b4f2399a743c5fe20bfd8b099b89cc644f897195a9e940aa60"
+      "sha256": "88b01613a90ab340042140c8b70f1d4fb12ff4ad0d984861dbed15b857ecdd28"
     },
     {
       "path": "/lead-routing-automation/",
       "status": 200,
       "final_url": "https://worksbetter.ai/lead-routing-automation/",
-      "sha256": "9088e34e51e44c8e73c55b50b8f9b839c28b5884c42b0052f97281310e26cd66"
+      "sha256": "39e32840d55bda4d7f5e03c9b66abbf8eb7b77f2feafa399ee14d7251952f60e"
     },
     {
       "path": "/multi-source-report-automation/",
       "status": 200,
       "final_url": "https://worksbetter.ai/multi-source-report-automation/",
-      "sha256": "add3615c4a0967817b3c4fabb990a26b2a7caef0f7e51d01456f6ccd119fa0bc"
+      "sha256": "77e95617f0e649b4d9dbf49e7b4d4bd7e6f9fd22f8582c5263130e50857fa8d8"
     },
     {
       "path": "/simpro-xero-invoice-automation/",
       "status": 200,
       "final_url": "https://worksbetter.ai/simpro-xero-invoice-automation/",
-      "sha256": "9b36e56c7cfacfabe4351fc9d9e3425d54b4877ed6ff13a08ef10459cc8baf7e"
+      "sha256": "17c90c09d44711285b76dff094658ef239f477a6af8778fc83d9a3e3e52fd392"
     },
     {
       "path": "/why-are-we-entering-this-twice/",
       "status": 200,
       "final_url": "https://worksbetter.ai/why-are-we-entering-this-twice/",
-      "sha256": "6aeb0f0dd2b5308975cf553bd9774e1ebc1a87474098a1fdf000c08ed720cd00"
+      "sha256": "bde0def2f6ba3e37d490a3090eb621055b4eb66ec30a184feda22c9cbd20c232"
     }
   ]
 }
