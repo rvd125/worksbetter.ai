@@ -1,0 +1,11 @@
+# Works Better
+
+Release source for [worksbetter.ai](https://worksbetter.ai), by Renzo Demartini. Works Better shows business owners how AI workflows and tools can work around the apps and systems their teams already know. Renzo personally designs and builds the solutions: automated workflows, approval-based workflows and tools operated by the customer's team. The personal consulting site and AI Labs have separate purposes.
+
+Current checkpoint: reviewed WordPress release candidate. Publication and independent enquiry delivery/analytics verification are in progress. Historical dated reports describe the state at the time of each inspection, not a current deployment claim.
+
+This repository tracks an explicit patch and inspected source; it is not a complete WordPress installation, a full database backup or an instruction to upload a partial theme wholesale. Follow [the release manifest](release/manifest.json) and [release/rollback procedure](release/RELEASE-AND-ROLLBACK.md). Temporary preview content/filter files must never ship. Private backups, original captured HTML, contact PII, preview tokens and server backup locations are excluded from the public repository.
+
+[Buyer positioning and keyword evidence](docs/KEYWORD-AND-BUYER-POSITIONING-2026-10-01.md), [eight-week content plan](docs/EIGHT-WEEK-ORGANIC-PLAN-2026-10-01.md), [Search Console baseline and readiness review](docs/FINAL-READINESS-AND-SEARCH-REVIEW-2026-10-02.md), and dated actual Astra decisions are retained under docs. No traffic forecast, measured time saving or qualified-lead result is claimed by the fictional demonstrations or this source release.
+
+Actual WordPress browser QA uses qa-wordpress-preview.cjs, an externally supplied private preview configuration and a dedicated output directory. WB_PUBLIC_QA=1 tests public URLs; enquiry submissions are intercepted. The separate single labelled production test is recorded independently. Offline harnesses require the locally retained rendered templates/fonts, which are not part of this public source snapshot.
