@@ -46,3 +46,7 @@ Propose a weekly Monday review at09:00 Australia/Sydney: review complete search 
 Increase publication only when content remains distinct and enquiry handling works. If relevant visits are sparse, improve helpful discoverable pages and internal routes. If visitors explore but do not enquire, assess the offer and invitation. If starts do not become saved records, inspect form/service failures. A small daily movement is not grounds for another rebuild.
 
 LinkedIn remains deferred. No ads, bulk messages, unsolicited outreach, partner messages or external posts have been authorised or sent. External distribution remains a draft decision.
+
+## 2October acquisition checkpoint
+
+The six exact implementation worksheets are now in source/content/posts.json. Actual Astra accepted their distinct purposes and desktop/mobile template rendering (107checks, zero exceptions). Revised46 is approved for explicit publication at its existing route, but remains unpublished at the quota checkpoint. Six native body edits and five future-title/excerpt edits were acknowledged; metadata/native parity/publication remain pending because WPVibe reached its daily limit. The native existing schedule remains16Oct47,30Oct48,13Nov49,27Nov50,11Dec51,25Dec52 at09:00UTC, pending full readback. No new automatic schedule or weekly review was created. Week2onboarding and week5approval-brief drafts remain editorial proposals; do not publish a second article covering49without a fresh overlap review. See ACQUISITION-PASS-2026-10-02.md for current scope and verification limits.

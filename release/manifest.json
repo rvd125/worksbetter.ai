@@ -1,6 +1,6 @@
 {
   "as_of": "2026-10-02",
-  "state": "ACQUISITION_PATCH_PREPARED_PENDING_EXACT_ASTRA_AND_PRODUCTION_CHECK",
+  "state": "ACQUISITION_ASTRA_ACCEPTED_STAGED_NATIVE_PARTIAL_WPVIBE_QUOTA_BLOCKED",
   "active_theme": "worksbetter-wpvibe-draft",
   "draft_is_active": false,
   "source_type": "Sanitized reviewed explicit WordPress patch with authenticated native/public production readback; not a complete site/database clone",
@@ -394,6 +394,9 @@
       52
     ],
     "policy": "Publish distinct46 explicitly after Astra. Preserve five native future dates/slugs. No bulk import. No new scheduled automation.",
-    "conversion": "enquiry.js unchanged; no second generate_lead handler."
+    "conversion": "enquiry.js unchanged; no second generate_lead handler.",
+    "source_commit": "a584fa2def0f697577fdb921b8f3e0b2ed436cc3",
+    "astra": "Scoped actual pre-release acceptance;107 checks/zero browser exceptions. Production review pending.",
+    "publication": "Theme remains draft and46 remains unpublished; quota blocked metadata and native readback. Do not infer deployment from source commit."
   }
 }

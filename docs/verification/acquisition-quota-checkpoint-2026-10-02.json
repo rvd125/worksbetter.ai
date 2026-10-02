@@ -1,0 +1,93 @@
+{
+  "as_of": "2026-10-02",
+  "state": "Reviewed acquisition patch remains draft; WPVibe quota blocks metadata/publication/native readback",
+  "source_commit": "a584fa2def0f697577fdb921b8f3e0b2ed436cc3",
+  "assets": [
+    {
+      "asset": "providers.js",
+      "status": 200,
+      "sha256": "e88de29eaa8ad879f43c39881bb7cd59a5a376ee3c2f2b86af20f6d4568495a9",
+      "matches_prior_live": true,
+      "matches_candidate": false
+    },
+    {
+      "asset": "fleet.js",
+      "status": 200,
+      "sha256": "75a62f979ad01005b7b71505ab598adbb5ce989ee0cd51bbfb5e3fc5e430b602",
+      "matches_prior_live": true,
+      "matches_candidate": false
+    },
+    {
+      "asset": "systems.js",
+      "status": 200,
+      "sha256": "ca63b135ea22268103f9da2e8cd6465870c8649999163e055d06f6b58dc14c9a",
+      "matches_prior_live": true,
+      "matches_candidate": false
+    },
+    {
+      "asset": "measurement.js",
+      "status": 200,
+      "sha256": "aa87fb5e852f37548fec800931b9ade7a9faeb0d06911ab4450c08c12cf8cbbc",
+      "matches_prior_live": true,
+      "matches_candidate": false
+    }
+  ],
+  "anonymous_routes": [
+    {
+      "slug": "why-monthly-reporting-takes-two-days",
+      "status": 404
+    },
+    {
+      "slug": "automation-or-ai-which-job",
+      "status": 404
+    },
+    {
+      "slug": "systems-do-not-need-replacing",
+      "status": 404
+    },
+    {
+      "slug": "lead-routing-first-15-minutes",
+      "status": 404
+    },
+    {
+      "slug": "sometimes-do-not-automate-this",
+      "status": 404
+    },
+    {
+      "slug": "map-the-work-before-buying-another-tool",
+      "status": 404
+    }
+  ],
+  "native_write_acknowledgements": {
+    "bodies": [
+      46,
+      47,
+      48,
+      50,
+      51,
+      52
+    ],
+    "titles_excerpts_batch": [
+      47,
+      48,
+      50,
+      51,
+      52
+    ],
+    "metadata_updates_blocked": [
+      47,
+      48,
+      50,
+      51,
+      52
+    ]
+  },
+  "native52_extractable_batch_parity": {
+    "content": true,
+    "title": true,
+    "status": "future",
+    "date": "2026-12-25T09:00:00",
+    "excerpt": "Not returned before truncation; pending readback"
+  },
+  "full_native_readback": "Blocked; do not infer parity for remaining records."
+}
