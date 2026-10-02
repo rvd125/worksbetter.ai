@@ -1,10 +1,10 @@
 {
   "as_of": "2026-10-02",
-  "state": "ACQUISITION_DEPLOYED_PUBLICLY_VERIFIED_ASTRA_ACCEPTED",
+  "state": "FINAL_IMPROVEMENTS_DEPLOYED_PUBLICLY_VERIFIED_ASTRA_ACCEPTED_GITHUB_APPROVAL_PENDING",
   "active_theme": "worksbetter-wpvibe-draft",
   "draft_is_active": false,
   "source_type": "Sanitized reviewed explicit WordPress patch with authenticated native/public production readback; not a complete site/database clone",
-  "astra": "Actual commercial/accessibility and acquisition pre/post-release acceptance. Acquisition235browser and57public checks passed. Exact author display-name patch separately accepted before/after.",
+  "astra": "Actual pre/post final competitor-improvements acceptance;182 public browser and55 HTTPS checks pass. Earlier commercial/accessibility/acquisition acceptances retained.",
   "apply_policy": "Explicit per-file/per-record patch only. Never wholesale import JSON statuses or upload this complete snapshot.",
   "changed_files": [
     {
@@ -34,7 +34,7 @@
     {
       "path": "source/theme/assets/guides.css",
       "destination": "wp-content/themes/worksbetter-wpvibe-draft/assets/guides.css",
-      "sha256": "65970f9c7a22b1f0e7026189b5c9d3ad27fd25146302abe09d76083e43812179",
+      "sha256": "6aef2da6421539255a92cbed67f70b08dd1f3def231facb3aad6970ad3e23646",
       "original_sha256": "81c7d1b72456e2d9e422cdb2176e053c7ac552975e8382c2505b5c992a127650"
     },
     {
@@ -52,7 +52,7 @@
     {
       "path": "source/theme/assets/systems.js",
       "destination": "wp-content/themes/worksbetter-wpvibe-draft/assets/systems.js",
-      "sha256": "4e172c8e9d6966a999e7e8b1bc8c6a77a9c7a63f561be9371ed9210e7e9acc3a",
+      "sha256": "b2e6da8cf6b41eb6f8bad3d543dfdd429e1b853bb38d583b468cae88f0da53d9",
       "original_sha256": "be4fb0b0cb4d8418dd3cef0a44b6a92fb17d9532eccd8da0bfeb77ffbbc5bd70"
     },
     {
@@ -62,7 +62,7 @@
     },
     {
       "path": "source/theme/pages.json",
-      "sha256": "ad4f1036d42a1cfae1c41d03d346e45903e2d701efef5123101c48a8b5488538",
+      "sha256": "a92da0171835f11489f3d54e05cc34f5b7ca06842c271c6b76192114e0ba357c",
       "apply_note": "Sanitized public export including reviewed privacy entry; never bulk import"
     },
     {
@@ -413,5 +413,20 @@
       "docs/verification/acquisition-six-tools-2026-10-02.json",
       "docs/verification/mobile-profile-comparison-2026-10-02.json"
     ]
+  },
+  "final_improvements": {
+    "article_id": 111,
+    "article_status": "publish",
+    "rollback_source": "766d7f7e7131c018748a4bf2312c4a140dd62926",
+    "preview_checks": 182,
+    "preview_exceptions": 0,
+    "astra": "Actual pre-release and production acceptance",
+    "public_browser_checks": 182,
+    "public_https_checks": 55,
+    "github": "Automatic approval review requires explicit approval; remote not updated",
+    "article_source": "source/content/enquiry-implementation.json",
+    "home_native_source_exact": true,
+    "temporary_preview_shadow_removed": true,
+    "scoped_rollback": "Restore preceding two assets and native home revision; return111 to draft if withdrawing. Preserve confidentiality repairs, enquiry records and legitimate functions.php."
   }
 }

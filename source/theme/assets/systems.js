@@ -77,7 +77,8 @@
 
   let focused=null,focusPlaceholder=null,focusOpener=null;
   function expand(key){if(focused)return;stopAll();focused=key;focusOpener=within(key,'[data-expand]');focusPlaceholder=document.createElement('div');focusPlaceholder.className='focus-placeholder';const card=root(key);card.before(focusPlaceholder);$('#focus-content').append(card);$('#focus-dialog').showModal();document.body.classList.add('canvas-focused');resize()}
-  $('#focus-dialog').addEventListener('close',()=>{if(!focused)return;const card=root(focused);focusPlaceholder.replaceWith(card);focused=null;focusPlaceholder=null;document.body.classList.remove('canvas-focused');resize();focusOpener?.focus({preventScroll:true})});
+  function restoreFocus(refocus=true){if(!focused)return;const card=root(focused);focusPlaceholder.replaceWith(card);focused=null;focusPlaceholder=null;document.body.classList.remove('canvas-focused');resize();if(refocus)focusOpener?.focus({preventScroll:true})}
+  $('#focus-dialog').addEventListener('close',()=>restoreFocus());
   function renderResult(key){const s=states[key],r=s.result,el=within(key,'.result-content');let content='',title='',decision='Mark reviewed',hint='Review the result before the final handover.',extra='';
     if(key==='invoice'){title='An invoice with the scope decision attached.';content='<div class="invoice-paper"><div class="document-brand"><div class="wb-identity wb-document" aria-label="Works Better by Renzo Demartini"><span class="wb-type"><span class="wb-name">works<span>better</span><b aria-hidden="true">.</b></span><span class="wb-byline">by Renzo Demartini</span></span></div><span>DRAFT<br>WB-1042</span></div><div class="document-recipient"><span>PREPARED FROM YOUR JOB</span><strong>Labour &amp; materials</strong><small>Sample invoice · AUD</small></div><dl>'+r.lines.map(l=>'<div><dt>'+esc(l.description)+'</dt><dd>'+money(l.amount)+'</dd></div>').join('')+'</dl><div class="invoice-total">Subtotal · ex GST <b>'+money(r.subtotal)+'</b></div>'+(r.excluded?'<p class="held-note">'+money(r.excluded)+' variation held outside this draft.</p>':'')+'</div>';decision=+s.input.variation?'Include the variation':'Approve base scope';hint='Base work stays in the draft. You decide whether the extra work belongs here.';if(+s.input.variation)extra='<button class="button" data-decline>Keep the variation out</button>'}
     if(key==='enquiry'){title='A reply with context. A team with the same story.';content='<div class="reply-paper"><label for="reply-'+key+'">Edit the response before reviewing</label><textarea id="reply-'+key+'" maxlength="3000">'+esc(s.reply??r.reply)+'</textarea></div><div class="handover-cards"><div><small>AIRTABLE / LEAD CONTEXT</small><strong>'+esc(r.intent)+'</strong><p>'+ (r.urgent?'Availability check required':'Standard follow-up')+'</p></div><div><small>TEAMS / NEXT STEP</small><strong>Confirm scope, site and timing.</strong><p>Original enquiry stays attached.</p></div></div>';decision='Review this response';hint='Your edited response stays with the customer context. Nothing is sent.'}
@@ -120,6 +121,31 @@
   $$('[data-follow]').forEach(b=>b.onclick=()=>{const on=b.getAttribute('aria-pressed')!=='true';b.setAttribute('aria-pressed',String(on));b.textContent='Follow active steps: '+(on?'on':'off');const state=states[b.dataset.follow];if(on&&state){state.lastVisiblePhase=-1;paint(b.dataset.follow)}});
   $$('[data-contact]').forEach(b=>b.onclick=()=>contact(b.dataset.workflowContact||pageKey||null,b.dataset.deliveryMode));$('#contact-brief').oninput=email;$('#copy-brief').onclick=async()=>{try{await navigator.clipboard.writeText(window.WBEnquiry?.getBrief?.()||$('#contact-brief').value);$('#copy-message').textContent='Copied.';track('brief_copy',pageKey||'general')}catch{$('#contact-brief').focus();$('#contact-brief').select?.();$('#copy-message').textContent='Your written brief is selected. Open the email draft to include your selected delivery mode and source.'}};
   document.addEventListener('visibilitychange',()=>{if(document.hidden)stopAll()});comparison(pageKey||'invoice');
+  /* Progressive discovery: real page links without JS; one selected canvas with JS. */
+  if(!pageKey && document.querySelector('[data-choose-system]')){
+    const choices=$$('[data-choose-system]');
+    const announcement=$('.wb-selection-status');
+    let visibleKey=null;
+    function chooseSystem(key,notify=false){
+      if(!activeKeys.includes(key))return;
+      const changed=visibleKey!==key;
+      if(changed){stopAll();if(focused){$('#focus-dialog').close();restoreFocus(false);}activeKeys.forEach(k=>root(k).querySelectorAll('dialog[open]').forEach(d=>d.close()));}
+      activeKeys.forEach(k=>{root(k).hidden=k!==key;});
+      choices.forEach(a=>{const current=a.dataset.chooseSystem===key;a.setAttribute('aria-pressed',String(current));});
+      visibleKey=key;resize();
+      if(announcement)announcement.textContent=systems[key].area+' example selected. Explore the result or follow the steps below.';
+      if(notify && changed)track('system_selected',key);
+    }
+    choices.forEach(a=>{
+      a.setAttribute('role','button');a.setAttribute('aria-controls','system-'+a.dataset.chooseSystem);
+      a.onclick=e=>{if(e.ctrlKey||e.metaKey||e.shiftKey||e.altKey||e.button!==0)return;e.preventDefault();chooseSystem(a.dataset.chooseSystem,true);history.replaceState(null,'','#system-'+a.dataset.chooseSystem);};
+      a.addEventListener('keydown',e=>{if(e.key===' '){e.preventDefault();a.click();}});
+    });
+    const fromHash=()=>{const key=location.hash.replace(/^#system-/,'');if(activeKeys.includes(key))chooseSystem(key,true);};
+    chooseSystem(activeKeys.includes(location.hash.replace(/^#system-/,''))?location.hash.slice(8):'invoice');
+    window.addEventListener('hashchange',fromHash);
+    document.addEventListener('click',e=>{const a=e.target.closest('a[href^="#system-"]');if(a)chooseSystem(a.getAttribute('href').slice(8),true);});
+  }
   window.WBSystemUI={run,advance,inspect,edit,states,inputs,stopAll,expand,clearInspection,openResult,contact};
   if(window.matchMedia?.('(prefers-reduced-motion: reduce)').matches){stepDelay=0;$('#flow-pace').value='manual'}
 })();

@@ -1,0 +1,1774 @@
+{
+  "new_journey": {
+    "scope": "Actual isolated WordPress preview homepage; native implementation draft body injected into actual single template for rendering, not native anonymous draft preview",
+    "network": "TLS verified; site/Google Fonts GET; all POST and analytics blocked; no notifications",
+    "checks": [
+      {
+        "name": "1440: homepage200",
+        "pass": true
+      },
+      {
+        "name": "1440: one H1",
+        "pass": true
+      },
+      {
+        "name": "1440: no overflow",
+        "pass": true
+      },
+      {
+        "name": "1440: paid step precedes gallery",
+        "pass": true
+      },
+      {
+        "name": "1440: five tangible review outputs",
+        "pass": true
+      },
+      {
+        "name": "1440: own implementation explicitly labelled",
+        "pass": true
+      },
+      {
+        "name": "1440: one visible canvas initially",
+        "pass": true
+      },
+      {
+        "name": "1440: six selector links",
+        "pass": true
+      },
+      {
+        "name": "1440: six full-page links retained",
+        "pass": true
+      },
+      {
+        "name": "1440: build and handover disclosure",
+        "pass": true
+      },
+      {
+        "name": "1440: Space selects enquiry",
+        "pass": true
+      },
+      {
+        "name": "1440: selected panel exclusively visible",
+        "pass": true
+      },
+      {
+        "name": "1440: one selection event",
+        "pass": true
+      },
+      {
+        "name": "1440: same selection not repeated",
+        "pass": true
+      },
+      {
+        "name": "1440 invoice: only selected panel visible",
+        "pass": true
+      },
+      {
+        "name": "1440 invoice: usable diagram proportions",
+        "pass": true
+      },
+      {
+        "name": "1440 invoice: situations open",
+        "pass": true
+      },
+      {
+        "name": "1440 invoice: bounded completion",
+        "pass": true
+      },
+      {
+        "name": "1440 invoice: replay usable",
+        "pass": true
+      },
+      {
+        "name": "1440 enquiry: only selected panel visible",
+        "pass": true
+      },
+      {
+        "name": "1440 enquiry: usable diagram proportions",
+        "pass": true
+      },
+      {
+        "name": "1440 enquiry: situations open",
+        "pass": true
+      },
+      {
+        "name": "1440 enquiry: bounded completion",
+        "pass": true
+      },
+      {
+        "name": "1440 enquiry: replay usable",
+        "pass": true
+      },
+      {
+        "name": "1440 finance: only selected panel visible",
+        "pass": true
+      },
+      {
+        "name": "1440 finance: usable diagram proportions",
+        "pass": true
+      },
+      {
+        "name": "1440 finance: situations open",
+        "pass": true
+      },
+      {
+        "name": "1440 finance: bounded completion",
+        "pass": true
+      },
+      {
+        "name": "1440 finance: replay usable",
+        "pass": true
+      },
+      {
+        "name": "1440 onboarding: only selected panel visible",
+        "pass": true
+      },
+      {
+        "name": "1440 onboarding: usable diagram proportions",
+        "pass": true
+      },
+      {
+        "name": "1440 onboarding: situations open",
+        "pass": true
+      },
+      {
+        "name": "1440 onboarding: bounded completion",
+        "pass": true
+      },
+      {
+        "name": "1440 onboarding: replay usable",
+        "pass": true
+      },
+      {
+        "name": "1440 routing: only selected panel visible",
+        "pass": true
+      },
+      {
+        "name": "1440 routing: usable diagram proportions",
+        "pass": true
+      },
+      {
+        "name": "1440 routing: situations open",
+        "pass": true
+      },
+      {
+        "name": "1440 routing: bounded completion",
+        "pass": true
+      },
+      {
+        "name": "1440 routing: replay usable",
+        "pass": true
+      },
+      {
+        "name": "1440 reporting: only selected panel visible",
+        "pass": true
+      },
+      {
+        "name": "1440 reporting: usable diagram proportions",
+        "pass": true
+      },
+      {
+        "name": "1440 reporting: situations open",
+        "pass": true
+      },
+      {
+        "name": "1440 reporting: bounded completion",
+        "pass": true
+      },
+      {
+        "name": "1440 reporting: replay usable",
+        "pass": true
+      },
+      {
+        "name": "1440: switching stops hidden workflow",
+        "pass": true
+      },
+      {
+        "name": "1440: expanded canvas opens",
+        "pass": true
+      },
+      {
+        "name": "1440: hash change closes expanded dialog",
+        "pass": true
+      },
+      {
+        "name": "1440: moved panel restored",
+        "pass": true
+      },
+      {
+        "name": "1440: hash selects finance",
+        "pass": true
+      },
+      {
+        "name": "1440: direct hash selects reporting",
+        "pass": true
+      },
+      {
+        "name": "1440: unknown hash retains valid example",
+        "pass": true
+      },
+      {
+        "name": "1440: idea legacy hash opens disclosure",
+        "pass": true
+      },
+      {
+        "name": "1440: menu Escape closes",
+        "pass": true
+      },
+      {
+        "name": "1440: implementation article one H1",
+        "pass": true
+      },
+      {
+        "name": "1440: implementation article no overflow",
+        "pass": true
+      },
+      {
+        "name": "1440: implementation article synthetic limits visible",
+        "pass": true
+      },
+      {
+        "name": "1440: contextual article enquiry tracked once",
+        "pass": true
+      },
+      {
+        "name": "390: homepage200",
+        "pass": true
+      },
+      {
+        "name": "390: one H1",
+        "pass": true
+      },
+      {
+        "name": "390: no overflow",
+        "pass": true
+      },
+      {
+        "name": "390: paid step precedes gallery",
+        "pass": true
+      },
+      {
+        "name": "390: five tangible review outputs",
+        "pass": true
+      },
+      {
+        "name": "390: own implementation explicitly labelled",
+        "pass": true
+      },
+      {
+        "name": "390: one visible canvas initially",
+        "pass": true
+      },
+      {
+        "name": "390: six selector links",
+        "pass": true
+      },
+      {
+        "name": "390: six full-page links retained",
+        "pass": true
+      },
+      {
+        "name": "390: build and handover disclosure",
+        "pass": true
+      },
+      {
+        "name": "390: Space selects enquiry",
+        "pass": true
+      },
+      {
+        "name": "390: selected panel exclusively visible",
+        "pass": true
+      },
+      {
+        "name": "390: one selection event",
+        "pass": true
+      },
+      {
+        "name": "390: same selection not repeated",
+        "pass": true
+      },
+      {
+        "name": "390 invoice: only selected panel visible",
+        "pass": true
+      },
+      {
+        "name": "390 invoice: usable diagram proportions",
+        "pass": true
+      },
+      {
+        "name": "390 invoice: situations open",
+        "pass": true
+      },
+      {
+        "name": "390 invoice: bounded completion",
+        "pass": true
+      },
+      {
+        "name": "390 invoice: replay usable",
+        "pass": true
+      },
+      {
+        "name": "390 enquiry: only selected panel visible",
+        "pass": true
+      },
+      {
+        "name": "390 enquiry: usable diagram proportions",
+        "pass": true
+      },
+      {
+        "name": "390 enquiry: situations open",
+        "pass": true
+      },
+      {
+        "name": "390 enquiry: bounded completion",
+        "pass": true
+      },
+      {
+        "name": "390 enquiry: replay usable",
+        "pass": true
+      },
+      {
+        "name": "390 finance: only selected panel visible",
+        "pass": true
+      },
+      {
+        "name": "390 finance: usable diagram proportions",
+        "pass": true
+      },
+      {
+        "name": "390 finance: situations open",
+        "pass": true
+      },
+      {
+        "name": "390 finance: bounded completion",
+        "pass": true
+      },
+      {
+        "name": "390 finance: replay usable",
+        "pass": true
+      },
+      {
+        "name": "390 onboarding: only selected panel visible",
+        "pass": true
+      },
+      {
+        "name": "390 onboarding: usable diagram proportions",
+        "pass": true
+      },
+      {
+        "name": "390 onboarding: situations open",
+        "pass": true
+      },
+      {
+        "name": "390 onboarding: bounded completion",
+        "pass": true
+      },
+      {
+        "name": "390 onboarding: replay usable",
+        "pass": true
+      },
+      {
+        "name": "390 routing: only selected panel visible",
+        "pass": true
+      },
+      {
+        "name": "390 routing: usable diagram proportions",
+        "pass": true
+      },
+      {
+        "name": "390 routing: situations open",
+        "pass": true
+      },
+      {
+        "name": "390 routing: bounded completion",
+        "pass": true
+      },
+      {
+        "name": "390 routing: replay usable",
+        "pass": true
+      },
+      {
+        "name": "390 reporting: only selected panel visible",
+        "pass": true
+      },
+      {
+        "name": "390 reporting: usable diagram proportions",
+        "pass": true
+      },
+      {
+        "name": "390 reporting: situations open",
+        "pass": true
+      },
+      {
+        "name": "390 reporting: bounded completion",
+        "pass": true
+      },
+      {
+        "name": "390 reporting: replay usable",
+        "pass": true
+      },
+      {
+        "name": "390: switching stops hidden workflow",
+        "pass": true
+      },
+      {
+        "name": "390: expanded canvas opens",
+        "pass": true
+      },
+      {
+        "name": "390: hash change closes expanded dialog",
+        "pass": true
+      },
+      {
+        "name": "390: moved panel restored",
+        "pass": true
+      },
+      {
+        "name": "390: hash selects finance",
+        "pass": true
+      },
+      {
+        "name": "390: direct hash selects reporting",
+        "pass": true
+      },
+      {
+        "name": "390: unknown hash retains valid example",
+        "pass": true
+      },
+      {
+        "name": "390: idea legacy hash opens disclosure",
+        "pass": true
+      },
+      {
+        "name": "390: menu Escape closes",
+        "pass": true
+      },
+      {
+        "name": "390: implementation article one H1",
+        "pass": true
+      },
+      {
+        "name": "390: implementation article no overflow",
+        "pass": true
+      },
+      {
+        "name": "390: implementation article synthetic limits visible",
+        "pass": true
+      },
+      {
+        "name": "390: contextual article enquiry tracked once",
+        "pass": true
+      },
+      {
+        "name": "no JS: six substantive examples retained",
+        "pass": true
+      },
+      {
+        "name": "no JS: chooser retains six page links",
+        "pass": true
+      },
+      {
+        "name": "no uncaught browser exceptions",
+        "pass": true
+      }
+    ],
+    "errors": [],
+    "observations": [
+      {
+        "width": 1440,
+        "height": 2886
+      },
+      {
+        "width": 390,
+        "height": 3853
+      }
+    ]
+  },
+  "regressions": {
+    "scope": "Actual isolated WordPress HTTPS preview, ephemeral container trusts only configured proxy CA; TLS verification enabled; all enquiry POSTs intercepted; not production deployment or real delivery/GA receipt",
+    "checks": [
+      {
+        "name": "home 1440: actual TLS response200",
+        "pass": true
+      },
+      {
+        "name": "home 1440: one heading",
+        "pass": true
+      },
+      {
+        "name": "home 1440: three delivery modes",
+        "pass": true
+      },
+      {
+        "name": "home 1440: isolated draft assets",
+        "pass": true
+      },
+      {
+        "name": "home 1440: no overflow",
+        "pass": true
+      },
+      {
+        "name": "home 1440: one Guides destination",
+        "pass": true
+      },
+      {
+        "name": "menu 1440: opens",
+        "pass": true
+      },
+      {
+        "name": "menu 1440: closes",
+        "pass": true
+      },
+      {
+        "name": "contact 1440: selected automatic",
+        "pass": true
+      },
+      {
+        "name": "contact 1440: blank cannot send",
+        "pass": true
+      },
+      {
+        "name": "contact 1440: mock payload retains preference",
+        "pass": true
+      },
+      {
+        "name": "contact 1440: one client conversion",
+        "pass": true
+      },
+      {
+        "name": "contact 1440: no PII in custom events",
+        "pass": true
+      },
+      {
+        "name": "safeguards 1440: live PHP shadow loaded",
+        "pass": true
+      },
+      {
+        "name": "enquiry 1440: staff/customer separate",
+        "pass": true
+      },
+      {
+        "name": "invoice 1440: duplicate stops",
+        "pass": true
+      },
+      {
+        "name": "invoice 1440: reason required",
+        "pass": true
+      },
+      {
+        "name": "invoice 1440: no payment claim",
+        "pass": true
+      },
+      {
+        "name": "reporting 1440: held for review",
+        "pass": true
+      },
+      {
+        "name": "reporting 1440: retry resumes",
+        "pass": true
+      },
+      {
+        "name": "guides 1440: native contact link",
+        "pass": true
+      },
+      {
+        "name": "guides 1440: contact journey opens",
+        "pass": true
+      },
+      {
+        "name": "article 1440: contact/privacy footer",
+        "pass": true
+      },
+      {
+        "name": "privacy 1440: response heading",
+        "pass": true
+      },
+      {
+        "name": "privacy 1440: no overflow",
+        "pass": true
+      },
+      {
+        "name": "privacy 1440: owner email",
+        "pass": true
+      },
+      {
+        "name": "privacy 1440: storage/AI disclosure",
+        "pass": true
+      },
+      {
+        "name": "privacy 1440: old email absent",
+        "pass": true
+      },
+      {
+        "name": "privacy 1440: edited brief email destination",
+        "pass": true
+      },
+      {
+        "name": "privacy 1440: mode/source preserve email",
+        "pass": true
+      },
+      {
+        "name": "home 1440: systems opener/edit email destination",
+        "pass": true
+      },
+      {
+        "name": "home 1440: mode/source maintain email destination",
+        "pass": true
+      },
+      {
+        "name": "home 390: actual TLS response200",
+        "pass": true
+      },
+      {
+        "name": "home 390: one heading",
+        "pass": true
+      },
+      {
+        "name": "home 390: three delivery modes",
+        "pass": true
+      },
+      {
+        "name": "home 390: isolated draft assets",
+        "pass": true
+      },
+      {
+        "name": "home 390: no overflow",
+        "pass": true
+      },
+      {
+        "name": "home 390: one Guides destination",
+        "pass": true
+      },
+      {
+        "name": "menu 390: opens",
+        "pass": true
+      },
+      {
+        "name": "menu 390: closes",
+        "pass": true
+      },
+      {
+        "name": "contact 390: selected automatic",
+        "pass": true
+      },
+      {
+        "name": "contact 390: blank cannot send",
+        "pass": true
+      },
+      {
+        "name": "contact 390: mock payload retains preference",
+        "pass": true
+      },
+      {
+        "name": "contact 390: one client conversion",
+        "pass": true
+      },
+      {
+        "name": "contact 390: no PII in custom events",
+        "pass": true
+      },
+      {
+        "name": "safeguards 390: live PHP shadow loaded",
+        "pass": true
+      },
+      {
+        "name": "enquiry 390: staff/customer separate",
+        "pass": true
+      },
+      {
+        "name": "invoice 390: duplicate stops",
+        "pass": true
+      },
+      {
+        "name": "invoice 390: reason required",
+        "pass": true
+      },
+      {
+        "name": "invoice 390: no payment claim",
+        "pass": true
+      },
+      {
+        "name": "reporting 390: held for review",
+        "pass": true
+      },
+      {
+        "name": "reporting 390: retry resumes",
+        "pass": true
+      },
+      {
+        "name": "guides 390: native contact link",
+        "pass": true
+      },
+      {
+        "name": "guides 390: contact journey opens",
+        "pass": true
+      },
+      {
+        "name": "article 390: contact/privacy footer",
+        "pass": true
+      },
+      {
+        "name": "privacy 390: response heading",
+        "pass": true
+      },
+      {
+        "name": "privacy 390: no overflow",
+        "pass": true
+      },
+      {
+        "name": "privacy 390: owner email",
+        "pass": true
+      },
+      {
+        "name": "privacy 390: storage/AI disclosure",
+        "pass": true
+      },
+      {
+        "name": "privacy 390: old email absent",
+        "pass": true
+      },
+      {
+        "name": "privacy 390: edited brief email destination",
+        "pass": true
+      },
+      {
+        "name": "privacy 390: mode/source preserve email",
+        "pass": true
+      },
+      {
+        "name": "home 390: systems opener/edit email destination",
+        "pass": true
+      },
+      {
+        "name": "home 390: mode/source maintain email destination",
+        "pass": true
+      },
+      {
+        "name": "no uncaught browser errors",
+        "pass": true
+      }
+    ],
+    "errors": [],
+    "observations": [
+      {
+        "width": 1440,
+        "title": "AI automation around your existing systems | Works Better",
+        "heading": "What if work\nworked better?",
+        "description": "AI workflows and tools built around the apps your team already uses. Renzo Demartini designs and builds solutions for Australia and New Zealand.",
+        "opening": "Invoicing at night? Chasing enquiries? Piecing together reports?"
+      },
+      {
+        "width": 390,
+        "title": "AI automation around your existing systems | Works Better",
+        "heading": "What if work\nworked better?",
+        "description": "AI workflows and tools built around the apps your team already uses. Renzo Demartini designs and builds solutions for Australia and New Zealand.",
+        "opening": "Invoicing at night? Chasing enquiries? Piecing together reports?"
+      }
+    ]
+  },
+  "native_article": {
+    "id": 111,
+    "status": "draft",
+    "body_matches_source": true
+  },
+  "notification_tests": 0,
+  "production_browser": {
+    "new_journey": {
+      "scope": "Actual public homepage and published implementation article",
+      "network": "TLS verified; site/Google Fonts GET; all POST and analytics blocked; no notifications",
+      "checks": [
+        {
+          "name": "1440: homepage200",
+          "pass": true
+        },
+        {
+          "name": "1440: one H1",
+          "pass": true
+        },
+        {
+          "name": "1440: no overflow",
+          "pass": true
+        },
+        {
+          "name": "1440: paid step precedes gallery",
+          "pass": true
+        },
+        {
+          "name": "1440: five tangible review outputs",
+          "pass": true
+        },
+        {
+          "name": "1440: own implementation explicitly labelled",
+          "pass": true
+        },
+        {
+          "name": "1440: one visible canvas initially",
+          "pass": true
+        },
+        {
+          "name": "1440: six selector links",
+          "pass": true
+        },
+        {
+          "name": "1440: six full-page links retained",
+          "pass": true
+        },
+        {
+          "name": "1440: build and handover disclosure",
+          "pass": true
+        },
+        {
+          "name": "1440: Space selects enquiry",
+          "pass": true
+        },
+        {
+          "name": "1440: selected panel exclusively visible",
+          "pass": true
+        },
+        {
+          "name": "1440: one selection event",
+          "pass": true
+        },
+        {
+          "name": "1440: same selection not repeated",
+          "pass": true
+        },
+        {
+          "name": "1440 invoice: only selected panel visible",
+          "pass": true
+        },
+        {
+          "name": "1440 invoice: usable diagram proportions",
+          "pass": true
+        },
+        {
+          "name": "1440 invoice: situations open",
+          "pass": true
+        },
+        {
+          "name": "1440 invoice: bounded completion",
+          "pass": true
+        },
+        {
+          "name": "1440 invoice: replay usable",
+          "pass": true
+        },
+        {
+          "name": "1440 enquiry: only selected panel visible",
+          "pass": true
+        },
+        {
+          "name": "1440 enquiry: usable diagram proportions",
+          "pass": true
+        },
+        {
+          "name": "1440 enquiry: situations open",
+          "pass": true
+        },
+        {
+          "name": "1440 enquiry: bounded completion",
+          "pass": true
+        },
+        {
+          "name": "1440 enquiry: replay usable",
+          "pass": true
+        },
+        {
+          "name": "1440 finance: only selected panel visible",
+          "pass": true
+        },
+        {
+          "name": "1440 finance: usable diagram proportions",
+          "pass": true
+        },
+        {
+          "name": "1440 finance: situations open",
+          "pass": true
+        },
+        {
+          "name": "1440 finance: bounded completion",
+          "pass": true
+        },
+        {
+          "name": "1440 finance: replay usable",
+          "pass": true
+        },
+        {
+          "name": "1440 onboarding: only selected panel visible",
+          "pass": true
+        },
+        {
+          "name": "1440 onboarding: usable diagram proportions",
+          "pass": true
+        },
+        {
+          "name": "1440 onboarding: situations open",
+          "pass": true
+        },
+        {
+          "name": "1440 onboarding: bounded completion",
+          "pass": true
+        },
+        {
+          "name": "1440 onboarding: replay usable",
+          "pass": true
+        },
+        {
+          "name": "1440 routing: only selected panel visible",
+          "pass": true
+        },
+        {
+          "name": "1440 routing: usable diagram proportions",
+          "pass": true
+        },
+        {
+          "name": "1440 routing: situations open",
+          "pass": true
+        },
+        {
+          "name": "1440 routing: bounded completion",
+          "pass": true
+        },
+        {
+          "name": "1440 routing: replay usable",
+          "pass": true
+        },
+        {
+          "name": "1440 reporting: only selected panel visible",
+          "pass": true
+        },
+        {
+          "name": "1440 reporting: usable diagram proportions",
+          "pass": true
+        },
+        {
+          "name": "1440 reporting: situations open",
+          "pass": true
+        },
+        {
+          "name": "1440 reporting: bounded completion",
+          "pass": true
+        },
+        {
+          "name": "1440 reporting: replay usable",
+          "pass": true
+        },
+        {
+          "name": "1440: switching stops hidden workflow",
+          "pass": true
+        },
+        {
+          "name": "1440: expanded canvas opens",
+          "pass": true
+        },
+        {
+          "name": "1440: hash change closes expanded dialog",
+          "pass": true
+        },
+        {
+          "name": "1440: moved panel restored",
+          "pass": true
+        },
+        {
+          "name": "1440: hash selects finance",
+          "pass": true
+        },
+        {
+          "name": "1440: direct hash selects reporting",
+          "pass": true
+        },
+        {
+          "name": "1440: unknown hash retains valid example",
+          "pass": true
+        },
+        {
+          "name": "1440: idea legacy hash opens disclosure",
+          "pass": true
+        },
+        {
+          "name": "1440: menu Escape closes",
+          "pass": true
+        },
+        {
+          "name": "1440: implementation article one H1",
+          "pass": true
+        },
+        {
+          "name": "1440: implementation article no overflow",
+          "pass": true
+        },
+        {
+          "name": "1440: implementation article synthetic limits visible",
+          "pass": true
+        },
+        {
+          "name": "1440: contextual article enquiry tracked once",
+          "pass": true
+        },
+        {
+          "name": "390: homepage200",
+          "pass": true
+        },
+        {
+          "name": "390: one H1",
+          "pass": true
+        },
+        {
+          "name": "390: no overflow",
+          "pass": true
+        },
+        {
+          "name": "390: paid step precedes gallery",
+          "pass": true
+        },
+        {
+          "name": "390: five tangible review outputs",
+          "pass": true
+        },
+        {
+          "name": "390: own implementation explicitly labelled",
+          "pass": true
+        },
+        {
+          "name": "390: one visible canvas initially",
+          "pass": true
+        },
+        {
+          "name": "390: six selector links",
+          "pass": true
+        },
+        {
+          "name": "390: six full-page links retained",
+          "pass": true
+        },
+        {
+          "name": "390: build and handover disclosure",
+          "pass": true
+        },
+        {
+          "name": "390: Space selects enquiry",
+          "pass": true
+        },
+        {
+          "name": "390: selected panel exclusively visible",
+          "pass": true
+        },
+        {
+          "name": "390: one selection event",
+          "pass": true
+        },
+        {
+          "name": "390: same selection not repeated",
+          "pass": true
+        },
+        {
+          "name": "390 invoice: only selected panel visible",
+          "pass": true
+        },
+        {
+          "name": "390 invoice: usable diagram proportions",
+          "pass": true
+        },
+        {
+          "name": "390 invoice: situations open",
+          "pass": true
+        },
+        {
+          "name": "390 invoice: bounded completion",
+          "pass": true
+        },
+        {
+          "name": "390 invoice: replay usable",
+          "pass": true
+        },
+        {
+          "name": "390 enquiry: only selected panel visible",
+          "pass": true
+        },
+        {
+          "name": "390 enquiry: usable diagram proportions",
+          "pass": true
+        },
+        {
+          "name": "390 enquiry: situations open",
+          "pass": true
+        },
+        {
+          "name": "390 enquiry: bounded completion",
+          "pass": true
+        },
+        {
+          "name": "390 enquiry: replay usable",
+          "pass": true
+        },
+        {
+          "name": "390 finance: only selected panel visible",
+          "pass": true
+        },
+        {
+          "name": "390 finance: usable diagram proportions",
+          "pass": true
+        },
+        {
+          "name": "390 finance: situations open",
+          "pass": true
+        },
+        {
+          "name": "390 finance: bounded completion",
+          "pass": true
+        },
+        {
+          "name": "390 finance: replay usable",
+          "pass": true
+        },
+        {
+          "name": "390 onboarding: only selected panel visible",
+          "pass": true
+        },
+        {
+          "name": "390 onboarding: usable diagram proportions",
+          "pass": true
+        },
+        {
+          "name": "390 onboarding: situations open",
+          "pass": true
+        },
+        {
+          "name": "390 onboarding: bounded completion",
+          "pass": true
+        },
+        {
+          "name": "390 onboarding: replay usable",
+          "pass": true
+        },
+        {
+          "name": "390 routing: only selected panel visible",
+          "pass": true
+        },
+        {
+          "name": "390 routing: usable diagram proportions",
+          "pass": true
+        },
+        {
+          "name": "390 routing: situations open",
+          "pass": true
+        },
+        {
+          "name": "390 routing: bounded completion",
+          "pass": true
+        },
+        {
+          "name": "390 routing: replay usable",
+          "pass": true
+        },
+        {
+          "name": "390 reporting: only selected panel visible",
+          "pass": true
+        },
+        {
+          "name": "390 reporting: usable diagram proportions",
+          "pass": true
+        },
+        {
+          "name": "390 reporting: situations open",
+          "pass": true
+        },
+        {
+          "name": "390 reporting: bounded completion",
+          "pass": true
+        },
+        {
+          "name": "390 reporting: replay usable",
+          "pass": true
+        },
+        {
+          "name": "390: switching stops hidden workflow",
+          "pass": true
+        },
+        {
+          "name": "390: expanded canvas opens",
+          "pass": true
+        },
+        {
+          "name": "390: hash change closes expanded dialog",
+          "pass": true
+        },
+        {
+          "name": "390: moved panel restored",
+          "pass": true
+        },
+        {
+          "name": "390: hash selects finance",
+          "pass": true
+        },
+        {
+          "name": "390: direct hash selects reporting",
+          "pass": true
+        },
+        {
+          "name": "390: unknown hash retains valid example",
+          "pass": true
+        },
+        {
+          "name": "390: idea legacy hash opens disclosure",
+          "pass": true
+        },
+        {
+          "name": "390: menu Escape closes",
+          "pass": true
+        },
+        {
+          "name": "390: implementation article one H1",
+          "pass": true
+        },
+        {
+          "name": "390: implementation article no overflow",
+          "pass": true
+        },
+        {
+          "name": "390: implementation article synthetic limits visible",
+          "pass": true
+        },
+        {
+          "name": "390: contextual article enquiry tracked once",
+          "pass": true
+        },
+        {
+          "name": "no JS: six substantive examples retained",
+          "pass": true
+        },
+        {
+          "name": "no JS: chooser retains six page links",
+          "pass": true
+        },
+        {
+          "name": "no uncaught browser exceptions",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "observations": [
+        {
+          "width": 1440,
+          "height": 2836
+        },
+        {
+          "width": 390,
+          "height": 3803
+        }
+      ]
+    },
+    "regressions": {
+      "scope": "Actual public WordPress HTTPS desktop/mobile checks; client submissions intercepted; no real notification or GA processing evidence",
+      "checks": [
+        {
+          "name": "home 1440: actual TLS response200",
+          "pass": true
+        },
+        {
+          "name": "home 1440: one heading",
+          "pass": true
+        },
+        {
+          "name": "home 1440: three delivery modes",
+          "pass": true
+        },
+        {
+          "name": "home 1440: isolated draft assets",
+          "pass": true
+        },
+        {
+          "name": "home 1440: no overflow",
+          "pass": true
+        },
+        {
+          "name": "home 1440: one Guides destination",
+          "pass": true
+        },
+        {
+          "name": "menu 1440: opens",
+          "pass": true
+        },
+        {
+          "name": "menu 1440: closes",
+          "pass": true
+        },
+        {
+          "name": "contact 1440: selected automatic",
+          "pass": true
+        },
+        {
+          "name": "contact 1440: blank cannot send",
+          "pass": true
+        },
+        {
+          "name": "contact 1440: mock payload retains preference",
+          "pass": true
+        },
+        {
+          "name": "contact 1440: one client conversion",
+          "pass": true
+        },
+        {
+          "name": "contact 1440: no PII in custom events",
+          "pass": true
+        },
+        {
+          "name": "safeguards 1440: live PHP shadow loaded",
+          "pass": true
+        },
+        {
+          "name": "enquiry 1440: staff/customer separate",
+          "pass": true
+        },
+        {
+          "name": "invoice 1440: duplicate stops",
+          "pass": true
+        },
+        {
+          "name": "invoice 1440: reason required",
+          "pass": true
+        },
+        {
+          "name": "invoice 1440: no payment claim",
+          "pass": true
+        },
+        {
+          "name": "reporting 1440: held for review",
+          "pass": true
+        },
+        {
+          "name": "reporting 1440: retry resumes",
+          "pass": true
+        },
+        {
+          "name": "guides 1440: native contact link",
+          "pass": true
+        },
+        {
+          "name": "guides 1440: contact journey opens",
+          "pass": true
+        },
+        {
+          "name": "article 1440: contact/privacy footer",
+          "pass": true
+        },
+        {
+          "name": "privacy 1440: response heading",
+          "pass": true
+        },
+        {
+          "name": "privacy 1440: no overflow",
+          "pass": true
+        },
+        {
+          "name": "privacy 1440: owner email",
+          "pass": true
+        },
+        {
+          "name": "privacy 1440: storage/AI disclosure",
+          "pass": true
+        },
+        {
+          "name": "privacy 1440: old email absent",
+          "pass": true
+        },
+        {
+          "name": "privacy 1440: edited brief email destination",
+          "pass": true
+        },
+        {
+          "name": "privacy 1440: mode/source preserve email",
+          "pass": true
+        },
+        {
+          "name": "home 1440: systems opener/edit email destination",
+          "pass": true
+        },
+        {
+          "name": "home 1440: mode/source maintain email destination",
+          "pass": true
+        },
+        {
+          "name": "home 390: actual TLS response200",
+          "pass": true
+        },
+        {
+          "name": "home 390: one heading",
+          "pass": true
+        },
+        {
+          "name": "home 390: three delivery modes",
+          "pass": true
+        },
+        {
+          "name": "home 390: isolated draft assets",
+          "pass": true
+        },
+        {
+          "name": "home 390: no overflow",
+          "pass": true
+        },
+        {
+          "name": "home 390: one Guides destination",
+          "pass": true
+        },
+        {
+          "name": "menu 390: opens",
+          "pass": true
+        },
+        {
+          "name": "menu 390: closes",
+          "pass": true
+        },
+        {
+          "name": "contact 390: selected automatic",
+          "pass": true
+        },
+        {
+          "name": "contact 390: blank cannot send",
+          "pass": true
+        },
+        {
+          "name": "contact 390: mock payload retains preference",
+          "pass": true
+        },
+        {
+          "name": "contact 390: one client conversion",
+          "pass": true
+        },
+        {
+          "name": "contact 390: no PII in custom events",
+          "pass": true
+        },
+        {
+          "name": "safeguards 390: live PHP shadow loaded",
+          "pass": true
+        },
+        {
+          "name": "enquiry 390: staff/customer separate",
+          "pass": true
+        },
+        {
+          "name": "invoice 390: duplicate stops",
+          "pass": true
+        },
+        {
+          "name": "invoice 390: reason required",
+          "pass": true
+        },
+        {
+          "name": "invoice 390: no payment claim",
+          "pass": true
+        },
+        {
+          "name": "reporting 390: held for review",
+          "pass": true
+        },
+        {
+          "name": "reporting 390: retry resumes",
+          "pass": true
+        },
+        {
+          "name": "guides 390: native contact link",
+          "pass": true
+        },
+        {
+          "name": "guides 390: contact journey opens",
+          "pass": true
+        },
+        {
+          "name": "article 390: contact/privacy footer",
+          "pass": true
+        },
+        {
+          "name": "privacy 390: response heading",
+          "pass": true
+        },
+        {
+          "name": "privacy 390: no overflow",
+          "pass": true
+        },
+        {
+          "name": "privacy 390: owner email",
+          "pass": true
+        },
+        {
+          "name": "privacy 390: storage/AI disclosure",
+          "pass": true
+        },
+        {
+          "name": "privacy 390: old email absent",
+          "pass": true
+        },
+        {
+          "name": "privacy 390: edited brief email destination",
+          "pass": true
+        },
+        {
+          "name": "privacy 390: mode/source preserve email",
+          "pass": true
+        },
+        {
+          "name": "home 390: systems opener/edit email destination",
+          "pass": true
+        },
+        {
+          "name": "home 390: mode/source maintain email destination",
+          "pass": true
+        },
+        {
+          "name": "no uncaught browser errors",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "observations": [
+        {
+          "width": 1440,
+          "title": "AI automation around your existing systems | Works Better",
+          "heading": "What if work\nworked better?",
+          "description": "AI workflows and tools built around the apps your team already uses. Renzo Demartini designs and builds solutions for Australia and New Zealand.",
+          "opening": "Invoicing at night? Chasing enquiries? Piecing together reports?"
+        },
+        {
+          "width": 390,
+          "title": "AI automation around your existing systems | Works Better",
+          "heading": "What if work\nworked better?",
+          "description": "AI workflows and tools built around the apps your team already uses. Renzo Demartini designs and builds solutions for Australia and New Zealand.",
+          "opening": "Invoicing at night? Chasing enquiries? Piecing together reports?"
+        }
+      ]
+    },
+    "notifications_sent": 0,
+    "browser_checks": 182
+  },
+  "production_https": {
+    "scope": "Anonymous public HTTPS checks after actual publish; TLS verified; exact asset hashes, public copy/SEO/schema/routes/sitemaps/404. No form or analytics sends.",
+    "checks": [
+      {
+        "name": "/ public200",
+        "pass": true
+      },
+      {
+        "name": "/ one H1",
+        "pass": true
+      },
+      {
+        "name": "/ self canonical",
+        "pass": true
+      },
+      {
+        "name": "/ indexable",
+        "pass": true
+      },
+      {
+        "name": "/ no preview token",
+        "pass": true
+      },
+      {
+        "name": "/how-worksbetter-handles-your-enquiry/ public200",
+        "pass": true
+      },
+      {
+        "name": "/how-worksbetter-handles-your-enquiry/ one H1",
+        "pass": true
+      },
+      {
+        "name": "/how-worksbetter-handles-your-enquiry/ self canonical",
+        "pass": true
+      },
+      {
+        "name": "/how-worksbetter-handles-your-enquiry/ indexable",
+        "pass": true
+      },
+      {
+        "name": "/how-worksbetter-handles-your-enquiry/ no preview token",
+        "pass": true
+      },
+      {
+        "name": "/guides/ public200",
+        "pass": true
+      },
+      {
+        "name": "/guides/ one H1",
+        "pass": true
+      },
+      {
+        "name": "/guides/ self canonical",
+        "pass": true
+      },
+      {
+        "name": "/guides/ indexable",
+        "pass": true
+      },
+      {
+        "name": "/guides/ no preview token",
+        "pass": true
+      },
+      {
+        "name": "/enquiry-privacy/ public200",
+        "pass": true
+      },
+      {
+        "name": "/enquiry-privacy/ one H1",
+        "pass": true
+      },
+      {
+        "name": "/enquiry-privacy/ self canonical",
+        "pass": true
+      },
+      {
+        "name": "/enquiry-privacy/ indexable",
+        "pass": true
+      },
+      {
+        "name": "/enquiry-privacy/ no preview token",
+        "pass": true
+      },
+      {
+        "name": "home early paid review",
+        "pass": true
+      },
+      {
+        "name": "home five deliverables",
+        "pass": true
+      },
+      {
+        "name": "home six progressive problem links",
+        "pass": true
+      },
+      {
+        "name": "home proof links published account",
+        "pass": true
+      },
+      {
+        "name": "article synthetic excluded",
+        "pass": true
+      },
+      {
+        "name": "article SEO title",
+        "pass": true
+      },
+      {
+        "name": "article SEO description",
+        "pass": true
+      },
+      {
+        "name": "article single measurement script",
+        "pass": true
+      },
+      {
+        "name": "article author schema Renzo",
+        "pass": true
+      },
+      {
+        "name": "Guides lists implementation",
+        "pass": true
+      },
+      {
+        "name": "post sitemap lists implementation",
+        "pass": true
+      },
+      {
+        "name": "sitemap index works",
+        "pass": true
+      },
+      {
+        "name": "robots declares sitemap",
+        "pass": true
+      },
+      {
+        "name": "preview sidecar not public",
+        "pass": true
+      },
+      {
+        "name": "missing URL genuine404",
+        "pass": true
+      },
+      {
+        "name": "simpro-xero-invoice-automation public200 and self canonical",
+        "pass": true
+      },
+      {
+        "name": "ai-customer-enquiry-automation public200 and self canonical",
+        "pass": true
+      },
+      {
+        "name": "job-profitability-reporting public200 and self canonical",
+        "pass": true
+      },
+      {
+        "name": "employee-onboarding-automation public200 and self canonical",
+        "pass": true
+      },
+      {
+        "name": "lead-routing-automation public200 and self canonical",
+        "pass": true
+      },
+      {
+        "name": "multi-source-report-automation public200 and self canonical",
+        "pass": true
+      },
+      {
+        "name": "automation-or-ai-which-job remains future404",
+        "pass": true
+      },
+      {
+        "name": "systems-do-not-need-replacing remains future404",
+        "pass": true
+      },
+      {
+        "name": "human-approval-is-a-feature remains future404",
+        "pass": true
+      },
+      {
+        "name": "lead-routing-first-15-minutes remains future404",
+        "pass": true
+      },
+      {
+        "name": "sometimes-do-not-automate-this remains future404",
+        "pass": true
+      },
+      {
+        "name": "map-the-work-before-buying-another-tool remains future404",
+        "pass": true
+      },
+      {
+        "name": "systems.js source/live hash",
+        "pass": true
+      },
+      {
+        "name": "guides.css source/live hash",
+        "pass": true
+      },
+      {
+        "name": "enquiry.js source/live hash",
+        "pass": true
+      },
+      {
+        "name": "measurement.js source/live hash",
+        "pass": true
+      },
+      {
+        "name": "flagship-entry.js source/live hash",
+        "pass": true
+      },
+      {
+        "name": "fleet-data.js source/live hash",
+        "pass": true
+      },
+      {
+        "name": "main site link /workflow-opportunity-review/",
+        "pass": true
+      },
+      {
+        "name": "main site link /results/connected-data-workflows/",
+        "pass": true
+      }
+    ],
+    "exceptions": 0
+  },
+  "actual_astra_production_acceptance": true,
+  "source_normalisation": "Four arrow glyphs changed to equivalent HTML entities by WordPress; exact native home copied into both source exports."
+}
