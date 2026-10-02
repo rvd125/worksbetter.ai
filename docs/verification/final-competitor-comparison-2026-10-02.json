@@ -1,0 +1,99 @@
+{
+  "as_of_utc": "2026-10-02",
+  "scope": "Five fresh public sites, including Works Better, at1440x900and390x900. PurposiveAU/NZpeer sample from earlier regional service-query samples; not a representative percentile, search-ranking or traffic/conversion benchmark. Only publicGET; analytics/POSTblocked, TLSverified. No competitor form/demo submitted.",
+  "providers": [
+    {
+      "provider": "worksbetter",
+      "url": "https://worksbetter.ai/",
+      "desktop_status": 200,
+      "mobile_status": 200,
+      "desktop_h1": [
+        "What if work\nworked better?"
+      ],
+      "desktop_document_height": 13896,
+      "mobile_document_height": 18536,
+      "mobile_snapshot_overflow": false,
+      "visible_patterns": [
+        "Business-problem opening; direct personal enquiry; explicit scope/fees",
+        "Interactive invoice duplicate/approval/mismatch safeguards; broader six workflow examples",
+        "Three operating modes; first-person delivery; fiction/results distinction",
+        "Six full workflow canvases precede operating-mode/detailed engagement sections"
+      ]
+    },
+    {
+      "provider": "aivy",
+      "url": "https://aivy.com.au/",
+      "desktop_status": 200,
+      "mobile_status": 200,
+      "desktop_h1": [
+        "AI Automation Agency\nfor Today's Operations"
+      ],
+      "desktop_document_height": 10729,
+      "mobile_document_height": 18709,
+      "mobile_snapshot_overflow": false,
+      "visible_patterns": [
+        "Services/industries/use-case navigation",
+        "Trust/privacy/procurement/documentation section",
+        "Assessment invitation and described discovery/proposal/pilot process",
+        "Published compliance/timing/most-trusted claims not independently verified"
+      ]
+    },
+    {
+      "provider": "sg1",
+      "url": "https://sg1consulting.com.au/ai-automation",
+      "desktop_status": 200,
+      "mobile_status": 200,
+      "desktop_h1": [
+        "AI Automation Services Across Australia"
+      ],
+      "desktop_document_height": 19405,
+      "mobile_document_height": 29421,
+      "mobile_snapshot_overflow": false,
+      "visible_patterns": [
+        "AI opportunity audit, pilot and human oversight descriptions",
+        "Explicit existing-systems integration positioning",
+        "Broad region/city service navigation",
+        "Published pilot/coverage/result claims not independently verified"
+      ]
+    },
+    {
+      "provider": "progentic",
+      "url": "https://progentic.co.nz/",
+      "desktop_status": 200,
+      "mobile_status": 200,
+      "desktop_h1": [
+        "Your business only runs as fast as its slowest process.\nWe make it operate at the speed of the fastest."
+      ],
+      "desktop_document_height": 14352,
+      "mobile_document_height": 23719,
+      "mobile_snapshot_overflow": true,
+      "visible_patterns": [
+        "Success-story cards and named testimonials visible",
+        "Discovery deliverables and separately scoped execution described",
+        "Uses existing-system functionality first",
+        "Published client results/quotes not independently verified"
+      ]
+    },
+    {
+      "provider": "engineai",
+      "url": "https://engineai.co.nz/",
+      "desktop_status": 200,
+      "mobile_status": 200,
+      "desktop_h1": [
+        "The AI engine thatdrives your business."
+      ],
+      "desktop_document_height": 6041,
+      "mobile_document_height": 10026,
+      "mobile_snapshot_overflow": false,
+      "visible_patterns": [
+        "Existing-systems positioning and interactive problem selector",
+        "Live-agent demo invitation, not submitted or evaluated",
+        "Named AI readiness audit, sprint-build and operating offers",
+        "Founder profiles visible; time/statistical claims not independently verified"
+      ]
+    }
+  ],
+  "rendering_limit": "Engine initial screenshots preceded headinganimation settling. Normal-motion desktop rerender after3s confirms visible offer; do not claim permanent missing content or comparative speed. Screenshot heights vary with format and are not conversion measures.",
+  "access_limit": "Initial plainHTTPPython reads of Aivy/SG1/Progentic returned403; actual normal Chromium public renderings returned200. Browser-rendered evidence was used.",
+  "outcome_limit": "Competitor statements are observed marketing content. Traffic, savings, conversions and relative percentile were not independently established. Last retrieved WorksBetter0GSCclicks/76impressions baseline predates release and does not establish newreleasefailure."
+}
