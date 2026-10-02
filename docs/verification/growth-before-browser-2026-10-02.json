@@ -1,0 +1,72 @@
+{
+  "scope": "Actual WordPress HTTPS with only site GET and intercepted client interactions; no notifications or external analytics sent",
+  "checks": [
+    {
+      "name": "no uncaught browser errors",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "observations": [
+    {
+      "width": 1440,
+      "documentHeight": 14917,
+      "firstBodyActionY": 838.890625,
+      "firstBodyActionBottom": 884.890625,
+      "firstBodyActionLabel": "Show me the examples\n↓",
+      "heroWordCount": 62,
+      "headerDestinations": [
+        "Renzo Demartini ↗",
+        "AI Labs ↗",
+        "Guides",
+        "Your idea",
+        "Decisions & safeguards"
+      ]
+    },
+    {
+      "width": 894,
+      "documentHeight": 15407,
+      "firstBodyActionY": 847.484375,
+      "firstBodyActionBottom": 893.484375,
+      "firstBodyActionLabel": "Show me the examples\n↓",
+      "heroWordCount": 62,
+      "headerDestinations": [
+        "Renzo Demartini ↗",
+        "AI Labs ↗",
+        "Guides",
+        "Your idea",
+        "Decisions & safeguards"
+      ]
+    },
+    {
+      "width": 390,
+      "documentHeight": 19175,
+      "firstBodyActionY": 918.328125,
+      "firstBodyActionBottom": 964.328125,
+      "firstBodyActionLabel": "Show me the examples\n↓",
+      "heroWordCount": 62,
+      "headerDestinations": [
+        "Renzo Demartini ↗",
+        "AI Labs ↗",
+        "Guides",
+        "Your idea",
+        "Decisions & safeguards"
+      ]
+    },
+    {
+      "width": 320,
+      "documentHeight": 21981,
+      "firstBodyActionY": 1124.53125,
+      "firstBodyActionBottom": 1170.53125,
+      "firstBodyActionLabel": "Show me the examples\n↓",
+      "heroWordCount": 62,
+      "headerDestinations": [
+        "Renzo Demartini ↗",
+        "AI Labs ↗",
+        "Guides",
+        "Your idea",
+        "Decisions & safeguards"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "as_of": "2026-10-02",
+  "method": "Direct HTTPS public page inspection, three qualitative regional examples; not search rank, traffic or conversion measurement",
+  "sites": [
+    {
+      "url": "https://aivy.com.au/",
+      "http_status": 200,
+      "observations": [
+        "Direct contact and solution actions",
+        "Service/use-case and implementation sections"
+      ],
+      "published_claims_independently_verified": false
+    },
+    {
+      "url": "https://sg1consulting.com.au/ai-automation",
+      "http_status": 200,
+      "observations": [
+        "Existing-system integration",
+        "Assessment, pilot, approvals and handover"
+      ],
+      "published_claims_independently_verified": false
+    },
+    {
+      "url": "https://progentic.co.nz/",
+      "http_status": 200,
+      "observations": [
+        "Recognisable manual-process problems",
+        "Existing-stack discovery and execution",
+        "Proof and contact sections"
+      ],
+      "published_claims_independently_verified": false
+    }
+  ],
+  "finding": "Existing-system positioning is relevant but shared; transparent decision stories and personal implementation make Works Better more concrete. No top-percentile or performance conclusion."
+}
