@@ -1,0 +1,258 @@
+{
+  "reviewed_at_utc": "2026-10-02T10:16:35Z",
+  "reviewed_at_sydney": "2026-10-02T20:16:35+10:00",
+  "windsor_search_console": {
+    "connected": true,
+    "selected_property": "sc-domain:worksbetter.ai",
+    "other_properties_combined": false,
+    "fields_and_options_discovered": true,
+    "include_fresh_data": false,
+    "latest_returned_final_date": "2026-09-29",
+    "lag_calendar_days": 3,
+    "fresh_read": {
+      "status": "done",
+      "job_id": "95a9d30cd1cab16a21446ebffabc07ad",
+      "data": [
+        {
+          "account_id": "worksbetter.ai",
+          "date": "2026-09-10",
+          "clicks": 0,
+          "impressions": 0,
+          "data_fetched_at": "2026-10-02T10:12:52"
+        },
+        {
+          "account_id": "worksbetter.ai",
+          "date": "2026-09-11",
+          "clicks": 0,
+          "impressions": 0,
+          "data_fetched_at": "2026-10-02T10:12:52"
+        },
+        {
+          "account_id": "worksbetter.ai",
+          "date": "2026-09-12",
+          "clicks": 0,
+          "impressions": 4,
+          "data_fetched_at": "2026-10-02T10:12:52"
+        },
+        {
+          "account_id": "worksbetter.ai",
+          "date": "2026-09-13",
+          "clicks": 0,
+          "impressions": 3,
+          "data_fetched_at": "2026-10-02T10:12:52"
+        },
+        {
+          "account_id": "worksbetter.ai",
+          "date": "2026-09-14",
+          "clicks": 0,
+          "impressions": 10,
+          "data_fetched_at": "2026-10-02T10:12:52"
+        },
+        {
+          "account_id": "worksbetter.ai",
+          "date": "2026-09-15",
+          "clicks": 0,
+          "impressions": 12,
+          "data_fetched_at": "2026-10-02T10:12:52"
+        },
+        {
+          "account_id": "worksbetter.ai",
+          "date": "2026-09-16",
+          "clicks": 0,
+          "impressions": 6,
+          "data_fetched_at": "2026-10-02T10:12:52"
+        },
+        {
+          "account_id": "worksbetter.ai",
+          "date": "2026-09-17",
+          "clicks": 0,
+          "impressions": 3,
+          "data_fetched_at": "2026-10-02T10:12:52"
+        },
+        {
+          "account_id": "worksbetter.ai",
+          "date": "2026-09-18",
+          "clicks": 0,
+          "impressions": 4,
+          "data_fetched_at": "2026-10-02T10:12:52"
+        },
+        {
+          "account_id": "worksbetter.ai",
+          "date": "2026-09-19",
+          "clicks": 0,
+          "impressions": 4,
+          "data_fetched_at": "2026-10-02T10:12:52"
+        },
+        {
+          "account_id": "worksbetter.ai",
+          "date": "2026-09-20",
+          "clicks": 0,
+          "impressions": 3,
+          "data_fetched_at": "2026-10-02T10:12:52"
+        },
+        {
+          "account_id": "worksbetter.ai",
+          "date": "2026-09-21",
+          "clicks": 0,
+          "impressions": 3,
+          "data_fetched_at": "2026-10-02T10:12:52"
+        },
+        {
+          "account_id": "worksbetter.ai",
+          "date": "2026-09-22",
+          "clicks": 0,
+          "impressions": 9,
+          "data_fetched_at": "2026-10-02T10:12:52"
+        },
+        {
+          "account_id": "worksbetter.ai",
+          "date": "2026-09-23",
+          "clicks": 0,
+          "impressions": 3,
+          "data_fetched_at": "2026-10-02T10:12:52"
+        },
+        {
+          "account_id": "worksbetter.ai",
+          "date": "2026-09-24",
+          "clicks": 0,
+          "impressions": 3,
+          "data_fetched_at": "2026-10-02T10:12:52"
+        },
+        {
+          "account_id": "worksbetter.ai",
+          "date": "2026-09-25",
+          "clicks": 0,
+          "impressions": 1,
+          "data_fetched_at": "2026-10-02T10:12:52"
+        },
+        {
+          "account_id": "worksbetter.ai",
+          "date": "2026-09-26",
+          "clicks": 0,
+          "impressions": 0,
+          "data_fetched_at": "2026-10-02T10:12:52"
+        },
+        {
+          "account_id": "worksbetter.ai",
+          "date": "2026-09-27",
+          "clicks": 0,
+          "impressions": 1,
+          "data_fetched_at": "2026-10-02T10:12:52"
+        },
+        {
+          "account_id": "worksbetter.ai",
+          "date": "2026-09-28",
+          "clicks": 0,
+          "impressions": 2,
+          "data_fetched_at": "2026-10-02T10:12:52"
+        },
+        {
+          "account_id": "worksbetter.ai",
+          "date": "2026-09-29",
+          "clicks": 0,
+          "impressions": 5,
+          "data_fetched_at": "2026-10-02T10:12:52"
+        }
+      ],
+      "total_rows": 20
+    },
+    "missing_dates_are_verified_zero": false
+  },
+  "google_analytics": {
+    "native_google_account_retained": true,
+    "property_id": "553877050",
+    "stream_id": "15762913100",
+    "measurement_id": "G-SZ0YNX9CXG",
+    "stream_default_uri": "https://worksbetter.ai",
+    "authenticated_host_filtered_report_verified": true,
+    "baseline": [
+      "2026-09-09",
+      "2026-09-29"
+    ],
+    "baseline_views": 106,
+    "baseline_sessions": 36,
+    "report_timezone": "Etc/UTC",
+    "generate_lead_is_key_event": true,
+    "key_events": [
+      {
+        "countingMethod": "ONCE_PER_EVENT",
+        "createTime": "2026-09-11T22:38:56.646852Z",
+        "custom": null,
+        "deletable": null,
+        "eventName": "purchase",
+        "name": "properties/553877050/keyEvents/15762913103"
+      },
+      {
+        "countingMethod": "ONCE_PER_EVENT",
+        "createTime": "2026-09-11T23:12:07.276088Z",
+        "custom": true,
+        "deletable": true,
+        "eventName": "generate_lead",
+        "name": "properties/553877050/keyEvents/15763000191",
+        "defaultValue": {
+          "currencyCode": "USD",
+          "numericValue": 1
+        }
+      }
+    ],
+    "event_default_value_is_real_revenue": false,
+    "synthetic_processed_report": {
+      "kind": "analyticsData#runReport",
+      "rowCount": null,
+      "dimensionHeaders": [
+        {
+          "name": "eventName"
+        }
+      ],
+      "metricHeaders": [
+        {
+          "name": "eventCount",
+          "type": "TYPE_INTEGER"
+        }
+      ],
+      "totals": [
+        {}
+      ],
+      "maximums": [
+        {}
+      ],
+      "minimums": [
+        {}
+      ],
+      "metadata": {
+        "currencyCode": "USD",
+        "dataLossFromOtherRow": null,
+        "emptyReason": null,
+        "subjectToThresholding": null,
+        "timeZone": "Etc/UTC"
+      }
+    },
+    "synthetic_excluded": true
+  },
+  "windsor_ga4": {
+    "connected": false,
+    "evidence": "Fresh Windsor account discovery after owner reply still lists Search Console only",
+    "authorization_link_prepared": true,
+    "owner_clarification": "Owner uses Analytics separately in its own Google account; retain native account. No migration or new property."
+  },
+  "google_search_console_analytics_association": {
+    "independently_verified": false,
+    "owner_status": "Owner confirmed Google Analytics Admin shows linked on18September2026",
+    "intended_search_property": "sc-domain:worksbetter.ai",
+    "intended_ga4_property": "553877050",
+    "intended_stream": "15762913100",
+    "access_gap": "No native link-control API available in connected tools. Existing link confirmed by owner Google Admin UI; no new action needed.",
+    "owner_confirmed": true,
+    "owner_reported_link_date": "2026-09-18",
+    "association_created_this_session": false,
+    "verification_source": "Explicit user reply to the exact Works Better property/domain/stream question"
+  },
+  "limits": [
+    "GSC and GA dates retain source-native reporting boundaries; GA reports use Etc/UTC, user-facing review time Australia/Sydney.",
+    "Missing Search Console dates and missing current-day synthetic rows are unknown, not automatically zero.",
+    "GA key-event default USD1 is configured event value, not paid consulting revenue. No revenue result is inferred.",
+    "A native Google Search Console association is different from authorizing GA4 read access to Windsor. Neither implies the other."
+  ],
+  "connection_outcome": "Windsor Search Console reads verified; native Google Analytics property/stream/report/key event verified; existing Search Console association owner-confirmed. Analytics retained separately; no Windsor GA4 account connected.",
+  "review_completed_at_sydney": "2026-10-02T20:18:30+10:00"
+}

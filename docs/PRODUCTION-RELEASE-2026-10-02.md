@@ -62,3 +62,8 @@ Current regional competitor search-result patterns informed the intent map; comp
 Proposed cadence: Monday09:00 Australia/Sydney review of latest complete7/28-day search windows, organic landings, example engagement, saved enquiries, genuine/qualified opportunities, meetings/proposals/wins and one next action; monthly technical/form/privacy check. Existing main-site automation was inspected and no second recurring reviewer was created. First full28-day post-release window is3–30October; first eight full weeks are3October–27November. Reports must wait for finalized source dates and state lag. No ads, bulk messaging, outreach or LinkedIn activity occurred.
 
 Remaining gaps: outstanding scheduled47–52 editorial revisions before their existing publication dates (particularly49’s incorrect accounts-payable/payment wording); processed GA4 receipt for the single test; private historical enquiry/qualification and commercial disposition; Google Trends access/volume; hosting/DNS account management access for changes beyond connected WordPress. None is represented as a verified zero or completed commercial result.
+
+
+## Completed connection follow-up — 2 October20:18 Australia/Sydney
+
+[Measurement connections](MEASUREMENT-CONNECTIONS-2026-10-02.md) records fresh working Windsor Search Console reads and verified native Google Analytics property/stream/report/key-event access. Owner confirmed the existing Google Search Console link was established18September. Analytics remains separately in its Google account; no Windsor GA4 account or new product link was created. generate_lead is a configured key event. Its configured default USD1 value is not actual consulting revenue. The single synthetic event remains excluded, with processed current-day receipt pending.

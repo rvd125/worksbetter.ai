@@ -1,0 +1,15 @@
+# Works Better measurement connections — 2 October 2026
+
+Completed20:18 Australia/Sydney. Windsor Search Console is connected and fresh authenticated reads work for sc-domain:worksbetter.ai only. Latest returned finalized date remains29September, three calendar days behind review date. The returned seven-day window23–29September remains0clicks/15impressions. Do not combine the main-site properties or treat missing30September/1October rows as zero.
+
+Google Analytics remains in its existing Google account. Authenticated Site Kit settings and stream readback verify property553877050, stream15762913100, measurementG-SZ0YNX9CXG and https://worksbetter.ai. Host-filtered native Analytics report returned106pageviews/36sessions for9–29September. generate_lead is independently verified as a configured key event, counting once per event. Its configured USD1 default value is not a real sale or earned consulting revenue; exclude synthetic campaign activity and use the private commercial pipeline for actual wins/revenue. No new property, tracking ID or migration was created.
+
+Windsor currently exposes only Search Console connected accounts, including the exact Works Better domain property. The GA4 authorization link was prepared; after the owner’s initial connected reply, fresh discovery still did not show a GA4 account. The owner clarified they use Google Analytics separately. Native Analytics collection/report access and Windsor GA4 account authorization are distinct; no completed Windsor GA4 connection is claimed.
+
+The Google Search Console–GA4 product association is also distinct. Connected tools expose native Analytics report/property/stream/key-event reads, but not the Search Console association control. Windsor returns no GA4 write action. In response to the exact Works Better property/domain/stream question, the owner confirmed Google Analytics Admin shows the association linked on18September2026. This is owner-confirmed UI evidence, not an independently read link API. No new association was created. Intended pairing is sc-domain:worksbetter.ai → Works Better property553877050 → web stream15762913100. Site Kit’s simultaneous modules alone were not treated as proof.
+
+The single labelled release test remains independently saved and owner-received. Current-day GA4 report still returns no processed row at this review. No extra enquiry, notification or conversion event was sent. Processing delay remains pending rather than verified zero.
+
+Outcome: Windsor Search Console and native Google Analytics are usable for the separate Works Better scorecard. The existing Google product association is owner-confirmed. Analytics stays in its own Google account and no Windsor GA4 authorization is represented as completed. The only remaining conversion-processing check is delayed current-day GA4 data, which cannot be forced by resending the synthetic event.
+
+Evidence: [connection/readback record](verification/measurement-connections-2026-10-02.json). Existing production release and Astra acceptance remain valid; this pass changes no product copy/layout, public runtime, schedules or external distribution.
