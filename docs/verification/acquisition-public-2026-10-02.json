@@ -1,0 +1,441 @@
+{
+  "as_of": "2026-10-02",
+  "scope": "Actual anonymous HTTPS content/assets/metadata/schema/internal links/sitemap/unpublished and missing routes. No enquiry submissions or analytics requests. Native parity recorded separately.",
+  "checks": [
+    {
+      "name": "providers.js actual public source hash",
+      "pass": true
+    },
+    {
+      "name": "fleet.js actual public source hash",
+      "pass": true
+    },
+    {
+      "name": "systems.js actual public source hash",
+      "pass": true
+    },
+    {
+      "name": "measurement.js actual public source hash",
+      "pass": true
+    },
+    {
+      "name": "enquiry.js actual public source hash",
+      "pass": true
+    },
+    {
+      "name": "fleet-data.js actual public source hash",
+      "pass": true
+    },
+    {
+      "name": "/ status200",
+      "pass": true
+    },
+    {
+      "name": "/ one H1",
+      "pass": true
+    },
+    {
+      "name": "/ canonical",
+      "pass": true
+    },
+    {
+      "name": "/ no preview artifacts",
+      "pass": true
+    },
+    {
+      "name": "/why-monthly-reporting-takes-two-days/ status200",
+      "pass": true
+    },
+    {
+      "name": "/why-monthly-reporting-takes-two-days/ one H1",
+      "pass": true
+    },
+    {
+      "name": "/why-monthly-reporting-takes-two-days/ canonical",
+      "pass": true
+    },
+    {
+      "name": "/why-monthly-reporting-takes-two-days/ no preview artifacts",
+      "pass": true
+    },
+    {
+      "name": "46 title and H1 aligned",
+      "pass": true
+    },
+    {
+      "name": "46 search description",
+      "pass": true
+    },
+    {
+      "name": "46 indexable directive",
+      "pass": true
+    },
+    {
+      "name": "46 reporting direct link",
+      "pass": true
+    },
+    {
+      "name": "46 structured data parses",
+      "pass": true
+    },
+    {
+      "name": "46 actual author Person attribution",
+      "pass": true
+    },
+    {
+      "name": "46 actual article author attribution",
+      "pass": true
+    },
+    {
+      "name": "46 internal link /",
+      "pass": true
+    },
+    {
+      "name": "46 internal link /inside-an-ai-agent-fleet/",
+      "pass": true
+    },
+    {
+      "name": "/guides/ status200",
+      "pass": true
+    },
+    {
+      "name": "/guides/ one H1",
+      "pass": true
+    },
+    {
+      "name": "/guides/ canonical",
+      "pass": true
+    },
+    {
+      "name": "/guides/ no preview artifacts",
+      "pass": true
+    },
+    {
+      "name": "46 discovery in Guides",
+      "pass": true
+    },
+    {
+      "name": "/inside-an-ai-agent-fleet/ status200",
+      "pass": true
+    },
+    {
+      "name": "/inside-an-ai-agent-fleet/ one H1",
+      "pass": true
+    },
+    {
+      "name": "/inside-an-ai-agent-fleet/ canonical",
+      "pass": true
+    },
+    {
+      "name": "/inside-an-ai-agent-fleet/ no preview artifacts",
+      "pass": true
+    },
+    {
+      "name": "/multi-source-report-automation/ status200",
+      "pass": true
+    },
+    {
+      "name": "/multi-source-report-automation/ one H1",
+      "pass": true
+    },
+    {
+      "name": "/multi-source-report-automation/ canonical",
+      "pass": true
+    },
+    {
+      "name": "/multi-source-report-automation/ no preview artifacts",
+      "pass": true
+    },
+    {
+      "name": "/enquiry-privacy/ status200",
+      "pass": true
+    },
+    {
+      "name": "/enquiry-privacy/ one H1",
+      "pass": true
+    },
+    {
+      "name": "/enquiry-privacy/ canonical",
+      "pass": true
+    },
+    {
+      "name": "/enquiry-privacy/ no preview artifacts",
+      "pass": true
+    },
+    {
+      "name": "/automation-or-ai-which-job/ genuine404",
+      "pass": true
+    },
+    {
+      "name": "/systems-do-not-need-replacing/ genuine404",
+      "pass": true
+    },
+    {
+      "name": "/human-approval-is-a-feature/ genuine404",
+      "pass": true
+    },
+    {
+      "name": "/lead-routing-first-15-minutes/ genuine404",
+      "pass": true
+    },
+    {
+      "name": "/sometimes-do-not-automate-this/ genuine404",
+      "pass": true
+    },
+    {
+      "name": "/map-the-work-before-buying-another-tool/ genuine404",
+      "pass": true
+    },
+    {
+      "name": "/wb-acquisition-verification-missing-20261002/ genuine404",
+      "pass": true
+    },
+    {
+      "name": "/robots.txt status200",
+      "pass": true
+    },
+    {
+      "name": "robots references sitemap",
+      "pass": true
+    },
+    {
+      "name": "/sitemap_index.xml status200",
+      "pass": true
+    },
+    {
+      "name": "/post-sitemap.xml status200",
+      "pass": true
+    },
+    {
+      "name": "new46 in post sitemap",
+      "pass": true
+    },
+    {
+      "name": "future52 excluded from public sitemap",
+      "pass": true
+    },
+    {
+      "name": "/page-sitemap.xml status200",
+      "pass": true
+    },
+    {
+      "name": "45 remains public",
+      "pass": true
+    },
+    {
+      "name": "45 public author attribution",
+      "pass": true
+    },
+    {
+      "name": "existing author route resolves",
+      "pass": true
+    }
+  ],
+  "assets": [
+    {
+      "asset": "providers.js",
+      "status": 200,
+      "sha256": "fb34f1a97cd97e2146dd6b381a7590fa850b74c274aec71991a206931d73b622",
+      "source_sha256": "fb34f1a97cd97e2146dd6b381a7590fa850b74c274aec71991a206931d73b622",
+      "exact": true
+    },
+    {
+      "asset": "fleet.js",
+      "status": 200,
+      "sha256": "7bd3919e31c99f9ffaff14880f54d45cd83e0a5aca7c3fe1a0e8e6fecb9e8278",
+      "source_sha256": "7bd3919e31c99f9ffaff14880f54d45cd83e0a5aca7c3fe1a0e8e6fecb9e8278",
+      "exact": true
+    },
+    {
+      "asset": "systems.js",
+      "status": 200,
+      "sha256": "4e172c8e9d6966a999e7e8b1bc8c6a77a9c7a63f561be9371ed9210e7e9acc3a",
+      "source_sha256": "4e172c8e9d6966a999e7e8b1bc8c6a77a9c7a63f561be9371ed9210e7e9acc3a",
+      "exact": true
+    },
+    {
+      "asset": "measurement.js",
+      "status": 200,
+      "sha256": "1292a909dcec8c22fb271c3d5fe229334c7e7596c33fcb5a1134cf802f6b9a2e",
+      "source_sha256": "1292a909dcec8c22fb271c3d5fe229334c7e7596c33fcb5a1134cf802f6b9a2e",
+      "exact": true
+    },
+    {
+      "asset": "enquiry.js",
+      "status": 200,
+      "sha256": "da75164e753263375de3f62b9b7ae58f8a54a2bf678596e3d8d3e35b1101fdd2",
+      "source_sha256": "da75164e753263375de3f62b9b7ae58f8a54a2bf678596e3d8d3e35b1101fdd2",
+      "exact": true
+    },
+    {
+      "asset": "fleet-data.js",
+      "status": 200,
+      "sha256": "3367c88569bc6a8a9a1df1f6acd340bbc042837acb6b8e51ccc13bca5b4d6c1a",
+      "source_sha256": "3367c88569bc6a8a9a1df1f6acd340bbc042837acb6b8e51ccc13bca5b4d6c1a",
+      "exact": true
+    }
+  ],
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "title": "AI automation around your existing systems | Works Better",
+      "canonical": "https://worksbetter.ai/"
+    },
+    {
+      "route": "/why-monthly-reporting-takes-two-days/",
+      "status": 200,
+      "title": "Which number is right? A reporting handover checklist | Works Better",
+      "canonical": "https://worksbetter.ai/why-monthly-reporting-takes-two-days/",
+      "structured_data": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://worksbetter.ai/#organization",
+              "name": "Works Better",
+              "url": "https://worksbetter.ai"
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://worksbetter.ai/#website",
+              "url": "https://worksbetter.ai",
+              "name": "Works Better",
+              "publisher": {
+                "@id": "https://worksbetter.ai/#organization"
+              },
+              "inLanguage": "en-AU"
+            },
+            {
+              "@type": "ImageObject",
+              "@id": "https://worksbetter.ai/wp-content/uploads/2026/09/worksbetter-social-card.png",
+              "url": "https://worksbetter.ai/wp-content/uploads/2026/09/worksbetter-social-card.png",
+              "width": "1730",
+              "height": "909",
+              "inLanguage": "en-AU"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://worksbetter.ai/why-monthly-reporting-takes-two-days/#webpage",
+              "url": "https://worksbetter.ai/why-monthly-reporting-takes-two-days/",
+              "name": "Which number is right? A reporting handover checklist | Works Better",
+              "datePublished": "2026-10-02T10:00:00+00:00",
+              "dateModified": "2026-10-02T17:24:40+00:00",
+              "isPartOf": {
+                "@id": "https://worksbetter.ai/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://worksbetter.ai/wp-content/uploads/2026/09/worksbetter-social-card.png"
+              },
+              "inLanguage": "en-AU"
+            },
+            {
+              "@type": "Person",
+              "@id": "https://worksbetter.ai/author/admin/",
+              "name": "Renzo Demartini",
+              "url": "https://worksbetter.ai/author/admin/",
+              "image": {
+                "@type": "ImageObject",
+                "@id": "https://secure.gravatar.com/avatar/28dd07d2d09ee4da4d273d5910d88a75ffcc9832b881fc63fafe45e9fcc7001f?s=96&amp;d=mm&amp;r=g",
+                "url": "https://secure.gravatar.com/avatar/28dd07d2d09ee4da4d273d5910d88a75ffcc9832b881fc63fafe45e9fcc7001f?s=96&amp;d=mm&amp;r=g",
+                "caption": "Renzo Demartini",
+                "inLanguage": "en-AU"
+              },
+              "sameAs": [
+                "https://worksbetter.ai"
+              ],
+              "worksFor": {
+                "@id": "https://worksbetter.ai/#organization"
+              }
+            },
+            {
+              "@type": "BlogPosting",
+              "headline": "Which number is right? A reporting handover checklist | Works Better",
+              "datePublished": "2026-10-02T10:00:00+00:00",
+              "dateModified": "2026-10-02T17:24:40+00:00",
+              "articleSection": "Uncategorized",
+              "author": {
+                "@id": "https://worksbetter.ai/author/admin/",
+                "name": "Renzo Demartini"
+              },
+              "publisher": {
+                "@id": "https://worksbetter.ai/#organization"
+              },
+              "description": "A practical checklist for agreeing report definitions, sources, cut-offs and unresolved differences before connecting your business systems.",
+              "name": "Which number is right? A reporting handover checklist | Works Better",
+              "@id": "https://worksbetter.ai/why-monthly-reporting-takes-two-days/#richSnippet",
+              "isPartOf": {
+                "@id": "https://worksbetter.ai/why-monthly-reporting-takes-two-days/#webpage"
+              },
+              "image": {
+                "@id": "https://worksbetter.ai/wp-content/uploads/2026/09/worksbetter-social-card.png"
+              },
+              "inLanguage": "en-AU",
+              "mainEntityOfPage": {
+                "@id": "https://worksbetter.ai/why-monthly-reporting-takes-two-days/#webpage"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/guides/",
+      "status": 200,
+      "title": "Guides - Works Better",
+      "canonical": "https://worksbetter.ai/guides/"
+    },
+    {
+      "route": "/inside-an-ai-agent-fleet/",
+      "status": 200,
+      "title": "Decisions and safeguards in connected workflows | Works Better",
+      "canonical": "https://worksbetter.ai/inside-an-ai-agent-fleet/"
+    },
+    {
+      "route": "/multi-source-report-automation/",
+      "status": 200,
+      "title": "Multi-source report automation | Works Better",
+      "canonical": "https://worksbetter.ai/multi-source-report-automation/"
+    },
+    {
+      "route": "/enquiry-privacy/",
+      "status": 200,
+      "title": "How enquiries are handled | Works Better",
+      "canonical": "https://worksbetter.ai/enquiry-privacy/"
+    },
+    {
+      "route": "/automation-or-ai-which-job/",
+      "status": 404
+    },
+    {
+      "route": "/systems-do-not-need-replacing/",
+      "status": 404
+    },
+    {
+      "route": "/human-approval-is-a-feature/",
+      "status": 404
+    },
+    {
+      "route": "/lead-routing-first-15-minutes/",
+      "status": 404
+    },
+    {
+      "route": "/sometimes-do-not-automate-this/",
+      "status": 404
+    },
+    {
+      "route": "/map-the-work-before-buying-another-tool/",
+      "status": 404
+    },
+    {
+      "route": "/wb-acquisition-verification-missing-20261002/",
+      "status": 404
+    },
+    {
+      "route": "/author/admin/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/author/admin/"
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "as_of": "2026-10-02",
-  "state": "ACQUISITION_ASTRA_ACCEPTED_STAGED_NATIVE_PARTIAL_WPVIBE_QUOTA_BLOCKED",
+  "state": "ACQUISITION_DEPLOYED_PUBLICLY_VERIFIED_ASTRA_ACCEPTED",
   "active_theme": "worksbetter-wpvibe-draft",
   "draft_is_active": false,
   "source_type": "Sanitized reviewed explicit WordPress patch with authenticated native/public production readback; not a complete site/database clone",
-  "astra": "Actual Astra accepted commercial96598f2 and accessibility4a24667 before and after release;326 public browser checks, native parity and10 assets verified. Exact49 future correction separately accepted/read back; no commercial outcome or whole-site WCAG claim.",
+  "astra": "Actual commercial/accessibility and acquisition pre/post-release acceptance. Acquisition235browser and57public checks passed. Exact author display-name patch separately accepted before/after.",
   "apply_policy": "Explicit per-file/per-record patch only. Never wholesale import JSON statuses or upload this complete snapshot.",
   "changed_files": [
     {
@@ -160,7 +160,7 @@
     },
     {
       "id": 46,
-      "operation": "Native draft hold verified1Oct; corrected distinct checklist candidate remains draft; no scheduling/publication.",
+      "operation": "Distinct reviewed checklist46explicitly published2Oct17:24UTC; native body/title/excerpt/slug/metadata exact, public route/Guides/sitemap verified. Existing native10:00UTCdate retained.",
       "existing_observed_date": "2026-10-02T10:00:00"
     },
     {
@@ -171,7 +171,7 @@
         51,
         52
       ],
-      "operation": "unpublished editorial candidates only; no status/date/automatic publication changes authorised by export; current live statuses require recheck"
+      "operation": "Distinct worksheets native body/title/excerpt/metadata verified2Oct; existing future dates/slugs/status retained. Anonymous URLs404. No early publication."
     },
     {
       "id": 49,
@@ -396,7 +396,22 @@
     "policy": "Publish distinct46 explicitly after Astra. Preserve five native future dates/slugs. No bulk import. No new scheduled automation.",
     "conversion": "enquiry.js unchanged; no second generate_lead handler.",
     "source_commit": "a584fa2def0f697577fdb921b8f3e0b2ed436cc3",
-    "astra": "Scoped actual pre-release acceptance;107 checks/zero browser exceptions. Production review pending.",
-    "publication": "Theme remains draft and46 remains unpublished; quota blocked metadata and native readback. Do not infer deployment from source commit."
+    "astra": "Actual scoped pre-release and production acceptance, including public author metadata correction.",
+    "publication": "Actual theme published and46explicitly published2Oct2026at17:24UTC. Metadata/native/public parity verified. Quota gate resolved; no new schedules.",
+    "author_metadata": {
+      "user_id": 1,
+      "field": "display_name",
+      "value": "Renzo Demartini",
+      "previous": "admin",
+      "security_fields_changed": false
+    },
+    "verification": [
+      "docs/verification/acquisition-native-2026-10-02.json",
+      "docs/verification/acquisition-public-2026-10-02.json",
+      "docs/verification/acquisition-browser-public-2026-10-02.json",
+      "docs/verification/acquisition-regression-2026-10-02.json",
+      "docs/verification/acquisition-six-tools-2026-10-02.json",
+      "docs/verification/mobile-profile-comparison-2026-10-02.json"
+    ]
   }
 }

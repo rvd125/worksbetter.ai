@@ -1,6 +1,6 @@
 # Acquisition and guide journey pass — 2 October 2026
 
-Prepared after the commercial and accessibility releases. This record distinguishes candidate changes from verified public results. Exact Astra release acceptance and production verification remain pending at this checkpoint.
+Prepared after the commercial and accessibility releases. The following records the preparation and historical quota interruption. The acquisition pass is now deployed and verified: see ACQUISITION-RELEASE-2026-10-02.md for the authoritative final state.
 
 ## Supported changes
 
@@ -29,7 +29,7 @@ No new complete post-release acquisition window exists. The latest verified sepa
 
 Weekly review is proposed, not newly automated: examine relevant AU/NZ search exposure and landing visits, example/guide engagement, enquiry starts, confirmed saved submissions and privately reconciled genuine/qualified opportunities, meetings, proposals and wins. Retain the first complete post-release28day and eight-week evaluation periods documented in the growth plan.
 
-## Exact pre-release checkpoint and access gate
+## Historical pre-release checkpoint and access gate — resolved
 
 Actual Astra granted scoped pre-release acceptance after107 passing desktop/mobile checks with zero exceptions and corrected source/template evidence. Reviewed source is committed as a584fa2def0f697577fdb921b8f3e0b2ed436cc3. This is a source/staging checkpoint, not deployment.
 
@@ -38,3 +38,7 @@ Six native body patches returned edited/replaced-once acknowledgements. A core b
 The current public commercial/accessibility release is the preceding7ae7797 checkpoint. Remaining work is metadata alignment, full native readback, theme publication and explicit46 publication, actual anonymous browser/assets/SEO verification, source/live reconciliation and Astra production review. Guide engagement on the new script is not yet live. No new enquiries have been sent.
 
 Anonymous checkpoint verification confirms all four affected JS files still match their prior live bytes and none matches the new draft;46and the five future routes return genuine404. From the truncated native batch response,52body/title/future25December09:00UTC are independently extractable and match the candidate. Remaining native parity is pending. See verification/acquisition-quota-checkpoint-2026-10-02.json. These checks confirm that the additional public release has not occurred.
+
+## Completed release
+
+Owner restored WPVibe access.12SEO fields and six article bodies/title/excerpts/slugs were verified, the theme and46published17:24UTC, and actual public checks passed. Five future dates/status/slugs are preserved;49unchanged. Actual Astra production and author-metadata acceptance obtained.235browser and57public SEO/content checks passed; real Google Fonts enabled, no enquiry notification or real analytics send. The historical quota statements above are superseded. See ACQUISITION-RELEASE-2026-10-02.md.

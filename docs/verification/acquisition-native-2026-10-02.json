@@ -1,0 +1,81 @@
+[
+  {
+    "id": 52,
+    "status": "future",
+    "date": "2026-12-25T09:00:00",
+    "date_gmt": "2026-12-25T09:00:00",
+    "slug": "map-the-work-before-buying-another-tool",
+    "bodyExact": true,
+    "titleExact": true,
+    "excerptExact": true,
+    "metadataVerified": "separate readback12 fields exact"
+  },
+  {
+    "id": 51,
+    "status": "future",
+    "date": "2026-12-11T09:00:00",
+    "date_gmt": "2026-12-11T09:00:00",
+    "slug": "sometimes-do-not-automate-this",
+    "bodyExact": true,
+    "titleExact": true,
+    "excerptExact": true,
+    "metadataVerified": "separate readback12 fields exact"
+  },
+  {
+    "id": 50,
+    "status": "future",
+    "date": "2026-11-27T09:00:00",
+    "date_gmt": "2026-11-27T09:00:00",
+    "slug": "lead-routing-first-15-minutes",
+    "bodyExact": true,
+    "titleExact": true,
+    "excerptExact": true,
+    "metadataVerified": "separate readback12 fields exact"
+  },
+  {
+    "id": 49,
+    "status": "future",
+    "date": "2026-11-13T09:00:00",
+    "date_gmt": "2026-11-13T09:00:00",
+    "slug": "human-approval-is-a-feature",
+    "bodyExact": true,
+    "titleExact": true,
+    "excerptExact": true,
+    "metadataVerified": "unchanged",
+    "original_body_unchanged": true,
+    "original_excerpt_unchanged": true
+  },
+  {
+    "id": 48,
+    "status": "future",
+    "date": "2026-10-30T09:00:00",
+    "date_gmt": "2026-10-30T09:00:00",
+    "slug": "systems-do-not-need-replacing",
+    "bodyExact": true,
+    "titleExact": true,
+    "excerptExact": true,
+    "metadataVerified": "separate readback12 fields exact"
+  },
+  {
+    "id": 47,
+    "status": "future",
+    "date": "2026-10-16T09:00:00",
+    "date_gmt": "2026-10-16T09:00:00",
+    "slug": "automation-or-ai-which-job",
+    "bodyExact": true,
+    "titleExact": true,
+    "excerptExact": true,
+    "metadataVerified": "separate readback12 fields exact"
+  },
+  {
+    "id": 46,
+    "status": "publish",
+    "date": "2026-10-02T10:00:00",
+    "date_gmt": "2026-10-02T10:00:00",
+    "slug": "why-monthly-reporting-takes-two-days",
+    "bodyExact": true,
+    "titleExact": true,
+    "excerptExact": true,
+    "metadataVerified": "separate readback12 fields exact"
+  }
+]

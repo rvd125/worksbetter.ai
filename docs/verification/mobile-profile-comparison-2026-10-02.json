@@ -1,0 +1,67 @@
+{
+  "before": [
+    {
+      "run": 0,
+      "ttfb_ms": 2141.1000000089407,
+      "fcp_ms": 2940,
+      "lcp_ms": 2940,
+      "cls": 0.020089106137574662,
+      "resource_count": 47,
+      "initial_img_count": 16,
+      "transfer_bytes_with_document": 175923
+    },
+    {
+      "run": 1,
+      "ttfb_ms": 362.70000000298023,
+      "fcp_ms": 1120,
+      "lcp_ms": 1120,
+      "cls": 0.020089106137574662,
+      "resource_count": 47,
+      "initial_img_count": 16,
+      "transfer_bytes_with_document": 175923
+    },
+    {
+      "run": 2,
+      "ttfb_ms": 395.90000000596046,
+      "fcp_ms": 1200,
+      "lcp_ms": 1200,
+      "cls": 0.020089106137574662,
+      "resource_count": 47,
+      "initial_img_count": 16,
+      "transfer_bytes_with_document": 175923
+    }
+  ],
+  "after": [
+    {
+      "run": 0,
+      "ttfb_ms": 1774.5999999940395,
+      "fcp_ms": 2472,
+      "lcp_ms": 2472,
+      "cls": 0.020089106137574662,
+      "resource_count": 33,
+      "initial_img_count": 2,
+      "transfer_bytes_with_document": 148541
+    },
+    {
+      "run": 1,
+      "ttfb_ms": 318.40000000596046,
+      "fcp_ms": 1004,
+      "lcp_ms": 1004,
+      "cls": 0.020089106137574662,
+      "resource_count": 33,
+      "initial_img_count": 2,
+      "transfer_bytes_with_document": 148541
+    },
+    {
+      "run": 2,
+      "ttfb_ms": 316.59999999403954,
+      "fcp_ms": 1092,
+      "lcp_ms": 1092,
+      "cls": 0.020089106137574662,
+      "resource_count": 33,
+      "initial_img_count": 2,
+      "transfer_bytes_with_document": 148541
+    }
+  ],
+  "scope": "Identical three cold diagnostic mobile contexts with Google Fonts allowed and analytics/allPOST blocked. Not Lighthouse/CrUX or field data. Variable TTFB prevents causal speed claim. Observed fewer initial image requests; visible images verified after scrolling."
+}

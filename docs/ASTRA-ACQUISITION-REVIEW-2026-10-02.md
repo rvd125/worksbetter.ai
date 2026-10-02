@@ -8,4 +8,4 @@ Accepted scope: five theme files for guide engagement, whitelisted safeguards de
 
 The article screenshots prove corrected body rendering in the actual draft template, using locally injected candidates. They do not prove native content/status/metadata or publication. Those require authenticated readback and anonymous production checks after release. Guide clicks are engagement, not successful submissions, conversions or qualified leads. No rankings, lead volume, conversion or loading improvement is established by this acceptance.
 
-Production acceptance remains pending at this checkpoint.
+Production acceptance was granted for the deployed acquisition pass after235browser checks and52initial public checks. Astra separately pre-approved user1display_name admin→Renzo Demartini, then accepted production after refreshed57public checks covered both article author schemas and the existing author route. No further functional testing was required for the metadata-only addition. These scoped decisions establish verified deployment/behaviour, not search growth, qualified leads or causal performance gains.

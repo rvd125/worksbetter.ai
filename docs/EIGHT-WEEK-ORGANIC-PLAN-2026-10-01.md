@@ -14,7 +14,7 @@ The main site already has articles about workflow automation, AI agents, startin
 
 | Week | Dates | Discovery draft | Buyer intent and next step | Existing record handling |
 |---|---|---|---|---|
-| 1 | 1–7 Oct | Which number is right? A reporting handover checklist | Resolve conflicting report definitions; explore the held reporting story, then enquire | Revised local post46; native WordPress draft hold verified after access restoration on 1 October. Corrected checklist remains unpublished. |
+| 1 | 1–7 Oct | Which number is right? A reporting handover checklist | Resolve conflicting report definitions; explore the held reporting story, then enquire | Revised local post46; native WordPress draft hold verified after access restoration on 1 October. Corrected checklist publicly released2October after exact Astra review. |
 | 2 | 8–14 Oct | A new starter is due. Who owns each document handover? | Review a document handover; try the fictional employee-onboarding example and describe the process | New draft; improve published45's contextual enquiry bridge without making a second duplicate-entry article. |
 | 3 | 15–21 Oct | Give each step a job: record, rule, draft or decision | Choose the role of one process step; explore the confirmed enquiry safeguards story after release | Differentiate scheduled47 before release. Preserve its schedule until the exact revision is approved. |
 | 4 | 22–28 Oct | Two tools disagree about a customer. Which record wins? | Resolve a specific record conflict; prepare source-ownership questions | Rework scheduled48's broad integration topic; main site remains primary for integration without replacement. |
@@ -23,7 +23,7 @@ The main site already has articles about workflow automation, AI agents, startin
 | 7 | 12–18 Nov | When a running automation should pause | Recognise failure and exception signals; discuss recovery | Differentiate scheduled51 from main-site process-readiness content. |
 | 8 | 19–25 Nov | Bring one handover to a consulting conversation | Prepare process/tools/result and a useful exception; enquire about paid scope | Differentiate scheduled52 from broad workflow mapping; no25Dec schedule cancellation. |
 
-All eight useful drafts are in `eight-week-drafts.html`. Post46's implementation draft in `source/content/posts.json` is more detailed. Each needs final factual/editorial review and overlap checking against the latest main-site and Works Better content before publication. Dates are a proposed review order, not a new automated publishing schedule.
+Prepared drafts are in `eight-week-drafts.html`. Post46's implementation draft in `source/content/posts.json` is more detailed. Each needs final factual/editorial review and overlap checking against the latest main-site and Works Better content before publication. Dates are a proposed review order, not a new automated publishing schedule.
 
 ## Commercial landing pages before supporting articles
 
@@ -47,6 +47,6 @@ Increase publication only when content remains distinct and enquiry handling wor
 
 LinkedIn remains deferred. No ads, bulk messages, unsolicited outreach, partner messages or external posts have been authorised or sent. External distribution remains a draft decision.
 
-## 2October acquisition checkpoint
+## 2October verified acquisition release
 
-The six exact implementation worksheets are now in source/content/posts.json. Actual Astra accepted their distinct purposes and desktop/mobile template rendering (107checks, zero exceptions). Revised46 is approved for explicit publication at its existing route, but remains unpublished at the quota checkpoint. Six native body edits and five future-title/excerpt edits were acknowledged; metadata/native parity/publication remain pending because WPVibe reached its daily limit. The native existing schedule remains16Oct47,30Oct48,13Nov49,27Nov50,11Dec51,25Dec52 at09:00UTC, pending full readback. No new automatic schedule or weekly review was created. Week2onboarding and week5approval-brief drafts remain editorial proposals; do not publish a second article covering49without a fresh overlap review. See ACQUISITION-PASS-2026-10-02.md for current scope and verification limits.
+The exact implementation worksheets are in source/content/posts.json. Revised46is public at its retained route and listed in Guides/sitemap. Actual Astra accepted the distinct topics,107pre-release checks,235production browser checks and57public content/SEO checks.47/48/50/51/52now have aligned native body/title/excerpt/SEO metadata; their existing future dates/slugs/status are preserved.49's earlier corrected ending remains unchanged. Existing schedule:16Oct47,30Oct48,13Nov49,27Nov50,11Dec51,25Dec52, all09:00UTC. The eight-week table remains a proposed editorial review order, not a replacement publishing schedule. Week2onboarding remains a useful draft; week5approval-brief remains a proposal and must not duplicate49without a fresh editorial decision. No new review automation or external distribution was created. See ACQUISITION-RELEASE-2026-10-02.md for final evidence and outcome limits.

@@ -1,0 +1,250 @@
+{
+  "scope": "Actual public desktop/mobile six example interactions; only site/Google Fonts GET allowed, all POST and external analytics blocked",
+  "checks": [
+    {
+      "name": "1440 invoice: diagram present",
+      "pass": true
+    },
+    {
+      "name": "1440 invoice: situation opens",
+      "pass": true
+    },
+    {
+      "name": "1440 invoice: result opens",
+      "pass": true
+    },
+    {
+      "name": "1440 invoice: bounded completion",
+      "pass": true
+    },
+    {
+      "name": "1440 invoice: replay",
+      "pass": true
+    },
+    {
+      "name": "1440 enquiry: diagram present",
+      "pass": true
+    },
+    {
+      "name": "1440 enquiry: situation opens",
+      "pass": true
+    },
+    {
+      "name": "1440 enquiry: result opens",
+      "pass": true
+    },
+    {
+      "name": "1440 enquiry: bounded completion",
+      "pass": true
+    },
+    {
+      "name": "1440 enquiry: replay",
+      "pass": true
+    },
+    {
+      "name": "1440 finance: diagram present",
+      "pass": true
+    },
+    {
+      "name": "1440 finance: situation opens",
+      "pass": true
+    },
+    {
+      "name": "1440 finance: result opens",
+      "pass": true
+    },
+    {
+      "name": "1440 finance: bounded completion",
+      "pass": true
+    },
+    {
+      "name": "1440 finance: replay",
+      "pass": true
+    },
+    {
+      "name": "1440 onboarding: diagram present",
+      "pass": true
+    },
+    {
+      "name": "1440 onboarding: situation opens",
+      "pass": true
+    },
+    {
+      "name": "1440 onboarding: result opens",
+      "pass": true
+    },
+    {
+      "name": "1440 onboarding: bounded completion",
+      "pass": true
+    },
+    {
+      "name": "1440 onboarding: replay",
+      "pass": true
+    },
+    {
+      "name": "1440 routing: diagram present",
+      "pass": true
+    },
+    {
+      "name": "1440 routing: situation opens",
+      "pass": true
+    },
+    {
+      "name": "1440 routing: result opens",
+      "pass": true
+    },
+    {
+      "name": "1440 routing: bounded completion",
+      "pass": true
+    },
+    {
+      "name": "1440 routing: replay",
+      "pass": true
+    },
+    {
+      "name": "1440 reporting: diagram present",
+      "pass": true
+    },
+    {
+      "name": "1440 reporting: situation opens",
+      "pass": true
+    },
+    {
+      "name": "1440 reporting: result opens",
+      "pass": true
+    },
+    {
+      "name": "1440 reporting: bounded completion",
+      "pass": true
+    },
+    {
+      "name": "1440 reporting: replay",
+      "pass": true
+    },
+    {
+      "name": "390 invoice: diagram present",
+      "pass": true
+    },
+    {
+      "name": "390 invoice: situation opens",
+      "pass": true
+    },
+    {
+      "name": "390 invoice: result opens",
+      "pass": true
+    },
+    {
+      "name": "390 invoice: bounded completion",
+      "pass": true
+    },
+    {
+      "name": "390 invoice: replay",
+      "pass": true
+    },
+    {
+      "name": "390 enquiry: diagram present",
+      "pass": true
+    },
+    {
+      "name": "390 enquiry: situation opens",
+      "pass": true
+    },
+    {
+      "name": "390 enquiry: result opens",
+      "pass": true
+    },
+    {
+      "name": "390 enquiry: bounded completion",
+      "pass": true
+    },
+    {
+      "name": "390 enquiry: replay",
+      "pass": true
+    },
+    {
+      "name": "390 finance: diagram present",
+      "pass": true
+    },
+    {
+      "name": "390 finance: situation opens",
+      "pass": true
+    },
+    {
+      "name": "390 finance: result opens",
+      "pass": true
+    },
+    {
+      "name": "390 finance: bounded completion",
+      "pass": true
+    },
+    {
+      "name": "390 finance: replay",
+      "pass": true
+    },
+    {
+      "name": "390 onboarding: diagram present",
+      "pass": true
+    },
+    {
+      "name": "390 onboarding: situation opens",
+      "pass": true
+    },
+    {
+      "name": "390 onboarding: result opens",
+      "pass": true
+    },
+    {
+      "name": "390 onboarding: bounded completion",
+      "pass": true
+    },
+    {
+      "name": "390 onboarding: replay",
+      "pass": true
+    },
+    {
+      "name": "390 routing: diagram present",
+      "pass": true
+    },
+    {
+      "name": "390 routing: situation opens",
+      "pass": true
+    },
+    {
+      "name": "390 routing: result opens",
+      "pass": true
+    },
+    {
+      "name": "390 routing: bounded completion",
+      "pass": true
+    },
+    {
+      "name": "390 routing: replay",
+      "pass": true
+    },
+    {
+      "name": "390 reporting: diagram present",
+      "pass": true
+    },
+    {
+      "name": "390 reporting: situation opens",
+      "pass": true
+    },
+    {
+      "name": "390 reporting: result opens",
+      "pass": true
+    },
+    {
+      "name": "390 reporting: bounded completion",
+      "pass": true
+    },
+    {
+      "name": "390 reporting: replay",
+      "pass": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "pass": true
+    }
+  ],
+  "errors": []
+}
