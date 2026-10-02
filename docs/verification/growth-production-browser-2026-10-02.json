@@ -1,0 +1,512 @@
+{
+  "scope": "Actual WordPress HTTPS with only site GET and intercepted client interactions; no notifications or external analytics sent",
+  "checks": [
+    {
+      "name": "1440: HTTPS200",
+      "pass": true
+    },
+    {
+      "name": "1440: one H1",
+      "pass": true
+    },
+    {
+      "name": "1440: no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "1440: hero enquiry within900px",
+      "pass": true
+    },
+    {
+      "name": "1440: upfront paid expectations",
+      "pass": true
+    },
+    {
+      "name": "1440: old repeated card absent",
+      "pass": true
+    },
+    {
+      "name": "1440: optional AI closed",
+      "pass": true
+    },
+    {
+      "name": "1440: one Guides link",
+      "pass": true
+    },
+    {
+      "name": "1440: FAQ has two grid children",
+      "pass": true
+    },
+    {
+      "name": "1440: software answer in FAQ column",
+      "pass": true
+    },
+    {
+      "name": "1440: FAQ example direction accurate",
+      "pass": true
+    },
+    {
+      "name": "1440: hero opens enquiry",
+      "pass": true
+    },
+    {
+      "name": "1440: concise enquiry expectations",
+      "pass": true
+    },
+    {
+      "name": "1440: Escape closes enquiry",
+      "pass": true
+    },
+    {
+      "name": "1440: example destination",
+      "pass": true
+    },
+    {
+      "name": "1440: human approval required",
+      "pass": true
+    },
+    {
+      "name": "1440: approved connections, no payment",
+      "pass": true
+    },
+    {
+      "name": "1440: completed terminal",
+      "pass": true
+    },
+    {
+      "name": "1440: duplicate terminal",
+      "pass": true
+    },
+    {
+      "name": "1440: mismatch needs explanation",
+      "pass": true
+    },
+    {
+      "name": "1440: explained approval completes",
+      "pass": true
+    },
+    {
+      "name": "1440: decline stops",
+      "pass": true
+    },
+    {
+      "name": "1440: reset restores first step",
+      "pass": true
+    },
+    {
+      "name": "1440: mode enquiry label is truthful",
+      "pass": true
+    },
+    {
+      "name": "1440: selected mode retained",
+      "pass": true
+    },
+    {
+      "name": "1440: legacy idea link opens tool",
+      "pass": true
+    },
+    {
+      "name": "1440: disclosure and tool reachable",
+      "pass": true
+    },
+    {
+      "name": "1440: tool validation remains",
+      "pass": true
+    },
+    {
+      "name": "894: HTTPS200",
+      "pass": true
+    },
+    {
+      "name": "894: one H1",
+      "pass": true
+    },
+    {
+      "name": "894: no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "894: hero enquiry within900px",
+      "pass": true
+    },
+    {
+      "name": "894: upfront paid expectations",
+      "pass": true
+    },
+    {
+      "name": "894: old repeated card absent",
+      "pass": true
+    },
+    {
+      "name": "894: optional AI closed",
+      "pass": true
+    },
+    {
+      "name": "894: one Guides link",
+      "pass": true
+    },
+    {
+      "name": "894: FAQ has two grid children",
+      "pass": true
+    },
+    {
+      "name": "894: software answer in FAQ column",
+      "pass": true
+    },
+    {
+      "name": "894: FAQ example direction accurate",
+      "pass": true
+    },
+    {
+      "name": "894: hero opens enquiry",
+      "pass": true
+    },
+    {
+      "name": "894: concise enquiry expectations",
+      "pass": true
+    },
+    {
+      "name": "894: Escape closes enquiry",
+      "pass": true
+    },
+    {
+      "name": "894: example destination",
+      "pass": true
+    },
+    {
+      "name": "894: human approval required",
+      "pass": true
+    },
+    {
+      "name": "894: approved connections, no payment",
+      "pass": true
+    },
+    {
+      "name": "894: completed terminal",
+      "pass": true
+    },
+    {
+      "name": "894: duplicate terminal",
+      "pass": true
+    },
+    {
+      "name": "894: mismatch needs explanation",
+      "pass": true
+    },
+    {
+      "name": "894: explained approval completes",
+      "pass": true
+    },
+    {
+      "name": "894: decline stops",
+      "pass": true
+    },
+    {
+      "name": "894: reset restores first step",
+      "pass": true
+    },
+    {
+      "name": "894: mode enquiry label is truthful",
+      "pass": true
+    },
+    {
+      "name": "894: selected mode retained",
+      "pass": true
+    },
+    {
+      "name": "894: legacy idea link opens tool",
+      "pass": true
+    },
+    {
+      "name": "894: disclosure and tool reachable",
+      "pass": true
+    },
+    {
+      "name": "894: tool validation remains",
+      "pass": true
+    },
+    {
+      "name": "390: HTTPS200",
+      "pass": true
+    },
+    {
+      "name": "390: one H1",
+      "pass": true
+    },
+    {
+      "name": "390: no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "390: hero enquiry within900px",
+      "pass": true
+    },
+    {
+      "name": "390: upfront paid expectations",
+      "pass": true
+    },
+    {
+      "name": "390: old repeated card absent",
+      "pass": true
+    },
+    {
+      "name": "390: optional AI closed",
+      "pass": true
+    },
+    {
+      "name": "390: one Guides link",
+      "pass": true
+    },
+    {
+      "name": "390: FAQ has two grid children",
+      "pass": true
+    },
+    {
+      "name": "390: software answer in FAQ column",
+      "pass": true
+    },
+    {
+      "name": "390: FAQ example direction accurate",
+      "pass": true
+    },
+    {
+      "name": "390: hero opens enquiry",
+      "pass": true
+    },
+    {
+      "name": "390: concise enquiry expectations",
+      "pass": true
+    },
+    {
+      "name": "390: Escape closes enquiry",
+      "pass": true
+    },
+    {
+      "name": "390: example destination",
+      "pass": true
+    },
+    {
+      "name": "390: human approval required",
+      "pass": true
+    },
+    {
+      "name": "390: approved connections, no payment",
+      "pass": true
+    },
+    {
+      "name": "390: completed terminal",
+      "pass": true
+    },
+    {
+      "name": "390: duplicate terminal",
+      "pass": true
+    },
+    {
+      "name": "390: mismatch needs explanation",
+      "pass": true
+    },
+    {
+      "name": "390: explained approval completes",
+      "pass": true
+    },
+    {
+      "name": "390: decline stops",
+      "pass": true
+    },
+    {
+      "name": "390: reset restores first step",
+      "pass": true
+    },
+    {
+      "name": "390: mode enquiry label is truthful",
+      "pass": true
+    },
+    {
+      "name": "390: selected mode retained",
+      "pass": true
+    },
+    {
+      "name": "390: legacy idea link opens tool",
+      "pass": true
+    },
+    {
+      "name": "390: disclosure and tool reachable",
+      "pass": true
+    },
+    {
+      "name": "390: tool validation remains",
+      "pass": true
+    },
+    {
+      "name": "320: HTTPS200",
+      "pass": true
+    },
+    {
+      "name": "320: one H1",
+      "pass": true
+    },
+    {
+      "name": "320: no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "320: hero enquiry within900px",
+      "pass": true
+    },
+    {
+      "name": "320: upfront paid expectations",
+      "pass": true
+    },
+    {
+      "name": "320: old repeated card absent",
+      "pass": true
+    },
+    {
+      "name": "320: optional AI closed",
+      "pass": true
+    },
+    {
+      "name": "320: one Guides link",
+      "pass": true
+    },
+    {
+      "name": "320: FAQ has two grid children",
+      "pass": true
+    },
+    {
+      "name": "320: software answer in FAQ column",
+      "pass": true
+    },
+    {
+      "name": "320: FAQ example direction accurate",
+      "pass": true
+    },
+    {
+      "name": "320: hero opens enquiry",
+      "pass": true
+    },
+    {
+      "name": "320: concise enquiry expectations",
+      "pass": true
+    },
+    {
+      "name": "320: Escape closes enquiry",
+      "pass": true
+    },
+    {
+      "name": "320: example destination",
+      "pass": true
+    },
+    {
+      "name": "320: human approval required",
+      "pass": true
+    },
+    {
+      "name": "320: approved connections, no payment",
+      "pass": true
+    },
+    {
+      "name": "320: completed terminal",
+      "pass": true
+    },
+    {
+      "name": "320: duplicate terminal",
+      "pass": true
+    },
+    {
+      "name": "320: mismatch needs explanation",
+      "pass": true
+    },
+    {
+      "name": "320: explained approval completes",
+      "pass": true
+    },
+    {
+      "name": "320: decline stops",
+      "pass": true
+    },
+    {
+      "name": "320: reset restores first step",
+      "pass": true
+    },
+    {
+      "name": "320: mode enquiry label is truthful",
+      "pass": true
+    },
+    {
+      "name": "320: selected mode retained",
+      "pass": true
+    },
+    {
+      "name": "320: legacy idea link opens tool",
+      "pass": true
+    },
+    {
+      "name": "320: disclosure and tool reachable",
+      "pass": true
+    },
+    {
+      "name": "320: tool validation remains",
+      "pass": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "observations": [
+    {
+      "width": 1440,
+      "documentHeight": 13588,
+      "firstBodyActionY": 657.9375,
+      "firstBodyActionBottom": 707.9375,
+      "firstBodyActionLabel": "Discuss my workflow\n↗",
+      "heroHasPaidExpectations": true,
+      "heroWordCount": 86,
+      "headerDestinations": [
+        "How it works",
+        "Guides"
+      ]
+    },
+    {
+      "width": 894,
+      "documentHeight": 14056,
+      "firstBodyActionY": 625.453125,
+      "firstBodyActionBottom": 675.453125,
+      "firstBodyActionLabel": "Discuss my workflow\n↗",
+      "heroHasPaidExpectations": true,
+      "heroWordCount": 86,
+      "headerDestinations": [
+        "How it works",
+        "Guides"
+      ]
+    },
+    {
+      "width": 390,
+      "documentHeight": 17977,
+      "firstBodyActionY": 573.46875,
+      "firstBodyActionBottom": 621.46875,
+      "firstBodyActionLabel": "Discuss my workflow\n↗",
+      "heroHasPaidExpectations": true,
+      "heroWordCount": 86,
+      "headerDestinations": [
+        "How it works",
+        "Guides"
+      ]
+    },
+    {
+      "width": 320,
+      "documentHeight": 20568,
+      "firstBodyActionY": 635.46875,
+      "firstBodyActionBottom": 683.46875,
+      "firstBodyActionLabel": "Discuss my workflow\n↗",
+      "heroHasPaidExpectations": true,
+      "heroWordCount": 86,
+      "headerDestinations": [
+        "How it works",
+        "Guides"
+      ]
+    }
+  ]
+}

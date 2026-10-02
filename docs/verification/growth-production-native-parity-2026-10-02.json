@@ -1,0 +1,112 @@
+{
+  "scope": "Authenticated native readback after explicit nine-page content-only write; original publication dates, slugs and states preserved. Eight exact byte matches; homepage equivalent after normalising only outward-arrow HTML entities.",
+  "pages": [
+    {
+      "id": 16,
+      "status": "publish",
+      "date": "2026-09-10T12:14:03",
+      "slug": "simpro-xero-invoice-automation",
+      "exact": true,
+      "arrowEquivalent": true,
+      "nativeLength": 27358,
+      "sourceLength": 27358
+    },
+    {
+      "id": 15,
+      "status": "publish",
+      "date": "2026-09-10T12:14:03",
+      "slug": "multi-source-report-automation",
+      "exact": true,
+      "arrowEquivalent": true,
+      "nativeLength": 27809,
+      "sourceLength": 27809
+    },
+    {
+      "id": 14,
+      "status": "publish",
+      "date": "2026-09-10T12:14:03",
+      "slug": "lead-routing-automation",
+      "exact": true,
+      "arrowEquivalent": true,
+      "nativeLength": 27543,
+      "sourceLength": 27543
+    },
+    {
+      "id": 13,
+      "status": "publish",
+      "date": "2026-09-10T12:14:03",
+      "slug": "job-profitability-reporting",
+      "exact": true,
+      "arrowEquivalent": true,
+      "nativeLength": 27581,
+      "sourceLength": 27581
+    },
+    {
+      "id": 12,
+      "status": "publish",
+      "date": "2026-09-10T12:14:03",
+      "slug": "inside-an-ai-agent-fleet",
+      "exact": true,
+      "arrowEquivalent": true,
+      "nativeLength": 8098,
+      "sourceLength": 8098
+    },
+    {
+      "id": 11,
+      "status": "publish",
+      "date": "2026-09-10T12:14:03",
+      "slug": "home",
+      "exact": false,
+      "arrowEquivalent": true,
+      "nativeLength": 36219,
+      "sourceLength": 36184
+    },
+    {
+      "id": 10,
+      "status": "publish",
+      "date": "2026-09-10T12:14:03",
+      "slug": "enquiry-privacy",
+      "exact": true,
+      "arrowEquivalent": true,
+      "nativeLength": 8714,
+      "sourceLength": 8714
+    },
+    {
+      "id": 9,
+      "status": "publish",
+      "date": "2026-09-10T12:14:03",
+      "slug": "employee-onboarding-automation",
+      "exact": true,
+      "arrowEquivalent": true,
+      "nativeLength": 27516,
+      "sourceLength": 27516
+    },
+    {
+      "id": 8,
+      "status": "publish",
+      "date": "2026-09-10T12:14:03",
+      "slug": "ai-customer-enquiry-automation",
+      "exact": true,
+      "arrowEquivalent": true,
+      "nativeLength": 27526,
+      "sourceLength": 27526
+    }
+  ],
+  "temporary_shadow_removed": true,
+  "original_functions_restored": true,
+  "source_commit": "96598f293e35b903227691a20570860aaff83ab6",
+  "backup": {
+    "timestamp": 1790931822,
+    "time": "2026-10-02T09:03:42.000Z",
+    "parts": [
+      "db",
+      "themes",
+      "plugins",
+      "uploads",
+      "others"
+    ],
+    "hash_keys": [
+      "checksums"
+    ]
+  }
+}

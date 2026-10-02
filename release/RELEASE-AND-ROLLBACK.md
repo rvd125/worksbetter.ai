@@ -6,6 +6,12 @@ Before publishing, original functions.php was restored exactly and wb-preview-co
 
 To roll back, use the recorded private full/scoped backups or WPVibe theme backup and native revisions to restore only affected behavior. Preserve legitimate enquiries and confidentiality replacements. Never restore confidential internal registers/exports to public paths. The native content backup predates release and remains private; restoration must not bulk-import local draft/status snapshots. Verify affected public pages, assets, controls, storage and delivery after restoration and record the reason/revisions. Do not blindly restore an entire database over new enquiries.
 
+## Commercial/design follow-up,2October
+
+Reviewed source96598f293e35b903227691a20570860aaff83ab6 is now deployed. Exact original functions.php was restored and wb-growth-content.json deleted before publication. Nine page bodies changed; their dates/status/slugs and metadata were preserved. Public113 focused,65 journey and61 example checks pass, alongside all10 asset hashes. No additional real enquiry was sent.
+
+For this revision, restore the affected assets from parentce3221f632bd6958542ca90556e5c52c7de61a7a and the preceding native page revisions (or the private scoped before snapshot), or use WPVibe’s latest theme backup. Keep the theme and native content coherent; never overwrite new legitimate enquiries or undo confidentiality repairs. The full09:03 backup and revisions remain available; selective restoration is preferred over a full database rewind. Recheck affected public journeys after any restoration. See the commercial/design release record.
+
 The following sections are retained historical staging instructions. Their pending/excluded-page10 statements describe pre-release checkpoints and are superseded by the production record and current manifest.
 
 

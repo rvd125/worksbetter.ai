@@ -1,0 +1,21 @@
+{
+  "scope": "Anonymous/public or isolated preview exact contrast and label audit; no sends, only local axe code and site GET",
+  "method": "axe-core4.10.3, targeted color-contrast and label-content-name-mismatch rules only",
+  "results": [
+    {
+      "width": 1440,
+      "violations": [],
+      "incomplete_rule_counts": {
+        "color-contrast": 416
+      }
+    },
+    {
+      "width": 390,
+      "violations": [],
+      "incomplete_rule_counts": {
+        "color-contrast": 267
+      }
+    }
+  ],
+  "limit": "Gradient/background cases need manual review; zero identified violations does not declare whole-site WCAG conformance or updated Lighthouse score."
+}

@@ -4,7 +4,7 @@
   "active_theme": "worksbetter-wpvibe-draft",
   "draft_is_active": false,
   "source_type": "Sanitized reviewed explicit WordPress patch with authenticated native/public production readback; not a complete site/database clone",
-  "astra": "Actual Astra granted controlled release then scoped production acceptance for b16f0be;126 public checks and independent storage/owner inbox confirmed. Processed GA receipt and commercial outcomes not established.",
+  "astra": "Actual Astra granted scoped pre-release and production acceptance for96598f2;239 public browser checks, native parity and10 assets verified. Commercial outcomes and processed GA receipt remain unestablished.",
   "apply_policy": "Explicit per-file/per-record patch only. Never wholesale import JSON statuses or upload this complete snapshot.",
   "changed_files": [
     {
@@ -16,7 +16,7 @@
     {
       "path": "source/theme/assets/flagship-entry.js",
       "destination": "wp-content/themes/worksbetter-wpvibe-draft/assets/flagship-entry.js",
-      "sha256": "f4f5560ba0f3b3d46050079c6820d5cdaf2d1c349044ce6913bbe15f3fcce708",
+      "sha256": "44626410d61e2978de302500646bff4d2c41fd6936c191ce1ffc2bab4b8de978",
       "original_sha256": "184ef4a99a899cf6f2ca0fff4fc3b5565b0093559302455afaf4e8d480129c98"
     },
     {
@@ -34,7 +34,7 @@
     {
       "path": "source/theme/assets/guides.css",
       "destination": "wp-content/themes/worksbetter-wpvibe-draft/assets/guides.css",
-      "sha256": "d73407325d9e6c8be333412f18e5222a2a3b9e900f1a1113614ae290ac936454",
+      "sha256": "65970f9c7a22b1f0e7026189b5c9d3ad27fd25146302abe09d76083e43812179",
       "original_sha256": "81c7d1b72456e2d9e422cdb2176e053c7ac552975e8382c2505b5c992a127650"
     },
     {
@@ -52,7 +52,7 @@
     {
       "path": "source/theme/assets/systems.js",
       "destination": "wp-content/themes/worksbetter-wpvibe-draft/assets/systems.js",
-      "sha256": "408e5355523d2df65103b32fc18f7504814cb77241ee03c8fb2d21b38e2ddc94",
+      "sha256": "ca63b135ea22268103f9da2e8cd6465870c8649999163e055d06f6b58dc14c9a",
       "original_sha256": "be4fb0b0cb4d8418dd3cef0a44b6a92fb17d9532eccd8da0bfeb77ffbbc5bd70"
     },
     {
@@ -62,7 +62,7 @@
     },
     {
       "path": "source/theme/pages.json",
-      "sha256": "db9875c7676d6e805690f1ef77c920541a380f501932120791f89a6c0ed16139",
+      "sha256": "ad4f1036d42a1cfae1c41d03d346e45903e2d701efef5123101c48a8b5488538",
       "apply_note": "Sanitized public export including reviewed privacy entry; never bulk import"
     },
     {
@@ -129,7 +129,7 @@
     {
       "id": 12,
       "title": "Decisions and safeguards in connected workflows | Works Better",
-      "description": "Explore Renzo\u2019s confirmed enquiry, supplier invoice and daily reporting decisions using fictional records, human approval and visible exceptions."
+      "description": "Explore Renzo’s confirmed enquiry, supplier invoice and daily reporting decisions using fictional records, human approval and visible exceptions."
     },
     {
       "id": 11,
@@ -180,6 +180,10 @@
     {
       "path": "release/backup-and-confidentiality-bootstrap.php",
       "reason": "Separate reviewed one-time WPCode operation, not part of public theme."
+    },
+    {
+      "path": "wb-growth-content.json",
+      "reason": "Temporary commercial-revision preview shadow; deleted and original functions restored before publication."
     }
   ],
   "historical_confidentiality_controls": {
@@ -261,14 +265,15 @@
     "synthetic_notifications_sent": 1,
     "deployment_verified": true,
     "actual_home_copy_focus": 13,
-    "last_change_scope": "Accepted home/examples/guide navigation/contact/privacy/native body and metadata release verified publicly; source/encoding parity recorded",
+    "last_change_scope": "Reviewed commercial/design revision publicly checked; previous enquiry backend/measurement preserved, no new real notification test.",
     "actual_wordpress_production": 65,
     "synthetic_excluded_from_leads": true,
     "owner_inbox_delivery_verified": true,
     "processed_ga4_receipt_verified": false,
     "actual_wordpress_production_tools": 61,
-    "actual_wordpress_production_total": 126,
-    "actual_production_astra": "Accepted within checked scope"
+    "actual_wordpress_production_total": 239,
+    "actual_production_astra": "Accepted within checked scope",
+    "actual_commercial_design_production": 113
   },
   "github_repository": "https://github.com/rvd125/worksbetter.ai",
   "github_visibility": "public; only sanitised source/aggregate records are published",
@@ -300,7 +305,7 @@
     "processed_ga4_receipt": "Pending, current-day report returns no rows",
     "private_qualification": "Unknown, not inferable from saved counts"
   },
-  "github_release_commit": "b16f0be8190b8ac76bf0301262f3712211517b55",
+  "github_release_commit": "96598f293e35b903227691a20570860aaff83ab6",
   "production_theme_backup": "worksbetter-wpvibe-draft-wpvibe-backup",
   "production_evidence": "docs/PRODUCTION-RELEASE-2026-10-02.md",
   "outstanding_editorial_revisions": {
@@ -314,5 +319,46 @@
     ],
     "state": "Existing future status/date preserved; corrected local editorial candidates NOT applied",
     "priority": "Review before scheduled publication; post49 must correct known accounts-payable/payment misdescription. Confirmed invoice flow never pays."
+  },
+  "commercial_design_refinement": {
+    "source_commit": "96598f293e35b903227691a20570860aaff83ab6",
+    "scope": [
+      "Homepage paid-enquiry opening and compact confirmed invoice story",
+      "Shared navigation and contact expectations",
+      "Truthful operating-mode actions",
+      "Optional idea tool disclosure and consolidated FAQs"
+    ],
+    "native_pages": [
+      16,
+      15,
+      14,
+      13,
+      12,
+      11,
+      9,
+      8,
+      10
+    ],
+    "native_metadata_status_dates_slugs": "preserved",
+    "temporary_shadow": "wb-growth-content.json removed before publish; original functions.php restored",
+    "full_backup_verified_at_utc": "2026-10-02T09:03:42Z",
+    "public_browser_checks": 239,
+    "browser_errors": 0,
+    "public_assets_match": 10,
+    "genuine_qualified_lead_result": "unknown; no commercial outcome inferred",
+    "production_astra": "Accepted within checked scope"
+  },
+  "accessibility_followup": {
+    "state": "ASTRA_ACCEPTED_ISOLATED_PREVIEW_PENDING_PUBLIC_VERIFICATION",
+    "scope": "visible/accessibility label alignment and workflow-number opacity only",
+    "preview_controls_passed": 87,
+    "targeted_axe_rules": "no identified violations at1440/390; gradient cases incomplete",
+    "lighthouse_before_correction": {
+      "performance": 81,
+      "accessibility": 97,
+      "best_practices": 100,
+      "seo": 100,
+      "field_data": "none"
+    }
   }
 }

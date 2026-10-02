@@ -1,0 +1,436 @@
+{
+  "verified_at_utc": "2026-10-02T11:15:45.666839+00:00",
+  "scope": "Anonymous HTTPS after commercial refinement; no token, POST, enquiry notification or external analytics",
+  "checks": {
+    "all_reviewed_routes200": true,
+    "actual404_and_absent_shadow": true,
+    "headings_metadata_schema": true,
+    "all10assets_match": true,
+    "internal_destinations200": true,
+    "new_public_opening": true
+  },
+  "public_pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/",
+      "sha256": "e0414657a07135eef655f831c1f0d5ba11a55398833bf8244f5b1f80460095a9",
+      "h1_count": 1,
+      "title": "AI automation around your existing systems | Works Better",
+      "canonical": [
+        "https://worksbetter.ai/"
+      ],
+      "meta_description": [
+        "AI workflows and tools built around the apps your team already uses. Renzo Demartini designs and builds solutions for Australia and New Zealand."
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0
+    },
+    {
+      "path": "/ai-customer-enquiry-automation/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/ai-customer-enquiry-automation/",
+      "sha256": "6be8bd704e5c5585e8f94d77e3428a4db7828801a94f31e39e9279dd290eb5c6",
+      "h1_count": 1,
+      "title": "AI customer enquiry automation | Works Better",
+      "canonical": [
+        "https://worksbetter.ai/ai-customer-enquiry-automation/"
+      ],
+      "meta_description": [
+        "Try an AI customer enquiry workflow using business information, human review and a connected team handover. Explore the demo with Renzo Demartini."
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0
+    },
+    {
+      "path": "/employee-onboarding-automation/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/employee-onboarding-automation/",
+      "sha256": "f2331e2b83241b664f20e8df5d0eaa5b9a1a284df7823f0c4524452a9bb54527",
+      "h1_count": 1,
+      "title": "Employee onboarding automation | Works Better",
+      "canonical": [
+        "https://worksbetter.ai/employee-onboarding-automation/"
+      ],
+      "meta_description": [
+        "Explore an employee onboarding workflow that checks sample evidence, flags missing records and keeps people in control. Try the Works Better demo."
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0
+    },
+    {
+      "path": "/enquiry-privacy/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/enquiry-privacy/",
+      "sha256": "2aac0affe7669156e5b81c019352e6227717635544cd7339b43f807a94c7ae33",
+      "h1_count": 1,
+      "title": "How enquiries are handled | Works Better",
+      "canonical": [
+        "https://worksbetter.ai/enquiry-privacy/"
+      ],
+      "meta_description": [
+        "How Works Better saves enquiries, sends email notifications and handles optional AI proposals and site measurement."
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0
+    },
+    {
+      "path": "/inside-an-ai-agent-fleet/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/inside-an-ai-agent-fleet/",
+      "sha256": "459935320d40a252292691967a4bb2a1b722423ed1a0334f6a6029922a088c81",
+      "h1_count": 1,
+      "title": "Decisions and safeguards in connected workflows | Works Better",
+      "canonical": [
+        "https://worksbetter.ai/inside-an-ai-agent-fleet/"
+      ],
+      "meta_description": [
+        "Explore Renzo\u2019s confirmed enquiry, supplier invoice and daily reporting decisions using fictional records, human approval and visible exceptions."
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0
+    },
+    {
+      "path": "/job-profitability-reporting/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/job-profitability-reporting/",
+      "sha256": "3fc5b533c4e1d4b4f2399a743c5fe20bfd8b099b89cc644f897195a9e940aa60",
+      "h1_count": 1,
+      "title": "Job profitability reporting with AI | Works Better",
+      "canonical": [
+        "https://worksbetter.ai/job-profitability-reporting/"
+      ],
+      "meta_description": [
+        "Explore job margins, direct costs and revenue concentration in an interactive finance demo. See how connected reporting could help your business with Renzo."
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0
+    },
+    {
+      "path": "/lead-routing-automation/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/lead-routing-automation/",
+      "sha256": "9088e34e51e44c8e73c55b50b8f9b839c28b5884c42b0052f97281310e26cd66",
+      "h1_count": 1,
+      "title": "Lead routing automation for business | Works Better",
+      "canonical": [
+        "https://worksbetter.ai/lead-routing-automation/"
+      ],
+      "meta_description": [
+        "Try a lead routing demo that handles territory, busy teams, existing leads and unclear requests. Explore accountable handovers with Renzo Demartini."
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0
+    },
+    {
+      "path": "/multi-source-report-automation/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/multi-source-report-automation/",
+      "sha256": "add3615c4a0967817b3c4fabb990a26b2a7caef0f7e51d01456f6ccd119fa0bc",
+      "h1_count": 1,
+      "title": "Multi-source report automation | Works Better",
+      "canonical": [
+        "https://worksbetter.ai/multi-source-report-automation/"
+      ],
+      "meta_description": [
+        "Create a sample management report from Xero, Simpro and Airtable measures. Explore source checks, missing data and a reviewed report with Renzo Demartini."
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0
+    },
+    {
+      "path": "/simpro-xero-invoice-automation/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/simpro-xero-invoice-automation/",
+      "sha256": "9b36e56c7cfacfabe4351fc9d9e3425d54b4877ed6ff13a08ef10459cc8baf7e",
+      "h1_count": 1,
+      "title": "Simpro\u2013Xero invoice automation | Works Better",
+      "canonical": [
+        "https://worksbetter.ai/simpro-xero-invoice-automation/"
+      ],
+      "meta_description": [
+        "Explore a Simpro-to-Xero invoice workflow: reuse job details, separate unapproved extras and review the draft. An interactive demo with Renzo Demartini."
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0
+    },
+    {
+      "path": "/guides/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/guides/",
+      "sha256": "8fce6842b53ff7586aa4e413588227e72a18f470b21bf679fba5884dba3be045",
+      "h1_count": 1,
+      "title": "Guides - Works Better",
+      "canonical": [
+        "https://worksbetter.ai/guides/"
+      ],
+      "meta_description": [
+        "Practical, plain-English guides for making the software your business already uses work better together."
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0
+    },
+    {
+      "path": "/why-are-we-entering-this-twice/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/why-are-we-entering-this-twice/",
+      "sha256": "6aeb0f0dd2b5308975cf553bd9774e1ebc1a87474098a1fdf000c08ed720cd00",
+      "h1_count": 1,
+      "title": "Why are we entering this twice? | Works Better",
+      "canonical": [
+        "https://worksbetter.ai/why-are-we-entering-this-twice/"
+      ],
+      "meta_description": [
+        "Find duplicate data entry, clarify the source of truth and decide what should be automated, AI-assisted or kept with people."
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/robots.txt",
+      "sha256": "36242b0f5f876b8c1402908a3ba50bc19954283066f36c9fce0ea955a7ddf499"
+    },
+    {
+      "path": "/sitemap_index.xml",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/sitemap_index.xml",
+      "sha256": "82d23dd863bcf3f9bb62259ec96f3bc35bf8c211ec67a90dfff0a62b15166cd9"
+    },
+    {
+      "path": "/wp-sitemap.xml",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/sitemap_index.xml",
+      "sha256": "82d23dd863bcf3f9bb62259ec96f3bc35bf8c211ec67a90dfff0a62b15166cd9"
+    },
+    {
+      "path": "/home/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/",
+      "sha256": "e0414657a07135eef655f831c1f0d5ba11a55398833bf8244f5b1f80460095a9",
+      "h1_count": 1,
+      "title": "AI automation around your existing systems | Works Better",
+      "canonical": [
+        "https://worksbetter.ai/"
+      ],
+      "meta_description": [
+        "AI workflows and tools built around the apps your team already uses. Renzo Demartini designs and builds solutions for Australia and New Zealand."
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0
+    },
+    {
+      "path": "/index.php/ai-customer-enquiry-automation/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/ai-customer-enquiry-automation/",
+      "sha256": "6be8bd704e5c5585e8f94d77e3428a4db7828801a94f31e39e9279dd290eb5c6",
+      "h1_count": 1,
+      "title": "AI customer enquiry automation | Works Better",
+      "canonical": [
+        "https://worksbetter.ai/ai-customer-enquiry-automation/"
+      ],
+      "meta_description": [
+        "Try an AI customer enquiry workflow using business information, human review and a connected team handover. Explore the demo with Renzo Demartini."
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "json_ld_parse_errors": 0
+    },
+    {
+      "path": "/wb-production-missing-20261002/",
+      "status": 404,
+      "final_url": "https://worksbetter.ai/wb-production-missing-20261002/",
+      "sha256": "eb0ef27d8fa417cf957372a0ccfdaecf97dbdf564cfdac4d2e310473d0755baf"
+    },
+    {
+      "path": "/wp-content/themes/worksbetter-wpvibe-draft/wb-growth-content.json",
+      "status": 404,
+      "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/wb-growth-content.json",
+      "sha256": "f0e4dc02fe082e857d0ff51dcfcc39d521e8c077b45e211e381ce4c73f1710ed"
+    },
+    {
+      "path": "/wp-content/themes/worksbetter-wpvibe-draft/wb-preview-content.json",
+      "status": 404,
+      "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/wb-preview-content.json",
+      "sha256": "f0e4dc02fe082e857d0ff51dcfcc39d521e8c077b45e211e381ce4c73f1710ed"
+    }
+  ],
+  "assets": [
+    {
+      "path": "/wp-content/themes/worksbetter-wpvibe-draft/assets/enquiry.js",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/enquiry.js",
+      "sha256": "da75164e753263375de3f62b9b7ae58f8a54a2bf678596e3d8d3e35b1101fdd2",
+      "matches_source_hash": true
+    },
+    {
+      "path": "/wp-content/themes/worksbetter-wpvibe-draft/assets/flagship-entry.js",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/flagship-entry.js",
+      "sha256": "44626410d61e2978de302500646bff4d2c41fd6936c191ce1ffc2bab4b8de978",
+      "matches_source_hash": true
+    },
+    {
+      "path": "/wp-content/themes/worksbetter-wpvibe-draft/assets/fleet-data.js",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/fleet-data.js",
+      "sha256": "3367c88569bc6a8a9a1df1f6acd340bbc042837acb6b8e51ccc13bca5b4d6c1a",
+      "matches_source_hash": true
+    },
+    {
+      "path": "/wp-content/themes/worksbetter-wpvibe-draft/assets/fleet.js",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/fleet.js",
+      "sha256": "75a62f979ad01005b7b71505ab598adbb5ce989ee0cd51bbfb5e3fc5e430b602",
+      "matches_source_hash": true
+    },
+    {
+      "path": "/wp-content/themes/worksbetter-wpvibe-draft/assets/guides.css",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/guides.css",
+      "sha256": "35a2cdcdc15ea98aae904b0607445e0a9a3b31d10dbfc76f5feb88f097784049",
+      "matches_source_hash": true
+    },
+    {
+      "path": "/wp-content/themes/worksbetter-wpvibe-draft/assets/measurement.js",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/measurement.js",
+      "sha256": "aa87fb5e852f37548fec800931b9ade7a9faeb0d06911ab4450c08c12cf8cbbc",
+      "matches_source_hash": true
+    },
+    {
+      "path": "/wp-content/themes/worksbetter-wpvibe-draft/assets/proof.css",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/proof.css",
+      "sha256": "52951ae250408754ecf73d516fc44620e1ae6554709a34a16f8b86930c06ff1d",
+      "matches_source_hash": true
+    },
+    {
+      "path": "/wp-content/themes/worksbetter-wpvibe-draft/assets/systems.js",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/systems.js",
+      "sha256": "408e5355523d2df65103b32fc18f7504814cb77241ee03c8fb2d21b38e2ddc94",
+      "matches_source_hash": true
+    },
+    {
+      "path": "/wp-content/themes/worksbetter-wpvibe-draft/pages.json",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/pages.json",
+      "sha256": "b41c1f23d9d7634e45900e3cccd3c3590ce6f754986c0c45c8f0997aef42d514",
+      "matches_source_hash": true
+    },
+    {
+      "path": "/wp-content/themes/worksbetter-wpvibe-draft/assets/navigation.js",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/navigation.js",
+      "sha256": "6cd411e208d12add1ba986348726797acee1e85d3f98806dbcfe2a0d618b8bc7",
+      "matches_source_hash": true
+    }
+  ],
+  "internal_links": [
+    {
+      "path": "/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/",
+      "sha256": "e0414657a07135eef655f831c1f0d5ba11a55398833bf8244f5b1f80460095a9"
+    },
+    {
+      "path": "/ai-customer-enquiry-automation/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/ai-customer-enquiry-automation/",
+      "sha256": "6be8bd704e5c5585e8f94d77e3428a4db7828801a94f31e39e9279dd290eb5c6"
+    },
+    {
+      "path": "/employee-onboarding-automation/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/employee-onboarding-automation/",
+      "sha256": "f2331e2b83241b664f20e8df5d0eaa5b9a1a284df7823f0c4524452a9bb54527"
+    },
+    {
+      "path": "/enquiry-privacy/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/enquiry-privacy/",
+      "sha256": "2aac0affe7669156e5b81c019352e6227717635544cd7339b43f807a94c7ae33"
+    },
+    {
+      "path": "/guides/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/guides/",
+      "sha256": "8fce6842b53ff7586aa4e413588227e72a18f470b21bf679fba5884dba3be045"
+    },
+    {
+      "path": "/home/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/",
+      "sha256": "e0414657a07135eef655f831c1f0d5ba11a55398833bf8244f5b1f80460095a9"
+    },
+    {
+      "path": "/index.php/ai-customer-enquiry-automation/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/ai-customer-enquiry-automation/",
+      "sha256": "6be8bd704e5c5585e8f94d77e3428a4db7828801a94f31e39e9279dd290eb5c6"
+    },
+    {
+      "path": "/inside-an-ai-agent-fleet/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/inside-an-ai-agent-fleet/",
+      "sha256": "459935320d40a252292691967a4bb2a1b722423ed1a0334f6a6029922a088c81"
+    },
+    {
+      "path": "/job-profitability-reporting/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/job-profitability-reporting/",
+      "sha256": "3fc5b533c4e1d4b4f2399a743c5fe20bfd8b099b89cc644f897195a9e940aa60"
+    },
+    {
+      "path": "/lead-routing-automation/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/lead-routing-automation/",
+      "sha256": "9088e34e51e44c8e73c55b50b8f9b839c28b5884c42b0052f97281310e26cd66"
+    },
+    {
+      "path": "/multi-source-report-automation/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/multi-source-report-automation/",
+      "sha256": "add3615c4a0967817b3c4fabb990a26b2a7caef0f7e51d01456f6ccd119fa0bc"
+    },
+    {
+      "path": "/simpro-xero-invoice-automation/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/simpro-xero-invoice-automation/",
+      "sha256": "9b36e56c7cfacfabe4351fc9d9e3425d54b4877ed6ff13a08ef10459cc8baf7e"
+    },
+    {
+      "path": "/why-are-we-entering-this-twice/",
+      "status": 200,
+      "final_url": "https://worksbetter.ai/why-are-we-entering-this-twice/",
+      "sha256": "6aeb0f0dd2b5308975cf553bd9774e1ebc1a87474098a1fdf000c08ed720cd00"
+    }
+  ]
+}

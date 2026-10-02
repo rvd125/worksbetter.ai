@@ -1,0 +1,31 @@
+{
+  "source": "Authenticated WPVibe Google PageSpeed Insights mobile audit",
+  "as_of": "2026-10-02",
+  "phase": "after commercial release96598f2, before targeted accessibility corrections",
+  "lab_only": true,
+  "field_data": "Unavailable: insufficient CrUX traffic",
+  "scores": {
+    "performance": 81,
+    "accessibility": 97,
+    "best_practices": 100,
+    "seo": 100
+  },
+  "lab_metrics": {
+    "lcp_seconds": 3.2,
+    "cls": 0.008,
+    "tbt_ms": 40,
+    "fcp_seconds": 3.1,
+    "speed_index_seconds": 6.6
+  },
+  "opportunities": [
+    {
+      "id": "unused-javascript",
+      "estimated_savings_kib": 71
+    }
+  ],
+  "accessibility_issues": [
+    "color-contrast",
+    "label-content-name-mismatch"
+  ],
+  "limits": "Scores vary; basic SEO score does not establish rankings; no updated Lighthouse score inferred from subsequent targeted fixes."
+}

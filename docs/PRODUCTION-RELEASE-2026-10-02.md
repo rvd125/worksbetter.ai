@@ -67,3 +67,8 @@ Remaining gaps: outstanding scheduled47–52 editorial revisions before their ex
 ## Completed connection follow-up — 2 October20:18 Australia/Sydney
 
 [Measurement connections](MEASUREMENT-CONNECTIONS-2026-10-02.md) records fresh working Windsor Search Console reads and verified native Google Analytics property/stream/report/key-event access. Owner confirmed the existing Google Search Console link was established18September. Analytics remains separately in its Google account; no Windsor GA4 account or new product link was created. generate_lead is a configured key event. Its configured default USD1 value is not actual consulting revenue. The single synthetic event remains excluded, with processed current-day receipt pending.
+
+
+## Later commercial/design refinement
+
+The same-day [commercial/design release](COMMERCIAL-DESIGN-RELEASE-2026-10-02.md) supersedes the material source checkpoint with96598f2 and239 public browser checks. It improves the opening, paid enquiry path and early visible workflow decisions. Prior single synthetic delivery and separate measurement evidence remain valid; they are not duplicated or counted as genuine leads.

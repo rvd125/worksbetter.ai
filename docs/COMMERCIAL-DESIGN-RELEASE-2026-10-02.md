@@ -1,0 +1,32 @@
+# Works Better commercial/design release — 2 October 2026
+
+The reviewed commercial/design revision is live on https://worksbetter.ai/. GitHub source commit [96598f2](https://github.com/rvd125/worksbetter.ai/commit/96598f293e35b903227691a20570860aaff83ab6) preceded the authenticated WordPress publish. The active theme remains worksbetter-wpvibe-draft. Publishing made a theme backup and purged sitemap/object caches. Anonymous public verification followed; a commit alone was not treated as deployment.
+
+The live change provides one clearer opening, direct “Discuss my workflow” action, compact confirmed invoice decisions, simpler navigation, truthful operating-mode buttons and concise personal reply/scope/fee expectations. It moves the optional idea explorer into a later disclosure, keeps its privacy notice and old deep links, and consolidates duplicate introductory/FAQ copy. The existing navy/blue/lime identity is retained with a light decision card and responsive hierarchy.
+
+[Actual Astra pre-release acceptance](ASTRA-COMMERCIAL-DESIGN-REVIEW-2026-10-02.md) followed exact copy/state-machine, screenshots,113 focused preview checks and65 regression checks. Both required FAQ corrections were implemented and checked before release. Astra subsequently granted scoped production acceptance after reviewing actual public screenshots,239 passing checks and parity evidence. This acceptance is scoped design/behaviour review, not a commercial growth finding.
+
+## Actual public evidence
+
+- [113 focused public checks](verification/growth-production-browser-2026-10-02.json):1440/894/390/320px, opening, direct enquiry, mode preference, approval/duplicate/mismatch/decline/reset, optional explorer/deep links, validation, FAQ placement, no overflow, no uncaught errors.
+- [65 journey regressions](verification/growth-production-regression-2026-10-02.json): menus, intercepted enquiry/error/success/one client conversion without PII, confirmed stories, guide/article/contact routes and privacy. No real notifications or analytics processing are asserted by intercepted tests.
+- [61 example checks](verification/growth-production-tools-2026-10-02.json): all six diagrams, situations, result progression, bounded completion and replay on desktop/mobile. Total239 actual public browser checks pass, zero browser errors.
+- [Anonymous public content/assets](verification/growth-production-public-2026-10-02.json): expected routes200, one H1/self canonical/description/valid JSON-LD;13 internal destinations200;10 deployed assets/export match exact source hashes; robots/sitemap and legacy destinations resolve; real missing URL and both temporary shadow paths404.
+- [Authenticated native parity](verification/growth-production-native-parity-2026-10-02.json): eight exact page-body matches; homepage matches after normalising only outward-arrow entities. All nine original page dates/slugs/publish states remain. Original functions.php restored and shadow removed before publish.
+
+Public screenshots were visually inspected at desktop/mobile and retained in private cloud review outputs. The hero’s body enquiry action is visibly earlier on narrow mobile; these are layout observations, not conversion evidence. Backend, enquiry notifications, storage and measurement handlers are unchanged. The previously delivered single synthetic test remains excluded; no new real enquiry was sent.
+
+## Backup, rollback and remaining business work
+
+Fresh UpdraftPlus history was re-read: full database/themes/plugins/uploads/others backup2October09:03:42UTC with checksum records. WPVibe’s latest worksbetter-wpvibe-draft-wpvibe-backup theme and native revisions preserve the preceding state. Selectively restore affected source/content from parentce3221f and prior revisions, keep the live theme and native copy coherent, preserve privacy/confidentiality repairs and all legitimate enquiries, then verify affected public behavior. [Rollback instructions](../release/RELEASE-AND-ROLLBACK.md).
+
+The [commercial diagnosis and competitor observations](COMMERCIAL-DESIGN-PASS-2026-10-02.md), separate [measurement connections](MEASUREMENT-CONNECTIONS-2026-10-02.md), [eight-week buyer-intent plan](EIGHT-WEEK-ORGANIC-PLAN-2026-10-01.md) and useful drafts remain the growth operating basis.0 clicks/76 domain impressions over9–29September describes limited Google reach, not verified absence of all visits. Qualified opportunities and historic message disposition are unknown. Neither design review nor functional checks establish a “top1%” site or increased leads.
+
+Previously identified follow-ups remain explicit: owner/private classification of historic contacts and commercial stages; processed GA receipt for the already delivered synthetic test; unavailable Google Trends evidence; corrected native future articles47–52 before their existing schedules, especially49’s erroneous payment wording; hosting/DNS control for changes beyond connected WordPress. These were not silently marked complete by this visual release. No new schedules, LinkedIn, ads, outreach or external distribution were created.
+
+
+## Measured mobile quality and corrective follow-up
+
+An actual mobile Google PageSpeed/Lighthouse audit after96598f2 reported performance81, accessibility97, best practices100 and basicSEO100. Lab LCP3.2s, CLS0.008 and TBT40ms; insufficient traffic for CrUX field data. The audit’s71KiB unused-JavaScript estimate does not identify removable functionality in the concise tool response. Current home scripts support the interactive tools/measurement; deleting them based only on initial non-use is not a supported optimization. Performance remains a measured improvement area requiring resource/paint profiling, rather than a fabricated field-performance result.
+
+Two real accessibility issues were traced to low-opacity diagram step numbers and accessible names omitting visible text. A separate exact correction removes overriding brand/node labels, names Explore consistently, hides decorative control glyphs from accessible names, and increases step-number opacity. Preview87 control checks pass and the two targeted axe rules report zero identified violations. Incomplete gradient cases remain unknown. Actual Astra accepted the correction before its subsequent release; public proof is recorded separately. No revised Lighthouse score or complete accessibility certification is claimed.

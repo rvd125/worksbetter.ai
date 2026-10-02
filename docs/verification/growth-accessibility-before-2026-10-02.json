@@ -1,0 +1,264 @@
+{
+  "scope": "Anonymous/public or isolated preview exact contrast and label audit; no sends, only local axe code and site GET",
+  "method": "axe-core4.10.3, two targeted rules; incomplete gradient/icon cases are retained as unknown, not declared passes",
+  "results": [
+    {
+      "width": 1440,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "node_count": 24,
+          "representative_nodes": [
+            {
+              "html": "<b>01</b>",
+              "target": [
+                "#system-invoice > .system-surface > .journey-track[aria-label=\"Journey progress\"] > span[data-phase=\"0\"] > b"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.06 (foreground color: #536780, background color: #0e1828, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#536780",
+                    "bgColor": "#0e1828",
+                    "contrastRatio": 3.06,
+                    "fontSize": "9.0pt (12px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "message": "Element has insufficient color contrast of 3.06 (foreground color: #536780, background color: #0e1828, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ]
+            },
+            {
+              "html": "<b>02</b>",
+              "target": [
+                "#system-invoice > .system-surface > .journey-track[aria-label=\"Journey progress\"] > span[data-phase=\"1\"] > b"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.06 (foreground color: #536780, background color: #0e1828, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#536780",
+                    "bgColor": "#0e1828",
+                    "contrastRatio": 3.06,
+                    "fontSize": "9.0pt (12px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "message": "Element has insufficient color contrast of 3.06 (foreground color: #536780, background color: #0e1828, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ]
+            },
+            {
+              "html": "<b>03</b>",
+              "target": [
+                "#system-invoice > .system-surface > .journey-track[aria-label=\"Journey progress\"] > span[data-phase=\"2\"] > b"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.06 (foreground color: #536780, background color: #0e1828, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#536780",
+                    "bgColor": "#0e1828",
+                    "contrastRatio": 3.06,
+                    "fontSize": "9.0pt (12px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "message": "Element has insufficient color contrast of 3.06 (foreground color: #536780, background color: #0e1828, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "node_count": 78,
+          "representative_nodes": [
+            {
+              "html": "<a class=\"brand wb-identity\" href=\"/\" aria-label=\"Works Better by Renzo Demartini \u2014 home\"><span class=\"wb-type\"><span class=\"wb-name\">works<span>better</span><b aria-hidden=\"true\">.</b></span><span class=\"wb-byline\">by Renzo Demartini</span></span></a>",
+              "target": [
+                ".navbar > .brand.wb-identity[href=\"/\"]"
+              ],
+              "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name",
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "data": null,
+                  "message": "Text inside the element is not included in the accessible name"
+                }
+              ]
+            },
+            {
+              "html": "<button class=\"expand-button\" data-expand=\"invoice\" aria-label=\"Expand Operations canvas\">Explore \u26f6</button>",
+              "target": [
+                "button[data-expand=\"invoice\"]"
+              ],
+              "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name",
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "data": null,
+                  "message": "Text inside the element is not included in the accessible name"
+                }
+              ]
+            },
+            {
+              "html": "<button type=\"button\" class=\"system-node kind-app\" style=\"left:90px;top:140px\" data-inspect=\"event\" aria-pressed=\"false\" aria-controls=\"inspector-invoice\" aria-label=\"Behind the scenes: Job completed\">",
+              "target": [
+                ".kind-app[data-inspect=\"event\"][aria-controls=\"inspector-invoice\"]"
+              ],
+              "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name",
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "data": null,
+                  "message": "Text inside the element is not included in the accessible name"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "incomplete_rule_counts": {
+        "color-contrast": 407,
+        "label-content-name-mismatch": 6
+      }
+    },
+    {
+      "width": 390,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "node_count": 24,
+          "representative_nodes": [
+            {
+              "html": "<b>01</b>",
+              "target": [
+                "#system-invoice > .system-surface > .journey-track[aria-label=\"Journey progress\"] > span[data-phase=\"0\"] > b"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.06 (foreground color: #536780, background color: #0e1828, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#536780",
+                    "bgColor": "#0e1828",
+                    "contrastRatio": 3.06,
+                    "fontSize": "9.0pt (12px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "message": "Element has insufficient color contrast of 3.06 (foreground color: #536780, background color: #0e1828, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ]
+            },
+            {
+              "html": "<b>02</b>",
+              "target": [
+                "#system-invoice > .system-surface > .journey-track[aria-label=\"Journey progress\"] > span[data-phase=\"1\"] > b"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.06 (foreground color: #536780, background color: #0e1828, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#536780",
+                    "bgColor": "#0e1828",
+                    "contrastRatio": 3.06,
+                    "fontSize": "9.0pt (12px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "message": "Element has insufficient color contrast of 3.06 (foreground color: #536780, background color: #0e1828, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ]
+            },
+            {
+              "html": "<b>03</b>",
+              "target": [
+                "#system-invoice > .system-surface > .journey-track[aria-label=\"Journey progress\"] > span[data-phase=\"2\"] > b"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.06 (foreground color: #536780, background color: #0e1828, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#536780",
+                    "bgColor": "#0e1828",
+                    "contrastRatio": 3.06,
+                    "fontSize": "9.0pt (12px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "message": "Element has insufficient color contrast of 3.06 (foreground color: #536780, background color: #0e1828, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "node_count": 37,
+          "representative_nodes": [
+            {
+              "html": "<a class=\"brand wb-identity\" href=\"/\" aria-label=\"Works Better by Renzo Demartini \u2014 home\"><span class=\"wb-type\"><span class=\"wb-name\">works<span>better</span><b aria-hidden=\"true\">.</b></span><span class=\"wb-byline\">by Renzo Demartini</span></span></a>",
+              "target": [
+                ".navbar > .brand.wb-identity[href=\"/\"]"
+              ],
+              "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name",
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "data": null,
+                  "message": "Text inside the element is not included in the accessible name"
+                }
+              ]
+            },
+            {
+              "html": "<button class=\"expand-button\" data-expand=\"invoice\" aria-label=\"Expand Operations canvas\">Explore \u26f6</button>",
+              "target": [
+                "button[data-expand=\"invoice\"]"
+              ],
+              "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name",
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "data": null,
+                  "message": "Text inside the element is not included in the accessible name"
+                }
+              ]
+            },
+            {
+              "html": "<button type=\"button\" class=\"system-node kind-app\" style=\"left:90px;top:140px\" data-inspect=\"event\" aria-pressed=\"false\" aria-controls=\"inspector-invoice\" aria-label=\"Behind the scenes: Job completed\">",
+              "target": [
+                ".kind-app[data-inspect=\"event\"][aria-controls=\"inspector-invoice\"]"
+              ],
+              "summary": "Fix any of the following:\n  Text inside the element is not included in the accessible name",
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "data": null,
+                  "message": "Text inside the element is not included in the accessible name"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "incomplete_rule_counts": {
+        "color-contrast": 257,
+        "label-content-name-mismatch": 6
+      }
+    }
+  ]
+}
