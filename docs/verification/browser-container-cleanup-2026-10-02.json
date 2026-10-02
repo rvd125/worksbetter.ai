@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-02",
+  "task_container_removed": true,
+  "preview_config_removed": true,
+  "persistent_host_trust_changed": false,
+  "tls_verification_disabled": false,
+  "regression_sent_notifications": false,
+  "single_real_synthetic_test_recorded_separately": true
+}

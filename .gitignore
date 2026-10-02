@@ -38,3 +38,6 @@ __pycache__/
 revise-positioning.py
 !evidence/screenshots/wordpress-*.png
 !evidence/screenshots/wordpress-preview-qa.json
+
+!evidence/screenshots/production-20261002-wordpress-*.png
+!evidence/screenshots/release-20261002-wordpress-*.png

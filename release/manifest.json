@@ -1,10 +1,10 @@
 {
   "as_of": "2026-10-02",
-  "state": "ASTRA_ACCEPTED_RELEASE_SOURCE_NOT_YET_DEPLOYED",
+  "state": "DEPLOYED_PUBLICLY_VERIFIED_DELIVERY_CONFIRMED_GA_PROCESSING_PENDING",
   "active_theme": "worksbetter-wpvibe-draft",
   "draft_is_active": false,
-  "source_type": "partial inspected WordPress/public snapshot plus reviewed patches; not authoritative repository clone",
-  "astra": "Actual Astra2October accepts final controlled release includingpage10/contactalignment;65realWordPressdesktop/mobilechecks pass; production proof pending.",
+  "source_type": "Sanitized reviewed explicit WordPress patch with authenticated native/public production readback; not a complete site/database clone",
+  "astra": "Actual Astra granted controlled release then scoped production acceptance for b16f0be;126 public checks and independent storage/owner inbox confirmed. Processed GA receipt and commercial outcomes not established.",
   "apply_policy": "Explicit per-file/per-record patch only. Never wholesale import JSON statuses or upload this complete snapshot.",
   "changed_files": [
     {
@@ -63,7 +63,7 @@
     {
       "path": "source/theme/pages.json",
       "sha256": "db9875c7676d6e805690f1ef77c920541a380f501932120791f89a6c0ed16139",
-      "apply_note": "sanitised public export, privacy entry omitted; never bulk import"
+      "apply_note": "Sanitized public export including reviewed privacy entry; never bulk import"
     },
     {
       "path": "source/theme/single.php",
@@ -183,7 +183,7 @@
     }
   ],
   "historical_confidentiality_controls": {
-    "state": "Nine known exports verified as expected harmless replacements2October; native page release remains separate",
+    "state": "Retired and verified2October; legacy URL findings below are historical pre-retirement observations",
     "urls": [
       {
         "url": "https://worksbetter.ai/wp-content/themes/worksbetter/pages.json",
@@ -225,11 +225,6 @@
       }
     ]
   },
-  "required_before_release": [
-    "Restore original functions.php and delete preview content sidecar",
-    "Commit accepted source in Works Better repository",
-    "Apply explicit native revisions then publish; fullbackup2October confirmed"
-  ],
   "required_after_release": [
     "public content and asset-hash checks",
     "genuine 404 and redirect chain checks",
@@ -260,13 +255,20 @@
     "offline_additional": 37,
     "offline_approximate_guides": 13,
     "offline_delivery_modes": 67,
-    "actual_wordpress_https_preview": 47,
+    "actual_wordpress_https_preview": 65,
     "uncaught_browser_errors": 0,
     "actual_preview_astra": "Accepted",
-    "synthetic_notifications_sent": 0,
-    "deployment_verified": false,
+    "synthetic_notifications_sent": 1,
+    "deployment_verified": true,
     "actual_home_copy_focus": 13,
-    "last_change_scope": "Four home paragraphs/title/description plus one-line URL-aware Guides navigation detection;89core/47actualHTTPSrerunspassed"
+    "last_change_scope": "Accepted home/examples/guide navigation/contact/privacy/native body and metadata release verified publicly; source/encoding parity recorded",
+    "actual_wordpress_production": 65,
+    "synthetic_excluded_from_leads": true,
+    "owner_inbox_delivery_verified": true,
+    "processed_ga4_receipt_verified": false,
+    "actual_wordpress_production_tools": 61,
+    "actual_wordpress_production_total": 126,
+    "actual_production_astra": "Accepted within checked scope"
   },
   "github_repository": "https://github.com/rvd125/worksbetter.ai",
   "github_visibility": "public; only sanitised source/aggregate records are published",
@@ -285,5 +287,32 @@
   "contact_owner_confirmed": {
     "email": "hello@worksbetter.ai",
     "owner": "Renzo Demartini"
+  },
+  "required_before_release_completed": [
+    "Restore original functions.php and delete preview content sidecar",
+    "Commit accepted source in Works Better repository",
+    "Apply explicit native revisions then publish; fullbackup2October confirmed"
+  ],
+  "required_after_release_status": {
+    "public_content_assets_native_parity": "Verified, homepage decoded-equivalent encoding documented",
+    "real_desktop_mobile": "65 checks passed, zero errors",
+    "single_synthetic_storage_delivery": "Verified, excluded",
+    "processed_ga4_receipt": "Pending, current-day report returns no rows",
+    "private_qualification": "Unknown, not inferable from saved counts"
+  },
+  "github_release_commit": "b16f0be8190b8ac76bf0301262f3712211517b55",
+  "production_theme_backup": "worksbetter-wpvibe-draft-wpvibe-backup",
+  "production_evidence": "docs/PRODUCTION-RELEASE-2026-10-02.md",
+  "outstanding_editorial_revisions": {
+    "ids": [
+      47,
+      48,
+      49,
+      50,
+      51,
+      52
+    ],
+    "state": "Existing future status/date preserved; corrected local editorial candidates NOT applied",
+    "priority": "Review before scheduled publication; post49 must correct known accounts-payable/payment misdescription. Confirmed invoice flow never pays."
   }
 }

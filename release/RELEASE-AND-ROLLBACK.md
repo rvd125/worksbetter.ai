@@ -1,5 +1,14 @@
 # Controlled release and rollback
 
+Current state,2October2026: **DEPLOYED / PUBLICLY VERIFIED / ENQUIRY DELIVERY CONFIRMED**. Processed GA4 test receipt remains pending. The active theme is worksbetter-wpvibe-draft; WPVibe created worksbetter-wpvibe-draft-wpvibe-backup. Fresh full UpdraftPlus backup2October09:03 and the separately verified outside-webroot scoped backup support rollback. Source release commit isb16f0be8190b8ac76bf0301262f3712211517b55.
+
+Before publishing, original functions.php was restored exactly and wb-preview-content.json deleted. Nine page bodies/post45 and specified metadata were applied explicitly. Post46 remains draft;47–52 retain their future dates/statuses. Public content/assets/native readback, desktop/mobile checks, genuine404/legacy destinations and one labelled enquiry were verified. Renzo confirmed inbox receipt; do not repeat the test. See [the dated production record](../docs/PRODUCTION-RELEASE-2026-10-02.md).
+
+To roll back, use the recorded private full/scoped backups or WPVibe theme backup and native revisions to restore only affected behavior. Preserve legitimate enquiries and confidentiality replacements. Never restore confidential internal registers/exports to public paths. The native content backup predates release and remains private; restoration must not bulk-import local draft/status snapshots. Verify affected public pages, assets, controls, storage and delivery after restoration and record the reason/revisions. Do not blindly restore an entire database over new enquiries.
+
+The following sections are retained historical staging instructions. Their pending/excluded-page10 statements describe pre-release checkpoints and are superseded by the production record and current manifest.
+
+
 State: **ISOLATED WORDPRESS PREVIEW / NOT DEPLOYED**. `manifest.json` is an explicit patch, not an import instruction. Live theme remains worksbetter-wpvibe-draft. Invalid draft registration was cleared without changing active theme or deleting files; the isolated draft is worksbetter-wpvibe-draft-wpvibe-draft. Astra accepted the clarified three-mode copy and journeys, excluding page10. Separate backup/cleanup code accepted; user-only enable step pending.
 
 ## Controlled release

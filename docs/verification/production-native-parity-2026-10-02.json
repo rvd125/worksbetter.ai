@@ -1,0 +1,178 @@
+{
+  "verified_at_utc": "2026-10-02T09:59:00Z",
+  "scope": "Independent authenticated native content SHA256/status/date readback against reviewed source",
+  "records": [
+    {
+      "id": 16,
+      "slug": "simpro-xero-invoice-automation",
+      "status": "publish",
+      "date": "2026-09-10 12:14:03",
+      "source_sha256": "9499d20e0f50e64864df6cd176f23abcd7c0296078bb5f352b37670b01cc619d",
+      "native_sha256": "9499d20e0f50e64864df6cd176f23abcd7c0296078bb5f352b37670b01cc619d",
+      "exact_byte_match": true,
+      "decoded_content_match": true,
+      "encoding_evidence": null
+    },
+    {
+      "id": 15,
+      "slug": "multi-source-report-automation",
+      "status": "publish",
+      "date": "2026-09-10 12:14:03",
+      "source_sha256": "a440ffa916301675132c82bd4466d55e16000a0e2559914cd4f8f9d5d82993cf",
+      "native_sha256": "a440ffa916301675132c82bd4466d55e16000a0e2559914cd4f8f9d5d82993cf",
+      "exact_byte_match": true,
+      "decoded_content_match": true,
+      "encoding_evidence": null
+    },
+    {
+      "id": 14,
+      "slug": "lead-routing-automation",
+      "status": "publish",
+      "date": "2026-09-10 12:14:03",
+      "source_sha256": "2c58b288577ad3b2b1e0733b572af0eb49b878ac137c84cd8589f47a65ef4495",
+      "native_sha256": "2c58b288577ad3b2b1e0733b572af0eb49b878ac137c84cd8589f47a65ef4495",
+      "exact_byte_match": true,
+      "decoded_content_match": true,
+      "encoding_evidence": null
+    },
+    {
+      "id": 13,
+      "slug": "job-profitability-reporting",
+      "status": "publish",
+      "date": "2026-09-10 12:14:03",
+      "source_sha256": "cce9961f9d5ce2a89102c3583f2fb5972e69fe14282bd21b488943f54574520d",
+      "native_sha256": "cce9961f9d5ce2a89102c3583f2fb5972e69fe14282bd21b488943f54574520d",
+      "exact_byte_match": true,
+      "decoded_content_match": true,
+      "encoding_evidence": null
+    },
+    {
+      "id": 12,
+      "slug": "inside-an-ai-agent-fleet",
+      "status": "publish",
+      "date": "2026-09-10 12:14:03",
+      "source_sha256": "6bab7e7b8f70e22651123e7027cda0601a36d216072f47231e71289023a3f5b2",
+      "native_sha256": "6bab7e7b8f70e22651123e7027cda0601a36d216072f47231e71289023a3f5b2",
+      "exact_byte_match": true,
+      "decoded_content_match": true,
+      "encoding_evidence": null
+    },
+    {
+      "id": 11,
+      "slug": "home",
+      "status": "publish",
+      "date": "2026-09-10 12:14:03",
+      "source_sha256": "5e58e259c28f3e4c687b5deda035123cb7fa6f11231390c47cda70488efc7b5e",
+      "native_sha256": "3f3eca4319938ae41e5b28bd79f803c64a50330fa56fde0ca7f8dcccced67ef8",
+      "exact_byte_match": false,
+      "decoded_content_match": true,
+      "encoding_evidence": "home-native-encoding-2026-10-02.json"
+    },
+    {
+      "id": 9,
+      "slug": "employee-onboarding-automation",
+      "status": "publish",
+      "date": "2026-09-10 12:14:03",
+      "source_sha256": "f18ac21d7782b079ff24350d840777708382d11399ad707b09ea045922d3ed41",
+      "native_sha256": "f18ac21d7782b079ff24350d840777708382d11399ad707b09ea045922d3ed41",
+      "exact_byte_match": true,
+      "decoded_content_match": true,
+      "encoding_evidence": null
+    },
+    {
+      "id": 8,
+      "slug": "ai-customer-enquiry-automation",
+      "status": "publish",
+      "date": "2026-09-10 12:14:03",
+      "source_sha256": "448ccb6dfa45d9fb088fa60dd7c5f8f14ed6a016ed337dd55d229fdc012a6c84",
+      "native_sha256": "448ccb6dfa45d9fb088fa60dd7c5f8f14ed6a016ed337dd55d229fdc012a6c84",
+      "exact_byte_match": true,
+      "decoded_content_match": true,
+      "encoding_evidence": null
+    },
+    {
+      "id": 10,
+      "slug": "enquiry-privacy",
+      "status": "publish",
+      "date": "2026-09-10 12:14:03",
+      "source_sha256": "7007c4bf5a8cf85e91391a1774d3423d62cbb54e56ee8fc86b618c01088799c4",
+      "native_sha256": "7007c4bf5a8cf85e91391a1774d3423d62cbb54e56ee8fc86b618c01088799c4",
+      "exact_byte_match": true,
+      "decoded_content_match": true,
+      "encoding_evidence": null
+    },
+    {
+      "id": 46,
+      "slug": "why-monthly-reporting-takes-two-days",
+      "status": "draft",
+      "date": "2026-10-02 10:00:00",
+      "source_sha256": "059dbd78bd8ed7d082c39471d70fdf9cd5f460d61d921c6fefba4c00d5db757b",
+      "native_sha256": "059dbd78bd8ed7d082c39471d70fdf9cd5f460d61d921c6fefba4c00d5db757b",
+      "exact_byte_match": true,
+      "decoded_content_match": true,
+      "encoding_evidence": null
+    },
+    {
+      "id": 45,
+      "slug": "why-are-we-entering-this-twice",
+      "status": "publish",
+      "date": "2026-09-18 10:00:00",
+      "source_sha256": "38215144fafaa0f41937e2fc3773d2aa30613b94f781c06031ce4ae81a7b9ad3",
+      "native_sha256": "38215144fafaa0f41937e2fc3773d2aa30613b94f781c06031ce4ae81a7b9ad3",
+      "exact_byte_match": true,
+      "decoded_content_match": true,
+      "encoding_evidence": null
+    }
+  ],
+  "future_posts_unchanged": [
+    {
+      "ID": "47",
+      "post_status": "future",
+      "post_name": "automation-or-ai-which-job",
+      "post_date": "2026-10-16 09:00:00",
+      "content_sha256": "87d407865f4d33df801657c59b838d9c66a220080174f4a638e9f59611f9bf3f"
+    },
+    {
+      "ID": "48",
+      "post_status": "future",
+      "post_name": "systems-do-not-need-replacing",
+      "post_date": "2026-10-30 09:00:00",
+      "content_sha256": "3069a41473927f6796b237d1a723f80f72e67653aef7a2d4ef3f9d74a461e674"
+    },
+    {
+      "ID": "49",
+      "post_status": "future",
+      "post_name": "human-approval-is-a-feature",
+      "post_date": "2026-11-13 09:00:00",
+      "content_sha256": "62bd1564f122c8c239b2f5fd3c0feae001c5c50301039d40399687fa86002011"
+    },
+    {
+      "ID": "50",
+      "post_status": "future",
+      "post_name": "lead-routing-first-15-minutes",
+      "post_date": "2026-11-27 09:00:00",
+      "content_sha256": "aff2061e5d5b456e2a740e8d5545fa6c788eb6ccfccd621498a45fac8f4fadf3"
+    },
+    {
+      "ID": "51",
+      "post_status": "future",
+      "post_name": "sometimes-do-not-automate-this",
+      "post_date": "2026-12-11 09:00:00",
+      "content_sha256": "67d76334056f76440096c54a4572b67d3115eaa4712d96845a20354ad44a50ea"
+    },
+    {
+      "ID": "52",
+      "post_status": "future",
+      "post_name": "map-the-work-before-buying-another-tool",
+      "post_date": "2026-12-25 09:00:00",
+      "content_sha256": "be2495e57afcccbc86fa73c50f0318997d54f42c61dcc2d1f87ab7af5ac68581"
+    }
+  ],
+  "home_encoding_normalization": "Exactly three literal outward arrows saved as numeric HTML entities. Verified full decoded content equality; no copy change.",
+  "summary": {
+    "revised_published_records": 10,
+    "published_exact_byte_matches": 9,
+    "published_home_decoded_equivalent": 1,
+    "unpublished_draft_exact_byte_matches": 1
+  }
+}

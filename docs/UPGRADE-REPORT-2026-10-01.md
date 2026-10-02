@@ -1,5 +1,7 @@
 # Worksbetter.ai upgrade: verified findings and delivery
 
+Current-state update,2October2026: the accepted upgrade is now deployed and publicly verified, with owner-confirmed test delivery. Historical findings and pending gates below describe their original inspection time. See [the production record](PRODUCTION-RELEASE-2026-10-02.md).
+
 **Latest state, 1 October2026: clarified three-mode positioning accepted by actual Astra review;206 recorded offline checks and45 actual WordPress HTTPS preview checks passed; reviewed assets/templates and native-content shadows staged in an isolated WordPress preview. No material public release. Public confidentiality cleanup, enquiry delivery and commercial improvement remain unverified.**
 
 This update supersedes the initial blocked-access findings below where stated. WordPress access recovered; draft registration was safely repaired; server-rendered preview and PHP template syntax checks passed. Post46 is now a verified native draft. Four stored enquiry rows were counted through authenticated aggregate SQL; they do not establish four genuine/qualified opportunities. The actual Works Better GitHub repository and enquiry recipient remain missing owner facts.

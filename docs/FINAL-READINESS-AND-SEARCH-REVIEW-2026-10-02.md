@@ -1,5 +1,7 @@
 # Works Better final readiness and Search Console review
 
+Current-state update,2October2026: the accepted upgrade is now deployed and publicly verified, with owner-confirmed test delivery. Historical findings and pending gates below describe their original inspection time. See [the production record](PRODUCTION-RELEASE-2026-10-02.md).
+
 As of 2 October 2026 UTC. **Reviewed upgrade staged on isolated WordPress; not deployed.** No new material copy/layout/journey changes in this pass. No synthetic enquiry notifications, external distribution or recurring automations were sent/created.
 
 ## Verified Google Search baseline

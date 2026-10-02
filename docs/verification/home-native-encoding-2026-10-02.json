@@ -1,0 +1,26 @@
+{
+  "checked_at_utc": "2026-10-02T09:59:00Z",
+  "page_id": 11,
+  "source_sha256": "5e58e259c28f3e4c687b5deda035123cb7fa6f11231390c47cda70488efc7b5e",
+  "native_sha256": "3f3eca4319938ae41e5b28bd79f803c64a50330fa56fde0ca7f8dcccced67ef8",
+  "exact_byte_match": false,
+  "normalized_match": true,
+  "normalization": "WordPress encoded three outward-arrow characters as HTML entities; decoded content is identical. Theme export remains exactly matched to reviewed source.",
+  "diffs": [
+    {
+      "source": "\u2197",
+      "native": "&#x2197;",
+      "source_offset": 15990
+    },
+    {
+      "source": "\u2197",
+      "native": "&#x2197;",
+      "source_offset": 16331
+    },
+    {
+      "source": "\u2197",
+      "native": "&#x2197;",
+      "source_offset": 16682
+    }
+  ]
+}

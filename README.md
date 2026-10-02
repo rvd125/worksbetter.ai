@@ -2,7 +2,7 @@
 
 Release source for [worksbetter.ai](https://worksbetter.ai), by Renzo Demartini. Works Better shows business owners how AI workflows and tools can work around the apps and systems their teams already know. Renzo personally designs and builds the solutions: automated workflows, approval-based workflows and tools operated by the customer's team. The personal consulting site and AI Labs have separate purposes.
 
-Current checkpoint: reviewed WordPress release candidate. Publication and independent enquiry delivery/analytics verification are in progress. Historical dated reports describe the state at the time of each inspection, not a current deployment claim.
+Current checkpoint: deployed and publicly verified on2October2026. Actual Astra granted scoped production acceptance;126 public desktop/mobile checks passed; a single labelled test independently verified enquiry storage and owner-confirmed inbox delivery. Processed GA4 receipt remains pending. See [the production record](docs/PRODUCTION-RELEASE-2026-10-02.md). Historical dated reports describe the state at the time of each inspection, not a current deployment claim.
 
 This repository tracks an explicit patch and inspected source; it is not a complete WordPress installation, a full database backup or an instruction to upload a partial theme wholesale. Follow [the release manifest](release/manifest.json) and [release/rollback procedure](release/RELEASE-AND-ROLLBACK.md). Temporary preview content/filter files must never ship. Private backups, original captured HTML, contact PII, preview tokens and server backup locations are excluded from the public repository.
 

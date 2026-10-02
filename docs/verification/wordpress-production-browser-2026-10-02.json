@@ -1,0 +1,283 @@
+{
+  "scope": "Actual public WordPress HTTPS desktop/mobile checks; client submissions intercepted; no real notification or GA processing evidence",
+  "checks": [
+    {
+      "name": "home 1440: actual TLS response200",
+      "pass": true
+    },
+    {
+      "name": "home 1440: one heading",
+      "pass": true
+    },
+    {
+      "name": "home 1440: three delivery modes",
+      "pass": true
+    },
+    {
+      "name": "home 1440: isolated draft assets",
+      "pass": true
+    },
+    {
+      "name": "home 1440: no overflow",
+      "pass": true
+    },
+    {
+      "name": "home 1440: one Guides destination",
+      "pass": true
+    },
+    {
+      "name": "menu 1440: opens",
+      "pass": true
+    },
+    {
+      "name": "menu 1440: closes",
+      "pass": true
+    },
+    {
+      "name": "contact 1440: selected automatic",
+      "pass": true
+    },
+    {
+      "name": "contact 1440: blank cannot send",
+      "pass": true
+    },
+    {
+      "name": "contact 1440: mock payload retains preference",
+      "pass": true
+    },
+    {
+      "name": "contact 1440: one client conversion",
+      "pass": true
+    },
+    {
+      "name": "contact 1440: no PII in custom events",
+      "pass": true
+    },
+    {
+      "name": "safeguards 1440: live PHP shadow loaded",
+      "pass": true
+    },
+    {
+      "name": "enquiry 1440: staff/customer separate",
+      "pass": true
+    },
+    {
+      "name": "invoice 1440: duplicate stops",
+      "pass": true
+    },
+    {
+      "name": "invoice 1440: reason required",
+      "pass": true
+    },
+    {
+      "name": "invoice 1440: no payment claim",
+      "pass": true
+    },
+    {
+      "name": "reporting 1440: held for review",
+      "pass": true
+    },
+    {
+      "name": "reporting 1440: retry resumes",
+      "pass": true
+    },
+    {
+      "name": "guides 1440: native contact link",
+      "pass": true
+    },
+    {
+      "name": "guides 1440: contact journey opens",
+      "pass": true
+    },
+    {
+      "name": "article 1440: contact/privacy footer",
+      "pass": true
+    },
+    {
+      "name": "privacy 1440: response heading",
+      "pass": true
+    },
+    {
+      "name": "privacy 1440: no overflow",
+      "pass": true
+    },
+    {
+      "name": "privacy 1440: owner email",
+      "pass": true
+    },
+    {
+      "name": "privacy 1440: storage/AI disclosure",
+      "pass": true
+    },
+    {
+      "name": "privacy 1440: old email absent",
+      "pass": true
+    },
+    {
+      "name": "privacy 1440: edited brief email destination",
+      "pass": true
+    },
+    {
+      "name": "privacy 1440: mode/source preserve email",
+      "pass": true
+    },
+    {
+      "name": "home 1440: systems opener/edit email destination",
+      "pass": true
+    },
+    {
+      "name": "home 1440: mode/source maintain email destination",
+      "pass": true
+    },
+    {
+      "name": "home 390: actual TLS response200",
+      "pass": true
+    },
+    {
+      "name": "home 390: one heading",
+      "pass": true
+    },
+    {
+      "name": "home 390: three delivery modes",
+      "pass": true
+    },
+    {
+      "name": "home 390: isolated draft assets",
+      "pass": true
+    },
+    {
+      "name": "home 390: no overflow",
+      "pass": true
+    },
+    {
+      "name": "home 390: one Guides destination",
+      "pass": true
+    },
+    {
+      "name": "menu 390: opens",
+      "pass": true
+    },
+    {
+      "name": "menu 390: closes",
+      "pass": true
+    },
+    {
+      "name": "contact 390: selected automatic",
+      "pass": true
+    },
+    {
+      "name": "contact 390: blank cannot send",
+      "pass": true
+    },
+    {
+      "name": "contact 390: mock payload retains preference",
+      "pass": true
+    },
+    {
+      "name": "contact 390: one client conversion",
+      "pass": true
+    },
+    {
+      "name": "contact 390: no PII in custom events",
+      "pass": true
+    },
+    {
+      "name": "safeguards 390: live PHP shadow loaded",
+      "pass": true
+    },
+    {
+      "name": "enquiry 390: staff/customer separate",
+      "pass": true
+    },
+    {
+      "name": "invoice 390: duplicate stops",
+      "pass": true
+    },
+    {
+      "name": "invoice 390: reason required",
+      "pass": true
+    },
+    {
+      "name": "invoice 390: no payment claim",
+      "pass": true
+    },
+    {
+      "name": "reporting 390: held for review",
+      "pass": true
+    },
+    {
+      "name": "reporting 390: retry resumes",
+      "pass": true
+    },
+    {
+      "name": "guides 390: native contact link",
+      "pass": true
+    },
+    {
+      "name": "guides 390: contact journey opens",
+      "pass": true
+    },
+    {
+      "name": "article 390: contact/privacy footer",
+      "pass": true
+    },
+    {
+      "name": "privacy 390: response heading",
+      "pass": true
+    },
+    {
+      "name": "privacy 390: no overflow",
+      "pass": true
+    },
+    {
+      "name": "privacy 390: owner email",
+      "pass": true
+    },
+    {
+      "name": "privacy 390: storage/AI disclosure",
+      "pass": true
+    },
+    {
+      "name": "privacy 390: old email absent",
+      "pass": true
+    },
+    {
+      "name": "privacy 390: edited brief email destination",
+      "pass": true
+    },
+    {
+      "name": "privacy 390: mode/source preserve email",
+      "pass": true
+    },
+    {
+      "name": "home 390: systems opener/edit email destination",
+      "pass": true
+    },
+    {
+      "name": "home 390: mode/source maintain email destination",
+      "pass": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "observations": [
+    {
+      "width": 1440,
+      "title": "AI automation around your existing systems | Works Better",
+      "heading": "What if work\nworked better?",
+      "description": "AI workflows and tools built around the apps your team already uses. Renzo Demartini designs and builds solutions for Australia and New Zealand.",
+      "opening": "Still doing invoices at night or on weekends? Chasing enquiries or piecing together reports?\nWorks Better adds AI workflows and tools around the apps and systems your team already knows. Renzo Demartini personally designs and builds around your current setup, so work can run automatically, include approval steps, or use a tool your team operates. For businesses across Australia and New Zealand."
+    },
+    {
+      "width": 390,
+      "title": "AI automation around your existing systems | Works Better",
+      "heading": "What if work\nworked better?",
+      "description": "AI workflows and tools built around the apps your team already uses. Renzo Demartini designs and builds solutions for Australia and New Zealand.",
+      "opening": "Still doing invoices at night or on weekends? Chasing enquiries or piecing together reports?\nWorks Better adds AI workflows and tools around the apps and systems your team already knows. Renzo Demartini personally designs and builds around your current setup, so work can run automatically, include approval steps, or use a tool your team operates. For businesses across Australia and New Zealand."
+    }
+  ],
+  "label_clarification": "Harness retains some preview-era assertion names. WB_PUBLIC_QA=1 used actual anonymous production URLs after publish; preview sidecar separately verified404."
+}

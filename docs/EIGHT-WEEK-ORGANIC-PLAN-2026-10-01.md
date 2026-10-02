@@ -2,7 +2,7 @@
 
 Prepared 1 October 2026. Draft plan; nothing in this file is published, distributed or newly scheduled. Existing WordPress publishing dates are recorded separately and must not be overwritten by an export import.
 
-The target is at least one qualified consulting lead per week, alongside relevant organic reach. It is not a forecast. The starting scorecard is `verification/baseline-2026-10-01.json`; qualification remains unknown.
+The target is at least one qualified consulting lead per week, alongside relevant organic reach. It is not a forecast. The historical starting scorecard is `verification/baseline-2026-10-01.json`; the latest release-date scorecard is in PRODUCTION-RELEASE-2026-10-02.md with2October GSC/GA evidence. Qualification remains unknown.
 
 ## Evidence and editorial boundary
 
@@ -41,7 +41,7 @@ The designated successful form signal remains one `generate_lead` from a confirm
 
 There is one active reviewer for renzodemartini.com and a paused predecessor. Neither authorises Works Better scheduling. No Works Better review automation was found or created.
 
-Propose a weekly Monday review at09:00 Australia/Sydney: review complete search windows, landing visits, saved enquiries, genuine/qualified status, meetings, proposals and wins; check previous content's relevance and decide one useful next action. Propose a monthly technical/form/privacy check, with a clearly labelled success test only when necessary. Evaluate the first complete28-day post-release period, then the eight-week outcome. The actual deployment date must set those windows; no post-release period exists yet.
+Propose a weekly Monday review at09:00 Australia/Sydney: review complete search windows, landing visits, saved enquiries, genuine/qualified status, meetings, proposals and wins; check previous content's relevance and decide one useful next action. Propose a monthly technical/form/privacy check, with a clearly labelled success test only when necessary. Evaluate the first complete28-day post-release period, then the eight-week outcome. Production date is2October2026, recorded in PRODUCTION-RELEASE-2026-10-02.md. First full28-day window is3–30October; first eight full weeks are3October–27November. No complete post-release outcome period exists at release.
 
 Increase publication only when content remains distinct and enquiry handling works. If relevant visits are sparse, improve helpful discoverable pages and internal routes. If visitors explore but do not enquire, assess the offer and invitation. If starts do not become saved records, inspect form/service failures. A small daily movement is not grounds for another rebuild.
 

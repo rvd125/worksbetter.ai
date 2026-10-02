@@ -1,0 +1,21 @@
+{
+  "anonymous_test_id": "SYNTHETIC-20261002-01",
+  "submitted_at_utc": "2026-10-02T09:40:01Z",
+  "classification": "Synthetic release verification; excluded from enquiries, opportunities, meetings, proposals, wins and revenue",
+  "enquiry_posts": 1,
+  "http_status": 200,
+  "response_saved": true,
+  "independent_storage_rows": 1,
+  "independent_notification_state": "sent",
+  "owner_inbox_receipt_confirmed": true,
+  "owner_confirmation_source": "User confirmed receipt in configured Works Better inbox",
+  "browser_generate_lead_requests": 1,
+  "measurement_id": "G-SZ0YNX9CXG",
+  "custom_event_contact_pii_present": false,
+  "processed_ga4_receipt": "Pending: current-day filtered report has no rows; not a verified zero",
+  "on_screen_receipt_verified": true,
+  "browser_errors": 0,
+  "test_campaign": "release_verification_20261002",
+  "repeat_submission_permitted": false,
+  "private_details": "Actual receipt identifier and message remain in ignored private QA evidence"
+}
