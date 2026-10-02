@@ -4,7 +4,7 @@
   const valid = new Set([
     'workflow_view', 'workflow_step_open', 'before_after_toggle', 'system_selected',
     'problem_selected', 'diagnostic_started', 'diagnostic_completed', 'calculator_used',
-    'demo_started', 'demo_completed', 'cta_clicked', 'contact_started', 'enquiry_started'
+    'demo_started', 'demo_completed', 'cta_clicked', 'contact_started', 'enquiry_started', 'guide_enquiry_clicked'
   ]);
   const aliases=Object.freeze({demo_start:'demo_started',demo_complete:'demo_completed',contact_open:'contact_started'});
   const history = [];
@@ -33,7 +33,7 @@
     if (!valid.has(name)||document.body.classList.contains('logged-in')) return;
     const workflow = cleanWorkflow(properties.workflow);
     if (name === 'contact_started') contactWorkflow = workflow;
-    const event = Object.freeze({ event: name, page: cleanWorkflow(document.body?.getAttribute('data-workflow')) || 'home', workflow });
+    const event = Object.freeze({ event: name, page: document.body.classList.contains('guide-page') ? 'guide' : cleanWorkflow(document.body?.getAttribute('data-workflow')) || 'home', workflow });
     history.push(event);
     if (history.length > 100) history.shift();
     window.dispatchEvent(new CustomEvent('wb:measurement', { detail: event }));
@@ -59,6 +59,13 @@
     if (!target) return;
     const workflow = workflowFor(target);
 
+    if (target.closest('.guide-enquiry') && target.matches('a[href]')) {
+      const destination = new URL(target.href, window.location.href);
+      if (destination.origin === window.location.origin && destination.pathname === '/' && destination.hash === '#contact') {
+        track('guide_enquiry_clicked', { workflow });
+        return;
+      }
+    }
     if (target.dataset.idea) track('problem_selected', { workflow });
     else if (target.id === 'imagine-button') track('diagnostic_started', { workflow });
                 else if (target.dataset.preview || target.dataset.impact) track('before_after_toggle', { workflow });

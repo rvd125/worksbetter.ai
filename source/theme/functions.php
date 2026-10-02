@@ -22,6 +22,8 @@ add_action('wp_enqueue_scripts', function () {
         wp_enqueue_style('wb-style-'.$n, wb_asset_url($url), array(), $version);
     }
     if (is_singular('post') || is_page('guides')) {
+        if (!is_array($scripts)) $scripts = array();
+        if (!in_array('/measurement.js', $scripts, true)) $scripts[] = '/measurement.js';
         wp_enqueue_style('wb-guides', wb_asset_url('/guides.css'), array(), (string) filemtime(get_template_directory() . '/assets/guides.css'));
     }
     $previous = array();

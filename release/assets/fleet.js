@@ -58,5 +58,7 @@ window.WBSafeguards = Object.freeze({
   window.WBAnalytics?.track('workflow_step_open',{workflow:key});render();
  });
  decline.addEventListener('click',()=>{if(key!=='invoice'||step!==3||terminal)return;terminal=true;message('Declined. Nothing is filed, recorded or acknowledged. Reset to try another case.');render();});
- retry.addEventListener('click',()=>{if(!held)return;resolved=true;held=false;step=1;message('The source has been reviewed in this fictional case. Rerun reconciliation before refreshing the dashboard.');render();});choose(key);
+ retry.addEventListener('click',()=>{if(!held)return;resolved=true;held=false;step=1;message('The source has been reviewed in this fictional case. Rerun reconciliation before refreshing the dashboard.');render();});
+ function chooseFromHash(){const requested=window.location.hash.slice(1);if(Object.prototype.hasOwnProperty.call(data,requested))choose(requested);}
+ choose(key);chooseFromHash();window.addEventListener('hashchange',chooseFromHash);
 })();

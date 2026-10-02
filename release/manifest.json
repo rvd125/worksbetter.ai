@@ -1,6 +1,6 @@
 {
   "as_of": "2026-10-02",
-  "state": "DEPLOYED_PUBLICLY_VERIFIED_DELIVERY_CONFIRMED_GA_PROCESSING_PENDING",
+  "state": "ACQUISITION_PATCH_PREPARED_PENDING_EXACT_ASTRA_AND_PRODUCTION_CHECK",
   "active_theme": "worksbetter-wpvibe-draft",
   "draft_is_active": false,
   "source_type": "Sanitized reviewed explicit WordPress patch with authenticated native/public production readback; not a complete site/database clone",
@@ -28,7 +28,7 @@
     {
       "path": "source/theme/assets/fleet.js",
       "destination": "wp-content/themes/worksbetter-wpvibe-draft/assets/fleet.js",
-      "sha256": "75a62f979ad01005b7b71505ab598adbb5ce989ee0cd51bbfb5e3fc5e430b602",
+      "sha256": "7bd3919e31c99f9ffaff14880f54d45cd83e0a5aca7c3fe1a0e8e6fecb9e8278",
       "original_sha256": "54e5ca45189b3347ef93bac187bde4664852077d538f6f32311620ae921d2465"
     },
     {
@@ -40,7 +40,7 @@
     {
       "path": "source/theme/assets/measurement.js",
       "destination": "wp-content/themes/worksbetter-wpvibe-draft/assets/measurement.js",
-      "sha256": "aa87fb5e852f37548fec800931b9ade7a9faeb0d06911ab4450c08c12cf8cbbc",
+      "sha256": "1292a909dcec8c22fb271c3d5fe229334c7e7596c33fcb5a1134cf802f6b9a2e",
       "original_sha256": "fdcf5b8355f6d0b231908996f59fee47f8164957960eb9642d9970b8058ccacf"
     },
     {
@@ -52,7 +52,7 @@
     {
       "path": "source/theme/assets/systems.js",
       "destination": "wp-content/themes/worksbetter-wpvibe-draft/assets/systems.js",
-      "sha256": "ca63b135ea22268103f9da2e8cd6465870c8649999163e055d06f6b58dc14c9a",
+      "sha256": "4e172c8e9d6966a999e7e8b1bc8c6a77a9c7a63f561be9371ed9210e7e9acc3a",
       "original_sha256": "be4fb0b0cb4d8418dd3cef0a44b6a92fb17d9532eccd8da0bfeb77ffbbc5bd70"
     },
     {
@@ -76,6 +76,17 @@
       "original_sha256": "5be07caa3215119a218f52094d249a5dbc46d9dbd7c1c17dce2babab3ca2eeb1",
       "sha256": "6cd411e208d12add1ba986348726797acee1e85d3f98806dbcfe2a0d618b8bc7",
       "apply_note": "Recognise existing Guides destination by same-origin pathname; prevent duplicate link for absolute/preview-token URLs."
+    },
+    {
+      "path": "source/theme/functions.php",
+      "original_sha256": "87b099ec99e4280a54de0d975e587da007645f45ddb7933b8479136f8de58097",
+      "apply_note": "Scoped reviewed guide measurement enqueue only. Prior unchanged-runtime instructions historical; preserve this legitimate new change.",
+      "sha256": "3b16e68fe8711e1e5c1cfeca91e4b2616ee9224bfe262e1c1699e31db90aca23"
+    },
+    {
+      "path": "source/theme/assets/providers.js",
+      "apply_note": "Native lazy logos; existing labels and40x40 attributes retained.",
+      "sha256": "fb34f1a97cd97e2146dd6b381a7590fa850b74c274aec71991a206931d73b622"
     }
   ],
   "pages": [
@@ -129,7 +140,7 @@
     {
       "id": 12,
       "title": "Decisions and safeguards in connected workflows | Works Better",
-      "description": "Explore Renzo’s confirmed enquiry, supplier invoice and daily reporting decisions using fictional records, human approval and visible exceptions."
+      "description": "Explore Renzo\u2019s confirmed enquiry, supplier invoice and daily reporting decisions using fictional records, human approval and visible exceptions."
     },
     {
       "id": 11,
@@ -169,10 +180,6 @@
     }
   ],
   "excluded": [
-    {
-      "path": "source/theme/functions.php",
-      "reason": "reference snapshot only, no reviewed change; do not overwrite"
-    },
     {
       "path": "release/assets/",
       "reason": "duplicate reference convenience; deploy listed source/theme/assets counterparts only"
@@ -368,5 +375,25 @@
     "public_control_checks": 87,
     "public_targeted_axe": "no identified violations at1440/390; incomplete gradient cases remain unknown",
     "isolated_browser": "disposed, private token input removed"
+  },
+  "acquisition_pass": {
+    "record": "docs/ACQUISITION-PASS-2026-10-02.md",
+    "theme_files": [
+      "functions.php",
+      "assets/providers.js",
+      "assets/fleet.js",
+      "assets/systems.js",
+      "assets/measurement.js"
+    ],
+    "native_posts": [
+      46,
+      47,
+      48,
+      50,
+      51,
+      52
+    ],
+    "policy": "Publish distinct46 explicitly after Astra. Preserve five native future dates/slugs. No bulk import. No new scheduled automation.",
+    "conversion": "enquiry.js unchanged; no second generate_lead handler."
   }
 }

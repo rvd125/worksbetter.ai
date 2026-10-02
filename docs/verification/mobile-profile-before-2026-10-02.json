@@ -1,0 +1,2321 @@
+{
+  "scope": "Three cold actual public browser sessions:390x844,4xCPU,150mslatency,200000bytes/sdownload; only site and Google Fonts GET allowed, analytics/POST blocked. Diagnostic harness, not Lighthouse/CrUX or visitors.",
+  "observations": [
+    {
+      "run": 0,
+      "navigation": {
+        "name": "https://worksbetter.ai/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 3779.7000000029802,
+        "navigationId": 8911,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "h2",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "br",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.20000000298023224,
+        "domainLookupStart": 0.20000000298023224,
+        "domainLookupEnd": 0.20000000298023224,
+        "connectStart": 5.5,
+        "secureConnectionStart": 203.79999999701977,
+        "connectEnd": 209.79999999701977,
+        "requestStart": 210,
+        "responseStart": 2141.1000000089407,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 2141.1000000089407,
+        "responseEnd": 2235,
+        "transferSize": 18085,
+        "encodedBodySize": 17785,
+        "decodedBodySize": 67874,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 2849.2000000029802,
+        "domContentLoadedEventStart": 3478.4000000059605,
+        "domContentLoadedEventEnd": 3478.4000000059605,
+        "domComplete": 3779.4000000059605,
+        "loadEventStart": 3779.7000000029802,
+        "loadEventEnd": 3779.7000000029802,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "high"
+        }
+      },
+      "paints": [
+        {
+          "name": "first-paint",
+          "entryType": "paint",
+          "startTime": 2940,
+          "duration": 0,
+          "navigationId": 8911,
+          "paintTime": 2827.5,
+          "presentationTime": 2940
+        },
+        {
+          "name": "first-contentful-paint",
+          "entryType": "paint",
+          "startTime": 2940,
+          "duration": 0,
+          "navigationId": 8911,
+          "paintTime": 2827.5,
+          "presentationTime": 2940
+        }
+      ],
+      "lcp": [
+        {
+          "startTime": 2940,
+          "renderTime": 2940,
+          "loadTime": 0,
+          "size": 26480,
+          "element": "P",
+          "selector": "wb-hero-offer"
+        }
+      ],
+      "cls": 0.020089106137574662,
+      "resources": [
+        {
+          "name": "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap&ver=1.0.1",
+          "initiatorType": "link",
+          "start": 2181.2000000029802,
+          "duration": 256.09999999403954,
+          "responseStart": 2296,
+          "responseEnd": 2437.2999999970198,
+          "transfer": 1027,
+          "encoded": 727,
+          "decoded": 10720
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/n8n-base.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 2181.4000000059605,
+          "duration": 383,
+          "responseStart": 2270.2999999970198,
+          "responseEnd": 2564.4000000059605,
+          "transfer": 7264,
+          "encoded": 6964,
+          "decoded": 27955
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/backstage.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 2181.5,
+          "duration": 293.1000000089407,
+          "responseStart": 2301.2999999970198,
+          "responseEnd": 2474.6000000089407,
+          "transfer": 2084,
+          "encoded": 1784,
+          "decoded": 5709
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/journey.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 2181.5,
+          "duration": 337.5,
+          "responseStart": 2330.7999999970198,
+          "responseEnd": 2519,
+          "transfer": 4081,
+          "encoded": 3781,
+          "decoded": 14651
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/systems.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 2181.5,
+          "duration": 397.6000000089407,
+          "responseStart": 2300.6000000089407,
+          "responseEnd": 2579.1000000089407,
+          "transfer": 7475,
+          "encoded": 7175,
+          "decoded": 29267
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/frontier.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 2181.5,
+          "duration": 412.40000000596046,
+          "responseStart": 2373.2999999970198,
+          "responseEnd": 2593.9000000059605,
+          "transfer": 7345,
+          "encoded": 7045,
+          "decoded": 28390
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/providers.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 2183,
+          "duration": 209.20000000298023,
+          "responseStart": 2331,
+          "responseEnd": 2392.2000000029802,
+          "transfer": 1592,
+          "encoded": 1292,
+          "decoded": 4028
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/experience.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 2183.1000000089407,
+          "duration": 276.69999998807907,
+          "responseStart": 2299.7000000029802,
+          "responseEnd": 2459.7999999970198,
+          "transfer": 1872,
+          "encoded": 1572,
+          "decoded": 5257
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/identity.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 2183.2000000029802,
+          "duration": 284.70000000298023,
+          "responseStart": 2381.7000000029802,
+          "responseEnd": 2467.9000000059605,
+          "transfer": 812,
+          "encoded": 512,
+          "decoded": 1583
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/search-pages.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 2184.5,
+          "duration": 312.6000000089407,
+          "responseStart": 2331,
+          "responseEnd": 2497.1000000089407,
+          "transfer": 2609,
+          "encoded": 2309,
+          "decoded": 9107
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/proof.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 2184.5,
+          "duration": 357.90000000596046,
+          "responseStart": 2303.4000000059605,
+          "responseEnd": 2542.4000000059605,
+          "transfer": 3621,
+          "encoded": 3321,
+          "decoded": 12645
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/guides.css?ver=1790940235",
+          "initiatorType": "link",
+          "start": 2184.5,
+          "duration": 364.29999999701977,
+          "responseStart": 2300.6000000089407,
+          "responseEnd": 2548.7999999970198,
+          "transfer": 3941,
+          "encoded": 3641,
+          "decoded": 14828
+        },
+        {
+          "name": "https://www.googletagmanager.com/gtag/js?id=GT-M6QMJ8P8",
+          "initiatorType": "script",
+          "start": 2184.6000000089407,
+          "duration": 397.8999999910593,
+          "responseStart": 0,
+          "responseEnd": 2582.5,
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/navigation.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 2227.5,
+          "duration": 510.1000000089407,
+          "responseStart": 2641,
+          "responseEnd": 2737.6000000089407,
+          "transfer": 858,
+          "encoded": 558,
+          "decoded": 1391
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/workflow-routes.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 2227.5,
+          "duration": 532.2000000029802,
+          "responseStart": 2680.6000000089407,
+          "responseEnd": 2759.7000000029802,
+          "transfer": 453,
+          "encoded": 153,
+          "decoded": 298
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/flow-model.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 2227.5,
+          "duration": 614.7000000029802,
+          "responseStart": 2683.2999999970198,
+          "responseEnd": 2842.2000000029802,
+          "transfer": 2853,
+          "encoded": 2553,
+          "decoded": 6968
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/measurement.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 2227.5,
+          "duration": 675.1000000089407,
+          "responseStart": 2834.7000000029802,
+          "responseEnd": 2902.6000000089407,
+          "transfer": 1509,
+          "encoded": 1209,
+          "decoded": 4010
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/systems-data.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 2228.5,
+          "duration": 756.1000000089407,
+          "responseStart": 2729.9000000059605,
+          "responseEnd": 2984.6000000089407,
+          "transfer": 6164,
+          "encoded": 5864,
+          "decoded": 18580
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/project-data.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 2228.5,
+          "duration": 763.6000000089407,
+          "responseStart": 2887.9000000059605,
+          "responseEnd": 2992.1000000089407,
+          "transfer": 3183,
+          "encoded": 2883,
+          "decoded": 7850
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/backstage.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 2228.6000000089407,
+          "duration": 553.5999999940395,
+          "responseStart": 2684.7000000029802,
+          "responseEnd": 2782.2000000029802,
+          "transfer": 1221,
+          "encoded": 921,
+          "decoded": 2614
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/providers.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 2228.6000000089407,
+          "duration": 560.6999999880791,
+          "responseStart": 2685.7000000029802,
+          "responseEnd": 2789.2999999970198,
+          "transfer": 1247,
+          "encoded": 947,
+          "decoded": 2347
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/workflow-questions.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 2228.6000000089407,
+          "duration": 621.2999999970198,
+          "responseStart": 2679.2000000029802,
+          "responseEnd": 2849.9000000059605,
+          "transfer": 1908,
+          "encoded": 1608,
+          "decoded": 4971
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/systems-engine.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 2228.6000000089407,
+          "duration": 636.1999999880791,
+          "responseStart": 2692.6000000089407,
+          "responseEnd": 2864.7999999970198,
+          "transfer": 2067,
+          "encoded": 1767,
+          "decoded": 4666
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/systems.js?ver=1790940224",
+          "initiatorType": "script",
+          "start": 2229.4000000059605,
+          "duration": 860,
+          "responseStart": 2712.2999999970198,
+          "responseEnd": 3089.4000000059605,
+          "transfer": 12584,
+          "encoded": 12284,
+          "decoded": 38736
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/possibility-model.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 2229.5,
+          "duration": 740.2000000029802,
+          "responseStart": 2800.7000000029802,
+          "responseEnd": 2969.7000000029802,
+          "transfer": 4220,
+          "encoded": 3920,
+          "decoded": 10491
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/prompt-examples.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 2229.9000000059605,
+          "duration": 589.7999999970198,
+          "responseStart": 2692.6000000089407,
+          "responseEnd": 2819.7000000029802,
+          "transfer": 1612,
+          "encoded": 1312,
+          "decoded": 3492
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/stack-rotation.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 2229.9000000059605,
+          "duration": 597.7000000029802,
+          "responseStart": 2730.5,
+          "responseEnd": 2827.6000000089407,
+          "transfer": 920,
+          "encoded": 620,
+          "decoded": 1603
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/play-area.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 2229.9000000059605,
+          "duration": 821.3999999910593,
+          "responseStart": 2858.4000000059605,
+          "responseEnd": 3051.2999999970198,
+          "transfer": 6412,
+          "encoded": 6112,
+          "decoded": 17981
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/flagship-entry.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 2230,
+          "duration": 627.1000000089407,
+          "responseStart": 2782.6000000089407,
+          "responseEnd": 2857.1000000089407,
+          "transfer": 1456,
+          "encoded": 1156,
+          "decoded": 3759
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/enquiry.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 2230,
+          "duration": 664.5,
+          "responseStart": 2739.7000000029802,
+          "responseEnd": 2894.5,
+          "transfer": 1890,
+          "encoded": 1590,
+          "decoded": 4119
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/plugins/wp-consent-api/assets/js/wp-consent-api.min.js?ver=2.1.0",
+          "initiatorType": "script",
+          "start": 2235.4000000059605,
+          "duration": 247.29999999701977,
+          "responseStart": 2381.6000000089407,
+          "responseEnd": 2482.7000000029802,
+          "transfer": 1045,
+          "encoded": 745,
+          "decoded": 2235
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/simpro-icon.png",
+          "initiatorType": "img",
+          "start": 3265.9000000059605,
+          "duration": 505.70000000298023,
+          "responseStart": 3337.2999999970198,
+          "responseEnd": 3771.6000000089407,
+          "transfer": 33530,
+          "encoded": 33230,
+          "decoded": 33230
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/xero.svg",
+          "initiatorType": "img",
+          "start": 3266.7000000029802,
+          "duration": 168.5,
+          "responseStart": 3369.9000000059605,
+          "responseEnd": 3435.2000000029802,
+          "transfer": 1412,
+          "encoded": 1112,
+          "decoded": 3664
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/outlook.svg",
+          "initiatorType": "img",
+          "start": 3266.9000000059605,
+          "duration": 183,
+          "responseStart": 3370.1000000089407,
+          "responseEnd": 3449.9000000059605,
+          "transfer": 744,
+          "encoded": 444,
+          "decoded": 751
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/jotform-icon.svg",
+          "initiatorType": "img",
+          "start": 3266.9000000059605,
+          "duration": 197.70000000298023,
+          "responseStart": 3370.1000000089407,
+          "responseEnd": 3464.6000000089407,
+          "transfer": 640,
+          "encoded": 340,
+          "decoded": 795
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/sharepoint.svg",
+          "initiatorType": "img",
+          "start": 3266.9000000059605,
+          "duration": 250.5,
+          "responseStart": 3370,
+          "responseEnd": 3517.4000000059605,
+          "transfer": 2533,
+          "encoded": 2233,
+          "decoded": 4864
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/claude.svg",
+          "initiatorType": "img",
+          "start": 3267.7999999970198,
+          "duration": 205.20000000298023,
+          "responseStart": 3398,
+          "responseEnd": 3473,
+          "transfer": 1267,
+          "encoded": 967,
+          "decoded": 1923
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/openrouter.svg",
+          "initiatorType": "img",
+          "start": 3267.7999999970198,
+          "duration": 220.1000000089407,
+          "responseStart": 3381.2999999970198,
+          "responseEnd": 3487.9000000059605,
+          "transfer": 806,
+          "encoded": 506,
+          "decoded": 871
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/airtable.svg",
+          "initiatorType": "img",
+          "start": 3267.9000000059605,
+          "duration": 212.79999999701977,
+          "responseStart": 3380,
+          "responseEnd": 3480.7000000029802,
+          "transfer": 652,
+          "encoded": 352,
+          "decoded": 673
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/teams.svg",
+          "initiatorType": "img",
+          "start": 3268,
+          "duration": 226.1000000089407,
+          "responseStart": 3420.7999999970198,
+          "responseEnd": 3494.1000000089407,
+          "transfer": 843,
+          "encoded": 543,
+          "decoded": 1115
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/excel.svg",
+          "initiatorType": "img",
+          "start": 3268,
+          "duration": 241.6000000089407,
+          "responseStart": 3428,
+          "responseEnd": 3509.6000000089407,
+          "transfer": 865,
+          "encoded": 565,
+          "decoded": 1524
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/employmenthero.svg",
+          "initiatorType": "img",
+          "start": 3269,
+          "duration": 233.90000000596046,
+          "responseStart": 3381.2000000029802,
+          "responseEnd": 3502.9000000059605,
+          "transfer": 1687,
+          "encoded": 1387,
+          "decoded": 3910
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/openai.svg",
+          "initiatorType": "img",
+          "start": 3269.9000000059605,
+          "duration": 262.70000000298023,
+          "responseStart": 3489.5,
+          "responseEnd": 3532.6000000089407,
+          "transfer": 1602,
+          "encoded": 1302,
+          "decoded": 2696
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/n8n.svg",
+          "initiatorType": "img",
+          "start": 3437.7999999970198,
+          "duration": 207,
+          "responseStart": 3506.2999999970198,
+          "responseEnd": 3644.7999999970198,
+          "transfer": 2656,
+          "encoded": 2356,
+          "decoded": 5822
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/zapier.svg",
+          "initiatorType": "img",
+          "start": 3437.9000000059605,
+          "duration": 214,
+          "responseStart": 3500.7000000029802,
+          "responseEnd": 3651.9000000059605,
+          "transfer": 2651,
+          "encoded": 2351,
+          "decoded": 5066
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/jotform.svg",
+          "initiatorType": "img",
+          "start": 3437.9000000059605,
+          "duration": 221.8999999910593,
+          "responseStart": 3528.9000000059605,
+          "responseEnd": 3659.7999999970198,
+          "transfer": 2282,
+          "encoded": 1982,
+          "decoded": 5367
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/huggingface.svg",
+          "initiatorType": "img",
+          "start": 3438.7999999970198,
+          "duration": 287.80000001192093,
+          "responseStart": 3509,
+          "responseEnd": 3726.6000000089407,
+          "transfer": 8343,
+          "encoded": 8043,
+          "decoded": 18673
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "loaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "loaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "loaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "loaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "loaded",
+          "display": "swap"
+        }
+      ],
+      "styles": [
+        "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap&ver=1.0.1",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/n8n-base.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/systems.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/journey.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/frontier.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/backstage.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/providers.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/experience.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/identity.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/proof.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/search-pages.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/guides.css?ver=1790940235"
+      ]
+    },
+    {
+      "run": 1,
+      "navigation": {
+        "name": "https://worksbetter.ai/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 2000.2000000029802,
+        "navigationId": 9164,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "h2",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "br",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.5,
+        "domainLookupStart": 0.5,
+        "domainLookupEnd": 0.5,
+        "connectStart": 7.4000000059604645,
+        "secureConnectionStart": 16.400000005960464,
+        "connectEnd": 21.200000002980232,
+        "requestStart": 21.299999997019768,
+        "responseStart": 362.70000000298023,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 362.70000000298023,
+        "responseEnd": 454.90000000596046,
+        "transferSize": 18085,
+        "encodedBodySize": 17785,
+        "decodedBodySize": 67874,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 1015.7000000029802,
+        "domContentLoadedEventStart": 1698.2000000029802,
+        "domContentLoadedEventEnd": 1698.7999999970198,
+        "domComplete": 2000.2000000029802,
+        "loadEventStart": 2000.2000000029802,
+        "loadEventEnd": 2000.2000000029802,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "high"
+        }
+      },
+      "paints": [
+        {
+          "name": "first-paint",
+          "entryType": "paint",
+          "startTime": 1120,
+          "duration": 0,
+          "navigationId": 9164,
+          "paintTime": 1004.2999999970198,
+          "presentationTime": 1120
+        },
+        {
+          "name": "first-contentful-paint",
+          "entryType": "paint",
+          "startTime": 1120,
+          "duration": 0,
+          "navigationId": 9164,
+          "paintTime": 1004.2999999970198,
+          "presentationTime": 1120
+        }
+      ],
+      "lcp": [
+        {
+          "startTime": 1120,
+          "renderTime": 1120,
+          "loadTime": 0,
+          "size": 26480,
+          "element": "P",
+          "selector": "wb-hero-offer"
+        }
+      ],
+      "cls": 0.020089106137574662,
+      "resources": [
+        {
+          "name": "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap&ver=1.0.1",
+          "initiatorType": "link",
+          "start": 404.40000000596046,
+          "duration": 269.20000000298023,
+          "responseStart": 580.9000000059605,
+          "responseEnd": 673.6000000089407,
+          "transfer": 1027,
+          "encoded": 727,
+          "decoded": 10720
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/n8n-base.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 405.1000000089407,
+          "duration": 387.19999998807907,
+          "responseStart": 515.5,
+          "responseEnd": 792.2999999970198,
+          "transfer": 7264,
+          "encoded": 6964,
+          "decoded": 27955
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/systems.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 405.29999999701977,
+          "duration": 402.5,
+          "responseStart": 495.90000000596046,
+          "responseEnd": 807.7999999970198,
+          "transfer": 7475,
+          "encoded": 7175,
+          "decoded": 29267
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/journey.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 406.90000000596046,
+          "duration": 333.5,
+          "responseStart": 481.40000000596046,
+          "responseEnd": 740.4000000059605,
+          "transfer": 4081,
+          "encoded": 3781,
+          "decoded": 14651
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/providers.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 407.29999999701977,
+          "duration": 206.70000000298023,
+          "responseStart": 515.5,
+          "responseEnd": 614,
+          "transfer": 1592,
+          "encoded": 1292,
+          "decoded": 4028
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/backstage.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 407.29999999701977,
+          "duration": 274.20000000298023,
+          "responseStart": 499,
+          "responseEnd": 681.5,
+          "transfer": 2084,
+          "encoded": 1784,
+          "decoded": 5709
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/frontier.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 407.29999999701977,
+          "duration": 408.30000001192093,
+          "responseStart": 502,
+          "responseEnd": 815.6000000089407,
+          "transfer": 7345,
+          "encoded": 7045,
+          "decoded": 28390
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/identity.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 407.40000000596046,
+          "duration": 297.29999999701977,
+          "responseStart": 616.9000000059605,
+          "responseEnd": 704.7000000029802,
+          "transfer": 812,
+          "encoded": 512,
+          "decoded": 1583
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/experience.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 407.40000000596046,
+          "duration": 303.09999999403954,
+          "responseStart": 541.9000000059605,
+          "responseEnd": 710.5,
+          "transfer": 1872,
+          "encoded": 1572,
+          "decoded": 5257
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/proof.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 407.40000000596046,
+          "duration": 363,
+          "responseStart": 504.6000000089407,
+          "responseEnd": 770.4000000059605,
+          "transfer": 3621,
+          "encoded": 3321,
+          "decoded": 12645
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/search-pages.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 408.20000000298023,
+          "duration": 324.70000000298023,
+          "responseStart": 544.1000000089407,
+          "responseEnd": 732.9000000059605,
+          "transfer": 2609,
+          "encoded": 2309,
+          "decoded": 9107
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/guides.css?ver=1790940235",
+          "initiatorType": "link",
+          "start": 408.5,
+          "duration": 369.40000000596046,
+          "responseStart": 515.4000000059605,
+          "responseEnd": 777.9000000059605,
+          "transfer": 3941,
+          "encoded": 3641,
+          "decoded": 14828
+        },
+        {
+          "name": "https://www.googletagmanager.com/gtag/js?id=GT-M6QMJ8P8",
+          "initiatorType": "script",
+          "start": 408.5,
+          "duration": 402.79999999701977,
+          "responseStart": 0,
+          "responseEnd": 811.2999999970198,
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/navigation.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 449.6000000089407,
+          "duration": 517.0999999940395,
+          "responseStart": 871.1000000089407,
+          "responseEnd": 966.7000000029802,
+          "transfer": 858,
+          "encoded": 558,
+          "decoded": 1391
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/measurement.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 449.70000000298023,
+          "duration": 523.5,
+          "responseStart": 902.7999999970198,
+          "responseEnd": 973.2000000029802,
+          "transfer": 1509,
+          "encoded": 1209,
+          "decoded": 4010
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/workflow-routes.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 449.70000000298023,
+          "duration": 538.4000000059605,
+          "responseStart": 902.9000000059605,
+          "responseEnd": 988.1000000089407,
+          "transfer": 453,
+          "encoded": 153,
+          "decoded": 298
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/flow-model.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 453.40000000596046,
+          "duration": 640.2000000029802,
+          "responseStart": 903.1000000089407,
+          "responseEnd": 1093.6000000089407,
+          "transfer": 2853,
+          "encoded": 2553,
+          "decoded": 6968
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/project-data.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 453.5,
+          "duration": 654.7999999970198,
+          "responseStart": 912.7999999970198,
+          "responseEnd": 1108.2999999970198,
+          "transfer": 3183,
+          "encoded": 2883,
+          "decoded": 7850
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/systems-data.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 453.5,
+          "duration": 752,
+          "responseStart": 902.9000000059605,
+          "responseEnd": 1205.5,
+          "transfer": 6164,
+          "encoded": 5864,
+          "decoded": 18580
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/systems-engine.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 453.6000000089407,
+          "duration": 662,
+          "responseStart": 912.9000000059605,
+          "responseEnd": 1115.6000000089407,
+          "transfer": 2067,
+          "encoded": 1767,
+          "decoded": 4666
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/workflow-questions.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 454.5,
+          "duration": 668.2999999970198,
+          "responseStart": 933.6000000089407,
+          "responseEnd": 1122.7999999970198,
+          "transfer": 1908,
+          "encoded": 1608,
+          "decoded": 4971
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/providers.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 454.70000000298023,
+          "duration": 579.2000000029802,
+          "responseStart": 933.7000000029802,
+          "responseEnd": 1033.9000000059605,
+          "transfer": 1247,
+          "encoded": 947,
+          "decoded": 2347
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/backstage.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 454.70000000298023,
+          "duration": 586.5,
+          "responseStart": 961.4000000059605,
+          "responseEnd": 1041.2000000029802,
+          "transfer": 1221,
+          "encoded": 921,
+          "decoded": 2614
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/systems.js?ver=1790940224",
+          "initiatorType": "script",
+          "start": 454.70000000298023,
+          "duration": 855.5,
+          "responseStart": 980,
+          "responseEnd": 1310.2000000029802,
+          "transfer": 12584,
+          "encoded": 12284,
+          "decoded": 38736
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/possibility-model.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 455.5,
+          "duration": 727.2999999970198,
+          "responseStart": 965.4000000059605,
+          "responseEnd": 1182.7999999970198,
+          "transfer": 4220,
+          "encoded": 3920,
+          "decoded": 10491
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/play-area.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 455.90000000596046,
+          "duration": 801.5,
+          "responseStart": 1029.7000000029802,
+          "responseEnd": 1257.4000000059605,
+          "transfer": 6412,
+          "encoded": 6112,
+          "decoded": 17981
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/stack-rotation.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 456.20000000298023,
+          "duration": 592.2000000029802,
+          "responseStart": 964.4000000059605,
+          "responseEnd": 1048.4000000059605,
+          "transfer": 920,
+          "encoded": 620,
+          "decoded": 1603
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/prompt-examples.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 456.20000000298023,
+          "duration": 630.0999999940395,
+          "responseStart": 992,
+          "responseEnd": 1086.2999999970198,
+          "transfer": 1612,
+          "encoded": 1312,
+          "decoded": 3492
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/flagship-entry.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 456.29999999701977,
+          "duration": 614.9000000059605,
+          "responseStart": 966.9000000059605,
+          "responseEnd": 1071.2000000029802,
+          "transfer": 1456,
+          "encoded": 1156,
+          "decoded": 3759
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/enquiry.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 456.29999999701977,
+          "duration": 689.2000000029802,
+          "responseStart": 965.4000000059605,
+          "responseEnd": 1145.5,
+          "transfer": 1890,
+          "encoded": 1590,
+          "decoded": 4119
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/plugins/wp-consent-api/assets/js/wp-consent-api.min.js?ver=2.1.0",
+          "initiatorType": "script",
+          "start": 457.6000000089407,
+          "duration": 238.69999998807907,
+          "responseStart": 585.7999999970198,
+          "responseEnd": 696.2999999970198,
+          "transfer": 1045,
+          "encoded": 745,
+          "decoded": 2235
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/simpro-icon.png",
+          "initiatorType": "img",
+          "start": 1483.6000000089407,
+          "duration": 509,
+          "responseStart": 1606.2000000029802,
+          "responseEnd": 1992.6000000089407,
+          "transfer": 33530,
+          "encoded": 33230,
+          "decoded": 33230
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/xero.svg",
+          "initiatorType": "img",
+          "start": 1484.1000000089407,
+          "duration": 171.79999999701977,
+          "responseStart": 1576,
+          "responseEnd": 1655.9000000059605,
+          "transfer": 1412,
+          "encoded": 1112,
+          "decoded": 3664
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/sharepoint.svg",
+          "initiatorType": "img",
+          "start": 1484.1000000089407,
+          "duration": 239,
+          "responseStart": 1575.7999999970198,
+          "responseEnd": 1723.1000000089407,
+          "transfer": 2533,
+          "encoded": 2233,
+          "decoded": 4864
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/outlook.svg",
+          "initiatorType": "img",
+          "start": 1484.2000000029802,
+          "duration": 186.40000000596046,
+          "responseStart": 1630.4000000059605,
+          "responseEnd": 1670.6000000089407,
+          "transfer": 744,
+          "encoded": 444,
+          "decoded": 751
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/openrouter.svg",
+          "initiatorType": "img",
+          "start": 1484.2000000029802,
+          "duration": 193.70000000298023,
+          "responseStart": 1569.7999999970198,
+          "responseEnd": 1677.9000000059605,
+          "transfer": 806,
+          "encoded": 506,
+          "decoded": 871
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/claude.svg",
+          "initiatorType": "img",
+          "start": 1484.2000000029802,
+          "duration": 202.09999999403954,
+          "responseStart": 1630.2999999970198,
+          "responseEnd": 1686.2999999970198,
+          "transfer": 1267,
+          "encoded": 967,
+          "decoded": 1923
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/jotform-icon.svg",
+          "initiatorType": "img",
+          "start": 1484.2000000029802,
+          "duration": 209.79999999701977,
+          "responseStart": 1630.4000000059605,
+          "responseEnd": 1694,
+          "transfer": 640,
+          "encoded": 340,
+          "decoded": 795
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/airtable.svg",
+          "initiatorType": "img",
+          "start": 1484.2999999970198,
+          "duration": 216.90000000596046,
+          "responseStart": 1641.4000000059605,
+          "responseEnd": 1701.2000000029802,
+          "transfer": 652,
+          "encoded": 352,
+          "decoded": 673
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/teams.svg",
+          "initiatorType": "img",
+          "start": 1485.9000000059605,
+          "duration": 222.70000000298023,
+          "responseStart": 1635.5,
+          "responseEnd": 1708.6000000089407,
+          "transfer": 843,
+          "encoded": 543,
+          "decoded": 1115
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/excel.svg",
+          "initiatorType": "img",
+          "start": 1486.1000000089407,
+          "duration": 230,
+          "responseStart": 1635.5,
+          "responseEnd": 1716.1000000089407,
+          "transfer": 865,
+          "encoded": 565,
+          "decoded": 1524
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/employmenthero.svg",
+          "initiatorType": "img",
+          "start": 1486.1000000089407,
+          "duration": 259.59999999403954,
+          "responseStart": 1671.2999999970198,
+          "responseEnd": 1745.7000000029802,
+          "transfer": 1687,
+          "encoded": 1387,
+          "decoded": 3910
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/openai.svg",
+          "initiatorType": "img",
+          "start": 1486.2000000029802,
+          "duration": 244.40000000596046,
+          "responseStart": 1641.2999999970198,
+          "responseEnd": 1730.6000000089407,
+          "transfer": 1602,
+          "encoded": 1302,
+          "decoded": 2696
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/n8n.svg",
+          "initiatorType": "img",
+          "start": 1667.9000000059605,
+          "duration": 227.59999999403954,
+          "responseStart": 1789.5,
+          "responseEnd": 1895.5,
+          "transfer": 2656,
+          "encoded": 2356,
+          "decoded": 5822
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/jotform.svg",
+          "initiatorType": "img",
+          "start": 1668.7000000029802,
+          "duration": 212.5,
+          "responseStart": 1760,
+          "responseEnd": 1881.2000000029802,
+          "transfer": 2282,
+          "encoded": 1982,
+          "decoded": 5367
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/zapier.svg",
+          "initiatorType": "img",
+          "start": 1668.7000000029802,
+          "duration": 219.70000000298023,
+          "responseStart": 1781.9000000059605,
+          "responseEnd": 1888.4000000059605,
+          "transfer": 2651,
+          "encoded": 2351,
+          "decoded": 5066
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/huggingface.svg",
+          "initiatorType": "img",
+          "start": 1668.7000000029802,
+          "duration": 286.40000000596046,
+          "responseStart": 1731.2000000029802,
+          "responseEnd": 1955.1000000089407,
+          "transfer": 8343,
+          "encoded": 8043,
+          "decoded": 18673
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "loaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "loaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "loaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "loaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "loaded",
+          "display": "swap"
+        }
+      ],
+      "styles": [
+        "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap&ver=1.0.1",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/n8n-base.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/systems.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/journey.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/frontier.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/backstage.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/providers.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/experience.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/identity.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/proof.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/search-pages.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/guides.css?ver=1790940235"
+      ]
+    },
+    {
+      "run": 2,
+      "navigation": {
+        "name": "https://worksbetter.ai/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 1989.7999999970198,
+        "navigationId": 6477,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "h2",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "br",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0,
+        "domainLookupStart": 0,
+        "domainLookupEnd": 0,
+        "connectStart": 2.2000000029802322,
+        "secureConnectionStart": 10,
+        "connectEnd": 13.200000002980232,
+        "requestStart": 13.299999997019768,
+        "responseStart": 395.90000000596046,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 395.90000000596046,
+        "responseEnd": 487.5,
+        "transferSize": 18085,
+        "encodedBodySize": 17785,
+        "decodedBodySize": 67874,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 1209.2999999970198,
+        "domContentLoadedEventStart": 1654.7000000029802,
+        "domContentLoadedEventEnd": 1654.7000000029802,
+        "domComplete": 1988.9000000059605,
+        "loadEventStart": 1989.7999999970198,
+        "loadEventEnd": 1989.7999999970198,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "high"
+        }
+      },
+      "paints": [
+        {
+          "name": "first-paint",
+          "entryType": "paint",
+          "startTime": 1200,
+          "duration": 0,
+          "navigationId": 6477,
+          "paintTime": 1077.2000000029802,
+          "presentationTime": 1200
+        },
+        {
+          "name": "first-contentful-paint",
+          "entryType": "paint",
+          "startTime": 1200,
+          "duration": 0,
+          "navigationId": 6477,
+          "paintTime": 1077.2000000029802,
+          "presentationTime": 1200
+        }
+      ],
+      "lcp": [
+        {
+          "startTime": 1200,
+          "renderTime": 1200,
+          "loadTime": 0,
+          "size": 26480,
+          "element": "P",
+          "selector": "wb-hero-offer"
+        }
+      ],
+      "cls": 0.020089106137574662,
+      "resources": [
+        {
+          "name": "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap&ver=1.0.1",
+          "initiatorType": "link",
+          "start": 430.59999999403954,
+          "duration": 267.80000001192093,
+          "responseStart": 548.2000000029802,
+          "responseEnd": 698.4000000059605,
+          "transfer": 1027,
+          "encoded": 727,
+          "decoded": 10720
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/systems.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 432.79999999701977,
+          "duration": 399.79999999701977,
+          "responseStart": 509.59999999403954,
+          "responseEnd": 832.5999999940395,
+          "transfer": 7475,
+          "encoded": 7175,
+          "decoded": 29267
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/n8n-base.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 432.79999999701977,
+          "duration": 407.40000000596046,
+          "responseStart": 522.7999999970198,
+          "responseEnd": 840.2000000029802,
+          "transfer": 7264,
+          "encoded": 6964,
+          "decoded": 27955
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/journey.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 432.90000000596046,
+          "duration": 346.79999999701977,
+          "responseStart": 589,
+          "responseEnd": 779.7000000029802,
+          "transfer": 4081,
+          "encoded": 3781,
+          "decoded": 14651
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/backstage.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 433,
+          "duration": 280,
+          "responseStart": 519.5999999940395,
+          "responseEnd": 713,
+          "transfer": 2084,
+          "encoded": 1784,
+          "decoded": 5709
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/frontier.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 433,
+          "duration": 415.70000000298023,
+          "responseStart": 539.5999999940395,
+          "responseEnd": 848.7000000029802,
+          "transfer": 7345,
+          "encoded": 7045,
+          "decoded": 28390
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/providers.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 433.09999999403954,
+          "duration": 204.80000001192093,
+          "responseStart": 522.4000000059605,
+          "responseEnd": 637.9000000059605,
+          "transfer": 1592,
+          "encoded": 1292,
+          "decoded": 4028
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/identity.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 433.09999999403954,
+          "duration": 227.6000000089407,
+          "responseStart": 539.7000000029802,
+          "responseEnd": 660.7000000029802,
+          "transfer": 812,
+          "encoded": 512,
+          "decoded": 1583
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/experience.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 433.09999999403954,
+          "duration": 286.80000001192093,
+          "responseStart": 522.2999999970198,
+          "responseEnd": 719.9000000059605,
+          "transfer": 1872,
+          "encoded": 1572,
+          "decoded": 5257
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/proof.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 433.09999999403954,
+          "duration": 361.5,
+          "responseStart": 539.7000000029802,
+          "responseEnd": 794.5999999940395,
+          "transfer": 3621,
+          "encoded": 3321,
+          "decoded": 12645
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/search-pages.css?ver=1790940152",
+          "initiatorType": "link",
+          "start": 433.20000000298023,
+          "duration": 324.8999999910593,
+          "responseStart": 575.5999999940395,
+          "responseEnd": 758.0999999940395,
+          "transfer": 2609,
+          "encoded": 2309,
+          "decoded": 9107
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/guides.css?ver=1790940235",
+          "initiatorType": "link",
+          "start": 433.20000000298023,
+          "duration": 368.8999999910593,
+          "responseStart": 575.5999999940395,
+          "responseEnd": 802.0999999940395,
+          "transfer": 3941,
+          "encoded": 3641,
+          "decoded": 14828
+        },
+        {
+          "name": "https://www.googletagmanager.com/gtag/js?id=GT-M6QMJ8P8",
+          "initiatorType": "script",
+          "start": 434.90000000596046,
+          "duration": 409.09999999403954,
+          "responseStart": 0,
+          "responseEnd": 844,
+          "transfer": 0,
+          "encoded": 0,
+          "decoded": 0
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/navigation.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 481.40000000596046,
+          "duration": 524.6999999880791,
+          "responseStart": 906.2000000029802,
+          "responseEnd": 1006.0999999940395,
+          "transfer": 858,
+          "encoded": 558,
+          "decoded": 1391
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/measurement.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 482.09999999403954,
+          "duration": 530.5,
+          "responseStart": 939.0999999940395,
+          "responseEnd": 1012.5999999940395,
+          "transfer": 1509,
+          "encoded": 1209,
+          "decoded": 4010
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/workflow-routes.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 482.20000000298023,
+          "duration": 545.7999999970198,
+          "responseStart": 936.4000000059605,
+          "responseEnd": 1028,
+          "transfer": 453,
+          "encoded": 153,
+          "decoded": 298
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/flow-model.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 482.29999999701977,
+          "duration": 650.7999999970198,
+          "responseStart": 937.2999999970198,
+          "responseEnd": 1133.0999999940395,
+          "transfer": 2853,
+          "encoded": 2553,
+          "decoded": 6968
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/project-data.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 482.40000000596046,
+          "duration": 658,
+          "responseStart": 942.7999999970198,
+          "responseEnd": 1140.4000000059605,
+          "transfer": 3183,
+          "encoded": 2883,
+          "decoded": 7850
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/backstage.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 483.09999999403954,
+          "duration": 589.5,
+          "responseStart": 967.2999999970198,
+          "responseEnd": 1072.5999999940395,
+          "transfer": 1221,
+          "encoded": 921,
+          "decoded": 2614
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/systems-engine.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 483.09999999403954,
+          "duration": 672.2000000029802,
+          "responseStart": 948.7000000029802,
+          "responseEnd": 1155.2999999970198,
+          "transfer": 2067,
+          "encoded": 1767,
+          "decoded": 4666
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/workflow-questions.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 483.09999999403954,
+          "duration": 679.6000000089407,
+          "responseStart": 967.2999999970198,
+          "responseEnd": 1162.7000000029802,
+          "transfer": 1908,
+          "encoded": 1608,
+          "decoded": 4971
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/systems-data.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 483.09999999403954,
+          "duration": 754.5,
+          "responseStart": 947.4000000059605,
+          "responseEnd": 1237.5999999940395,
+          "transfer": 6164,
+          "encoded": 5864,
+          "decoded": 18580
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/providers.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 483.90000000596046,
+          "duration": 597.1999999880791,
+          "responseStart": 988.7000000029802,
+          "responseEnd": 1081.0999999940395,
+          "transfer": 1247,
+          "encoded": 947,
+          "decoded": 2347
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/systems.js?ver=1790940224",
+          "initiatorType": "script",
+          "start": 484,
+          "duration": 843.5,
+          "responseStart": 990.2000000029802,
+          "responseEnd": 1327.5,
+          "transfer": 12584,
+          "encoded": 12284,
+          "decoded": 38736
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/prompt-examples.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 484.20000000298023,
+          "duration": 618.8999999910593,
+          "responseStart": 997.2999999970198,
+          "responseEnd": 1103.0999999940395,
+          "transfer": 1612,
+          "encoded": 1312,
+          "decoded": 3492
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/possibility-model.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 484.20000000298023,
+          "duration": 738.0999999940395,
+          "responseStart": 996.4000000059605,
+          "responseEnd": 1222.2999999970198,
+          "transfer": 4220,
+          "encoded": 3920,
+          "decoded": 10491
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/play-area.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 484.20000000298023,
+          "duration": 783,
+          "responseStart": 1011.5999999940395,
+          "responseEnd": 1267.2000000029802,
+          "transfer": 6412,
+          "encoded": 6112,
+          "decoded": 17981
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/stack-rotation.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 486,
+          "duration": 625,
+          "responseStart": 997.2999999970198,
+          "responseEnd": 1111,
+          "transfer": 920,
+          "encoded": 620,
+          "decoded": 1603
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/flagship-entry.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 486.09999999403954,
+          "duration": 683.9000000059605,
+          "responseStart": 1071.4000000059605,
+          "responseEnd": 1170,
+          "transfer": 1456,
+          "encoded": 1156,
+          "decoded": 3759
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/enquiry.js?ver=1790940152",
+          "initiatorType": "script",
+          "start": 486.09999999403954,
+          "duration": 714.1000000089407,
+          "responseStart": 1028.2999999970198,
+          "responseEnd": 1200.2000000029802,
+          "transfer": 1890,
+          "encoded": 1590,
+          "decoded": 4119
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/plugins/wp-consent-api/assets/js/wp-consent-api.min.js?ver=2.1.0",
+          "initiatorType": "script",
+          "start": 488.20000000298023,
+          "duration": 239.79999999701977,
+          "responseStart": 600.7000000029802,
+          "responseEnd": 728,
+          "transfer": 1045,
+          "encoded": 745,
+          "decoded": 2235
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/simpro-icon.png",
+          "initiatorType": "img",
+          "start": 1477.2999999970198,
+          "duration": 509.40000000596046,
+          "responseStart": 1547.7999999970198,
+          "responseEnd": 1986.7000000029802,
+          "transfer": 33530,
+          "encoded": 33230,
+          "decoded": 33230
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/xero.svg",
+          "initiatorType": "img",
+          "start": 1477.4000000059605,
+          "duration": 180.5,
+          "responseStart": 1578.5999999940395,
+          "responseEnd": 1657.9000000059605,
+          "transfer": 1412,
+          "encoded": 1112,
+          "decoded": 3664
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/sharepoint.svg",
+          "initiatorType": "img",
+          "start": 1477.5,
+          "duration": 255.40000000596046,
+          "responseStart": 1578.5,
+          "responseEnd": 1732.9000000059605,
+          "transfer": 2533,
+          "encoded": 2233,
+          "decoded": 4864
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/jotform-icon.svg",
+          "initiatorType": "img",
+          "start": 1477.5999999940395,
+          "duration": 203.40000000596046,
+          "responseStart": 1628.7999999970198,
+          "responseEnd": 1681,
+          "transfer": 640,
+          "encoded": 340,
+          "decoded": 795
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/outlook.svg",
+          "initiatorType": "img",
+          "start": 1477.5999999940395,
+          "duration": 210.40000000596046,
+          "responseStart": 1628.9000000059605,
+          "responseEnd": 1688,
+          "transfer": 744,
+          "encoded": 444,
+          "decoded": 751
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/claude.svg",
+          "initiatorType": "img",
+          "start": 1477.7000000029802,
+          "duration": 195.09999999403954,
+          "responseStart": 1578.7000000029802,
+          "responseEnd": 1672.7999999970198,
+          "transfer": 1267,
+          "encoded": 967,
+          "decoded": 1923
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/airtable.svg",
+          "initiatorType": "img",
+          "start": 1477.7999999970198,
+          "duration": 187.90000000596046,
+          "responseStart": 1578.7000000029802,
+          "responseEnd": 1665.7000000029802,
+          "transfer": 652,
+          "encoded": 352,
+          "decoded": 673
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/openrouter.svg",
+          "initiatorType": "img",
+          "start": 1477.7999999970198,
+          "duration": 262.40000000596046,
+          "responseStart": 1658.2000000029802,
+          "responseEnd": 1740.2000000029802,
+          "transfer": 806,
+          "encoded": 506,
+          "decoded": 871
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/teams.svg",
+          "initiatorType": "img",
+          "start": 1477.9000000059605,
+          "duration": 217.09999999403954,
+          "responseStart": 1590.7999999970198,
+          "responseEnd": 1695,
+          "transfer": 843,
+          "encoded": 543,
+          "decoded": 1115
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/excel.svg",
+          "initiatorType": "img",
+          "start": 1477.9000000059605,
+          "duration": 225.5,
+          "responseStart": 1607.7999999970198,
+          "responseEnd": 1703.4000000059605,
+          "transfer": 865,
+          "encoded": 565,
+          "decoded": 1524
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/employmenthero.svg",
+          "initiatorType": "img",
+          "start": 1477.9000000059605,
+          "duration": 240.19999998807907,
+          "responseStart": 1578.7000000029802,
+          "responseEnd": 1718.0999999940395,
+          "transfer": 1687,
+          "encoded": 1387,
+          "decoded": 3910
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/openai.svg",
+          "initiatorType": "img",
+          "start": 1478.0999999940395,
+          "duration": 247.80000001192093,
+          "responseStart": 1591.7000000029802,
+          "responseEnd": 1725.9000000059605,
+          "transfer": 1602,
+          "encoded": 1302,
+          "decoded": 2696
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/n8n.svg",
+          "initiatorType": "img",
+          "start": 1643.9000000059605,
+          "duration": 201.09999999403954,
+          "responseStart": 1707.7999999970198,
+          "responseEnd": 1845,
+          "transfer": 2656,
+          "encoded": 2356,
+          "decoded": 5822
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/zapier.svg",
+          "initiatorType": "img",
+          "start": 1644.0999999940395,
+          "duration": 217.5,
+          "responseStart": 1749.2999999970198,
+          "responseEnd": 1861.5999999940395,
+          "transfer": 2651,
+          "encoded": 2351,
+          "decoded": 5066
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/jotform.svg",
+          "initiatorType": "img",
+          "start": 1644.0999999940395,
+          "duration": 223.90000000596046,
+          "responseStart": 1778.9000000059605,
+          "responseEnd": 1868,
+          "transfer": 2282,
+          "encoded": 1982,
+          "decoded": 5367
+        },
+        {
+          "name": "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/brand-assets/huggingface.svg",
+          "initiatorType": "img",
+          "start": 1644.0999999940395,
+          "duration": 283.1000000089407,
+          "responseStart": 1749.2999999970198,
+          "responseEnd": 1927.2000000029802,
+          "transfer": 8343,
+          "encoded": 8043,
+          "decoded": 18673
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "loaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "loaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "loaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "loaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "unloaded",
+          "display": "swap"
+        },
+        {
+          "family": "Manrope",
+          "status": "loaded",
+          "display": "swap"
+        }
+      ],
+      "styles": [
+        "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap&ver=1.0.1",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/n8n-base.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/systems.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/journey.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/frontier.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/backstage.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/providers.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/experience.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/identity.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/proof.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/search-pages.css?ver=1790940152",
+        "https://worksbetter.ai/wp-content/themes/worksbetter-wpvibe-draft/assets/guides.css?ver=1790940235"
+      ]
+    }
+  ]
+}

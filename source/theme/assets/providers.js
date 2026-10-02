@@ -24,7 +24,7 @@
   function find(text){const value=String(text).toLowerCase();return catalog.filter(p=>p.aliases.some(a=>value.includes(a)))}
   function image(p,mode='node'){
     const src=p.id==='jotform'&&mode==='node'?(window.WBWordPress.assets+'/brand-assets/jotform-icon.svg'):p.src;
-    return src?'<img class="provider-logo provider-'+p.id+'" src="'+src+'" alt="'+esc(p.name)+'" width="40" height="40" decoding="async">':'<span class="provider-name">'+esc(p.name)+'</span>';
+    return src?'<img class="provider-logo provider-'+p.id+'" src="'+src+'" alt="'+esc(p.name)+'" width="40" height="40" loading="lazy" decoding="async">':'<span class="provider-name">'+esc(p.name)+'</span>';
   }
   function nodeMarkup(text){const matches=find(text).filter(p=>p.src&&p.style!=='wordmark'||p.id==='jotform');return matches.length?'<span class="provider-marks '+(matches.length>1?'provider-pair':'')+'">'+matches.map(p=>image(p)).join('')+'</span>':''}
   window.WBProviders={catalog,find,image,nodeMarkup};

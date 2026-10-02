@@ -1,0 +1,435 @@
+{
+  "scope": "Actual draft theme homepage/deep links/guide measurement; six unpublished candidate article bodies locally injected into actual draft single template, not native article previews.",
+  "fonts": "Google Fonts GET allowed; analytics and all POST blocked, TLS verification enabled. No notifications.",
+  "checks": [
+    {
+      "name": "1440: home200",
+      "pass": true
+    },
+    {
+      "name": "1440: home no overflow",
+      "pass": true
+    },
+    {
+      "name": "1440: Manrope loaded on home",
+      "pass": true
+    },
+    {
+      "name": "1440: logo lazy and dimensions",
+      "pass": true
+    },
+    {
+      "name": "1440: reporting checklist linked",
+      "pass": true
+    },
+    {
+      "name": "1440: visible reporting logos loaded",
+      "pass": true
+    },
+    {
+      "name": "1440: reporting deep link selected",
+      "pass": true
+    },
+    {
+      "name": "1440: unresolved holds",
+      "pass": true
+    },
+    {
+      "name": "1440: review permits rerun",
+      "pass": true
+    },
+    {
+      "name": "1440: rerun completes",
+      "pass": true
+    },
+    {
+      "name": "1440: reset restores next",
+      "pass": true
+    },
+    {
+      "name": "1440: invoice hash change selects",
+      "pass": true
+    },
+    {
+      "name": "1440: unknown hash leaves selection",
+      "pass": true
+    },
+    {
+      "name": "1440: enquiry direct link",
+      "pass": true
+    },
+    {
+      "name": "1440: article52 one H1",
+      "pass": true
+    },
+    {
+      "name": "1440: article52 no overflow",
+      "pass": true
+    },
+    {
+      "name": "1440: article52 one measurement script",
+      "pass": true
+    },
+    {
+      "name": "1440: article52 paid expectations",
+      "pass": true
+    },
+    {
+      "name": "1440: article52 one guide event",
+      "pass": true
+    },
+    {
+      "name": "1440: article52 category-only event",
+      "pass": true
+    },
+    {
+      "name": "1440: article51 one H1",
+      "pass": true
+    },
+    {
+      "name": "1440: article51 no overflow",
+      "pass": true
+    },
+    {
+      "name": "1440: article51 one measurement script",
+      "pass": true
+    },
+    {
+      "name": "1440: article51 paid expectations",
+      "pass": true
+    },
+    {
+      "name": "1440: article51 one guide event",
+      "pass": true
+    },
+    {
+      "name": "1440: article51 category-only event",
+      "pass": true
+    },
+    {
+      "name": "1440: article50 one H1",
+      "pass": true
+    },
+    {
+      "name": "1440: article50 no overflow",
+      "pass": true
+    },
+    {
+      "name": "1440: article50 one measurement script",
+      "pass": true
+    },
+    {
+      "name": "1440: article50 paid expectations",
+      "pass": true
+    },
+    {
+      "name": "1440: article50 one guide event",
+      "pass": true
+    },
+    {
+      "name": "1440: article50 category-only event",
+      "pass": true
+    },
+    {
+      "name": "1440: article48 one H1",
+      "pass": true
+    },
+    {
+      "name": "1440: article48 no overflow",
+      "pass": true
+    },
+    {
+      "name": "1440: article48 one measurement script",
+      "pass": true
+    },
+    {
+      "name": "1440: article48 paid expectations",
+      "pass": true
+    },
+    {
+      "name": "1440: article48 one guide event",
+      "pass": true
+    },
+    {
+      "name": "1440: article48 category-only event",
+      "pass": true
+    },
+    {
+      "name": "1440: article47 one H1",
+      "pass": true
+    },
+    {
+      "name": "1440: article47 no overflow",
+      "pass": true
+    },
+    {
+      "name": "1440: article47 one measurement script",
+      "pass": true
+    },
+    {
+      "name": "1440: article47 paid expectations",
+      "pass": true
+    },
+    {
+      "name": "1440: article47 one guide event",
+      "pass": true
+    },
+    {
+      "name": "1440: article47 category-only event",
+      "pass": true
+    },
+    {
+      "name": "1440: article46 one H1",
+      "pass": true
+    },
+    {
+      "name": "1440: article46 no overflow",
+      "pass": true
+    },
+    {
+      "name": "1440: article46 one measurement script",
+      "pass": true
+    },
+    {
+      "name": "1440: article46 paid expectations",
+      "pass": true
+    },
+    {
+      "name": "1440: article46 one guide event",
+      "pass": true
+    },
+    {
+      "name": "1440: article46 category-only event",
+      "pass": true
+    },
+    {
+      "name": "1440: article46 exact reporting destination",
+      "pass": true
+    },
+    {
+      "name": "1440: Guides single measurement",
+      "pass": true
+    },
+    {
+      "name": "1440: guide enquiry destination opens",
+      "pass": true
+    },
+    {
+      "name": "390: home200",
+      "pass": true
+    },
+    {
+      "name": "390: home no overflow",
+      "pass": true
+    },
+    {
+      "name": "390: Manrope loaded on home",
+      "pass": true
+    },
+    {
+      "name": "390: logo lazy and dimensions",
+      "pass": true
+    },
+    {
+      "name": "390: reporting checklist linked",
+      "pass": true
+    },
+    {
+      "name": "390: visible reporting logos loaded",
+      "pass": true
+    },
+    {
+      "name": "390: reporting deep link selected",
+      "pass": true
+    },
+    {
+      "name": "390: unresolved holds",
+      "pass": true
+    },
+    {
+      "name": "390: review permits rerun",
+      "pass": true
+    },
+    {
+      "name": "390: rerun completes",
+      "pass": true
+    },
+    {
+      "name": "390: reset restores next",
+      "pass": true
+    },
+    {
+      "name": "390: invoice hash change selects",
+      "pass": true
+    },
+    {
+      "name": "390: unknown hash leaves selection",
+      "pass": true
+    },
+    {
+      "name": "390: enquiry direct link",
+      "pass": true
+    },
+    {
+      "name": "390: article52 one H1",
+      "pass": true
+    },
+    {
+      "name": "390: article52 no overflow",
+      "pass": true
+    },
+    {
+      "name": "390: article52 one measurement script",
+      "pass": true
+    },
+    {
+      "name": "390: article52 paid expectations",
+      "pass": true
+    },
+    {
+      "name": "390: article52 one guide event",
+      "pass": true
+    },
+    {
+      "name": "390: article52 category-only event",
+      "pass": true
+    },
+    {
+      "name": "390: article51 one H1",
+      "pass": true
+    },
+    {
+      "name": "390: article51 no overflow",
+      "pass": true
+    },
+    {
+      "name": "390: article51 one measurement script",
+      "pass": true
+    },
+    {
+      "name": "390: article51 paid expectations",
+      "pass": true
+    },
+    {
+      "name": "390: article51 one guide event",
+      "pass": true
+    },
+    {
+      "name": "390: article51 category-only event",
+      "pass": true
+    },
+    {
+      "name": "390: article50 one H1",
+      "pass": true
+    },
+    {
+      "name": "390: article50 no overflow",
+      "pass": true
+    },
+    {
+      "name": "390: article50 one measurement script",
+      "pass": true
+    },
+    {
+      "name": "390: article50 paid expectations",
+      "pass": true
+    },
+    {
+      "name": "390: article50 one guide event",
+      "pass": true
+    },
+    {
+      "name": "390: article50 category-only event",
+      "pass": true
+    },
+    {
+      "name": "390: article48 one H1",
+      "pass": true
+    },
+    {
+      "name": "390: article48 no overflow",
+      "pass": true
+    },
+    {
+      "name": "390: article48 one measurement script",
+      "pass": true
+    },
+    {
+      "name": "390: article48 paid expectations",
+      "pass": true
+    },
+    {
+      "name": "390: article48 one guide event",
+      "pass": true
+    },
+    {
+      "name": "390: article48 category-only event",
+      "pass": true
+    },
+    {
+      "name": "390: article47 one H1",
+      "pass": true
+    },
+    {
+      "name": "390: article47 no overflow",
+      "pass": true
+    },
+    {
+      "name": "390: article47 one measurement script",
+      "pass": true
+    },
+    {
+      "name": "390: article47 paid expectations",
+      "pass": true
+    },
+    {
+      "name": "390: article47 one guide event",
+      "pass": true
+    },
+    {
+      "name": "390: article47 category-only event",
+      "pass": true
+    },
+    {
+      "name": "390: article46 one H1",
+      "pass": true
+    },
+    {
+      "name": "390: article46 no overflow",
+      "pass": true
+    },
+    {
+      "name": "390: article46 one measurement script",
+      "pass": true
+    },
+    {
+      "name": "390: article46 paid expectations",
+      "pass": true
+    },
+    {
+      "name": "390: article46 one guide event",
+      "pass": true
+    },
+    {
+      "name": "390: article46 category-only event",
+      "pass": true
+    },
+    {
+      "name": "390: article46 exact reporting destination",
+      "pass": true
+    },
+    {
+      "name": "390: Guides single measurement",
+      "pass": true
+    },
+    {
+      "name": "390: guide enquiry destination opens",
+      "pass": true
+    },
+    {
+      "name": "no browser exceptions",
+      "pass": true
+    }
+  ],
+  "errors": []
+}
