@@ -1,0 +1,11 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert/strict');
+const file=process.argv[2]||(fs.existsSync(__dirname+'/draft-theme/assets/play-area.js')?__dirname+'/draft-theme/assets/play-area.js':__dirname+'/../../source/theme/assets/play-area.js'),src=fs.readFileSync(file,'utf8');
+const code=src.slice(src.indexOf('function startingPoint('),src.indexOf('async function generate('));
+const context={roles:{input:1,data:1,ai:1,automation:1,human:1,outcome:1}};vm.createContext(context);vm.runInContext(code,context);
+const fallback=context.startingPoint('A fictional issue for checking the fallback.');
+assert.equal(fallback.live,false);assert.equal(fallback.nodes.length,5);assert.equal(fallback.nodes[3].kind,'human');assert.equal(fallback.issue,'A fictional issue for checking the fallback.');
+const live=JSON.parse(JSON.stringify(fallback));live.live=true;live.nodes[2].kind='ai';assert.equal(context.validPlan(live),true);
+const bad=(modify)=>{const p=JSON.parse(JSON.stringify(live));modify(p);assert.equal(context.validPlan(p),false)};
+bad(p=>p.nodes[2]=null);bad(p=>p.edges[1]=null);bad(p=>p.edges[0].to=50);bad(p=>p.edges[0].from=-1);bad(p=>p.edges[1].to=p.edges[1].from);bad(p=>p.edges.splice(2,1));bad(p=>p.nodes[3].kind='ai');bad(p=>p.nodes[4].kind='data');bad(p=>p.nodes[0].tools=['x'.repeat(101)]);bad(p=>p.assumptions=[{text:'bad'}]);bad(p=>p.live='true');bad(p=>p.nodes.push(p.nodes[4]));bad(p=>p.summary='');
+assert.equal(context.validPlan(null),false);
+console.log('19 assertions passed: valid plan, fallback identity, malformed graphs, invalid nodes, tools, assumptions and live flag.');

@@ -8,12 +8,24 @@
  function reset(){if(busy)return;form.hidden=false;$('#enquiry-success').hidden=true;status.textContent='';}
  function getBrief(){const mode=$('#contact-run'),run=mode?.value?mode.selectedOptions[0].textContent:'';const found=$('#contact-found')?.value.trim()||'';return $('#contact-brief').value.trim()+(run?'\n\nHow I want the work to run: '+run:'')+(found?'\n\nHow I found Works Better: '+found:'')}
  function email(){$('#contact-email').href='mailto:hello@worksbetter.ai?subject='+encodeURIComponent('Works Better — could we build this?')+'&body='+encodeURIComponent(getBrief())}
- function open(){reset();$('#contact-brief').value='I would like AI to handle a task in my business.\n\nMy starting point: ';email();$('#contact-dialog').showModal();window.WBAnalytics?.track('contact_open',{workflow:'general'})}
+ // Keep the draft only in this document. Reopening never resets validation,
+ // an uncertain save, or the successful receipt; a new enquiry is explicit.
+ let draftStarted=false;
+ function seed(brief,mode){
+  if(draftStarted)return false;
+  const hasDetails=['#contact-brief','#contact-name','#contact-address','#contact-company','#contact-found'].some(id=>$(id)?.value.trim());
+  draftStarted=true;
+  if(hasDetails)return false;
+  $('#contact-brief').value=brief;
+  if(mode&&$('#contact-run')&&!$('#contact-run').value)$('#contact-run').value=mode;
+  return true;
+ }
+ function open(){seed('');email();if(!$('#contact-dialog').open)$('#contact-dialog').showModal();window.WBAnalytics?.track('contact_open',{workflow:'general'})}
  if(!window.WBSystemUI){document.querySelectorAll('[data-contact]').forEach(b=>b.onclick=open);$('#contact-brief').oninput=email;$('#copy-brief').onclick=async()=>{try{await navigator.clipboard.writeText(getBrief());$('#copy-message').textContent='Copied.'}catch{$('#copy-message').textContent='Open the email draft to include your brief, selected delivery mode and source. Or copy your written brief manually.'}};}
- $('#enquiry-new').onclick=()=>{requestId='';lastPayload='';form.reset();reset();email();$('#contact-name').focus()};
+ $('#enquiry-new').onclick=()=>{if(busy)return;requestId='';lastPayload='';form.reset();draftStarted=false;reset();email();$('#contact-name').focus()};
  form.addEventListener('submit',async e=>{
   e.preventDefault();if(busy||!form.reportValidity())return;
-  if($('#contact-brief').value.trim().length<12){status.textContent='Tell me a little more about the work you want AI to handle (at least 12 characters).';status.focus();return;}
+  if($('#contact-brief').value.trim().length<12){status.textContent='Tell me a little more about the work you want to improve (at least 12 characters).';status.focus();return;}
   const brief=getBrief();
   const fields={name:$('#contact-name').value.trim(),email:$('#contact-address').value.trim(),company:$('#contact-company').value.trim(),brief:brief,website:$('#contact-website').value,source:location.pathname};
   const serial=JSON.stringify(fields);if(serial!==lastPayload){requestId=crypto.randomUUID();lastPayload=serial;}
@@ -25,7 +37,7 @@
   }catch(err){status.textContent=err.name==='AbortError'?'The confirmation took too long. Your details are still here. Retry to check the same enquiry, or use the email option below.':err.message;status.focus();}
   finally{clearTimeout(timeout);busy=false;submit.disabled=false;submit.textContent='Send my enquiry ↗';}
  });
- window.WBEnquiry={reset,getBrief};
+ window.WBEnquiry={reset,getBrief,seed};
  $('#contact-run')?.addEventListener('change',email);$('#contact-found')?.addEventListener('input',email);
  if(location.hash==='#contact')document.querySelector('[data-contact]')?.click();
  window.addEventListener('hashchange',()=>{if(location.hash==='#contact')document.querySelector('[data-contact]')?.click();});

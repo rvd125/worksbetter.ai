@@ -1,0 +1,69 @@
+{
+  "mode": "local preview with synthetic provider responses; no public deployment or contact delivery",
+  "choices": [
+    {
+      "choice": "Job to invoice Stop entering job details twice",
+      "visibleArticles": 1,
+      "overflow": false
+    },
+    {
+      "choice": "Customer enquiries Prepare a reply using your information",
+      "visibleArticles": 1,
+      "overflow": false
+    },
+    {
+      "choice": "Job profitability See which jobs need attention",
+      "visibleArticles": 1,
+      "overflow": false
+    },
+    {
+      "choice": "Employee onboarding Stop chasing new-starter paperwork",
+      "visibleArticles": 1,
+      "overflow": false
+    },
+    {
+      "choice": "Lead routing Get enquiries to the right person",
+      "visibleArticles": 1,
+      "overflow": false
+    },
+    {
+      "choice": "Multi-source reports Bring separate sources into one report",
+      "visibleArticles": 1,
+      "overflow": false
+    }
+  ],
+  "diagnostics": [
+    {
+      "event": "diagnostic_started",
+      "page": "general",
+      "workflow": "general"
+    },
+    {
+      "event": "diagnostic_fallback",
+      "page": "general",
+      "workflow": "general"
+    },
+    {
+      "event": "diagnostic_started",
+      "page": "general",
+      "workflow": "general"
+    },
+    {
+      "event": "diagnostic_completed",
+      "page": "general",
+      "workflow": "general"
+    },
+    {
+      "event": "diagnostic_started",
+      "page": "general",
+      "workflow": "general"
+    },
+    {
+      "event": "diagnostic_fallback",
+      "page": "general",
+      "workflow": "general"
+    }
+  ],
+  "draftPreserved": true,
+  "emptySubmissionBlocked": true
+}

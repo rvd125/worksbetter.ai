@@ -1,0 +1,25 @@
+{
+  "status": "prepared and locally verified; not publicly deployed",
+  "baseline_commit": "243828ad9b0c834bcf7e5b49e17dcc3ae93adb64",
+  "theme_files": [
+    "functions.php",
+    "assets/measurement.js",
+    "assets/play-area.js",
+    "assets/enquiry.js",
+    "assets/systems.js",
+    "assets/audit-enhancements.css",
+    "assets/workflow-review-sample.html",
+    "assets/wb-bundle-291af0155ef2.css",
+    "assets/wb-bundle-31c9c574eb3e.css",
+    "assets/wb-bundle-b9fead97780f.js",
+    "assets/wb-bundle-4bd5d931d612.js",
+    "assets/wb-bundle-10f9caad2cbb.js",
+    "assets/wb-bundle-b149c2960a0c.js",
+    "assets/wb-bundle-0ff50dc55f82.js",
+    "assets/wb-bundle-2807d89d3969.css"
+  ],
+  "cms_patch_file": "content-patches.json",
+  "cms_policy": "Re-read current CMS snippets before applying each match-once patch. Never overwrite a page with an older captured full body.",
+  "rollback": "Restore touched files from the current live-theme exports and reverse only the recorded applied content edits. The draft clone preserves all other live files.",
+  "excluded": "Local QA server, synthetic provider fixtures, private revenue register, acquisition plan and financial assumptions must not deploy."
+}
