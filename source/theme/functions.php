@@ -13,6 +13,18 @@ function wb_asset_url($url) {
 }
 
 add_action('wp_enqueue_scripts', function () {
+    if (is_front_page() && file_exists(get_template_directory() . '/front-page.php')) {
+        wp_enqueue_style('wb-problem-font', 'https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap', array(), null);
+        wp_enqueue_style('wb-problem-home', wb_asset_url('/problem-home.css'), array(), (string) filemtime(get_template_directory() . '/assets/problem-home.css'));
+        $previous = array();
+        foreach (array('measurement', 'enquiry', 'problem-home') as $name) {
+            $handle = 'wb-home-' . $name;
+            wp_enqueue_script($handle, wb_asset_url('/' . $name . '.js'), $previous, (string) filemtime(get_template_directory() . '/assets/' . $name . '.js'), array('strategy'=>'defer','in_footer'=>true));
+            if ($name === 'enquiry') wp_add_inline_script($handle, 'window.WBWordPress=' . wp_json_encode(array('assets'=>get_template_directory_uri().'/assets','enquiries'=>rest_url('worksbetter/v1/enquiries'))) . ';', 'before');
+            $previous = array($handle);
+        }
+        return;
+    }
     $id = get_queried_object_id();
     $styles = get_post_meta($id, '_wb_styles', true);
     $scripts = get_post_meta($id, '_wb_scripts', true);
@@ -70,10 +82,47 @@ add_action('wp_enqueue_scripts', function () {
 add_action('wp_head', function () {
     echo '<meta name="theme-color" content="#080b12">';
     if (!defined('RANK_MATH_VERSION')) {
-        $desc = get_post_meta(get_queried_object_id(), '_wb_description', true);
+        $desc = is_front_page() ? wb_problem_home_description() : get_post_meta(get_queried_object_id(), '_wb_description', true);
         if ($desc) echo '<meta name="description" content="' . esc_attr($desc) . '">';
     }
 });
+
+function wb_problem_home_description() {
+    return 'Stop re-entering job details, rebuilding reports and chasing enquiry handoffs. Renzo Demartini connects the work between your systems. Canberra · Australia & New Zealand.';
+}
+function wb_problem_home_title($title) {
+    return is_front_page() ? 'Less retyping. Less chasing. Work moving. | Works Better' : $title;
+}
+add_filter('pre_get_document_title', 'wb_problem_home_title');
+add_filter('rank_math/frontend/title', 'wb_problem_home_title');
+add_filter('rank_math/opengraph/facebook/title', 'wb_problem_home_title');
+add_filter('rank_math/opengraph/twitter/title', 'wb_problem_home_title');
+foreach (array('rank_math/frontend/description', 'rank_math/opengraph/facebook/description', 'rank_math/opengraph/twitter/description') as $wb_description_filter) {
+    add_filter($wb_description_filter, function ($description) {
+        return is_front_page() ? wb_problem_home_description() : $description;
+    });
+}
+add_filter('rank_math/json_ld', function ($data) {
+    if (!is_front_page()) return $data;
+    foreach ($data as $key => &$entity) {
+        if (!is_array($entity)) continue;
+        $types = (array) ($entity['@type'] ?? array());
+        // The service homepage is a WebPage, rather than an editorial Article.
+        if (array_intersect($types, array('Article', 'BlogPosting', 'NewsArticle'))) {
+            unset($data[$key]);
+            continue;
+        }
+        if (in_array('WebPage', $types, true)) {
+            $entity['name'] = wb_problem_home_title('');
+            $entity['description'] = wb_problem_home_description();
+        }
+        if (in_array('Person', $types, true) && ($entity['name'] ?? '') === 'Renzo Demartini') {
+            $entity['url'] = 'https://renzodemartini.com/about/';
+        }
+    }
+    unset($entity);
+    return $data;
+}, 100);
 
 // Keep the public archive crawlable and give its normal branded page a summary.
 function wb_archive_description() {
@@ -201,4 +250,3 @@ add_filter('the_content', function ($content) {
     }
     return $content;
 }, 1);
-

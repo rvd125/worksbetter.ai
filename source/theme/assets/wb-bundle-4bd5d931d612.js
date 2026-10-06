@@ -34,7 +34,7 @@
     if (!valid.has(name)||document.body.classList.contains('logged-in')) return;
     const workflow = cleanWorkflow(properties.workflow);
     if (name === 'contact_started') contactWorkflow = workflow;
-    const event = Object.freeze({ event: name, page: document.body.classList.contains('guide-page') ? 'guide' : cleanWorkflow(document.body?.getAttribute('data-workflow')) || 'home', workflow });
+    const event = Object.freeze({ event: name, page: document.body.classList.contains('problem-home') ? 'home' : document.body.classList.contains('guide-page') ? 'guide' : cleanWorkflow(document.body?.getAttribute('data-workflow')), workflow });
     history.push(event);
     if (history.length > 100) history.shift();
     window.dispatchEvent(new CustomEvent('wb:measurement', { detail: event }));

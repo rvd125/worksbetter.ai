@@ -1,0 +1,71 @@
+{
+  "status": "Local candidate; draft clone created, first file upload rejected by WPVibe daily limit. No candidate file is uploaded or published.",
+  "previous_published_commit": "a21b0c7be0c974dca88511f6e1afe162a9e6b57d",
+  "theme_files": [
+    {
+      "path": "front-page.php",
+      "sha256": "8e6bf009520d101daba85a87bff412b28b7723e6251b690bd52e1e8b13163c64"
+    },
+    {
+      "path": "functions.php",
+      "sha256": "3397f78be293cf85bb9729b14bc3341f68d7ec4a6d65c5cff108478cffab5453"
+    },
+    {
+      "path": "assets/problem-home.css",
+      "sha256": "a227482449a3c4e0070d80c1cb5c1e631e11d04f9d1829a7f9394d5805237185"
+    },
+    {
+      "path": "assets/problem-home.js",
+      "sha256": "7b4ee619c7774acf1e57bbb6035b752662f57eeac57bf5ddab9b1ae5559851b6"
+    },
+    {
+      "path": "assets/enquiry.js",
+      "sha256": "c669d42cc0b9559cd92079c3772a41769bd00b7904abfc2c22be82ab698940e6"
+    },
+    {
+      "path": "assets/measurement.js",
+      "sha256": "ffbaad2061d826cf980c6d9cd779b99a5aa8f0579eefa1116d11eb4e16530377"
+    },
+    {
+      "path": "assets/wb-bundle-0ff50dc55f82.js",
+      "sha256": "2bd9b07a7b0b114d230e75bb97e26de156797020cc7426e033c01709f9e2d6c1"
+    },
+    {
+      "path": "assets/wb-bundle-10f9caad2cbb.js",
+      "sha256": "297447d3efbbaa4fe7b8ef79b5bee837d67d227b04f40b127384e8f5c61b82c5"
+    },
+    {
+      "path": "assets/wb-bundle-4bd5d931d612.js",
+      "sha256": "f2d96f5d5047da537b132ef8dfdd89ea624c366b28658bd00945942153350e36"
+    },
+    {
+      "path": "assets/wb-bundle-b149c2960a0c.js",
+      "sha256": "6c9eb228bed0d44a57d84b9429a243d4cf9ed5c837a05a7c1a3ea19ae9fc13d1"
+    },
+    {
+      "path": "assets/wb-bundle-b9fead97780f.js",
+      "sha256": "14be9ebb54ad1e1cd6e5ed86145d3bacad64fe4ca47a15c48f6560cb5f350a6c"
+    }
+  ],
+  "cms_policy": "No database content edits. A dedicated front-page template intentionally replaces the imported homepage presentation; the original CMS body remains available. Other pages keep their existing templates.",
+  "scope": "Three problem paths, documented proof, inline enquiry, lightweight assets, page metadata and limited referral categories.",
+  "validation": {
+    "dom_contract_assertions": 47,
+    "php_syntax_parser": "passed",
+    "css_parse": "passed;151 top-level rules",
+    "public_link_checks": 13,
+    "live_enquiries_sent": 0,
+    "native_candidate_render": "pending upload",
+    "visual_review": "pending native preview; no computer use",
+    "processed_analytics_receipt": "unverified"
+  },
+  "release_steps": [
+    "Read the existing draft; preserve any unrelated changes.",
+    "Upload the listed new files and patch/read-compare the listed existing files. Rebuilt JS bundles must match their source.",
+    "Get a native preview URL and verify actual HTML, assets, meta, schema, links and enquiry contract. The user has authorised publication and confirmed the full backup; do not restart a generic backup approval loop.",
+    "Publish using WPVibe publish_draft_theme after the concrete draft is reviewable and applicable publish prerequisites are satisfied. Never activate a draft via an alternate route.",
+    "Verify public responses and asset contents. Mark this manifest published only after tool success and public verification."
+  ],
+  "rollback": "Remove the new front-page.php and its two dedicated assets; restore functions.php, enquiry.js, measurement.js and the five changed JS bundles from the previous published revision/automatic theme backup. Preserve unrelated live files.",
+  "exclusions": "Private commercial figures, referral kit, Search Console data, preview HTML/tokens and original captured site HTML do not enter the public repository or deployed theme."
+}
