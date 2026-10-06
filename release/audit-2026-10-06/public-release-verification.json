@@ -1,0 +1,16 @@
+{
+  "published": true,
+  "url": "https://worksbetter.ai/",
+  "backup_verified_at": "2026-10-06T06:41:53Z",
+  "backup_full": true,
+  "theme": "worksbetter-wpvibe-draft",
+  "original_cms_bodies_preserved": true,
+  "page_count": 15,
+  "pages_pass": true,
+  "asset_count": 14,
+  "assets_pass": true,
+  "empty_enquiry_status": 400,
+  "empty_enquiry_no_store": true,
+  "verification": "HTTP and public HTML checks; no computer use; no real enquiry submitted",
+  "candidate_commit": "a2b68fc1f93381044e91b6f64ab895f21e6a8861"
+}

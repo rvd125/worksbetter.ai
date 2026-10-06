@@ -1,5 +1,5 @@
 {
-  "status": "prepared and locally verified; not publicly deployed",
+  "status": "Published to worksbetter.ai and HTTP-verified on 6 October 2026",
   "baseline_commit": "243828ad9b0c834bcf7e5b49e17dcc3ae93adb64",
   "theme_files": [
     "functions.php",
