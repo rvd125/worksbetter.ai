@@ -61,5 +61,11 @@ const submit=async t=>{t.d.querySelector('form').dispatchEvent(new t.w.Event('su
  t=setup();fill(t);let resolve;t.w.fetch=async(u,o)=>{t.calls.push(JSON.parse(o.body));return new Promise(r=>resolve=r)};await submit(t);await submit(t);check(t.calls.length===1,'Double submit suppressed while pending');resolve({ok:true,json:async()=>({saved:true,reference:'TEST-003'})});await new Promise(r=>setImmediate(r));t.dom.window.close();
  t=setup({query:'?problem=reporting#contact'});check(t.d.querySelector('#contact-brief').value.includes('reports by hand'),'Known referral category seeds a useful prompt');t.dom.window.close();
  t=setup({query:'?problem=%3Cscript%3Ebad%3C/script%3E'});check(t.d.querySelector('#contact-brief').value===''&&t.w.WBAnalytics.snapshot().length===0,'Unknown referral values ignored');t.dom.window.close();
+ t=setup({query:'?problem=reporting&utm_source=partner&utm_medium=referral&utm_campaign=reporting_handoff#contact'});fill(t);await submit(t);
+ check(!t.d.querySelector('#contact-campaign').hidden,'Recognised campaign context shown before submitting');
+ check(t.calls[0].body.brief.includes('Campaign link: Reporting handoff (partner / referral)'),'Recognised campaign context saved with enquiry');
+ check(t.d.querySelector('#contact-brief').value==='Our report combines five accounting files.','Attribution does not rewrite the buyer’s words');
+ t.d.querySelector('#contact-brief').dispatchEvent(new t.w.Event('change'));check(decodeURIComponent(t.d.querySelector('#contact-email').href).includes('Campaign link: Reporting handoff'),'Email fallback includes recognised context');t.dom.window.close();
+ t=setup({query:'?problem=reporting&utm_source=private-person@example.invalid&utm_medium=referral&utm_campaign=reporting_handoff'});fill(t);await submit(t);check(t.d.querySelector('#contact-campaign').hidden&&!JSON.stringify(t.calls).includes('private-person'),'Unrecognised campaign values never copied into enquiry');t.dom.window.close();
  console.log(JSON.stringify({passed:count,liveSubmissions:0,scope:'DOM and submission contract only; no visual/browser rendering'},null,2));
 })().catch(e=>{console.error(e);process.exitCode=1});

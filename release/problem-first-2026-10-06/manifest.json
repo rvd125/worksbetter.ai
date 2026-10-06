@@ -4,7 +4,7 @@
   "theme_files": [
     {
       "path": "front-page.php",
-      "sha256": "8e6bf009520d101daba85a87bff412b28b7723e6251b690bd52e1e8b13163c64"
+      "sha256": "e832662a156faf708af8b88d3c99c4dc4f624352225d9d2e12c3c6cea4d01293"
     },
     {
       "path": "functions.php",
@@ -16,11 +16,11 @@
     },
     {
       "path": "assets/problem-home.js",
-      "sha256": "7b4ee619c7774acf1e57bbb6035b752662f57eeac57bf5ddab9b1ae5559851b6"
+      "sha256": "4dfabf4a4b2f1040dff7ef8987cf4266c1b170154a9def63bf89898a8b5c37d5"
     },
     {
       "path": "assets/enquiry.js",
-      "sha256": "c669d42cc0b9559cd92079c3772a41769bd00b7904abfc2c22be82ab698940e6"
+      "sha256": "32859eb8bc646f54a6a8ec62113f754ee27a882bdba2df8549ab4fed44e5dd97"
     },
     {
       "path": "assets/measurement.js",
@@ -28,11 +28,11 @@
     },
     {
       "path": "assets/wb-bundle-0ff50dc55f82.js",
-      "sha256": "2bd9b07a7b0b114d230e75bb97e26de156797020cc7426e033c01709f9e2d6c1"
+      "sha256": "a48c489c4daac685abc06a8d3e3f4113f9bf0f665657e01f560636ea7222d617"
     },
     {
       "path": "assets/wb-bundle-10f9caad2cbb.js",
-      "sha256": "297447d3efbbaa4fe7b8ef79b5bee837d67d227b04f40b127384e8f5c61b82c5"
+      "sha256": "a81a88fd7bc9a45d43c9eb002071bcd3b0e41c5921eca850ef3c197e7c653d1b"
     },
     {
       "path": "assets/wb-bundle-4bd5d931d612.js",
@@ -40,17 +40,17 @@
     },
     {
       "path": "assets/wb-bundle-b149c2960a0c.js",
-      "sha256": "6c9eb228bed0d44a57d84b9429a243d4cf9ed5c837a05a7c1a3ea19ae9fc13d1"
+      "sha256": "6257f1ddfdd22e7a82c9d2cab14055262e4519872472dcc34b265b7ab755f3d5"
     },
     {
       "path": "assets/wb-bundle-b9fead97780f.js",
-      "sha256": "14be9ebb54ad1e1cd6e5ed86145d3bacad64fe4ca47a15c48f6560cb5f350a6c"
+      "sha256": "6068c28a1df058a320c29af902594f5aa6ae75478b8289576b7663771c9d6cb7"
     }
   ],
   "cms_policy": "No database content edits. A dedicated front-page template intentionally replaces the imported homepage presentation; the original CMS body remains available. Other pages keep their existing templates.",
-  "scope": "Three problem paths, documented proof, inline enquiry, lightweight assets, page metadata and limited referral categories.",
+  "scope": "Three problem paths, documented proof, inline enquiry, lightweight assets, page metadata and visible allowlisted campaign context retained with saved enquiries.",
   "validation": {
-    "dom_contract_assertions": 47,
+    "dom_contract_assertions": 52,
     "php_syntax_parser": "passed",
     "css_parse": "passed;151 top-level rules",
     "public_link_checks": 13,
