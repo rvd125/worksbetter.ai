@@ -2,7 +2,7 @@
 
 Release source for [worksbetter.ai](https://worksbetter.ai), by Renzo Demartini. Works Better helps service businesses improve repeated data entry, reporting and enquiry handoffs around their existing systems. Renzo Demartini designs and builds the connections, checks and working tools. The personal consulting site and AI Labs have separate purposes.
 
-Latest published checkpoint: the [6 October audit release](release/audit-2026-10-06/manifest.json). The [problem-first homepage candidate](release/problem-first-2026-10-06/README.md) is prepared and locally tested, but its upload is blocked by WPVibe’s rolling daily limit. It is not live.
+Latest published checkpoint: the [problem-first homepage release](release/problem-first-2026-10-06/README.md), published and HTTP/DOM-verified on 7 October 2026 (Australia/Sydney). It leads with repeated entry, manual reporting and enquiry handoffs, then implemented proof and a direct enquiry form. The [earlier audit release](release/audit-2026-10-06/manifest.json) remains a historical record. Real commercial outcomes remain unverified.
 
 Earlier checkpoint: deployed and publicly verified on2October2026. The follow-up commercial/design revision is also deployed, with actual Astra pre-release and scoped production acceptance and326 public browser checks passed; a single labelled test independently verified enquiry storage and owner-confirmed inbox delivery. Processed GA4 receipt remains pending. See [the original production record](docs/PRODUCTION-RELEASE-2026-10-02.md) and [the commercial/design release](docs/COMMERCIAL-DESIGN-RELEASE-2026-10-02.md). Historical dated reports describe the state at the time of each inspection, not a current deployment claim.
 

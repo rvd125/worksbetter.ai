@@ -1,0 +1,246 @@
+{
+  "pages": [
+    {
+      "url": "https://worksbetter.ai/",
+      "status": 200,
+      "h1_count": 1,
+      "title": "Less retyping. Less chasing. Work moving. | Works Better",
+      "bytes": 43609
+    },
+    {
+      "url": "https://worksbetter.ai/ai-customer-enquiry-automation/",
+      "status": 200,
+      "h1_count": 1,
+      "title": "AI customer enquiry automation | Works Better",
+      "bytes": 56513
+    },
+    {
+      "url": "https://worksbetter.ai/category/uncategorized/",
+      "status": 200,
+      "h1_count": 1,
+      "title": "Uncategorized - Works Better",
+      "bytes": 28940
+    },
+    {
+      "url": "https://worksbetter.ai/employee-onboarding-automation/",
+      "status": 200,
+      "h1_count": 1,
+      "title": "Employee onboarding automation | Works Better",
+      "bytes": 56506
+    },
+    {
+      "url": "https://worksbetter.ai/enquiry-privacy/",
+      "status": 200,
+      "h1_count": 1,
+      "title": "How enquiries are handled | Works Better",
+      "bytes": 36982
+    },
+    {
+      "url": "https://worksbetter.ai/guides/",
+      "status": 200,
+      "h1_count": 1,
+      "title": "Guides - Works Better",
+      "bytes": 30605
+    },
+    {
+      "url": "https://worksbetter.ai/how-worksbetter-handles-your-enquiry/",
+      "status": 200,
+      "h1_count": 1,
+      "title": "How Works Better handles your enquiry | Works Better",
+      "bytes": 34047
+    },
+    {
+      "url": "https://worksbetter.ai/inside-an-ai-agent-fleet/",
+      "status": 200,
+      "h1_count": 1,
+      "title": "Decisions and safeguards in connected workflows | Works Better",
+      "bytes": 36721
+    },
+    {
+      "url": "https://worksbetter.ai/job-profitability-reporting/",
+      "status": 200,
+      "h1_count": 1,
+      "title": "Job profitability reporting with AI | Works Better",
+      "bytes": 56619
+    },
+    {
+      "url": "https://worksbetter.ai/lead-routing-automation/",
+      "status": 200,
+      "h1_count": 1,
+      "title": "Lead routing automation for business | Works Better",
+      "bytes": 56522
+    },
+    {
+      "url": "https://worksbetter.ai/multi-source-report-automation/",
+      "status": 200,
+      "h1_count": 1,
+      "title": "Multi-source report automation | Works Better",
+      "bytes": 57271
+    },
+    {
+      "url": "https://worksbetter.ai/new-starter-document-handover-worksheet/",
+      "status": 200,
+      "h1_count": 1,
+      "title": "New-starter document handover worksheet | Works Better",
+      "bytes": 36366
+    },
+    {
+      "url": "https://worksbetter.ai/simpro-xero-invoice-automation/",
+      "status": 200,
+      "h1_count": 1,
+      "title": "Simpro\u2013Xero invoice automation | Works Better",
+      "bytes": 56742
+    },
+    {
+      "url": "https://worksbetter.ai/why-are-we-entering-this-twice/",
+      "status": 200,
+      "h1_count": 1,
+      "title": "Why are we entering this twice? | Works Better",
+      "bytes": 32188
+    },
+    {
+      "url": "https://worksbetter.ai/why-monthly-reporting-takes-two-days/",
+      "status": 200,
+      "h1_count": 1,
+      "title": "Which number is right? A reporting handover checklist | Works Better",
+      "bytes": 32808
+    }
+  ],
+  "assets": [
+    {
+      "path": "assets/problem-home.css",
+      "status": 200,
+      "matches_candidate": true,
+      "bytes": 16520
+    },
+    {
+      "path": "assets/problem-home.js",
+      "status": 200,
+      "matches_candidate": true,
+      "bytes": 2711
+    },
+    {
+      "path": "assets/enquiry.js",
+      "status": 200,
+      "matches_candidate": true,
+      "bytes": 4942
+    },
+    {
+      "path": "assets/measurement.js",
+      "status": 200,
+      "matches_candidate": true,
+      "bytes": 4242
+    },
+    {
+      "path": "assets/wb-bundle-0ff50dc55f82.js",
+      "status": 200,
+      "matches_candidate": true,
+      "bytes": 139236
+    },
+    {
+      "path": "assets/wb-bundle-10f9caad2cbb.js",
+      "status": 200,
+      "matches_candidate": true,
+      "bytes": 18300
+    },
+    {
+      "path": "assets/wb-bundle-4bd5d931d612.js",
+      "status": 200,
+      "matches_candidate": true,
+      "bytes": 6240
+    },
+    {
+      "path": "assets/wb-bundle-b149c2960a0c.js",
+      "status": 200,
+      "matches_candidate": true,
+      "bytes": 137622
+    },
+    {
+      "path": "assets/wb-bundle-b9fead97780f.js",
+      "status": 200,
+      "matches_candidate": true,
+      "bytes": 11203
+    }
+  ],
+  "empty_enquiry_validation": {
+    "status": 400,
+    "body": "{\"error\":\"Please check your name, email and brief.\"}",
+    "cache_control": "no-store"
+  },
+  "real_enquiry_submitted": false,
+  "metadata_checks": [
+    {
+      "page": "home",
+      "status": 200,
+      "reading_time_present": false,
+      "article_metadata_present": false,
+      "australian_og_locale": true
+    },
+    {
+      "page": "guide",
+      "status": 200,
+      "reading_time_present": true,
+      "article_metadata_present": true,
+      "australian_og_locale": false
+    }
+  ],
+  "anchor_checks": {
+    "checked": 82,
+    "missing": [
+      {
+        "from": "https://worksbetter.ai/ai-customer-enquiry-automation/",
+        "target": "https://worksbetter.ai/ai-customer-enquiry-automation/",
+        "fragment": "system-invoice"
+      },
+      {
+        "from": "https://worksbetter.ai/employee-onboarding-automation/",
+        "target": "https://worksbetter.ai/employee-onboarding-automation/",
+        "fragment": "system-invoice"
+      },
+      {
+        "from": "https://worksbetter.ai/how-worksbetter-handles-your-enquiry/",
+        "target": "https://worksbetter.ai/inside-an-ai-agent-fleet/",
+        "fragment": "enquiry"
+      },
+      {
+        "from": "https://worksbetter.ai/job-profitability-reporting/",
+        "target": "https://worksbetter.ai/job-profitability-reporting/",
+        "fragment": "system-invoice"
+      },
+      {
+        "from": "https://worksbetter.ai/lead-routing-automation/",
+        "target": "https://worksbetter.ai/lead-routing-automation/",
+        "fragment": "system-invoice"
+      },
+      {
+        "from": "https://worksbetter.ai/multi-source-report-automation/",
+        "target": "https://worksbetter.ai/multi-source-report-automation/",
+        "fragment": "system-invoice"
+      },
+      {
+        "from": "https://worksbetter.ai/why-monthly-reporting-takes-two-days/",
+        "target": "https://worksbetter.ai/inside-an-ai-agent-fleet/",
+        "fragment": "reporting"
+      }
+    ],
+    "classification": {
+      "static_anchor_matches": 75,
+      "script_handled_story_fragments": [
+        {
+          "fragment": "enquiry",
+          "selected": true,
+          "title": "Customer enquiry: two separate decisions"
+        },
+        {
+          "fragment": "reporting",
+          "selected": true,
+          "title": "Daily reporting: agree the data before the dashboard"
+        }
+      ],
+      "hidden_placeholder_links": 5,
+      "hidden_placeholder_reason": "The five #system-invoice links are inside the initially closed idea-result dialog; play-area.js render() explicitly hides #idea-example before displaying a result.",
+      "unresolved_actionable_links": 0,
+      "scope": "HTTP anchor inventory plus DOM execution of the two existing story hash routes; not visual browser testing"
+    }
+  }
+}

@@ -90,6 +90,24 @@ add_action('wp_head', function () {
 function wb_problem_home_description() {
     return 'Stop re-entering job details, rebuilding reports and chasing enquiry handoffs. Renzo Demartini connects the work between your systems. Canberra · Australia & New Zealand.';
 }
+// Social previews describe the service homepage, not its retained legacy CMS body.
+add_filter('rank_math/opengraph/slack_enhanced_data', function ($data) {
+    return is_front_page() ? array() : $data;
+});
+add_filter('rank_math/opengraph/facebook/og_locale', function ($locale) {
+    return is_front_page() ? 'en_AU' : $locale;
+});
+foreach (array('article_published_time', 'article_modified_time') as $wb_article_tag) {
+    add_filter('rank_math/opengraph/facebook/' . $wb_article_tag, function ($value) {
+        return is_front_page() ? false : $value;
+    });
+}
+function wb_problem_home_modified() {
+    return wp_date(DATE_W3C, filemtime(get_template_directory() . '/front-page.php'));
+}
+add_filter('rank_math/opengraph/facebook/og_updated_time', function ($value) {
+    return is_front_page() ? wb_problem_home_modified() : $value;
+});
 function wb_problem_home_title($title) {
     return is_front_page() ? 'Less retyping. Less chasing. Work moving. | Works Better' : $title;
 }
@@ -115,6 +133,7 @@ add_filter('rank_math/json_ld', function ($data) {
         if (in_array('WebPage', $types, true)) {
             $entity['name'] = wb_problem_home_title('');
             $entity['description'] = wb_problem_home_description();
+            $entity['dateModified'] = wb_problem_home_modified();
         }
         if (in_array('Person', $types, true) && ($entity['name'] ?? '') === 'Renzo Demartini') {
             $entity['url'] = 'https://renzodemartini.com/about/';

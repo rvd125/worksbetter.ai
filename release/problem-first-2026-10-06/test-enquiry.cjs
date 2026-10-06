@@ -8,6 +8,7 @@ const theme=path.resolve(__dirname,'../../source/theme');
 let count=0;
 function check(ok,message){assert.ok(ok,message);count++;}
 function render(){
+ if(process.env.WB_NATIVE_HTML)return fs.readFileSync(process.env.WB_NATIVE_HTML,'utf8');
  let s=fs.readFileSync(path.join(theme,'front-page.php'),'utf8');
  s=s.replace(/<\?php echo esc_url\(home_url\('([^']*)'\)\); \?>/g,(_,u)=>'https://worksbetter.ai'+u)
  .replace(/<\?php echo esc_url\(get_template_directory_uri\(\) \. '([^']*)'\); \?>/g,(_,u)=>'https://worksbetter.ai/wp-content/themes/worksbetter'+u)

@@ -1,5 +1,5 @@
 {
-  "status": "Local candidate; draft clone created, first file upload rejected by WPVibe daily limit. No candidate file is uploaded or published.",
+  "status": "Published to worksbetter.ai on 7 October 2026 Australia/Sydney; native preview and public HTTP/DOM verification passed.",
   "previous_published_commit": "a21b0c7be0c974dca88511f6e1afe162a9e6b57d",
   "theme_files": [
     {
@@ -8,7 +8,7 @@
     },
     {
       "path": "functions.php",
-      "sha256": "3397f78be293cf85bb9729b14bc3341f68d7ec4a6d65c5cff108478cffab5453"
+      "sha256": "2f78b0c089553d7ff28fade5b2bb068e926256d3d5471ca54605612b0a6ba529"
     },
     {
       "path": "assets/problem-home.css",
@@ -47,7 +47,7 @@
       "sha256": "6068c28a1df058a320c29af902594f5aa6ae75478b8289576b7663771c9d6cb7"
     }
   ],
-  "cms_policy": "No database content edits. A dedicated front-page template intentionally replaces the imported homepage presentation; the original CMS body remains available. Other pages keep their existing templates.",
+  "cms_policy": "No database content edits. Dedicated front-page.php serves the problem-led homepage; original imported CMS body is retained. Existing example and guide pages keep their templates.",
   "scope": "Three problem paths, documented proof, inline enquiry, lightweight assets, page metadata and visible allowlisted campaign context retained with saved enquiries.",
   "validation": {
     "dom_contract_assertions": 52,
@@ -55,17 +55,20 @@
     "css_parse": "passed;151 top-level rules",
     "public_link_checks": 13,
     "live_enquiries_sent": 0,
-    "native_candidate_render": "pending upload",
-    "visual_review": "pending native preview; no computer use",
-    "processed_analytics_receipt": "unverified"
+    "native_candidate_render": "Verified via native WordPress preview HTML and actual draft asset checksums",
+    "visual_review": "No computer-use or viewport screenshot review performed in this release. Responsive CSS inspected; visual percentile not established.",
+    "processed_analytics_receipt": "unverified",
+    "public_pages": 15,
+    "public_assets_match": 9,
+    "published_dom_contract_assertions": 52,
+    "empty_enquiry_validation": "HTTP 400; no-store; no record created",
+    "social_metadata": "Homepage has en_AU locale and updated WebPage metadata; stale article dates and legacy reading time removed. Guide article metadata preserved."
   },
   "release_steps": [
-    "Read the existing draft; preserve any unrelated changes.",
-    "Upload the listed new files and patch/read-compare the listed existing files. Rebuilt JS bundles must match their source.",
-    "Get a native preview URL and verify actual HTML, assets, meta, schema, links and enquiry contract. The user has authorised publication and confirmed the full backup; do not restart a generic backup approval loop.",
-    "Publish using WPVibe publish_draft_theme after the concrete draft is reviewable and applicable publish prerequisites are satisfied. Never activate a draft via an alternate route.",
-    "Verify public responses and asset contents. Mark this manifest published only after tool success and public verification."
+    "Completed: created/reused native draft, checked exact-match edit preconditions, uploaded 11 manifest files, read and tested native preview, published via WPVibe, verified public pages and assets.",
+    "Remaining commercial measurement: processed GA4 reporting, real enquiry qualification and sales/revenue reconciliation require account connection and owner evidence."
   ],
-  "rollback": "Remove the new front-page.php and its two dedicated assets; restore functions.php, enquiry.js, measurement.js and the five changed JS bundles from the previous published revision/automatic theme backup. Preserve unrelated live files.",
-  "exclusions": "Private commercial figures, referral kit, Search Console data, preview HTML/tokens and original captured site HTML do not enter the public repository or deployed theme."
+  "rollback": "For a complete redesign rollback restore front-page.php absence and the other manifest files from the prior audit source a21b0c7, retaining unrelated live assets. The latest automatic theme backup contains the main redesign before its final metadata correction, not the pre-redesign site. Preserve enquiry records and all unrelated files.",
+  "exclusions": "Private commercial figures, referral kit, Search Console data, preview HTML/tokens and original captured site HTML do not enter the public repository or deployed theme.",
+  "published_theme": "worksbetter-wpvibe-draft"
 }

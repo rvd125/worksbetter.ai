@@ -1,4 +1,4 @@
-# Problem-first homepage candidate — 6 October 2026
+# Problem-first homepage release — 7 October 2026
 
 Visitors currently arrive at a large demonstration-led homepage before describing a business problem. This candidate leads with repeated entry, manual reporting and enquiry follow-through, then shows two first-hand implementations and an inline enquiry form.
 
@@ -8,13 +8,17 @@ The reporting case preserves the distinction between a 20-hour monthly preparati
 
 ## State and verification
 
-The previous audit release is published. This new candidate is **not uploaded or published**: WPVibe created a clone, but rejected the first file upload at its rolling daily limit. There are no partially uploaded candidate files.
+The redesign is **published**, with native WordPress preview checks and public verification completed on 7 October 2026 (Australia/Sydney). The earlier quota block was resolved before any upload resumed.
 
-52 DOM/submission assertions pass: existing modal compatibility, inline form, input preservation, saved-receipt confirmation, timeout handling, stable retry IDs, duplicate-submit suppression, owner analytics exclusion and no enquiry content in interaction events. PHP syntax and CSS parsing pass. All 13 existing public link destinations return HTTP 200. No real enquiry was submitted. These checks do not establish visual quality, native WordPress rendering, processed analytics, real leads or conversion performance.
+52 DOM/submission assertions pass against both the native preview HTML and the published homepage HTML: inline form, existing modal compatibility, input preservation, saved-receipt confirmation, timeout handling, stable retry IDs, duplicate-submit suppression, owner analytics exclusion, campaign context and no enquiry content in interaction events. PHP syntax and CSS parsing pass. All 15 sitemap URLs return HTTP 200 with one H1, and all nine changed CSS/JavaScript files match the candidate bytes. An empty enquiry request is rejected with HTTP 400 and no-store; no real enquiry was submitted during this release. An 82-link fragment audit found 75 static matches, two verified script-handled story routes and five hidden placeholder links; no actionable missing target was identified. See [public-verification.json](public-verification.json).
 
-The local first-party homepage assets total 16520 CSS bytes and 11895 JavaScript bytes at the measured checkpoint, compared with approximately 302 KB for the prior homepage assets. Subsequent edits can change these counts. Fonts, plugins and third-party scripts are excluded; this is not a Core Web Vitals measurement.
+The homepage uses approximately 28 KB of uncompressed first-party CSS and JavaScript, compared with approximately 302 KB for the previous homepage. Fonts, plugins and third-party scripts are excluded; this is not a Core Web Vitals measurement. Existing demonstrations load their assets only when visited.
 
-Native draft rendering, responsive visual review, public deployment and post-release verification remain pending. Follow [manifest.json](manifest.json); do not upload this partial repository as an entire theme. The previous audit manifest remains a record of the already published release.
+A final metadata correction removes reading-time and Article social tags derived from the retained old CMS body, uses the Australian Open Graph locale, and updates the homepage WebPage modification time. Guide article metadata remains unchanged. Hooks were verified against the public Rank Math plugin source and native output.
+
+No computer-use tools or browser automation were used for this release. Screenshot-based responsive visual review, field performance, processed Analytics, genuine lead qualification and revenue outcomes remain unproven. Passing the stated checks is not a ranking, conversion or accessibility certification.
+
+Follow [manifest.json](manifest.json) for the exact patch and rollback. Do not upload this partial repository as an entire theme. The current automatic theme backup contains the main redesign before its final metadata correction; the earlier audit source is the reference for a complete redesign rollback.
 
 ## Run the form contract checks
 
