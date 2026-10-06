@@ -16,10 +16,11 @@
     "assets/wb-bundle-10f9caad2cbb.js",
     "assets/wb-bundle-b149c2960a0c.js",
     "assets/wb-bundle-0ff50dc55f82.js",
-    "assets/wb-bundle-2807d89d3969.css"
+    "assets/wb-bundle-2807d89d3969.css",
+    "audit-content-patches.json"
   ],
   "cms_patch_file": "content-patches.json",
-  "cms_policy": "Re-read current CMS snippets before applying each match-once patch. Never overwrite a page with an older captured full body.",
+  "cms_policy": "Approved content improvements render through exact-match theme filters. Original CMS page bodies remain unchanged; later CMS edits that change matched text are preserved. No CMS patch was applied.",
   "rollback": "Restore touched files from the current live-theme exports and reverse only the recorded applied content edits. The draft clone preserves all other live files.",
   "excluded": "Local QA server, synthetic provider fixtures, private revenue register, acquisition plan and financial assumptions must not deploy."
 }

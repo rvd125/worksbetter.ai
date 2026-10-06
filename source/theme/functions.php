@@ -185,3 +185,20 @@ add_action('send_headers', function () {
     header('X-Content-Type-Options: nosniff');
     header('Referrer-Policy: strict-origin-when-cross-origin');
 });
+
+/* Reviewed page-content enhancements. Exact matches preserve subsequent CMS edits. */
+add_filter('the_content', function ($content) {
+    if (!is_singular('page')) return $content;
+    $path = get_stylesheet_directory() . '/audit-content-patches.json';
+    if (!is_readable($path)) return $content;
+    $patches = json_decode(file_get_contents($path), true);
+    if (!is_array($patches)) return $content;
+    foreach ($patches as $patch) {
+        if ((int) $patch['page_id'] !== (int) get_the_ID()) continue;
+        if (substr_count($content, $patch['old_content']) !== 1) continue;
+        $replacement = str_replace('{{WB_ASSETS}}', get_stylesheet_directory_uri() . '/assets', $patch['new_content']);
+        $content = str_replace($patch['old_content'], $replacement, $content);
+    }
+    return $content;
+}, 1);
+

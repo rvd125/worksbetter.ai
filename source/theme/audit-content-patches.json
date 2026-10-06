@@ -1,0 +1,362 @@
+[
+  {
+    "page_id": 11,
+    "field": "post_content",
+    "old_content": "<div class=\"wb-proof-card\" id=\"real-work\" aria-labelledby=\"proof-title\">\n<p class=\"wb-proof-kicker\">XERO ADAPTATION · FICTIONAL EXAMPLE</p><h2 id=\"proof-title\">One invoice.<br>Every decision visible.</h2>\n<p class=\"wb-proof-intro\">Try one supplier-invoice decision. Your team approves the invoice before connected actions continue.</p>\n<label for=\"wb-proof-case\">Choose a fictional case</label><select id=\"wb-proof-case\"><option value=\"match\">New invoice · purchase order matches</option><option value=\"mismatch\">New invoice · purchase order differs</option><option value=\"duplicate\">Already recorded in Xero</option></select>\n<ol class=\"wb-proof-track\"><li><span>01</span><div><strong>Check Xero</strong><small>A duplicate stops here.</small></div></li><li><span>02</span><div><strong>Compare the purchase order</strong><small>Keep differences visible.</small></div></li><li><span>03</span><div><strong>Your team decides</strong><small>Approve or decline. Explain a mismatch.</small></div></li><li><span>04</span><div><strong>Connect the approved work</strong><small>File, record and acknowledge. No payment.</small></div></li></ol>\n<div id=\"wb-proof-status\" class=\"wb-proof-status\" role=\"status\" aria-live=\"polite\">AI checks for an existing invoice in Xero. Choose a case, then follow the decision.</div>\n<div id=\"wb-proof-reason-wrap\" hidden><label for=\"wb-proof-reason\">Explain the purchase-order difference</label><textarea id=\"wb-proof-reason\" rows=\"2\" maxlength=\"300\" placeholder=\"Use a fictional explanation.\"></textarea></div>\n<div class=\"wb-proof-actions\"><button type=\"button\" class=\"button wb-proof-action\" id=\"wb-proof-next\" disabled>Check Xero</button><button type=\"button\" class=\"button wb-proof-decline\" id=\"wb-proof-decline\" hidden>Decline</button><button type=\"button\" class=\"wb-proof-reset\" id=\"wb-proof-reset\" disabled>Reset</button></div>\n<p class=\"wb-proof-note\">Interactive simulation · fictional data. Adapted to Xero from Renzo’s MYOB supplier-invoice workflow. No email, business record or payment changes.</p><a class=\"wb-proof-link\" href=\"/inside-an-ai-agent-fleet/\">Explore enquiry, invoice and reporting decisions <span aria-hidden=\"true\">&#x2197;</span></a>\n</div>",
+    "new_content": "<aside class=\"wb-case-card\" id=\"real-work\" aria-labelledby=\"proof-title\"><p class=\"eyebrow\">FIRST-HAND IMPLEMENTATION · XERO + SIMPRO</p><h2 id=\"proof-title\">Five Xero files.<br>One useful reporting rhythm.</h2><p>A reporting workflow I implemented connects five Xero files and Simpro to bring the information together for weekday reporting.</p><dl class=\"wb-case-facts\"><div><dt>Before</dt><dd>About 20 hours a month compiling reports manually in Excel.</dd></div><div><dt>Now</dt><dd>Connected weekday reporting, with human review of the figures and commentary.</dd></div></dl><p class=\"wb-evidence-limit\">This is my first-hand implementation account. Net time saved and financial ROI have not been measured.</p><a class=\"button\" href=\"https://renzodemartini.com/ai-finance-team-implementation/\" rel=\"noopener\">Read what I implemented ↗</a></aside>",
+    "reason": "Replace the fictional hero demo with verified first-hand implementation proof.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 11,
+    "field": "post_content",
+    "old_content": "AI workflows and tools, built around the apps and systems your team already knows.",
+    "new_content": "Connect invoicing, enquiries and reporting around the apps your team already uses. Built for service businesses and finance teams in Australia and New Zealand.",
+    "reason": "Clarify buyer and business problems in the opening offer.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 11,
+    "field": "post_content",
+    "old_content": "href=\"#playground\">See how it works",
+    "new_content": "href=\"#real-work\">See implemented work",
+    "reason": "Send the secondary hero CTA to real implementation proof.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 11,
+    "field": "post_content",
+    "old_content": "<h3>What the review gives you</h3>",
+    "new_content": "<h3>What the review gives you</h3><p><a href=\"{{WB_ASSETS}}/workflow-review-sample.html\">See a sample review output ↗</a> · fictional example, with no promised savings.</p>",
+    "reason": "Make the deliverable concrete before the visitor enquires.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 11,
+    "field": "post_content",
+    "old_content": "<section class=\"wb-delivery-modes wrap\" id=\"delivery-modes\" aria-labelledby=\"delivery-modes-title\"><p class=\"eyebrow\">AI THAT FITS THE WORK</p><h2 id=\"delivery-modes-title\">Choose how the work should run.</h2><p>Built around your existing apps and the way your team works. Some work can run automatically. Some needs a person to decide. Some is better handled through a tool your team uses. The solution can combine all three.</p><div class=\"wb-mode-grid\"><article><span>01 / RUN AUTOMATICALLY</span><h3>Fully automated AI workflows</h3><p>Routine work runs within agreed rules, without someone starting or approving every normal case. Missing information, uncertain outputs and failed connections follow a defined exception or recovery path.</p><button class=\"button\" data-contact data-delivery-mode=\"automatic\">Discuss an automatic workflow &#x2197;</button></article><article><span>02 / KEEP A DECISION WITH PEOPLE</span><h3>AI workflows with human approval</h3><p>AI checks information and prepares the next action. Your team reviews the decisions that need judgement before the work continues.</p><button class=\"button\" data-contact data-delivery-mode=\"approval\">Discuss approval steps &#x2197;</button></article><article><span>03 / USE A TOOL WHEN YOU NEED IT</span><h3>AI tools your team operates</h3><p>A person starts the task, supplies the information and uses the result. Renzo designs the tool and its safeguards around the work your team needs to do.</p><button class=\"button\" data-contact data-delivery-mode=\"tool\">Discuss a team tool &#x2197;</button></article></div><p class=\"wb-mode-note\">These are delivery approaches, not ready-made products or live account connections. We agree access, checks, operating responsibilities and support before a solution goes live.</p></section>",
+    "new_content": "<details class=\"wb-more-detail\"><summary>Explore the three ways your workflow can run</summary><section class=\"wb-delivery-modes wrap\" id=\"delivery-modes\" aria-labelledby=\"delivery-modes-title\"><p class=\"eyebrow\">AI THAT FITS THE WORK</p><h2 id=\"delivery-modes-title\">Choose how the work should run.</h2><p>Built around your existing apps and the way your team works. Some work can run automatically. Some needs a person to decide. Some is better handled through a tool your team uses. The solution can combine all three.</p><div class=\"wb-mode-grid\"><article><span>01 / RUN AUTOMATICALLY</span><h3>Fully automated AI workflows</h3><p>Routine work runs within agreed rules, without someone starting or approving every normal case. Missing information, uncertain outputs and failed connections follow a defined exception or recovery path.</p><button class=\"button\" data-contact data-delivery-mode=\"automatic\">Discuss an automatic workflow &#x2197;</button></article><article><span>02 / KEEP A DECISION WITH PEOPLE</span><h3>AI workflows with human approval</h3><p>AI checks information and prepares the next action. Your team reviews the decisions that need judgement before the work continues.</p><button class=\"button\" data-contact data-delivery-mode=\"approval\">Discuss approval steps &#x2197;</button></article><article><span>03 / USE A TOOL WHEN YOU NEED IT</span><h3>AI tools your team operates</h3><p>A person starts the task, supplies the information and uses the result. Renzo designs the tool and its safeguards around the work your team needs to do.</p><button class=\"button\" data-contact data-delivery-mode=\"tool\">Discuss a team tool &#x2197;</button></article></div><p class=\"wb-mode-note\">These are delivery approaches, not ready-made products or live account connections. We agree access, checks, operating responsibilities and support before a solution goes live.</p></section></details>",
+    "reason": "Keep supporting explanation available without extending the initial buying journey.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 11,
+    "field": "post_content",
+    "old_content": "<section class=\"faqs working-faqs\" id=\"working-together\" aria-labelledby=\"working-title\"><div><span class=\"eyebrow\">GETTING AN AI SOLUTION INTO USE</span><h2 id=\"working-title\">A clear next step.<br>No mystery after it.</h2></div><div><details><summary>What is the first paid step?</summary><p>Start by describing the work you want AI to handle. We establish whether a fully automated workflow, a process with approval steps, a tool your team operates, or a combination fits. If a paid workflow review is needed to define the solution, its fee and deliverables are agreed first. The build has its own agreed scope, price, integrations, acceptance criteria, documentation and exclusions before you commit.</p></details><details><summary>How much does an engagement cost, and how long does it take?</summary><p>The quote and delivery plan follow a review of your process and system access. Integration permissions, data quality and the approval steps affect both. You receive the proposed price, dates and any third-party costs before agreeing to the build; there is no universal price or timeline on this site.</p></details><details><summary>Who will actually build and deliver it?</summary><p>Renzo personally scopes, builds and delivers the finished solution. The delivery plan sets out milestones and acceptance criteria, so both sides know what needs to be working at handover. You work directly with the person doing the implementation.</p></details><details><summary>What is included in the documentation?</summary><p>A full documentation set forms part of the engagement. During scoping, we agree its contents around the systems, connections, workflow logic, operating instructions and handover your team needs. Access, recovery and ongoing responsibilities are recorded for the agreed solution.</p></details><details><summary>Who owns the accounts and the finished workflow?</summary><p>The proposed approach is to use business-owned accounts, with your team retaining control of access. Workflow files, documentation, handover rights and any platform-specific limits are set out in the quote. Third-party software and model licences remain subject to their own terms.</p></details><details><summary>What happens if the AI is wrong or a connection fails?</summary><p>The agreed design defines where the process must pause, who reviews exceptions, and how the team falls back to the existing process. Missing data, incorrect suggestions and connection failures belong in the test plan. Monitoring and recovery arrangements are agreed before any live rollout.</p></details><details><summary>Who supports it after launch?</summary><p>Renzo offers ongoing monitoring as required through a separately agreed retainer. It sets out what is monitored, how issues are raised, the available response arrangements and the cost. Changes and additional development are scoped explicitly. The finished solution and full documentation are part of delivery; a monitoring retainer is an optional ongoing service.</p></details><details><summary>Where does our business data go?</summary><p>During scoping, we identify the information each step needs, who receives it, access controls and retention. The six worked examples use fictional records and simulated AI. The separate workflow-idea tool sends the description, focus and priority you choose through OpenRouter to a model provider when you request a live proposal. Do not include personal or confidential information. Enquiry details are saved for Renzo’s human review. <a href=\"/enquiry-privacy/\">Read about enquiry, AI and analytics data</a>.</p></details><details><summary>What do these examples establish?</summary><p>The six playground examples use fictional data and simulated AI. The <a href=\"/inside-an-ai-agent-fleet/\">decisions and safeguards explorer</a> explains three processes Renzo confirmed. Neither is a client dashboard, independent audit or measured saving.</p></details><details><summary>What happens after I send an enquiry?</summary><p>The site saves your name, email and brief for Renzo to review and gives you a receipt reference. There is no payment or automatic project commitment. You can also use the email option. The confirmation means your enquiry was saved, not that a reply has already been sent.</p></details><details><summary>Can we keep using our existing software?</summary><p>That is where we start. We build around the apps and systems your team already knows. During scoping, we check what can connect, what information is available and the permissions needed. Any limits or changes are discussed before you agree to a build.</p></details></div></section>",
+    "new_content": "<details class=\"wb-more-detail\"><summary>Scope, delivery and ongoing support</summary><section class=\"faqs working-faqs\" id=\"working-together\" aria-labelledby=\"working-title\"><div><span class=\"eyebrow\">GETTING AN AI SOLUTION INTO USE</span><h2 id=\"working-title\">A clear next step.<br>No mystery after it.</h2></div><div><details><summary>What is the first paid step?</summary><p>Start by describing the work you want AI to handle. We establish whether a fully automated workflow, a process with approval steps, a tool your team operates, or a combination fits. If a paid workflow review is needed to define the solution, its fee and deliverables are agreed first. The build has its own agreed scope, price, integrations, acceptance criteria, documentation and exclusions before you commit.</p></details><details><summary>How much does an engagement cost, and how long does it take?</summary><p>The quote and delivery plan follow a review of your process and system access. Integration permissions, data quality and the approval steps affect both. You receive the proposed price, dates and any third-party costs before agreeing to the build; there is no universal price or timeline on this site.</p></details><details><summary>Who will actually build and deliver it?</summary><p>Renzo personally scopes, builds and delivers the finished solution. The delivery plan sets out milestones and acceptance criteria, so both sides know what needs to be working at handover. You work directly with the person doing the implementation.</p></details><details><summary>What is included in the documentation?</summary><p>A full documentation set forms part of the engagement. During scoping, we agree its contents around the systems, connections, workflow logic, operating instructions and handover your team needs. Access, recovery and ongoing responsibilities are recorded for the agreed solution.</p></details><details><summary>Who owns the accounts and the finished workflow?</summary><p>The proposed approach is to use business-owned accounts, with your team retaining control of access. Workflow files, documentation, handover rights and any platform-specific limits are set out in the quote. Third-party software and model licences remain subject to their own terms.</p></details><details><summary>What happens if the AI is wrong or a connection fails?</summary><p>The agreed design defines where the process must pause, who reviews exceptions, and how the team falls back to the existing process. Missing data, incorrect suggestions and connection failures belong in the test plan. Monitoring and recovery arrangements are agreed before any live rollout.</p></details><details><summary>Who supports it after launch?</summary><p>Renzo offers ongoing monitoring as required through a separately agreed retainer. It sets out what is monitored, how issues are raised, the available response arrangements and the cost. Changes and additional development are scoped explicitly. The finished solution and full documentation are part of delivery; a monitoring retainer is an optional ongoing service.</p></details><details><summary>Where does our business data go?</summary><p>During scoping, we identify the information each step needs, who receives it, access controls and retention. The six worked examples use fictional records and simulated AI. The separate workflow-idea tool sends the description, focus and priority you choose through OpenRouter to a model provider when you request a live proposal. Do not include personal or confidential information. Enquiry details are saved for Renzo’s human review. <a href=\"/enquiry-privacy/\">Read about enquiry, AI and analytics data</a>.</p></details><details><summary>What do these examples establish?</summary><p>The six playground examples use fictional data and simulated AI. The <a href=\"/inside-an-ai-agent-fleet/\">decisions and safeguards explorer</a> explains three processes Renzo confirmed. Neither is a client dashboard, independent audit or measured saving.</p></details><details><summary>What happens after I send an enquiry?</summary><p>The site saves your name, email and brief for Renzo to review and gives you a receipt reference. There is no payment or automatic project commitment. You can also use the email option. The confirmation means your enquiry was saved, not that a reply has already been sent.</p></details><details><summary>Can we keep using our existing software?</summary><p>That is where we start. We build around the apps and systems your team already knows. During scoping, we check what can connect, what information is available and the permissions needed. Any limits or changes are discussed before you agree to a build.</p></details></div></section></details>",
+    "reason": "Keep supporting explanation available without extending the initial buying journey.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 11,
+    "field": "post_content",
+    "old_content": "<section class=\"faqs\" id=\"questions\"><div><span class=\"eyebrow\">ABOUT THE EXAMPLES</span><h2>A closer look at<br>the business questions.</h2></div><div>\n<details><summary>Is this running a real AI model?</summary><p>The workflow-idea tool can use a live model through OpenRouter to propose a workflow around your request. It does not access your business accounts or execute the proposed steps. The six worked examples use sample rules, calculations and simulations so you can explore how the work could move.</p></details>\n<details><summary>Can AI prepare invoices without double data entry?</summary><p>A connected process can reuse job details, apply agreed pricing and prepare a draft for review. The <a href=\"#system-invoice\">invoice example</a> shows how unapproved extras are separated. We first check what your existing software already supports, then design any additional interpretation or handover around that.</p></details>\n<details><summary>Can AI answer customer enquiries using our own information?</summary><p>An agent can use approved service information to draft a reply and identify missing details. The <a href=\"#system-enquiry\">customer example</a> uses a sample service guide, flags urgent timing and lets you edit the response. It demonstrates the pattern without connecting to your documents or sending an email.</p></details>\n<details><summary>How can I see which jobs are making money?</summary><p>Bring revenue and direct costs together by job, calculate margins and investigate the exceptions. The <a href=\"#system-finance\">finance example</a> adds cost and revenue perspectives to the margin view. It does not include overheads or claim to explain the cause of a low margin.</p></details>\n<details><summary>Can employee onboarding be automated without losing oversight?</summary><p>Recorded details can trigger checks, surface missing items and prepare a handover. In the <a href=\"#system-onboarding\">starter example</a>, missing evidence keeps readiness on hold. A person reviews the next step. The sample checklist is illustrative and would be designed around your actual roles and requirements.</p></details>\n\n\n\n\n</div></section>",
+    "new_content": "<details class=\"wb-more-detail\"><summary>Questions about the worked examples</summary><section class=\"faqs\" id=\"questions\"><div><span class=\"eyebrow\">ABOUT THE EXAMPLES</span><h2>A closer look at<br>the business questions.</h2></div><div>\n<details><summary>Is this running a real AI model?</summary><p>The workflow-idea tool can use a live model through OpenRouter to propose a workflow around your request. It does not access your business accounts or execute the proposed steps. The six worked examples use sample rules, calculations and simulations so you can explore how the work could move.</p></details>\n<details><summary>Can AI prepare invoices without double data entry?</summary><p>A connected process can reuse job details, apply agreed pricing and prepare a draft for review. The <a href=\"#system-invoice\">invoice example</a> shows how unapproved extras are separated. We first check what your existing software already supports, then design any additional interpretation or handover around that.</p></details>\n<details><summary>Can AI answer customer enquiries using our own information?</summary><p>An agent can use approved service information to draft a reply and identify missing details. The <a href=\"#system-enquiry\">customer example</a> uses a sample service guide, flags urgent timing and lets you edit the response. It demonstrates the pattern without connecting to your documents or sending an email.</p></details>\n<details><summary>How can I see which jobs are making money?</summary><p>Bring revenue and direct costs together by job, calculate margins and investigate the exceptions. The <a href=\"#system-finance\">finance example</a> adds cost and revenue perspectives to the margin view. It does not include overheads or claim to explain the cause of a low margin.</p></details>\n<details><summary>Can employee onboarding be automated without losing oversight?</summary><p>Recorded details can trigger checks, surface missing items and prepare a handover. In the <a href=\"#system-onboarding\">starter example</a>, missing evidence keeps readiness on hold. A person reviews the next step. The sample checklist is illustrative and would be designed around your actual roles and requirements.</p></details>\n\n\n\n\n</div></section></details>",
+    "reason": "Keep supporting explanation available without extending the initial buying journey.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 11,
+    "field": "post_content",
+    "old_content": "I’m Renzo, based in Canberra. I personally design and build around your existing process, apps and systems.",
+    "new_content": "I’m Renzo, based in Canberra. My first-hand implementation work includes reporting across five Xero files and Simpro, and connected enquiry handovers. I personally design and build around your existing process, apps and systems.",
+    "reason": "Put verified implementation experience on the same site as the enquiry.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 16,
+    "field": "post_content",
+    "old_content": "<label for=\"contact-company\">Business <span>(optional)</span><input id=\"contact-company\" name=\"company\" autocomplete=\"organization\" maxlength=\"160\"></label>",
+    "new_content": "",
+    "reason": "Move optional business name below the required brief.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 16,
+    "field": "post_content",
+    "old_content": "<textarea id=\"contact-brief\" name=\"brief\"",
+    "new_content": "<textarea placeholder=\"For example: We copy completed jobs from Simpro into Xero. I want fewer checks and less retyping.\" id=\"contact-brief\" name=\"brief\"",
+    "reason": "Give a short example instead of a demanding prefilled letter.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 16,
+    "field": "post_content",
+    "old_content": "<label for=\"contact-run\">",
+    "new_content": "<details class=\"wb-enquiry-options\"><summary>Add optional details</summary><label for=\"contact-company\">Business <span>(optional)</span><input id=\"contact-company\" name=\"company\" autocomplete=\"organization\" maxlength=\"160\"></label><label for=\"contact-run\">",
+    "reason": "Keep business name, delivery preferences and referral information secondary.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 16,
+    "field": "post_content",
+    "old_content": "<div class=\"enquiry-honeypot\"",
+    "new_content": "</details><div class=\"enquiry-honeypot\"",
+    "reason": "Close the optional details group before the honeypot.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 15,
+    "field": "post_content",
+    "old_content": "<label for=\"contact-company\">Business <span>(optional)</span><input id=\"contact-company\" name=\"company\" autocomplete=\"organization\" maxlength=\"160\"></label>",
+    "new_content": "",
+    "reason": "Move optional business name below the required brief.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 15,
+    "field": "post_content",
+    "old_content": "<textarea id=\"contact-brief\" name=\"brief\"",
+    "new_content": "<textarea placeholder=\"For example: We copy completed jobs from Simpro into Xero. I want fewer checks and less retyping.\" id=\"contact-brief\" name=\"brief\"",
+    "reason": "Give a short example instead of a demanding prefilled letter.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 15,
+    "field": "post_content",
+    "old_content": "<label for=\"contact-run\">",
+    "new_content": "<details class=\"wb-enquiry-options\"><summary>Add optional details</summary><label for=\"contact-company\">Business <span>(optional)</span><input id=\"contact-company\" name=\"company\" autocomplete=\"organization\" maxlength=\"160\"></label><label for=\"contact-run\">",
+    "reason": "Keep business name, delivery preferences and referral information secondary.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 15,
+    "field": "post_content",
+    "old_content": "<div class=\"enquiry-honeypot\"",
+    "new_content": "</details><div class=\"enquiry-honeypot\"",
+    "reason": "Close the optional details group before the honeypot.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 14,
+    "field": "post_content",
+    "old_content": "<label for=\"contact-company\">Business <span>(optional)</span><input id=\"contact-company\" name=\"company\" autocomplete=\"organization\" maxlength=\"160\"></label>",
+    "new_content": "",
+    "reason": "Move optional business name below the required brief.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 14,
+    "field": "post_content",
+    "old_content": "<textarea id=\"contact-brief\" name=\"brief\"",
+    "new_content": "<textarea placeholder=\"For example: We copy completed jobs from Simpro into Xero. I want fewer checks and less retyping.\" id=\"contact-brief\" name=\"brief\"",
+    "reason": "Give a short example instead of a demanding prefilled letter.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 14,
+    "field": "post_content",
+    "old_content": "<label for=\"contact-run\">",
+    "new_content": "<details class=\"wb-enquiry-options\"><summary>Add optional details</summary><label for=\"contact-company\">Business <span>(optional)</span><input id=\"contact-company\" name=\"company\" autocomplete=\"organization\" maxlength=\"160\"></label><label for=\"contact-run\">",
+    "reason": "Keep business name, delivery preferences and referral information secondary.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 14,
+    "field": "post_content",
+    "old_content": "<div class=\"enquiry-honeypot\"",
+    "new_content": "</details><div class=\"enquiry-honeypot\"",
+    "reason": "Close the optional details group before the honeypot.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 13,
+    "field": "post_content",
+    "old_content": "<label for=\"contact-company\">Business <span>(optional)</span><input id=\"contact-company\" name=\"company\" autocomplete=\"organization\" maxlength=\"160\"></label>",
+    "new_content": "",
+    "reason": "Move optional business name below the required brief.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 13,
+    "field": "post_content",
+    "old_content": "<textarea id=\"contact-brief\" name=\"brief\"",
+    "new_content": "<textarea placeholder=\"For example: We copy completed jobs from Simpro into Xero. I want fewer checks and less retyping.\" id=\"contact-brief\" name=\"brief\"",
+    "reason": "Give a short example instead of a demanding prefilled letter.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 13,
+    "field": "post_content",
+    "old_content": "<label for=\"contact-run\">",
+    "new_content": "<details class=\"wb-enquiry-options\"><summary>Add optional details</summary><label for=\"contact-company\">Business <span>(optional)</span><input id=\"contact-company\" name=\"company\" autocomplete=\"organization\" maxlength=\"160\"></label><label for=\"contact-run\">",
+    "reason": "Keep business name, delivery preferences and referral information secondary.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 13,
+    "field": "post_content",
+    "old_content": "<div class=\"enquiry-honeypot\"",
+    "new_content": "</details><div class=\"enquiry-honeypot\"",
+    "reason": "Close the optional details group before the honeypot.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 12,
+    "field": "post_content",
+    "old_content": "<label for=\"contact-company\">Business <span>(optional)</span><input id=\"contact-company\" name=\"company\" autocomplete=\"organization\" maxlength=\"160\"></label>",
+    "new_content": "",
+    "reason": "Move optional business name below the required brief.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 12,
+    "field": "post_content",
+    "old_content": "<textarea id=\"contact-brief\" name=\"brief\"",
+    "new_content": "<textarea placeholder=\"For example: We copy completed jobs from Simpro into Xero. I want fewer checks and less retyping.\" id=\"contact-brief\" name=\"brief\"",
+    "reason": "Give a short example instead of a demanding prefilled letter.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 12,
+    "field": "post_content",
+    "old_content": "<label for=\"contact-run\">",
+    "new_content": "<details class=\"wb-enquiry-options\"><summary>Add optional details</summary><label for=\"contact-company\">Business <span>(optional)</span><input id=\"contact-company\" name=\"company\" autocomplete=\"organization\" maxlength=\"160\"></label><label for=\"contact-run\">",
+    "reason": "Keep business name, delivery preferences and referral information secondary.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 12,
+    "field": "post_content",
+    "old_content": "<div class=\"enquiry-honeypot\"",
+    "new_content": "</details><div class=\"enquiry-honeypot\"",
+    "reason": "Close the optional details group before the honeypot.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 11,
+    "field": "post_content",
+    "old_content": "<label for=\"contact-company\">Business <span>(optional)</span><input id=\"contact-company\" name=\"company\" autocomplete=\"organization\" maxlength=\"160\"></label>",
+    "new_content": "",
+    "reason": "Move optional business name below the required brief.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 11,
+    "field": "post_content",
+    "old_content": "<textarea id=\"contact-brief\" name=\"brief\"",
+    "new_content": "<textarea placeholder=\"For example: We copy completed jobs from Simpro into Xero. I want fewer checks and less retyping.\" id=\"contact-brief\" name=\"brief\"",
+    "reason": "Give a short example instead of a demanding prefilled letter.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 11,
+    "field": "post_content",
+    "old_content": "<label for=\"contact-run\">",
+    "new_content": "<details class=\"wb-enquiry-options\"><summary>Add optional details</summary><label for=\"contact-company\">Business <span>(optional)</span><input id=\"contact-company\" name=\"company\" autocomplete=\"organization\" maxlength=\"160\"></label><label for=\"contact-run\">",
+    "reason": "Keep business name, delivery preferences and referral information secondary.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 11,
+    "field": "post_content",
+    "old_content": "<div class=\"enquiry-honeypot\"",
+    "new_content": "</details><div class=\"enquiry-honeypot\"",
+    "reason": "Close the optional details group before the honeypot.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 9,
+    "field": "post_content",
+    "old_content": "<label for=\"contact-company\">Business <span>(optional)</span><input id=\"contact-company\" name=\"company\" autocomplete=\"organization\" maxlength=\"160\"></label>",
+    "new_content": "",
+    "reason": "Move optional business name below the required brief.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 9,
+    "field": "post_content",
+    "old_content": "<textarea id=\"contact-brief\" name=\"brief\"",
+    "new_content": "<textarea placeholder=\"For example: We copy completed jobs from Simpro into Xero. I want fewer checks and less retyping.\" id=\"contact-brief\" name=\"brief\"",
+    "reason": "Give a short example instead of a demanding prefilled letter.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 9,
+    "field": "post_content",
+    "old_content": "<label for=\"contact-run\">",
+    "new_content": "<details class=\"wb-enquiry-options\"><summary>Add optional details</summary><label for=\"contact-company\">Business <span>(optional)</span><input id=\"contact-company\" name=\"company\" autocomplete=\"organization\" maxlength=\"160\"></label><label for=\"contact-run\">",
+    "reason": "Keep business name, delivery preferences and referral information secondary.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 9,
+    "field": "post_content",
+    "old_content": "<div class=\"enquiry-honeypot\"",
+    "new_content": "</details><div class=\"enquiry-honeypot\"",
+    "reason": "Close the optional details group before the honeypot.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 8,
+    "field": "post_content",
+    "old_content": "<label for=\"contact-company\">Business <span>(optional)</span><input id=\"contact-company\" name=\"company\" autocomplete=\"organization\" maxlength=\"160\"></label>",
+    "new_content": "",
+    "reason": "Move optional business name below the required brief.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 8,
+    "field": "post_content",
+    "old_content": "<textarea id=\"contact-brief\" name=\"brief\"",
+    "new_content": "<textarea placeholder=\"For example: We copy completed jobs from Simpro into Xero. I want fewer checks and less retyping.\" id=\"contact-brief\" name=\"brief\"",
+    "reason": "Give a short example instead of a demanding prefilled letter.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 8,
+    "field": "post_content",
+    "old_content": "<label for=\"contact-run\">",
+    "new_content": "<details class=\"wb-enquiry-options\"><summary>Add optional details</summary><label for=\"contact-company\">Business <span>(optional)</span><input id=\"contact-company\" name=\"company\" autocomplete=\"organization\" maxlength=\"160\"></label><label for=\"contact-run\">",
+    "reason": "Keep business name, delivery preferences and referral information secondary.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 8,
+    "field": "post_content",
+    "old_content": "<div class=\"enquiry-honeypot\"",
+    "new_content": "</details><div class=\"enquiry-honeypot\"",
+    "reason": "Close the optional details group before the honeypot.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 10,
+    "field": "post_content",
+    "old_content": "<label for=\"contact-company\">Business <span>(optional)</span><input id=\"contact-company\" name=\"company\" autocomplete=\"organization\" maxlength=\"160\"></label>",
+    "new_content": "",
+    "reason": "Move optional business name below the required brief.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 10,
+    "field": "post_content",
+    "old_content": "<textarea id=\"contact-brief\" name=\"brief\"",
+    "new_content": "<textarea placeholder=\"For example: We copy completed jobs from Simpro into Xero. I want fewer checks and less retyping.\" id=\"contact-brief\" name=\"brief\"",
+    "reason": "Give a short example instead of a demanding prefilled letter.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 10,
+    "field": "post_content",
+    "old_content": "<label for=\"contact-run\">",
+    "new_content": "<details class=\"wb-enquiry-options\"><summary>Add optional details</summary><label for=\"contact-company\">Business <span>(optional)</span><input id=\"contact-company\" name=\"company\" autocomplete=\"organization\" maxlength=\"160\"></label><label for=\"contact-run\">",
+    "reason": "Keep business name, delivery preferences and referral information secondary.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 10,
+    "field": "post_content",
+    "old_content": "<div class=\"enquiry-honeypot\"",
+    "new_content": "</details><div class=\"enquiry-honeypot\"",
+    "reason": "Close the optional details group before the honeypot.",
+    "state": "prepared; verify exact current CMS match before applying"
+  },
+  {
+    "page_id": 10,
+    "field": "post_content",
+    "old_content": "The generated proposal stays in your browser unless you choose to include it in an enquiry.",
+    "new_content": "An AI-generated proposal, or a clearly labelled standard planning outline if the AI service is unavailable, stays in your browser unless you choose to include it in an enquiry.",
+    "reason": "Disclose the local planning fallback accurately.",
+    "state": "prepared; verify exact current CMS match before applying"
+  }
+]
