@@ -12,7 +12,7 @@
 <main id="main-content" tabindex="-1">
   <section class="pf-hero shell" aria-labelledby="hero-title">
     <div class="pf-hero-copy">
-      <p class="eyebrow">Finance &amp; operations · Service businesses · AU &amp; NZ</p>
+      <p class="eyebrow">Finance &amp; operations · Service businesses · AU&nbsp;&amp;&nbsp;NZ</p>
       <h1 id="hero-title">Stop doing the <em>same work</em> twice.</h1>
       <p class="pf-lead">Re-entering job details. Rebuilding reports. Chasing the next reply.</p>
       <p class="pf-intro">I connect the handoffs between your systems so your team can get on with the work that needs them.</p>

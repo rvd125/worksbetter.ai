@@ -1,0 +1,31 @@
+{
+  "status": "Published and public rendering verified 7 October 2026",
+  "scope": "Final visual QA and four finishing corrections",
+  "theme_files": [
+    {
+      "path": "front-page.php",
+      "sha256": "58f8cb8f1041cd23d791918290e73c2c464fd5441fd791b323a3fcf26541b4b0"
+    },
+    {
+      "path": "assets/problem-home.css",
+      "sha256": "da0c2ac5627af6695d456c3db7efeec31043c12caf97d8ebfc2c960ed70a3b78"
+    },
+    {
+      "path": "assets/providers.css",
+      "sha256": "17a4dda5cabbcba4d88164f9724470f63ead77d98f6d2ad4b259d8ca206dd8b9"
+    },
+    {
+      "path": "assets/wb-bundle-2807d89d3969.css",
+      "sha256": "457805c55bea2c8c85a821461c383fc294fb396b4f4b0b0275478362ef01a410"
+    },
+    {
+      "path": "assets/wb-bundle-291af0155ef2.css",
+      "sha256": "e6d98f15092a8f20f08f14a8700efe78ac019c6737d1819cfdd7569ffd2637a3"
+    }
+  ],
+  "limitations": [
+    "Desktop Chrome with emulated viewports; not physical-device Safari/Firefox certification",
+    "Visual quality reviewed; no measured top-1-percent ranking",
+    "Form success and failure states mocked; no live submissions or emails during this pass"
+  ]
+}

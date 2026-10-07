@@ -1,0 +1,64 @@
+[
+  {
+    "width": 320,
+    "skipLink": true,
+    "optionalFields": true,
+    "requiredValidation": true,
+    "mockedError": true,
+    "mockedReceipt": true,
+    "newEnquiry": true,
+    "faq": true,
+    "mockedRequests": 2,
+    "otherBlockedNonGet": 1
+  },
+  {
+    "width": 390,
+    "skipLink": true,
+    "optionalFields": true,
+    "requiredValidation": true,
+    "mockedError": true,
+    "mockedReceipt": true,
+    "newEnquiry": true,
+    "faq": true,
+    "mockedRequests": 2,
+    "otherBlockedNonGet": 1,
+    "exampleStates": [
+      "menu",
+      "inspector",
+      "outcome",
+      "expandedCanvas",
+      "escapeClose"
+    ]
+  },
+  {
+    "width": 768,
+    "skipLink": true,
+    "optionalFields": true,
+    "requiredValidation": true,
+    "mockedError": true,
+    "mockedReceipt": true,
+    "newEnquiry": true,
+    "faq": true,
+    "mockedRequests": 2,
+    "otherBlockedNonGet": 1
+  },
+  {
+    "width": 1440,
+    "skipLink": true,
+    "optionalFields": true,
+    "requiredValidation": true,
+    "mockedError": true,
+    "mockedReceipt": true,
+    "newEnquiry": true,
+    "faq": true,
+    "mockedRequests": 2,
+    "otherBlockedNonGet": 1,
+    "exampleStates": [
+      "menu",
+      "inspector",
+      "outcome",
+      "expandedCanvas",
+      "escapeClose"
+    ]
+  }
+]
