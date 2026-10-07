@@ -1,4 +1,4 @@
-/* Compact discovery story: confirmed invoice logic, fictional records only. */
+/* Compact discovery story: Xero adaptation of confirmed invoice logic, fictional records only. */
 (() => {
   'use strict';
   const card = document.querySelector('.wb-proof-card');
@@ -24,13 +24,13 @@
       reasonWrap.hidden = stopped || step !== 2 || select.value !== 'mismatch';
       decline.hidden = stopped || step !== 2;
       next.disabled = stopped || step === 3;
-      next.textContent = stopped ? 'Stopped' : ['Check MYOB', 'Compare purchase order', 'Approve invoice', 'Example complete'][step];
+      next.textContent = stopped ? 'Stopped' : ['Check Xero', 'Compare purchase order', 'Approve invoice', 'Example complete'][step];
       reset.disabled = false;
     }
     function start() {
       step = 0; stopped = false; reason.value = '';
       reason.removeAttribute('aria-invalid');
-      say('AI checks for an existing invoice in MYOB. Choose a fictional case, then follow the decision.');
+      say('AI checks for an existing invoice in Xero. Choose a fictional case, then follow the decision.');
       render();
     }
     select.addEventListener('change', start);
@@ -40,7 +40,7 @@
       if (step === 0) {
         if (select.value === 'duplicate') {
           stopped = true;
-          say('Duplicate found in MYOB. The work stops: nothing is filed, recorded or acknowledged.');
+          say('Duplicate found in Xero. The work stops: nothing is filed, recorded or acknowledged.');
         } else {
           step = 1;
           say('No existing invoice found. Compare this new invoice with its purchase order before asking a person to decide.');
@@ -56,7 +56,7 @@
           return;
         }
         reason.removeAttribute('aria-invalid'); step = 3;
-        say('Approved. n8n saves the invoice in Google Drive, records it in MYOB with approver details, and prepares/connects a Gmail receipt acknowledgement. No payment occurs.');
+        say('Approved. n8n saves the invoice in Google Drive, records it in Xero with approver details, and prepares/connects a Gmail receipt acknowledgement. No payment occurs.');
       }
       window.WBAnalytics?.track('workflow_step_open', { workflow: 'invoice' });
       render();

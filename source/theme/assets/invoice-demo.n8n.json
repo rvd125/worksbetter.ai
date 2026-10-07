@@ -27,7 +27,7 @@
     },
     {
       "parameters": {
-        "jsCode": "const data = $input.first().json;\nfunction value(key, min, max) {\n  const n = Number(data[key]);\n  if (data[key] === '' || !Number.isFinite(n) || n < min || n > max) throw new Error('Invalid ' + key);\n  return n;\n}\nreturn [{json: {\n  hours: value('hours', 0, 1000),\n  rate: value('rate', 0, 10000),\n  materials: value('materials', 0, 1000000),\n  variation: value('variation', 0, 1000000),\n  approved: data.approved === true\n}}];"
+        "jsCode": "const data = $input.first().json;\nfunction value(key, min, max) {\n  const raw = data[key];\n  if ((typeof raw !== 'number' && typeof raw !== 'string') || (typeof raw === 'string' && !/^(?:\\d+(?:\\.\\d+)?|\\.\\d+)$/.test(raw.trim()))) throw new Error('Invalid ' + key);\n  const n = Number(raw);\n  if (!Number.isFinite(n) || n < min || n > max) throw new Error('Invalid ' + key);\n  return n;\n}\nreturn [{json: {\n  hours: value('hours', 0, 1000),\n  rate: value('rate', 0, 10000),\n  materials: value('materials', 0, 1000000),\n  variation: value('variation', 0, 1000000),\n  approved: data.approved === true\n}}];"
       },
       "id": "validate-input",
       "name": "Validate job details",

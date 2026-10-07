@@ -14,8 +14,8 @@
     ['n8n','n8n','Automation',['n8n'],'wordmark'],
     ['zapier','Zapier','Automation',['zapier'],'wordmark'],
     ['jotform','Jotform','Forms & intake',['jotform'],'wordmark'],
-    ['openai','ChatGPT / OpenAI','AI & reasoning',['openai','chatgpt'],'icon'],
-    ['claude','Claude / Anthropic','AI & reasoning',['anthropic','claude'],'icon'],
+    ['openai','OpenAI','AI provider',['openai','chatgpt'],'icon'],
+    ['claude','Anthropic','AI provider',['anthropic','claude'],'icon'],
     ['openrouter','OpenRouter','Model access',['openrouter'],'icon'],
     ['huggingface','Hugging Face','Open-source model ecosystem',['hugging face','huggingface'],'icon']
   ];

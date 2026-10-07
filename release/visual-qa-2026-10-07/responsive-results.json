@@ -1,0 +1,299 @@
+[
+  {
+    "name": "home-390",
+    "status": 200,
+    "width": 390,
+    "scrollWidth": 390,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "home-1440",
+    "status": 200,
+    "width": 1440,
+    "scrollWidth": 1440,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "ai-customer-enquiry-automation-1440",
+    "status": 200,
+    "width": 1440,
+    "scrollWidth": 1440,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "ai-customer-enquiry-automation-390",
+    "status": 200,
+    "width": 390,
+    "scrollWidth": 390,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "category-uncategorized-390",
+    "status": 200,
+    "width": 390,
+    "scrollWidth": 390,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "category-uncategorized-1440",
+    "status": 200,
+    "width": 1440,
+    "scrollWidth": 1440,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "employee-onboarding-automation-1440",
+    "status": 200,
+    "width": 1440,
+    "scrollWidth": 1440,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "employee-onboarding-automation-390",
+    "status": 200,
+    "width": 390,
+    "scrollWidth": 390,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "enquiry-privacy-1440",
+    "status": 200,
+    "width": 1440,
+    "scrollWidth": 1440,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "enquiry-privacy-390",
+    "status": 200,
+    "width": 390,
+    "scrollWidth": 390,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "guides-1440",
+    "status": 200,
+    "width": 1440,
+    "scrollWidth": 1440,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "guides-390",
+    "status": 200,
+    "width": 390,
+    "scrollWidth": 390,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "how-worksbetter-handles-your-enquiry-1440",
+    "status": 200,
+    "width": 1440,
+    "scrollWidth": 1440,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "how-worksbetter-handles-your-enquiry-390",
+    "status": 200,
+    "width": 390,
+    "scrollWidth": 390,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "inside-an-ai-agent-fleet-1440",
+    "status": 200,
+    "width": 1440,
+    "scrollWidth": 1440,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "inside-an-ai-agent-fleet-390",
+    "status": 200,
+    "width": 390,
+    "scrollWidth": 390,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "job-profitability-reporting-1440",
+    "status": 200,
+    "width": 1440,
+    "scrollWidth": 1440,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "job-profitability-reporting-390",
+    "status": 200,
+    "width": 390,
+    "scrollWidth": 390,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "lead-routing-automation-1440",
+    "status": 200,
+    "width": 1440,
+    "scrollWidth": 1440,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "lead-routing-automation-390",
+    "status": 200,
+    "width": 390,
+    "scrollWidth": 390,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "multi-source-report-automation-390",
+    "status": 200,
+    "width": 390,
+    "scrollWidth": 390,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "multi-source-report-automation-1440",
+    "status": 200,
+    "width": 1440,
+    "scrollWidth": 1440,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "new-starter-document-handover-worksheet-390",
+    "status": 200,
+    "width": 390,
+    "scrollWidth": 390,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "new-starter-document-handover-worksheet-1440",
+    "status": 200,
+    "width": 1440,
+    "scrollWidth": 1440,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "simpro-xero-invoice-automation-390",
+    "status": 200,
+    "width": 390,
+    "scrollWidth": 390,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "simpro-xero-invoice-automation-1440",
+    "status": 200,
+    "width": 1440,
+    "scrollWidth": 1440,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "why-are-we-entering-this-twice-390",
+    "status": 200,
+    "width": 390,
+    "scrollWidth": 390,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "why-are-we-entering-this-twice-1440",
+    "status": 200,
+    "width": 1440,
+    "scrollWidth": 1440,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "why-monthly-reporting-takes-two-days-390",
+    "status": 200,
+    "width": 390,
+    "scrollWidth": 390,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "why-monthly-reporting-takes-two-days-1440",
+    "status": 200,
+    "width": 1440,
+    "scrollWidth": 1440,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "home-1024",
+    "status": 200,
+    "width": 1024,
+    "scrollWidth": 1024,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "home-1920",
+    "status": 200,
+    "width": 1920,
+    "scrollWidth": 1920,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  },
+  {
+    "name": "home-720",
+    "status": 200,
+    "width": 720,
+    "scrollWidth": 720,
+    "fontReady": "loaded",
+    "brokenImages": [],
+    "errors": []
+  }
+]

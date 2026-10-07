@@ -1,0 +1,17 @@
+{
+  "tool": "php-parser",
+  "version": "3.7.0",
+  "mode": "PHP 8.2 static parsing; does not run WordPress or replace native PHP lint",
+  "results": [
+    {
+      "path": "implementation-2026-10-06/draft-theme/functions.php",
+      "status": "static syntax parse passed",
+      "topLevelStatements": 20
+    },
+    {
+      "path": "source-audit/source/theme/functions.php",
+      "status": "static syntax parse passed",
+      "topLevelStatements": 20
+    }
+  ]
+}

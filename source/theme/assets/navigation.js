@@ -1,4 +1,15 @@
 (()=>{
+ // Skip to the main task and transfer keyboard focus, including fragment loads.
+ const focusMain=()=>{
+  if(location.hash!=='#main-content')return;
+  document.getElementById('main-content')?.focus({preventScroll:true});
+ };
+ document.querySelectorAll('a.skip[href="#main-content"]').forEach(link=>link.addEventListener('click',()=>{
+  const main=document.getElementById('main-content');
+  if(main){main.focus({preventScroll:true});main.scrollIntoView({block:'start',behavior:'instant'});}
+ }));
+ window.addEventListener('hashchange',focusMain);
+ focusMain();
  const nav=document.querySelector('nav[aria-label="Main navigation"]');
  if(nav){
   let guides=[...nav.querySelectorAll('a')].find(link=>{try{const url=new URL(link.href,location.href);return url.origin===location.origin&&url.pathname.replace(/\/+$/,'')==='/guides'}catch{return false}});

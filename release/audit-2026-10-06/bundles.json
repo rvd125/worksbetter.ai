@@ -1,0 +1,84 @@
+{
+  "wb-bundle-291af0155ef2.css": [
+    "/n8n-base.css",
+    "/systems.css",
+    "/journey.css",
+    "/frontier.css",
+    "/backstage.css",
+    "/providers.css",
+    "/experience.css",
+    "/identity.css",
+    "/proof.css",
+    "/search-pages.css",
+    "/guides.css",
+    "/audit-enhancements.css"
+  ],
+  "wb-bundle-b149c2960a0c.js": [
+    "/navigation.js",
+    "/measurement.js",
+    "/workflow-routes.js",
+    "/flow-model.js",
+    "/project-data.js",
+    "/systems-data.js",
+    "/systems-engine.js",
+    "/workflow-questions.js",
+    "/backstage.js",
+    "/providers.js",
+    "/systems.js",
+    "/possibility-model.js",
+    "/play-area.js",
+    "/prompt-examples.js",
+    "/enquiry.js"
+  ],
+  "wb-bundle-2807d89d3969.css": [
+    "/n8n-base.css",
+    "/systems.css",
+    "/journey.css",
+    "/frontier.css",
+    "/backstage.css",
+    "/providers.css",
+    "/experience.css",
+    "/identity.css",
+    "/proof.css",
+    "/search-pages.css",
+    "/audit-enhancements.css"
+  ],
+  "wb-bundle-b9fead97780f.js": [
+    "/navigation.js",
+    "/measurement.js",
+    "/enquiry.js"
+  ],
+  "wb-bundle-0ff50dc55f82.js": [
+    "/navigation.js",
+    "/measurement.js",
+    "/workflow-routes.js",
+    "/flow-model.js",
+    "/project-data.js",
+    "/systems-data.js",
+    "/systems-engine.js",
+    "/workflow-questions.js",
+    "/backstage.js",
+    "/providers.js",
+    "/systems.js",
+    "/possibility-model.js",
+    "/play-area.js",
+    "/prompt-examples.js",
+    "/stack-rotation.js",
+    "/enquiry.js"
+  ],
+  "wb-bundle-31c9c574eb3e.css": [
+    "/n8n-base.css",
+    "/identity.css",
+    "/audit-enhancements.css"
+  ],
+  "wb-bundle-4bd5d931d612.js": [
+    "/measurement.js",
+    "/navigation.js"
+  ],
+  "wb-bundle-10f9caad2cbb.js": [
+    "/navigation.js",
+    "/measurement.js",
+    "/enquiry.js",
+    "/fleet.js"
+  ]
+}

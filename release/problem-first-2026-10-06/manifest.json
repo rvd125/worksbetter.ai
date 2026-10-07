@@ -1,0 +1,74 @@
+{
+  "status": "Published to worksbetter.ai on 7 October 2026 Australia/Sydney; native preview and public HTTP/DOM verification passed.",
+  "previous_published_commit": "a21b0c7be0c974dca88511f6e1afe162a9e6b57d",
+  "theme_files": [
+    {
+      "path": "front-page.php",
+      "sha256": "e832662a156faf708af8b88d3c99c4dc4f624352225d9d2e12c3c6cea4d01293"
+    },
+    {
+      "path": "functions.php",
+      "sha256": "2f78b0c089553d7ff28fade5b2bb068e926256d3d5471ca54605612b0a6ba529"
+    },
+    {
+      "path": "assets/problem-home.css",
+      "sha256": "a227482449a3c4e0070d80c1cb5c1e631e11d04f9d1829a7f9394d5805237185"
+    },
+    {
+      "path": "assets/problem-home.js",
+      "sha256": "4dfabf4a4b2f1040dff7ef8987cf4266c1b170154a9def63bf89898a8b5c37d5"
+    },
+    {
+      "path": "assets/enquiry.js",
+      "sha256": "32859eb8bc646f54a6a8ec62113f754ee27a882bdba2df8549ab4fed44e5dd97"
+    },
+    {
+      "path": "assets/measurement.js",
+      "sha256": "ffbaad2061d826cf980c6d9cd779b99a5aa8f0579eefa1116d11eb4e16530377"
+    },
+    {
+      "path": "assets/wb-bundle-0ff50dc55f82.js",
+      "sha256": "a48c489c4daac685abc06a8d3e3f4113f9bf0f665657e01f560636ea7222d617"
+    },
+    {
+      "path": "assets/wb-bundle-10f9caad2cbb.js",
+      "sha256": "a81a88fd7bc9a45d43c9eb002071bcd3b0e41c5921eca850ef3c197e7c653d1b"
+    },
+    {
+      "path": "assets/wb-bundle-4bd5d931d612.js",
+      "sha256": "f2d96f5d5047da537b132ef8dfdd89ea624c366b28658bd00945942153350e36"
+    },
+    {
+      "path": "assets/wb-bundle-b149c2960a0c.js",
+      "sha256": "6257f1ddfdd22e7a82c9d2cab14055262e4519872472dcc34b265b7ab755f3d5"
+    },
+    {
+      "path": "assets/wb-bundle-b9fead97780f.js",
+      "sha256": "6068c28a1df058a320c29af902594f5aa6ae75478b8289576b7663771c9d6cb7"
+    }
+  ],
+  "cms_policy": "No database content edits. Dedicated front-page.php serves the problem-led homepage; original imported CMS body is retained. Existing example and guide pages keep their templates.",
+  "scope": "Three problem paths, documented proof, inline enquiry, lightweight assets, page metadata and visible allowlisted campaign context retained with saved enquiries.",
+  "validation": {
+    "dom_contract_assertions": 52,
+    "php_syntax_parser": "passed",
+    "css_parse": "passed;151 top-level rules",
+    "public_link_checks": 13,
+    "live_enquiries_sent": 0,
+    "native_candidate_render": "Verified via native WordPress preview HTML and actual draft asset checksums",
+    "visual_review": "No computer-use or viewport screenshot review performed in this release. Responsive CSS inspected; visual percentile not established.",
+    "processed_analytics_receipt": "unverified",
+    "public_pages": 15,
+    "public_assets_match": 9,
+    "published_dom_contract_assertions": 52,
+    "empty_enquiry_validation": "HTTP 400; no-store; no record created",
+    "social_metadata": "Homepage has en_AU locale and updated WebPage metadata; stale article dates and legacy reading time removed. Guide article metadata preserved."
+  },
+  "release_steps": [
+    "Completed: created/reused native draft, checked exact-match edit preconditions, uploaded 11 manifest files, read and tested native preview, published via WPVibe, verified public pages and assets.",
+    "Remaining commercial measurement: processed GA4 reporting, real enquiry qualification and sales/revenue reconciliation require account connection and owner evidence."
+  ],
+  "rollback": "For a complete redesign rollback restore front-page.php absence and the other manifest files from the prior audit source a21b0c7, retaining unrelated live assets. The latest automatic theme backup contains the main redesign before its final metadata correction, not the pre-redesign site. Preserve enquiry records and all unrelated files.",
+  "exclusions": "Private commercial figures, referral kit, Search Console data, preview HTML/tokens and original captured site HTML do not enter the public repository or deployed theme.",
+  "published_theme": "worksbetter-wpvibe-draft"
+}

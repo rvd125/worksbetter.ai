@@ -8,17 +8,17 @@ window.WBSafeguards = Object.freeze({
  ['Zapier sends the reply','Staff approval allows the meeting reply to be sent. The customer time is still unconfirmed.'],
  ['Customer confirms a time','Customer confirmation is a separate event from staff approval.'],
  ['Complete the handover','Connected actions complete confirmation, calendar and invitation, assignment and CRM updates.']]},
- invoice:{title:'Supplier invoice: stop, approve or decline',cases:[['match','New invoice; purchase order matches'],['mismatch','New invoice; purchase order differs'],['duplicate','Already recorded in MYOB']],steps:[
+ invoice:{title:'Supplier invoice: stop, approve or decline',cases:[['match','New invoice; purchase order matches'],['mismatch','New invoice; purchase order differs'],['duplicate','Already recorded in Xero']],steps:[
  ['Invoice received','The supplier and invoice in this demonstration are fictional.'],
- ['Check MYOB','AI checks for an existing invoice. A duplicate stops here.'],
+ ['Check Xero','AI checks for an existing invoice. A duplicate stops here.'],
  ['Compare the purchase order','A new invoice is compared with its purchase order. A mismatch remains visible.'],
  ['Human decision','Approve or decline. A mismatch needs an explanation before approval.'],
- ['n8n connects the approved work','Save the invoice in Google Drive, record it in MYOB with approver details, and prepare/connect a Gmail receipt acknowledgement. Receipt is not payment.']]},
+ ['n8n connects the approved work','Save the invoice in Google Drive, record it in Xero with approver details, and prepare/connect a Gmail receipt acknowledgement. Receipt is not payment.']]},
  reporting:{title:'Daily reporting: agree the data before the dashboard',cases:[['matched','Source references agree'],['unresolved','An unresolved source reference']],steps:[
- ['Excel, Xero and Simpro','Collect records for the agreed dashboard. This demonstration uses fictional records.'],
+ ['Five Xero files and Simpro','Collect source records for weekday reporting. Excel belonged to the former manual assembly; the demonstration uses fictional records.'],
  ['Match the references','Connect corresponding records without treating missing information as zero.'],
  ['Reconcile and review','Hold unresolved data for review. Resolve the issue and rerun the checks.'],
- ['Refresh the decision dashboard','Agreed data reaches a dashboard refreshed daily. No numerical saving or business result is claimed.']]}
+ ['Refresh the decision dashboard','Agreed data reaches management reporting refreshed on weekdays. Human review continues; net savings and financial return have not been calculated.']]}
 });
 
 (()=>{
@@ -47,13 +47,13 @@ window.WBSafeguards = Object.freeze({
   if(terminal||held)return;
   if(key==='invoice'&&step===3&&scenario==='mismatch'&&!$('#wb-reason').value.trim()){message('Explain the purchase-order mismatch before approving.');$('#wb-reason').focus();return;}
   step++;
-  if(key==='invoice'&&step===1&&scenario==='duplicate'){terminal=true;message('Duplicate found in MYOB. Stopped: nothing is filed, recorded or acknowledged. Reset to try another fictional case.');}
+  if(key==='invoice'&&step===1&&scenario==='duplicate'){terminal=true;message('Duplicate found in Xero. Stopped: nothing is filed, recorded or acknowledged. Reset to try another fictional case.');}
   else if(key==='reporting'&&step===2&&scenario==='unresolved'&&!resolved){held=true;message('An unresolved reference holds the dashboard update. Review the source, resolve it and rerun.');}
   else if(key==='enquiry'&&step===1){message(scenario==='known'?'Existing customer found. Use the customer record for context.':'No customer match. Research the company from the email domain before preparing the brief.');}
   else if(key==='enquiry'&&step===4){message('Staff approved the reply; Zapier sends it. Customer confirmation is still pending.');}
   else if(key==='enquiry'&&step===5){message('The customer confirmed a time. Calendar, assignment and CRM actions can now follow.');}
-  else if(key==='invoice'&&step===4){message('Approved. n8n connects filing, the MYOB record with approver details and a Gmail receipt acknowledgement. No payment occurs.');}
-  else if(key==='reporting'&&step===3){message('Checks passed. The fictional dashboard is refreshed; the confirmed design uses a daily refresh.');}
+  else if(key==='invoice'&&step===4){message('Approved. n8n connects filing, the Xero record with approver details and a Gmail receipt acknowledgement. No payment occurs.');}
+  else if(key==='reporting'&&step===3){message('Checks passed. The fictional dashboard is refreshed; the documented implementation refreshes on weekdays.');}
   else message(data[key].steps[step][1]);
   window.WBAnalytics?.track('workflow_step_open',{workflow:key});render();
  });
